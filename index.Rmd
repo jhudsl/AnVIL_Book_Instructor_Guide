@@ -1,0 +1,18 @@
+---
+title: "Course Name "
+author: "Author Name"
+date: "`r format(Sys.time(), '%B, %Y')`"
+site: bookdown::bookdown_site
+documentclass: book
+biblio-style: apalike
+description: "Description about Course/Book."
+---
+
+```{r include=FALSE}
+# automatically create a bib database for R packages
+knitr::write_bib(c(
+  .packages(), "bookdown", "knitr", "rmarkdown"
+), "packages.bib")
+```
+
+# About this Course {-}
