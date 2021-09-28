@@ -7,3 +7,42 @@ leanbuild::set_knitr_image_path()
 
 # Introduction
 
+This book is targeted towards people who are teaching a course or workshop on AnVIL. You will find here:
+
+<br> <!-- Capital letter makes part of below content indented which doesn't look good.. can remove the <br> if more text is added above -->
+<br>
+
+- **Overview** -- Design philosophy and goals for this guide - is this a good fit for your class?  What should you know before you start?
+- **Account Setup** -- Step-by-step instructions to create your first accounts on AnVIL and create your first class Workspace
+- **Developing Content** -- Additional tools to help you customize your class Workspace
+- **Class Setup** -- Step-by-step instructions to help you add students into a class on AnVIL
+- **Class Ending** -- Best practices for finishing your course cleanly and minimizing costs
+- **Student Account Setup** -- Step-by-step account set up for students using AnVIL in your class
+
+::: {.fyi}
+Please click on the subsection headers in the left hand 
+navigation bar (e.g., 2.2, 4.2) a second time to expand the 
+table of contents and enable the `scroll_highlight` feature 
+([see more](https://jhudatascience.org/AnVIL_Book_Getting_Started/introduction.html#activate-scroll_highlight-feature)).
+:::
+
+## Overview
+
+### What Is AnVIL?
+
+AnVIL is NHGRI's Genomic Data Science Analysis, Visualization, and Informatics Lab-Space.  It provides a platform for performing genomic data analysis on the cloud.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XC5qzj-yZb8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### Does AnVIL Cost Money?
+
+Through AnVIL, you pay for computing resources as you use them.  If you'd like to try it out, new users can claim a $300 Google Cloud credit to test out the platform and perform some small analyses.
+
+We also provide a [cost estimator](https://jhudatascience.org/AnVIL_Book_Getting_Started/pis-and-lab-managers.html#types-of-costs).
+
+### Where Can I Get Help?
+
+Please visit our community support forum at [`help.anvilproject.org`](https://help.anvilproject.org) with any questions (or suggestions!) you may have.
+
+You can also visit the [Getting Started Guide](https://jhudatascience.org/AnVIL_Book_Getting_Started/) and [`anvilproject.org/learn`](https://anvilproject.or/learn) for additional resources.
+
