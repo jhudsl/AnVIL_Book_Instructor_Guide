@@ -3,12 +3,14 @@ chapter_name: "Chapter "
 repo: https://github.com/jhudsl/AnVIL_Book_Teacher_Guide
 rmd_files: ["index.Rmd",
             "01_Intro.Rmd",
-            "02_Account_setup.Rmd",
-            "03_Developing_content.Rmd",
-            "04_Class_setup.Rmd",
-            "05_Class_ending.Rmd",
-            "06_Class_checklist.Rmd",
-            "07_About.Rmd"]
+            "02_Overview.Rmd",
+            "03_Account_setup.Rmd",
+            "04_Developing_content.Rmd",
+            "05_Class_setup.Rmd",
+            "06_Class_ending.Rmd",
+            "07_Student_account_setup.Rmd",
+            "08_Class_checklist.Rmd",
+            "09_About.Rmd"]
 new_session: yes
 bibliography: [book.bib, packages.bib]
 delete_merged_file: true

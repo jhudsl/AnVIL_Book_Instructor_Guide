@@ -1,8 +1,0 @@
----
-title: "Class Checklist"
----
-```{r, include = FALSE}
-leanbuild::set_knitr_image_path()
-```
-
-# Class Checklist
