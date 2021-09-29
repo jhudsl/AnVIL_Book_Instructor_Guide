@@ -1,11 +1,11 @@
 ---
-title: "Course Name "
-author: "Author Name"
+title: "AnVIL Teacher Guide"
+author: "Ava Hoffman, Frederick Tan"
 date: "`r format(Sys.time(), '%B, %Y')`"
 site: bookdown::bookdown_site
 documentclass: book
 biblio-style: apalike
-description: "Description about Course/Book."
+description: "Guide to help teachers and instructors set up accounts and use the AnVIL platform for instruction"
 ---
 
 ```{r include=FALSE}
@@ -15,4 +15,6 @@ knitr::write_bib(c(
 ), "packages.bib")
 ```
 
-# About this Course {-}
+# About this Book {-}
+
+This book is a guide to help teachers who are new AnVIL. It helps these users set up their accounts and start developing content on the AnVIL platform.
