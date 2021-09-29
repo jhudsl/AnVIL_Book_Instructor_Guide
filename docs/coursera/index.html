@@ -5,23 +5,23 @@
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>About</title>
-  <meta name="description" content="Description about Course/Book." />
-  <meta name="generator" content="bookdown 0.20 and GitBook 2.6.7" />
+  <meta name="description" content="Guide to help teachers and instructors set up accounts and use the AnVIL platform for instruction" />
+  <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
 
   <meta property="og:title" content="About" />
   <meta property="og:type" content="book" />
   
   
-  <meta property="og:description" content="Description about Course/Book." />
+  <meta property="og:description" content="Guide to help teachers and instructors set up accounts and use the AnVIL platform for instruction" />
   
 
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:title" content="About" />
   
-  <meta name="twitter:description" content="Description about Course/Book." />
+  <meta name="twitter:description" content="Guide to help teachers and instructors set up accounts and use the AnVIL platform for instruction" />
   
 
-<meta name="author" content="Author Name" />
+<meta name="author" content="Ava Hoffman, Frederick Tan" />
 
 
 
@@ -33,7 +33,8 @@
 
 <link rel="next" href="introduction.html"/>
 <script src="libs/header-attrs-2.10/header-attrs.js"></script>
-<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<script src="libs/jquery-3.5.0/jquery-3.5.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
@@ -49,7 +50,8 @@
 
 
 
-
+<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
 
 
 <style type="text/css">
@@ -116,6 +118,7 @@ code span.vs { color: #4e9a06; } /* VerbatimString */
 code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warning */
 </style>
 
+
 <link rel="stylesheet" href="assets/style.css" type="text/css" />
 </head>
 
@@ -132,27 +135,82 @@ code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warni
 <a href="http://jhudatascience.org/"><img src="https://jhudatascience.org/images/dasl.png" style=" width: 80%; padding-left: 40px; padding-top: 8px; vertical-align: top "</a>
 
 <li class="divider"></li>
-<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>About this Course</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>About this Book</a></li>
 <li class="chapter" data-level="1" data-path="introduction.html"><a href="introduction.html"><i class="fa fa-check"></i><b>1</b> Introduction</a>
 <ul>
-<li class="chapter" data-level="1.1" data-path="introduction.html"><a href="introduction.html#motivation"><i class="fa fa-check"></i><b>1.1</b> Motivation</a></li>
-<li class="chapter" data-level="1.2" data-path="introduction.html"><a href="introduction.html#learning-objectives"><i class="fa fa-check"></i><b>1.2</b> Learning Objectives</a></li>
-<li class="chapter" data-level="1.3" data-path="introduction.html"><a href="introduction.html#libraries"><i class="fa fa-check"></i><b>1.3</b> Libraries</a></li>
+<li class="chapter" data-level="1.1" data-path="introduction.html"><a href="introduction.html#what-is-anvil"><i class="fa fa-check"></i><b>1.1</b> What Is AnVIL?</a></li>
+<li class="chapter" data-level="1.2" data-path="introduction.html"><a href="introduction.html#does-anvil-cost-money"><i class="fa fa-check"></i><b>1.2</b> Does AnVIL Cost Money?</a></li>
+<li class="chapter" data-level="1.3" data-path="introduction.html"><a href="introduction.html#where-can-i-get-help"><i class="fa fa-check"></i><b>1.3</b> Where Can I Get Help?</a></li>
+<li class="chapter" data-level="1.4" data-path="introduction.html"><a href="introduction.html#scroll-highlight"><i class="fa fa-check"></i><b>1.4</b> Activate <code>scroll_highlight</code> Feature</a></li>
 </ul></li>
-<li class="chapter" data-level="2" data-path="topic-of-section.html"><a href="topic-of-section.html"><i class="fa fa-check"></i><b>2</b> Topic of Section</a>
+<li class="chapter" data-level="2" data-path="overview.html"><a href="overview.html"><i class="fa fa-check"></i><b>2</b> Overview</a>
 <ul>
-<li class="chapter" data-level="2.1" data-path="topic-of-section.html"><a href="topic-of-section.html#subtopic"><i class="fa fa-check"></i><b>2.1</b> Subtopic</a>
+<li class="chapter" data-level="2.0.1" data-path="overview.html"><a href="overview.html#goals-for-this-guide"><i class="fa fa-check"></i><b>2.0.1</b> Goals for This Guide</a></li>
+<li class="chapter" data-level="2.0.2" data-path="overview.html"><a href="overview.html#design-philosophy"><i class="fa fa-check"></i><b>2.0.2</b> Design Philosophy</a></li>
+<li class="chapter" data-level="2.0.3" data-path="overview.html"><a href="overview.html#before-you-start"><i class="fa fa-check"></i><b>2.0.3</b> Before You Start</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="account-setup.html"><a href="account-setup.html"><i class="fa fa-check"></i><b>3</b> Account Setup</a>
 <ul>
-<li class="chapter" data-level="2.1.1" data-path="topic-of-section.html"><a href="topic-of-section.html#code-examples"><i class="fa fa-check"></i><b>2.1.1</b> Code examples</a></li>
-<li class="chapter" data-level="2.1.2" data-path="topic-of-section.html"><a href="topic-of-section.html#image-example"><i class="fa fa-check"></i><b>2.1.2</b> Image example</a></li>
-<li class="chapter" data-level="2.1.3" data-path="topic-of-section.html"><a href="topic-of-section.html#video-examples"><i class="fa fa-check"></i><b>2.1.3</b> Video examples</a></li>
-<li class="chapter" data-level="2.1.4" data-path="topic-of-section.html"><a href="topic-of-section.html#links-to-files"><i class="fa fa-check"></i><b>2.1.4</b> Links to files</a></li>
-<li class="chapter" data-level="2.1.5" data-path="topic-of-section.html"><a href="topic-of-section.html#links-to-websites"><i class="fa fa-check"></i><b>2.1.5</b> Links to websites</a></li>
-<li class="chapter" data-level="2.1.6" data-path="topic-of-section.html"><a href="topic-of-section.html#citation-examples"><i class="fa fa-check"></i><b>2.1.6</b> Citation examples</a></li>
+<li class="chapter" data-level="3.1" data-path="account-setup.html"><a href="account-setup.html#overview-of-account-setup"><i class="fa fa-check"></i><b>3.1</b> Overview of Account Setup</a></li>
+<li class="chapter" data-level="3.2" data-path="account-setup.html"><a href="account-setup.html#step-1-create-a-google-account"><i class="fa fa-check"></i><b>3.2</b> Step 1: Create a Google Account</a></li>
+<li class="chapter" data-level="3.3" data-path="account-setup.html"><a href="account-setup.html#step-2-set-up-google-billing"><i class="fa fa-check"></i><b>3.3</b> Step 2: Set Up Google Billing</a></li>
+<li class="chapter" data-level="3.4" data-path="account-setup.html"><a href="account-setup.html#step-3-add-terra-to-google-billing-account"><i class="fa fa-check"></i><b>3.4</b> Step 3: Add Terra to Google Billing Account</a></li>
+<li class="chapter" data-level="3.5" data-path="account-setup.html"><a href="account-setup.html#step-4-create-a-terra-billing-project"><i class="fa fa-check"></i><b>3.5</b> Step 4: Create a Terra Billing Project</a></li>
+<li class="chapter" data-level="3.6" data-path="account-setup.html"><a href="account-setup.html#step-5-set-up-alerts"><i class="fa fa-check"></i><b>3.6</b> Step 5: Set Up Alerts</a></li>
+<li class="chapter" data-level="3.7" data-path="account-setup.html"><a href="account-setup.html#first-workspace"><i class="fa fa-check"></i><b>3.7</b> Step 6: Create First Workspace</a></li>
+<li class="chapter" data-level="3.8" data-path="account-setup.html"><a href="account-setup.html#wrap-up"><i class="fa fa-check"></i><b>3.8</b> Wrap-Up</a></li>
 </ul></li>
-<li class="chapter" data-level="2.2" data-path="topic-of-section.html"><a href="topic-of-section.html#print-out-session-info"><i class="fa fa-check"></i><b>2.2</b> Print out session info</a></li>
+<li class="chapter" data-level="4" data-path="developing-content.html"><a href="developing-content.html"><i class="fa fa-check"></i><b>4</b> Developing Content</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="developing-content.html"><a href="developing-content.html#overview-of-developing-content"><i class="fa fa-check"></i><b>4.1</b> Overview of Developing Content</a>
+<ul>
+<li class="chapter" data-level="4.1.1" data-path="developing-content.html"><a href="developing-content.html#before-you-start-1"><i class="fa fa-check"></i><b>4.1.1</b> Before You Start</a></li>
 </ul></li>
-<li class="chapter" data-level="3" data-path="about-the-authors.html"><a href="about-the-authors.html"><i class="fa fa-check"></i><b>3</b> About the Authors</a></li>
+<li class="chapter" data-level="4.2" data-path="developing-content.html"><a href="developing-content.html#set-up-anvilpublish-on-anvil"><i class="fa fa-check"></i><b>4.2</b> Set Up AnVILPublish on AnVIL</a>
+<ul>
+<li class="chapter" data-level="4.2.1" data-path="developing-content.html"><a href="developing-content.html#install-anvilpublish"><i class="fa fa-check"></i><b>4.2.1</b> Install AnVILPublish</a></li>
+<li class="chapter" data-level="4.2.2" data-path="developing-content.html"><a href="developing-content.html#install-notedown"><i class="fa fa-check"></i><b>4.2.2</b> Install <code>notedown</code></a></li>
+</ul></li>
+<li class="chapter" data-level="4.3" data-path="developing-content.html"><a href="developing-content.html#create-workspace-structure"><i class="fa fa-check"></i><b>4.3</b> Create Workspace Structure</a>
+<ul>
+<li class="chapter" data-level="4.3.1" data-path="developing-content.html"><a href="developing-content.html#identify-your-repository"><i class="fa fa-check"></i><b>4.3.1</b> Identify Your Repository</a></li>
+<li class="chapter" data-level="4.3.2" data-path="developing-content.html"><a href="developing-content.html#changing-the-description-file"><i class="fa fa-check"></i><b>4.3.2</b> Changing the <code>DESCRIPTION</code> File</a></li>
+<li class="chapter" data-level="4.3.3" data-path="developing-content.html"><a href="developing-content.html#changing-other-files"><i class="fa fa-check"></i><b>4.3.3</b> Changing Other Files</a></li>
+<li class="chapter" data-level="4.3.4" data-path="developing-content.html"><a href="developing-content.html#create-the-workspace"><i class="fa fa-check"></i><b>4.3.4</b> Create the Workspace</a></li>
+</ul></li>
+<li class="chapter" data-level="4.4" data-path="developing-content.html"><a href="developing-content.html#update-dashboard"><i class="fa fa-check"></i><b>4.4</b> Update Dashboard</a></li>
+<li class="chapter" data-level="4.5" data-path="developing-content.html"><a href="developing-content.html#post-jupyter-notebook"><i class="fa fa-check"></i><b>4.5</b> Post Jupyter Notebook</a></li>
+<li class="chapter" data-level="4.6" data-path="developing-content.html"><a href="developing-content.html#push-changes-to-github"><i class="fa fa-check"></i><b>4.6</b> Push Changes to GitHub</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="class-setup.html"><a href="class-setup.html"><i class="fa fa-check"></i><b>5</b> Class Setup</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="class-setup.html"><a href="class-setup.html#identify-funding"><i class="fa fa-check"></i><b>5.1</b> Identify Funding</a>
+<ul>
+<li class="chapter" data-level="5.1.1" data-path="class-setup.html"><a href="class-setup.html#strides-funding"><i class="fa fa-check"></i><b>5.1.1</b> NHGRI STRIDES</a></li>
+</ul></li>
+<li class="chapter" data-level="5.2" data-path="class-setup.html"><a href="class-setup.html#set-up-billing-project"><i class="fa fa-check"></i><b>5.2</b> Set Up Billing Project</a></li>
+<li class="chapter" data-level="5.3" data-path="class-setup.html"><a href="class-setup.html#collect-student-ids"><i class="fa fa-check"></i><b>5.3</b> Collect Student IDs</a></li>
+<li class="chapter" data-level="5.4" data-path="class-setup.html"><a href="class-setup.html#set-up-permissions"><i class="fa fa-check"></i><b>5.4</b> Set Up Permissions</a>
+<ul>
+<li class="chapter" data-level="5.4.1" data-path="class-setup.html"><a href="class-setup.html#create-groups"><i class="fa fa-check"></i><b>5.4.1</b> Create Groups</a></li>
+<li class="chapter" data-level="5.4.2" data-path="class-setup.html"><a href="class-setup.html#add-additional-instructors-as-owner"><i class="fa fa-check"></i><b>5.4.2</b> Add Additional Instructors as “Owner”</a></li>
+<li class="chapter" data-level="5.4.3" data-path="class-setup.html"><a href="class-setup.html#add-students-as-reader"><i class="fa fa-check"></i><b>5.4.3</b> Add Students as “Reader”</a></li>
+<li class="chapter" data-level="5.4.4" data-path="class-setup.html"><a href="class-setup.html#set-permissions"><i class="fa fa-check"></i><b>5.4.4</b> Set Permissions</a></li>
+</ul></li>
+<li class="chapter" data-level="5.5" data-path="class-setup.html"><a href="class-setup.html#notify-terra"><i class="fa fa-check"></i><b>5.5</b> Notify Terra</a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="class-ending.html"><a href="class-ending.html"><i class="fa fa-check"></i><b>6</b> Class Ending</a>
+<ul>
+<li class="chapter" data-level="6.1" data-path="class-ending.html"><a href="class-ending.html#notify-students"><i class="fa fa-check"></i><b>6.1</b> Notify Students</a></li>
+<li class="chapter" data-level="6.2" data-path="class-ending.html"><a href="class-ending.html#disable-billing"><i class="fa fa-check"></i><b>6.2</b> Disable Billing</a></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="class-ending-1.html"><a href="class-ending-1.html"><i class="fa fa-check"></i><b>7</b> Class Ending</a>
+<ul>
+<li class="chapter" data-level="7.1" data-path="class-ending-1.html"><a href="class-ending-1.html#notify-students-1"><i class="fa fa-check"></i><b>7.1</b> Notify Students</a></li>
+<li class="chapter" data-level="7.2" data-path="class-ending-1.html"><a href="class-ending-1.html#disable-billing-1"><i class="fa fa-check"></i><b>7.2</b> Disable Billing</a></li>
+</ul></li>
+<li class="chapter" data-level="8" data-path="class-checklist.html"><a href="class-checklist.html"><i class="fa fa-check"></i><b>8</b> Class Checklist</a></li>
+<li class="chapter" data-level="9" data-path="about-the-authors.html"><a href="about-the-authors.html"><i class="fa fa-check"></i><b>9</b> About the Authors</a></li>
 <li class="divider"></li>
 <p style="text-align:center;"> <a href="https://github.com/jhudsl/DaSL_Course_Template_Bookdown" target="blank" > This content was published with</a> <a href="https://bookdown.org/" target="blank"> bookdown by:</a> </p>
 <p style="text-align:center;"> <a href="http://jhudatascience.org/"> The Johns Hopkins Data Science Lab </a></p>
@@ -188,11 +246,12 @@ code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warni
 </div>
 <div id="header">
 <h1 class="title">About</h1>
-<p class="author"><em>Author Name</em></p>
+<p class="author"><em>Ava Hoffman, Frederick Tan</em></p>
 <p class="date"><em>September, 2021</em></p>
 </div>
-<div id="about-this-course" class="section level1 unnumbered">
-<h1>About this Course</h1>
+<div id="about-this-book" class="section level1 unnumbered">
+<h1>About this Book</h1>
+<p>This book is a guide to help teachers who are new AnVIL. It helps these users set up their accounts and start developing content on the AnVIL platform.</p>
 
 </div>
 <hr>
@@ -213,7 +272,6 @@ code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warni
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
-<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
 <script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
@@ -232,6 +290,7 @@ gitbook.start({
 "weibo": false,
 "instapaper": false,
 "vk": false,
+"whatsapp": false,
 "all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
 },
 "fontsettings": {
@@ -252,6 +311,10 @@ gitbook.start({
 "text": null
 },
 "download": null,
+"search": {
+"engine": "fuse",
+"options": null
+},
 "toc": {
 "collapse": "section"
 }
