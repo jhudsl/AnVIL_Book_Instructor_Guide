@@ -1,3 +1,8 @@
+
+```{r, include = FALSE}
+leanbuild::set_knitr_image_path()
+```
+
 # Overview
 
 This book is targeted towards people who are teaching a course or workshop on AnVIL. You will find here:
