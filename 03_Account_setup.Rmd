@@ -1,10 +1,3 @@
----
-title: "Account Setup"
----
-```{r, include = FALSE}
-leanbuild::set_knitr_image_path()
-```
-
 # Account Setup
 
 ## Overview of Account Setup
