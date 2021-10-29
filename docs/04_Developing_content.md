@@ -1,6 +1,4 @@
----
-title: "Developing Content"
----
+
 
 
 # Developing Content

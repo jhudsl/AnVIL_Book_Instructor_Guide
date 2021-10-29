@@ -1,8 +1,3 @@
----
-title: "Class Checklist"
----
-
-
 # Class Checklist
 
 This checklist can serve as a reminder of the overall suggested steps to make a new class on AnVIL. You might find yourself changing these steps slightly as you become more familiar with AnVIL.

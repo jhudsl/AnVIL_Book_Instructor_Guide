@@ -1,8 +1,3 @@
----
-title: "Class Setup"
----
-
-
 # Class Setup
 
 ## Identify Funding

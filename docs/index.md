@@ -1,7 +1,6 @@
 ---
 title: "AnVIL Teacher Guide"
-author: "Ava Hoffman, Frederick Tan"
-date: "September, 2021"
+date: "October, 2021"
 site: bookdown::bookdown_site
 documentclass: book
 biblio-style: apalike

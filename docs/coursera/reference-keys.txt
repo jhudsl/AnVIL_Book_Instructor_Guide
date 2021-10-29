@@ -44,8 +44,5 @@ notify-terra
 class-ending
 notify-students
 disable-billing
-class-ending-1
-notify-students-1
-disable-billing-1
+student-account-setup
 class-checklist
-about-the-authors
