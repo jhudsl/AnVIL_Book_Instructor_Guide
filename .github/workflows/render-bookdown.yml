@@ -5,7 +5,7 @@
 
 # Adapted for this jhudsl repository by Candace Savonen Apr 2021
 
-name: Build, Render, and Push
+name: Render Bookdown and Coursera
 
 # Controls when the action will run. Triggers the workflow on push
 # events only for the master branch
@@ -16,7 +16,7 @@ on:
     paths:
       - '**.Rmd'
       - docker/Dockerfile
-
+      - assets/*
 jobs:
   # This workflow contains a single job called "build-all"
   build-all:
