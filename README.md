@@ -1,8 +1,8 @@
-# AnVIL Teacher Guide
+# AnVIL Instructor Guide
 
 This course was created from [this GitHub template](https://github.com/jhudsl/DaSL_Course_Template_Bookdown).
 
-You can see the rendered course material here: {Link to rendered bookdown and/or to the Leanpub. Will look something like: https://jhudatascience.org/{Course_Name}}
+You can see the rendered course material here: https://jhudatascience.org/AnVIL_Book_Instructor_Guide/
 
 If you would like to contribute to this course material, take a look at the [getting started GitHub wiki pages](https://github.com/jhudsl/DaSL_Course_Template_Bookdown/wiki).
 
