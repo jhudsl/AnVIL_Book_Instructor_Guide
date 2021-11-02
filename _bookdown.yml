@@ -8,9 +8,9 @@ rmd_files: ["index.Rmd",
             "04_Developing_content.Rmd",
             "05_Class_setup.Rmd",
             "06_Class_ending.Rmd",
-            "07_Student_account_setup.Rmd",
-            "08_Class_checklist.Rmd",
-            "09_About.Rmd"]
+            "07_Class_checklist.Rmd",
+            "A_Student_account_setup.Rmd",
+            "About.Rmd"]
 new_session: yes
 bibliography: [book.bib, packages.bib]
 delete_merged_file: true
