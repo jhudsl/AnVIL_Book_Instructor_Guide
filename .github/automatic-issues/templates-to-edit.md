@@ -1,6 +1,7 @@
 
-The following files need to be edited to get this new course started!
+[Follow the Wiki instructions here](https://github.com/jhudsl/DaSL_Course_Template_Bookdown/wiki/Setting-up-your-repository-files#setting-up-the-repository) for details on how to complete the items in this issue.
 
+The following files need to be edited to get this new course started!
 
 _If you are creating an ITCR course:_
 
@@ -21,8 +22,8 @@ _If you are creating any other courses:_
 - [ ] `code_output` can be deleted.
 
 ### Files that need to be edited upon adding each new chapter (including upon creating a new course):
-.
-- [ ] `_bookdown.yml` - The Rmd files that need to be rendered need to be updated. See [instructions](https://github.com/jhudsl/DaSL_Course_Template_Bookdown/wiki/Publishing-with-Bookdown).
+
+- [ ] `_bookdown.yml` - The list of Rmd files that need to be rendered needs to be updated. See [instructions](https://github.com/jhudsl/DaSL_Course_Template_Bookdown/wiki/Publishing-with-Bookdown).
 - [ ] `book.bib` - any citations need to be added. See [instructions](https://github.com/jhudsl/DaSL_Course_Template_Bookdown/wiki/Citations).
 
 ### Files that need to be edited upon adding new packages that the book's code uses:
