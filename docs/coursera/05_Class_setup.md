@@ -1,3 +1,5 @@
+# (PART\*) For Each Class {-}
+
 # Class Setup
 
 ## Identify Funding
