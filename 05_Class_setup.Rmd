@@ -16,7 +16,7 @@ Through the [STRIDES](https://datascience.nih.gov/strides) program, NHGRI makes 
 
 AnVIL IDs are based on [Google accounts](account-setup.html#google-account).
 
-Students -- Contact students/participants to get their AnVIL IDs. These should be Gmail addresses or emails with GSuite capabilities. You can link students to the section [Student Account Setup section] for instructions on what they should do.
+Students -- Contact students/participants to get their AnVIL IDs. These should be Gmail addresses or emails with GSuite capabilities. You can link students to [Student Account Setup](student-account-setup.html) for instructions on what they should do.
 
 Co-instructors -- If you will be working with other instructors, such as co-instructors or teaching assistants, you will need to collect their IDs as well.
 
