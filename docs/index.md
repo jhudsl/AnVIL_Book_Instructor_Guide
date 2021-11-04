@@ -14,3 +14,4 @@ favicon: assets/dasl_favicon.ico
 # About this Book {-}
 
 This book is a guide to help instructors who are new to AnVIL. It helps these users set up their accounts and start developing content on the AnVIL platform.
+
