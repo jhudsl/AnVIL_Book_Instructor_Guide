@@ -2,15 +2,25 @@
 
 # Class Setup
 
+## Overview of Class Setup
+
+This section will show you how to organize your class to make it easier to administer access to your content. You will need to have a list of who will be taking your class, such as a course roster or sign-up list, as well as a list of additional instructors or teaching assistants. You can make changes later, so the list of students need not be final.
+
 ## Identify Funding
 
 ### NHGRI STRIDES {#strides-funding}
 
 Through the [STRIDES](https://datascience.nih.gov/strides) program, NHGRI makes funding available to new users of the AnVIL, in collaboration with the [NIH Office of Data Science Strategy](https://datascience.nih.gov/about/odss). NHGRI currently supports the [AnVIL Cloud Credits Program (AC2)](https://anvilproject.org/news/2021/04/12/announcing-anvil-cloud-cost-credits-program) and will have a second round of funding available in fall of 2021.
 
-## Set Up Billing Project
+## Collect Google IDs
 
-## Collect Student IDs
+AnVIL IDs are based on [Google accounts](account-setup.html#google-account).
+
+Students -- Contact students/participants to get their AnVIL IDs. These should be Gmail addresses or emails with GSuite capabilities. You can link students to the section [Student Account Setup section] for instructions on what they should do.
+
+Co-instructors -- If you will be working with other instructors, such as co-instructors or teaching assistants, you will need to collect their IDs as well.
+
+## Set Up Billing Project
 
 ## Set Up Permissions
 
