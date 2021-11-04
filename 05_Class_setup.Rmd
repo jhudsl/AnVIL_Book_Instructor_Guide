@@ -178,9 +178,37 @@ You also want to ensure any additional co-instructors and teaching assistants ar
 leanbuild::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g100474897dd_0_87")
 ```
 
-### Add Students as "Reader"
+### Add Students as "Member"
 
-<!-- to Student Group -->
+To add participants to your **Student Group**, first click on the name of the **Student Group** you just made. This should take you to the administration page for the Group. The page should be visible at <span>https://anvil.terra.bio/#groups/<group-name></span> (e.g., <span>https://anvil.terra.bio/#groups/jhu-bmr2021-students</span>). With the steps below, you will add students to the list of **Student Group** members.
+
+1. Go to https://anvil.terra.bio/#groups/<group-name>
+
+1. Click on “+Add User”. You will be prompted to add an AnVIL ID. 
+
+    ```{r, echo=FALSE, fig.alt='Screenshot of the Terra Group page for the specifc group that was just created. The "+Add User" button is highlighted.'}
+leanbuild::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g100474897dd_0_104")
+    ```
+
+1. Type in the student’s AnVIL ID
+
+    ```{r, echo=FALSE, fig.alt='Screenshot of the Terra Group for the specifc group that was just created, with "Add user to Terra Group" popout box. The student's AnVIL ID, student-1@gmail.com, has been entered and the AnVIL ID (email) is highlighted.'}
+leanbuild::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g100474897dd_0_111")
+    ```
+
+1. Click ADD USER
+
+    ```{r, echo=FALSE, fig.alt='Screenshot of the Terra Group for the specifc group that was just created, with "Add user to Terra Group" popout box. The student's AnVIL ID, student-1@gmail.com, has been entered and the "ADD USER" button is highlighted.'}
+leanbuild::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g100474897dd_0_117")
+    ```
+
+Check to ensure the newly added student displays “Member” under “Roles” beside their AnVIL ID. At present, each student’s AnVIL ID must be added separately.
+
+```{r, echo=FALSE, fig.alt='Screenshot of the Terra Group for the student group that was just created, where the newly added student is visible in the user list. The student's AnVIL ID, student-1@gmail.com is visible next to the role "Member", which is highlighted.'}
+leanbuild::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g100474897dd_0_125")
+```
+
+Your instructor and student groups are now set up.
 
 ### Set Permissions
 
