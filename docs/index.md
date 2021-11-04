@@ -4,7 +4,9 @@ date: "November, 2021"
 site: bookdown::bookdown_site
 documentclass: book
 biblio-style: apalike
+link-citations: yes
 description: "Guide to help teachers and instructors set up accounts and use the AnVIL platform for instruction"
+favicon: assets/dasl_favicon.ico
 ---
 
 
