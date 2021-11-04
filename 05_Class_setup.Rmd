@@ -132,7 +132,45 @@ You now have a unique **Student Group**.
 
 ### Add Additional Instructors as "Owner"
 
-<!-- To Instructor Group -->
+Now that your Groups have been created, you will want to add additional instructors to your **Instructor Group**. First click on the name of the **Instructor Group** you just made. This should take you to the administration page for the Group. The page should be visible at <span>https://anvil.terra.bio/#groups/<group-name></span> (e.g., <span>https://anvil.terra.bio/#groups/jhu-bmr2021-instructors</span>). With the steps below, you will add an additional instructor to appear alongside your AnVIL ID. You will also ensure that they have the correct permissions. 
+
+1. Go to https://anvil.terra.bio/#groups/<group-name>
+
+1. Click on “+Add User”. You will be prompted to add the instructor’s AnVIL ID. 
+
+    ```{r, echo=FALSE, fig.alt='Screenshot of the Terra Group page for the specifc group that was just created. The "+Add User" button is highlighted.'}
+leanbuild::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g100474897dd_0_45")
+    ```
+
+1. Type in the instructor’s AnVIL ID
+
+    ```{r, echo=FALSE, fig.alt='Screenshot of the Terra Group for the specifc group that was just created, with "Add user to Terra Group" popout box. The instructor's AnVIL ID, instructor-1@gmail.com, has been entered and the AnVIL ID (email) is highlighted.'}
+leanbuild::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g100474897dd_0_58")
+    ```
+
+1. Make sure “Can manage users (admin)” is **selected**
+
+    ```{r, echo=FALSE, fig.alt='Screenshot of the Terra Group for the specifc group that was just created, with "Add user to Terra Group" popout box. The instructor's AnVIL ID, instructor-1@gmail.com, has been entered and the checkbox "Can manage users (admin)" has been selected and is highlighted.'}
+leanbuild::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g100474897dd_0_65")
+    ```
+
+1. Click ADD USER. This will take you back to the Group administration page.
+
+    ```{r, echo=FALSE, fig.alt='Screenshot of the Terra Group for the specifc group that was just created, with "Add user to Terra Group" popout box. The instructor's AnVIL ID, instructor-1@gmail.com, has been entered and the "ADD USER" button is highlighted.'}
+leanbuild::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g100474897dd_0_71")
+    ```
+
+Check to ensure the newly added instructor displays “Admin” under “Roles” beside their AnVIL ID. Repeat this process for any additional co-instructors and teaching assistants.
+
+```{r, echo=FALSE, fig.alt='Screenshot of the Terra Group for the instructor group that was just created, where the newly added instructor is visible in the user list. The instructor's AnVIL ID, instructor-1@gmail.com is visible next to the role "Admin", which is highlighted.'}
+leanbuild::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g100474897dd_0_78")
+```
+
+You also want to ensure any additional co-instructors and teaching assistants are able to administer the Student Group in case you are unavailable. Repeat the steps above in the Student Group, adding additional instructors and changing their permissions one at a time.
+
+```{r, echo=FALSE, fig.alt='Screenshot of the Terra Group for the student group that was just created, where the newly added instructor is visible in the user list. The instructor's AnVIL ID, instructor-1@gmail.com is visible next to the role "Admin", which is highlighted.'}
+leanbuild::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g100474897dd_0_87")
+```
 
 ### Add Students as "Reader"
 
