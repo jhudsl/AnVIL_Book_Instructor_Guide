@@ -88,7 +88,47 @@ You now have a unique **Student Billing Project**.
 
 ### Create Groups
 
-<!-- To manage group permissions for Instructors versus students -->
+Groups enable you to share your class Workspace and manage permissions for many people at once. 
+
+Create an informative, unique Group name for any co-instructors and teaching assistants, such as a combination of institution-class-role (e.g., “jhu-bmr2021-instructors”). Only letters, numbers, underscores, and dashes are allowed in Group names. To create a Group for instructors:
+
+1. Go to https://anvil.terra.bio/#groups
+
+1. Click “+ Create a New Group”
+
+    ```{r, echo=FALSE, fig.alt='Screenshot of the Terra Group page. The "Create a New Group" button is highlighted.'}
+leanbuild::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.gdb96a00840_0_6")
+    ```
+
+1. Type in your instructor Group name
+
+1. Click “CREATE GROUP”
+
+    ```{r, echo=FALSE, fig.alt='Screenshot of the Terra Group page with Create New Group popout box. The Group name, jhu-bmr2021-instructors, has been entered and the "CREATE GROUP" button is highlighted.'}
+leanbuild::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.gdb96a00840_0_16")
+    ```
+
+You now have a unique **Instructor Group**.
+
+Next, create an informative, unique Group name for students, such as a combination of institution-class-role (e.g., “jhu-bmr2021-students”). To create a Group for students:
+
+1. Go to https://anvil.terra.bio/#groups
+
+1. Click “+ Create a New Group”
+
+    ```{r, echo=FALSE, fig.alt='Screenshot of the Terra Group page. The "Create a New Group" button is highlighted.'}
+leanbuild::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.gdb96a00840_0_6")
+    ```
+
+1. Type in your student Group name
+
+1. Click “CREATE GROUP”
+
+    ```{r, echo=FALSE, fig.alt='Screenshot of the Terra Group page with Create New Group popout box. The Group name, jhu-bmr2021-students, has been entered and the "CREATE GROUP" button is highlighted.'}
+leanbuild::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g100474897dd_0_38")
+    ```
+
+You now have a unique **Student Group**.
 
 ### Add Additional Instructors as "Owner"
 
