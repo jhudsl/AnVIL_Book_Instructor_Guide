@@ -84,7 +84,7 @@ leanbuild::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K
 
 You now have a unique **Student Billing Project**.
    
-## Set Up Permissions
+## Set Up Groups
 
 ### Create Groups
 
