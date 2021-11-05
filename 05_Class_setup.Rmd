@@ -40,19 +40,19 @@ leanbuild::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K
 
 1. Type in your instructor Billing Project name
 
-    ```{r, echo=FALSE, fig.alt='Screenshot of the Terra Billing page with Create Billing Project popout box. The new billing project name, jhu-bmr2021-instructors-bill-1, is highlighted.'}
+    ```{r, echo=FALSE, fig.alt='Screenshot of the Terra Billing page with Create Billing Project pop out box. The new billing project name, jhu-bmr2021-instructors-bill-1, is highlighted.'}
 leanbuild::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.gdb96a00840_0_98")
     ```
     
 1. Select the appropriate Billing Account
 
-    ```{r, echo=FALSE, fig.alt='Screenshot of the Terra Billing page with Create Billing Project popout box. The appropriate billing account name, My Billing Account, is highlighted.'}
+    ```{r, echo=FALSE, fig.alt='Screenshot of the Terra Billing page with Create Billing Project pop out box. The appropriate billing account name, My Billing Account, is highlighted.'}
 leanbuild::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g100474897dd_0_2")
     ```
     
 1. Click “CREATE BILLING PROJECT”
 
-    ```{r, echo=FALSE, fig.alt='Screenshot of the Terra Billing page with Create Billing Project popout box. The "CREATE BILLING PROJECT" button is highlighted.'}
+    ```{r, echo=FALSE, fig.alt='Screenshot of the Terra Billing page with Create Billing Project pop out box. The "CREATE BILLING PROJECT" button is highlighted.'}
 leanbuild::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g100474897dd_0_9")
     ```
     
@@ -72,19 +72,19 @@ leanbuild::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K
     
 1. Type in your student Billing Project name
 
-    ```{r, echo=FALSE, fig.alt='Screenshot of the Terra Billing page with Create Billing Project popout box. The new billing project name, jhu-bmr2021-students-bill-1, is highlighted.'}
+    ```{r, echo=FALSE, fig.alt='Screenshot of the Terra Billing page with Create Billing Project pop out box. The new billing project name, jhu-bmr2021-students-bill-1, is highlighted.'}
 leanbuild::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g100474897dd_0_15")
     ```
     
 1. Select the appropriate Billing Account (same as above)
 
-    ```{r, echo=FALSE, fig.alt='Screenshot of the Terra Billing page with Create Billing Project popout box. The appropriate billing account name, My Billing Account, is highlighted.'}
+    ```{r, echo=FALSE, fig.alt='Screenshot of the Terra Billing page with Create Billing Project pop out box. The appropriate billing account name, My Billing Account, is highlighted.'}
 leanbuild::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g100474897dd_0_21")
     ```
 
 1. Click “CREATE BILLING PROJECT”
 
-    ```{r, echo=FALSE, fig.alt='Screenshot of the Terra Billing page with Create Billing Project popout box. The "CREATE BILLING PROJECT" button is highlighted.'}
+    ```{r, echo=FALSE, fig.alt='Screenshot of the Terra Billing page with Create Billing Project pop out box. The "CREATE BILLING PROJECT" button is highlighted.'}
 leanbuild::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g100474897dd_0_27")
     ```
 
@@ -110,7 +110,7 @@ leanbuild::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K
 
 1. Click “CREATE GROUP”
 
-    ```{r, echo=FALSE, fig.alt='Screenshot of the Terra Group page with Create New Group popout box. The Group name, jhu-bmr2021-instructors, has been entered and the "CREATE GROUP" button is highlighted.'}
+    ```{r, echo=FALSE, fig.alt='Screenshot of the Terra Group page with Create New Group pop out box. The Group name, jhu-bmr2021-instructors, has been entered and the "CREATE GROUP" button is highlighted.'}
 leanbuild::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.gdb96a00840_0_16")
     ```
 
@@ -132,7 +132,7 @@ leanbuild::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K
 
 1. Click “CREATE GROUP”
 
-    ```{r, echo=FALSE, fig.alt='Screenshot of the Terra Group page with Create New Group popout box. The Group name, jhu-bmr2021-students, has been entered and the "CREATE GROUP" button is highlighted.'}
+    ```{r, echo=FALSE, fig.alt='Screenshot of the Terra Group page with Create New Group pop out box. The Group name, jhu-bmr2021-students, has been entered and the "CREATE GROUP" button is highlighted.'}
 leanbuild::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g100474897dd_0_38")
     ```
 
@@ -154,25 +154,25 @@ Now that your Groups have been created, you will want to add additional instruct
 
 1. Click on “+Add User”. You will be prompted to add the instructor’s AnVIL ID. 
 
-    ```{r, echo=FALSE, fig.alt='Screenshot of the Terra Group page for the specifc group that was just created. The "+Add User" button is highlighted.'}
+    ```{r, echo=FALSE, fig.alt='Screenshot of the Terra Group page for the specific group that was just created. The "+Add User" button is highlighted.'}
 leanbuild::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g100474897dd_0_45")
     ```
 
 1. Type in the instructor’s AnVIL ID
 
-    ```{r, echo=FALSE, fig.alt='Screenshot of the Terra Group for the specifc group that was just created, with "Add user to Terra Group" popout box. The instructor`s AnVIL ID, instructor-1@gmail.com, has been entered and the AnVIL ID (email) is highlighted.'}
+    ```{r, echo=FALSE, fig.alt='Screenshot of the Terra Group for the specific group that was just created, with "Add user to Terra Group" pop out box. The instructor`s AnVIL ID, instructor-1@gmail.com, has been entered and the AnVIL ID (email) is highlighted.'}
 leanbuild::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g100474897dd_0_58")
     ```
 
 1. Make sure “Can manage users (admin)” is **selected**
 
-    ```{r, echo=FALSE, fig.alt='Screenshot of the Terra Group for the specifc group that was just created, with "Add user to Terra Group" popout box. The instructor`s AnVIL ID, instructor-1@gmail.com, has been entered and the checkbox "Can manage users (admin)" has been selected and is highlighted.'}
+    ```{r, echo=FALSE, fig.alt='Screenshot of the Terra Group for the specific group that was just created, with "Add user to Terra Group" pop out box. The instructor`s AnVIL ID, instructor-1@gmail.com, has been entered and the checkbox "Can manage users (admin)" has been selected and is highlighted.'}
 leanbuild::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g100474897dd_0_65")
     ```
 
 1. Click ADD USER. This will take you back to the Group administration page.
 
-    ```{r, echo=FALSE, fig.alt='Screenshot of the Terra Group for the specifc group that was just created, with "Add user to Terra Group" popout box. The instructor`s AnVIL ID, instructor-1@gmail.com, has been entered and the "ADD USER" button is highlighted.'}
+    ```{r, echo=FALSE, fig.alt='Screenshot of the Terra Group for the specific group that was just created, with "Add user to Terra Group" pop out box. The instructor`s AnVIL ID, instructor-1@gmail.com, has been entered and the "ADD USER" button is highlighted.'}
 leanbuild::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g100474897dd_0_71")
     ```
 
@@ -196,19 +196,19 @@ To add participants to your **Student Group**, first click on the name of the **
 
 1. Click on “+Add User”. You will be prompted to add an AnVIL ID. 
 
-    ```{r, echo=FALSE, fig.alt='Screenshot of the Terra Group page for the specifc group that was just created. The "+Add User" button is highlighted.'}
+    ```{r, echo=FALSE, fig.alt='Screenshot of the Terra Group page for the specific group that was just created. The "+Add User" button is highlighted.'}
 leanbuild::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g100474897dd_0_104")
     ```
 
 1. Type in the student’s AnVIL ID
 
-    ```{r, echo=FALSE, fig.alt='Screenshot of the Terra Group for the specifc group that was just created, with "Add user to Terra Group" popout box. The student`s AnVIL ID, student-1@gmail.com, has been entered and the AnVIL ID (email) is highlighted.'}
+    ```{r, echo=FALSE, fig.alt='Screenshot of the Terra Group for the specific group that was just created, with "Add user to Terra Group" pop out box. The student`s AnVIL ID, student-1@gmail.com, has been entered and the AnVIL ID (email) is highlighted.'}
 leanbuild::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g100474897dd_0_111")
     ```
 
 1. Click ADD USER
 
-    ```{r, echo=FALSE, fig.alt='Screenshot of the Terra Group for the specifc group that was just created, with "Add user to Terra Group" popout box. The student`s AnVIL ID, student-1@gmail.com, has been entered and the "ADD USER" button is highlighted.'}
+    ```{r, echo=FALSE, fig.alt='Screenshot of the Terra Group for the specific group that was just created, with "Add user to Terra Group" pop out box. The student`s AnVIL ID, student-1@gmail.com, has been entered and the "ADD USER" button is highlighted.'}
 leanbuild::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g100474897dd_0_117")
     ```
 
