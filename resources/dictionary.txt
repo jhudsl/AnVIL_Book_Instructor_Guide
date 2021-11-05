@@ -3,7 +3,7 @@ AnVILPublish
 AnVILPublishSkeleton
 bmr
 Gmail
-Suite
+GSuite
 ITCR
 itcrtraining
 ITN
