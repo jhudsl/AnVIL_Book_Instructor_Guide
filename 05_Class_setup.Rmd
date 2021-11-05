@@ -92,9 +92,9 @@ You now have a unique **Student Billing Project**.
    
 ## Set Up Groups
 
-### Create Groups
+Groups enable you to share your class Workspace and manage permissions for many people at once. Like Billing Projects, we recommend starting with one Group for instructors and one Group for students.
 
-Groups enable you to share your class Workspace and manage permissions for many people at once. 
+### Instructor Group
 
 Create an informative, unique Group name for any co-instructors and teaching assistants, such as a combination of institution-class-role (e.g., “jhu-bmr2021-instructors”). Only letters, numbers, underscores, and dashes are allowed in Group names. To create a Group for instructors:
 
@@ -116,7 +116,9 @@ leanbuild::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K
 
 You now have a unique **Instructor Group**.
 
-Next, create an informative, unique Group name for students, such as a combination of institution-class-role (e.g., “jhu-bmr2021-students”). To create a Group for students:
+### Student Group
+
+Next, create an informative, unique Group name for students, such as a combination of institution-class-role (e.g., “jhu-bmr2021-students”). Only letters, numbers, underscores, and dashes are allowed in Group names. To create a Group for students:
 
 1. Go to https://anvil.terra.bio/#groups
 
