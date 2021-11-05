@@ -140,9 +140,9 @@ You now have a unique **student Group**.
 
 ### Group Email List
 
-Note that your newly created groups have group emails associated with them.
+Note that your newly created Groups have Group emails associated with them.
 
-```{r, echo=FALSE, fig.alt='Screenshot of the Terra Group page. Emails associated with newly formed groups have been highlighted.'}
+```{r, echo=FALSE, fig.alt='Screenshot of the Terra Group page. Emails associated with newly formed Groups have been highlighted.'}
 leanbuild::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g100474897dd_0_96")
 ```
 
@@ -154,31 +154,31 @@ Now that your Groups have been created, you will want to add additional instruct
 
 1. Click on “+Add User”. You will be prompted to add the instructor’s AnVIL ID. 
 
-    ```{r, echo=FALSE, fig.alt='Screenshot of the Terra Group page for the specific group that was just created. The "+Add User" button is highlighted.'}
+    ```{r, echo=FALSE, fig.alt='Screenshot of the Terra Group page for the specific Group that was just created. The "+Add User" button is highlighted.'}
 leanbuild::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g100474897dd_0_45")
     ```
 
 1. Type in the instructor’s AnVIL ID
 
-    ```{r, echo=FALSE, fig.alt='Screenshot of the Terra Group for the specific group that was just created, with "Add user to Terra Group" pop out box. The instructor`s AnVIL ID, instructor-1@gmail.com, has been entered and the AnVIL ID (email) is highlighted.'}
+    ```{r, echo=FALSE, fig.alt='Screenshot of the Terra Group for the specific Group that was just created, with "Add user to Terra Group" pop out box. The instructor`s AnVIL ID, instructor-1@gmail.com, has been entered and the AnVIL ID (email) is highlighted.'}
 leanbuild::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g100474897dd_0_58")
     ```
 
 1. Make sure “Can manage users (admin)” is **selected**
 
-    ```{r, echo=FALSE, fig.alt='Screenshot of the Terra Group for the specific group that was just created, with "Add user to Terra Group" pop out box. The instructor`s AnVIL ID, instructor-1@gmail.com, has been entered and the checkbox "Can manage users (admin)" has been selected and is highlighted.'}
+    ```{r, echo=FALSE, fig.alt='Screenshot of the Terra Group for the specific Group that was just created, with "Add user to Terra Group" pop out box. The instructor`s AnVIL ID, instructor-1@gmail.com, has been entered and the checkbox "Can manage users (admin)" has been selected and is highlighted.'}
 leanbuild::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g100474897dd_0_65")
     ```
 
 1. Click ADD USER. This will take you back to the Group administration page.
 
-    ```{r, echo=FALSE, fig.alt='Screenshot of the Terra Group for the specific group that was just created, with "Add user to Terra Group" pop out box. The instructor`s AnVIL ID, instructor-1@gmail.com, has been entered and the "ADD USER" button is highlighted.'}
+    ```{r, echo=FALSE, fig.alt='Screenshot of the Terra Group for the specific Group that was just created, with "Add user to Terra Group" pop out box. The instructor`s AnVIL ID, instructor-1@gmail.com, has been entered and the "ADD USER" button is highlighted.'}
 leanbuild::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g100474897dd_0_71")
     ```
 
 Check to ensure the newly added instructor displays “Admin” under “Roles” beside their AnVIL ID. Repeat this process for any additional co-instructors and teaching assistants.
 
-```{r, echo=FALSE, fig.alt='Screenshot of the Terra Group for the instructor group that was just created, where the newly added instructor is visible in the user list. The instructor`s AnVIL ID, instructor-1@gmail.com is visible next to the role "Admin", which is highlighted.'}
+```{r, echo=FALSE, fig.alt='Screenshot of the Terra Group for the instructor Group that was just created, where the newly added instructor is visible in the user list. The instructor`s AnVIL ID, instructor-1@gmail.com is visible next to the role "Admin", which is highlighted.'}
 leanbuild::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g100474897dd_0_78")
 ```
 
@@ -190,25 +190,25 @@ To add participants to your student Group, first click on the name of the studen
 
 1. Click on “+Add User”. You will be prompted to add an AnVIL ID. 
 
-    ```{r, echo=FALSE, fig.alt='Screenshot of the Terra Group page for the specific group that was just created. The "+Add User" button is highlighted.'}
+    ```{r, echo=FALSE, fig.alt='Screenshot of the Terra Group page for the specific Group that was just created. The "+Add User" button is highlighted.'}
 leanbuild::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g100474897dd_0_104")
     ```
 
 1. Type in the student’s AnVIL ID
 
-    ```{r, echo=FALSE, fig.alt='Screenshot of the Terra Group for the specific group that was just created, with "Add user to Terra Group" pop out box. The student`s AnVIL ID, student-1@gmail.com, has been entered and the AnVIL ID (email) is highlighted.'}
+    ```{r, echo=FALSE, fig.alt='Screenshot of the Terra Group for the specific Group that was just created, with "Add user to Terra Group" pop out box. The student`s AnVIL ID, student-1@gmail.com, has been entered and the AnVIL ID (email) is highlighted.'}
 leanbuild::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g100474897dd_0_111")
     ```
 
 1. Click ADD USER
 
-    ```{r, echo=FALSE, fig.alt='Screenshot of the Terra Group for the specific group that was just created, with "Add user to Terra Group" pop out box. The student`s AnVIL ID, student-1@gmail.com, has been entered and the "ADD USER" button is highlighted.'}
+    ```{r, echo=FALSE, fig.alt='Screenshot of the Terra Group for the specific Group that was just created, with "Add user to Terra Group" pop out box. The student`s AnVIL ID, student-1@gmail.com, has been entered and the "ADD USER" button is highlighted.'}
 leanbuild::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g100474897dd_0_117")
     ```
 
 Check to ensure the newly added student displays “Member” under “Roles” beside their AnVIL ID. At present, each student’s AnVIL ID must be added separately.
 
-```{r, echo=FALSE, fig.alt='Screenshot of the Terra Group for the student group that was just created, where the newly added student is visible in the user list. The student`s AnVIL ID, student-1@gmail.com is visible next to the role "Member", which is highlighted.'}
+```{r, echo=FALSE, fig.alt='Screenshot of the Terra Group for the student Group that was just created, where the newly added student is visible in the user list. The student`s AnVIL ID, student-1@gmail.com is visible next to the role "Member", which is highlighted.'}
 leanbuild::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g100474897dd_0_125")
 ```
 
@@ -222,11 +222,11 @@ You also want to ensure any additional co-instructors and teaching assistants ar
 
 1. Click ADD USER. This will take you back to the Group administration page.
 
-```{r, echo=FALSE, fig.alt='Screenshot of the Terra Group for the student group that was just created, where the newly added instructor is visible in the user list. The instructor`s AnVIL ID, instructor-1@gmail.com is visible next to the role "Admin", which is highlighted.'}
+```{r, echo=FALSE, fig.alt='Screenshot of the Terra Group for the student Group that was just created, where the newly added instructor is visible in the user list. The instructor`s AnVIL ID, instructor-1@gmail.com is visible next to the role "Admin", which is highlighted.'}
 leanbuild::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g100474897dd_0_87")
 ```
 
-Your instructor and student groups are now set up.
+Your instructor and student Groups are now set up.
 
 ## Set Permissions - Billing Projects
 
@@ -262,7 +262,7 @@ leanbuild::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K
 leanbuild::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g1007b9b3ffb_0_39")
     ```
 
-1. Begin typing the instructor group name set up in [Instructor Group](#instructor-group). You should see an email in the form <group-name>@firecloud.org (e.g., jhu-bmr2021-instructors@firecloud.org).
+1. Begin typing the instructor Group name set up in [Instructor Group](#instructor-group). You should see an email in the form <group-name>@firecloud.org (e.g., jhu-bmr2021-instructors@firecloud.org).
 
 1. Ensure “Can manage users (Owner)” is **selected**
 
@@ -306,7 +306,7 @@ leanbuild::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K
 leanbuild::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g1007b9b3ffb_0_315")
     ```
 
-1. Begin typing the student group name set up in [Student Group](#student-group). You should see an email in the form <group-name>@firecloud.org (e.g., jhu-bmr2021-students@firecloud.org). 
+1. Begin typing the student Group name set up in [Student Group](#student-group). You should see an email in the form <group-name>@firecloud.org (e.g., jhu-bmr2021-students@firecloud.org). 
 
 1. Keep “Can manage users (Owner)” **deselected**.
 
@@ -324,7 +324,7 @@ You also want to ensure any additional co-instructors and teaching assistants ar
 
 1. Click “+ Add User”. You will be prompted to add a “User email *”.
 
-1. Begin typing the instructor group name set up in [### Set Up Groups]. You should see an email in the form <group-name>@firecloud.org (e.g., jhu-bmr2021-instructors@firecloud.org).
+1. Begin typing the instructor Group name set up in [### Set Up Groups]. You should see an email in the form <group-name>@firecloud.org (e.g., jhu-bmr2021-instructors@firecloud.org).
 
 1. Ensure “Can manage users (Owner)” is **selected**
 
@@ -358,19 +358,19 @@ leanbuild::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K
 
 1. Enter the name of the instructor Group (e.g., jhu-bmr2021-instructors). This will create a dropdown for the Group permissions in the box. Select this Group.
 
-    ```{r, echo=FALSE, fig.alt='Screenshot of the share Workspace pop out box. The text "jhu-bmr" has been entered in the User email box and the dropdown below has been automatically filtered to reveal the instructor, student, and dev groups. The instructor group, in this case jhu-bmr2021-instructors@firecloud.org, has been highlighted.'}
+    ```{r, echo=FALSE, fig.alt='Screenshot of the share Workspace pop out box. The text "jhu-bmr" has been entered in the User email box and the dropdown below has been automatically filtered to reveal the instructor, student, and dev Groups. The instructor Group, in this case jhu-bmr2021-instructors@firecloud.org, has been highlighted.'}
 leanbuild::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.gdb96a00840_0_138")
     ```
 
 1. Change permissions to “Owner” using the dropdown menu under the instructor Group
 
-    ```{r, echo=FALSE, fig.alt='Screenshot of the share Workspace pop out box. The instructor group, in this case jhu-bmr2021-instructors@firecloud.org, has been added as a collaborator. The permissions are highlighted and show that role has been set to "Owner".'}
+    ```{r, echo=FALSE, fig.alt='Screenshot of the share Workspace pop out box. The instructor Group, in this case jhu-bmr2021-instructors@firecloud.org, has been added as a collaborator. The permissions are highlighted and show that role has been set to "Owner".'}
 leanbuild::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g1007b9b3ffb_0_356")
     ```
 
 1. Click “SAVE”
 
-    ```{r, echo=FALSE, fig.alt='Screenshot of the share Workspace pop out box. The instructor group email has been added with permissions correctly set. The "SAVE" button is highlighted.'}
+    ```{r, echo=FALSE, fig.alt='Screenshot of the share Workspace pop out box. The instructor Group email has been added with permissions correctly set. The "SAVE" button is highlighted.'}
 leanbuild::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g1007b9b3ffb_0_365")
     ```
 
@@ -392,19 +392,19 @@ leanbuild::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K
 
 1. Enter the name of the student Group. This will create a dropdown for the Group permissions in the box. Select this Group.
 
-    ```{r, echo=FALSE, fig.alt='Screenshot of the share Workspace pop out box. The text "jhu-bmr" has been entered in the User email box and the dropdown below has been automatically filtered to reveal the student and dev groups. The student group, in this case jhu-bmr2021-students@firecloud.org, has been highlighted.'}
+    ```{r, echo=FALSE, fig.alt='Screenshot of the share Workspace pop out box. The text "jhu-bmr" has been entered in the User email box and the dropdown below has been automatically filtered to reveal the student and dev Groups. The student Group, in this case jhu-bmr2021-students@firecloud.org, has been highlighted.'}
 leanbuild::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g1007b9b3ffb_0_378")
     ```
 
 1. Ensure permissions are set to “Reader” (default)
 
-    ```{r, echo=FALSE, fig.alt='Screenshot of the share Workspace pop out box. The student group, in this case jhu-bmr2021-students@firecloud.org, has been added as a collaborator. The permissions are highlighted and show that role is "Reader".'}
+    ```{r, echo=FALSE, fig.alt='Screenshot of the share Workspace pop out box. The student Group, in this case jhu-bmr2021-students@firecloud.org, has been added as a collaborator. The permissions are highlighted and show that role is "Reader".'}
 leanbuild::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g1007b9b3ffb_0_386")
     ```
 
 1. Click “SAVE”
 
-    ```{r, echo=FALSE, fig.alt='Screenshot of the share Workspace pop out box. The student group email has been added with permissions correctly set. The "SAVE" button is highlighted.'}
+    ```{r, echo=FALSE, fig.alt='Screenshot of the share Workspace pop out box. The student Group email has been added with permissions correctly set. The "SAVE" button is highlighted.'}
 leanbuild::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g1007b9b3ffb_0_394")
     ```
 
