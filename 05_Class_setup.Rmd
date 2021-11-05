@@ -138,15 +138,17 @@ leanbuild::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K
 
 You now have a unique **Student Group**.
 
+### Group Email List
+
 Note that your newly created groups have group emails associated with them.
 
-    ```{r, echo=FALSE, fig.alt='Screenshot of the Terra Group management page. The email addresses associated with the newly made groups, jhu-bmr2021-instructors@firecloud.org and jhu-bmr2021-students@firecloud.org, are highlighted.'}
+```{r, echo=FALSE, fig.alt='Screenshot of the Terra Group page. Emails associated with newly formed groups have been highlighted.'}
 leanbuild::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g100474897dd_0_96")
-    ```
+```
 
-### Add Additional Instructors as "Owner"
+### Add Instructors as "Owner"
 
-Now that your Groups have been created, you will want to add additional instructors to your **Instructor Group**. First click on the name of the **Instructor Group** you just made. This should take you to the administration page for the Group. The page should be visible at <span>https://anvil.terra.bio/#groups/<group-name></span> (e.g., <span>https://anvil.terra.bio/#groups/jhu-bmr2021-instructors</span>). With the steps below, you will add an additional instructor to appear alongside your AnVIL ID. You will also ensure that they have the correct permissions. 
+Now that your Groups have been created, you will want to add additional instructors to your **Instructor Group**. First click on the name of the **Instructor Group** you just made. This should take you to the administration page for the Group. The page should be visible at `https://anvil.terra.bio/#groups/<group-name>` (e.g., `https://anvil.terra.bio/#groups/jhu-bmr2021-instructors`). With the steps below, you will add an additional instructor to appear alongside your AnVIL ID. You will also ensure that they have the correct permissions. 
 
 1. Go to https://anvil.terra.bio/#groups/<group-name>
 
@@ -180,7 +182,7 @@ Check to ensure the newly added instructor displays “Admin” under “Roles�
 leanbuild::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g100474897dd_0_78")
 ```
 
-You also want to ensure any additional co-instructors and teaching assistants are able to administer the Student Group in case you are unavailable. Repeat the steps above in the Student Group, adding additional instructors and changing their permissions one at a time.
+You also want to ensure any additional co-instructors and teaching assistants are able to administer the **Student Group** in case you are unavailable. Repeat the steps above in the **Student Group**, adding additional instructors and changing their permissions one at a time.
 
 ```{r, echo=FALSE, fig.alt='Screenshot of the Terra Group for the student group that was just created, where the newly added instructor is visible in the user list. The instructor`s AnVIL ID, instructor-1@gmail.com is visible next to the role "Admin", which is highlighted.'}
 leanbuild::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g100474897dd_0_87")
@@ -188,7 +190,7 @@ leanbuild::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K
 
 ### Add Students as "Member"
 
-To add participants to your **Student Group**, first click on the name of the **Student Group** you just made. This should take you to the administration page for the Group. The page should be visible at <span>https://anvil.terra.bio/#groups/<group-name></span> (e.g., <span>https://anvil.terra.bio/#groups/jhu-bmr2021-students</span>). With the steps below, you will add students to the list of **Student Group** members.
+To add participants to your **Student Group**, first click on the name of the **Student Group** you just made. This should take you to the administration page for the Group. The page should be visible at `https://anvil.terra.bio/#groups/<group-name>` (e.g., `https://anvil.terra.bio/#groups/jhu-bmr2021-students`). With the steps below, you will add students to the list of **Student Group** members.
 
 1. Go to https://anvil.terra.bio/#groups/<group-name>
 
