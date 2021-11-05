@@ -182,12 +182,6 @@ Check to ensure the newly added instructor displays “Admin” under “Roles�
 leanbuild::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g100474897dd_0_78")
 ```
 
-You also want to ensure any additional co-instructors and teaching assistants are able to administer the **Student Group** in case you are unavailable. Repeat the steps above in the **Student Group**, adding additional instructors and changing their permissions one at a time.
-
-```{r, echo=FALSE, fig.alt='Screenshot of the Terra Group for the student group that was just created, where the newly added instructor is visible in the user list. The instructor`s AnVIL ID, instructor-1@gmail.com is visible next to the role "Admin", which is highlighted.'}
-leanbuild::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g100474897dd_0_87")
-```
-
 ### Add Students as "Member"
 
 To add participants to your **Student Group**, first click on the name of the **Student Group** you just made. This should take you to the administration page for the Group. The page should be visible at `https://anvil.terra.bio/#groups/<group-name>` (e.g., `https://anvil.terra.bio/#groups/jhu-bmr2021-students`). With the steps below, you will add students to the list of **Student Group** members.
@@ -218,13 +212,75 @@ Check to ensure the newly added student displays “Member” under “Roles” 
 leanbuild::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g100474897dd_0_125")
 ```
 
+You also want to ensure any additional co-instructors and teaching assistants are able to administer the **Student Group** in case you are unavailable. Repeat the following for each co-instructor in the **Student Group**:
+
+1. Click on “+Add User”. You will be prompted to add the instructor’s AnVIL ID. 
+
+1. Type in the instructor’s AnVIL ID
+
+1. Make sure “Can manage users (admin)” is selected
+
+1. Click ADD USER. This will take you back to the Group administration page.
+
+```{r, echo=FALSE, fig.alt='Screenshot of the Terra Group for the student group that was just created, where the newly added instructor is visible in the user list. The instructor`s AnVIL ID, instructor-1@gmail.com is visible next to the role "Admin", which is highlighted.'}
+leanbuild::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g100474897dd_0_87")
+```
+
 Your instructor and student groups are now set up.
 
 ## Set Permissions - Billing Projects
 
+Now that your Groups have been created, it is relatively easy to permit other instructors and students to compute using your instructor and student Terra Billing Projects. You can change permissions for Billing Projects on https://anvil.terra.bio/#billing. AnVIL users can either be “Owners” Or “Users” of Billing Projects
+
 ### Add Instructors as “Owner”
 
+To set instructor permissions:
+
+1. Go to https://anvil.terra.bio/#billing
+
+1. Select the “Owned by You” Billing Project sub-list
+
+1. Select the Billing Project you made for instructors in [### Set Up Billing Projects]
+
+1. Select the “Users” tab
+
+1. Click “+ Add User”. You will be prompted to add a “User email *”.
+
+1. Begin typing the instructor group name set up in [### Set Up Groups]. You should see an email in the form <group-name>@firecloud.org (e.g., jhu-bmr2021-instructors@firecloud.org).
+
+1. Ensure “Can manage users (Owner)” is **selected**
+
+1. Click “ADD USER”
+
 ### Add Students as “User”
+
+To set student permissions:
+
+1. Go to https://anvil.terra.bio/#billing
+
+1. Select the “Owned by You” Billing Project sub-list
+
+1. Select the Billing Project you made for students in [### Set Up Billing Projects]
+
+1. Select the “Users” tab
+
+1. Click “+ Add User”. You will be prompted to add a “User email *”.
+
+1. Begin typing the student group name set up in [### Set Up Groups]. You should see an email in the form <group-name>@firecloud.org (e.g., jhu-bmr2021-students@firecloud.org). 
+
+1. Keep “Can manage users (Owner)” deselected.
+
+1. Click “ADD USER”
+
+You also want to ensure any additional co-instructors and teaching assistants are able to administer the student Billing Project in case you are unavailable. Add the instructor Group to the student Billing Project:
+
+1. Click “+ Add User”. You will be prompted to add a “User email *”.
+
+1. Begin typing the instructor group name set up in [### Set Up Groups]. You should see an email in the form <group-name>@firecloud.org (e.g., jhu-bmr2021-instructors@firecloud.org).
+
+1. Ensure “Can manage users (Owner)” is **selected**
+
+1. Click “ADD USER”
 
 ## Set Permissions - Workspace
 
