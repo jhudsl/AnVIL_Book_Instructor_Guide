@@ -210,10 +210,10 @@ leanbuild::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K
 
 Your instructor and student groups are now set up.
 
-### Set Permissions
+<!-- ### Set Permissions -->
 
-<!-- Set Instructor and Student permissions for Workspace and Terra Billing Projects -->
+<!-- TODO: THIS SECTION PROBABLY NEEDS TO BE REFACTORED -->
 
 ## Notify Terra
 
-<!-- Request no scheduled maintenance downtime / ask about major changes -->
+Contacting Terra ahead of your class time helps the Terra team avoid any major disruptions to your class. Contact Terra by [submitting a request](https://support.terra.bio/hc/en-us/requests/new) for a hold on scheduled maintenance and downtime. It’s also a good idea to ask about major changes planned for the time prior to your class.
