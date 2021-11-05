@@ -352,11 +352,27 @@ You should add your co-instructors and teaching assistants as “Owners” to th
 
 1. Click “Share”. This will open a dialog box.
 
+    ```{r, echo=FALSE, fig.alt='Screenshot of the class Workspace listed in the Workspaces tab. The teardrop button and the option to "Share" the Workspace are highlighted.'}
+leanbuild::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g1007b9b3ffb_0_344")
+    ```
+
 1. Enter the name of the instructor Group (e.g., jhu-bmr2021-instructors). This will create a dropdown for the Group permissions in the box. Select this Group.
+
+    ```{r, echo=FALSE, fig.alt='Screenshot of the share Workspace pop out box. The text "jhu-bmr" has been entered in the User email box and the dropdown below has been automatically filtered to reveal the instructor, student, and dev groups. The instructor group, in this case jhu-bmr2021-instructors@firecloud.org, has been highlighted.'}
+leanbuild::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.gdb96a00840_0_138")
+    ```
 
 1. Change permissions to “Owner” using the dropdown menu under the instructor Group
 
+    ```{r, echo=FALSE, fig.alt='Screenshot of the share Workspace pop out box. The instructor group, in this case jhu-bmr2021-instructors@firecloud.org, has been added as a collaborator. The permissions are highlighted and show that role has been set to "Owner".'}
+leanbuild::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g1007b9b3ffb_0_356")
+    ```
+
 1. Click “SAVE”
+
+    ```{r, echo=FALSE, fig.alt='Screenshot of the share Workspace pop out box. The instructor group email has been added with permissions correctly set. The "SAVE" button is highlighted.'}
+leanbuild::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g1007b9b3ffb_0_365")
+    ```
 
 ::: {.fyi}
 This step makes it so that co-instructors can edit the original content of the Workspace as needed. While this means you and co-instructors can compute using the development Billing Project, this makes spending difficult to track. Instructors should instead clone the Workspace using the **instructor Billing Project**. This makes it much easier to track costs associated with this iteration of your class versus further iterations (e.g., the following semester or year).
@@ -370,11 +386,27 @@ Next, add your students as “Readers” to the class Workspace. This means they
 
 1. Click “Share”. This will open a dialog box.
 
+    ```{r, echo=FALSE, fig.alt='Screenshot of the class Workspace listed in the Workspaces tab. The teardrop button and the option to "Share" the Workspace are highlighted.'}
+leanbuild::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g1007b9b3ffb_0_344")
+    ```
+
 1. Enter the name of the student Group. This will create a dropdown for the Group permissions in the box. Select this Group.
+
+    ```{r, echo=FALSE, fig.alt='Screenshot of the share Workspace pop out box. The text "jhu-bmr" has been entered in the User email box and the dropdown below has been automatically filtered to reveal the student and dev groups. The student group, in this case jhu-bmr2021-students@firecloud.org, has been highlighted.'}
+leanbuild::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g1007b9b3ffb_0_378")
+    ```
 
 1. Ensure permissions are set to “Reader” (default)
 
+    ```{r, echo=FALSE, fig.alt='Screenshot of the share Workspace pop out box. The student group, in this case jhu-bmr2021-students@firecloud.org, has been added as a collaborator. The permissions are highlighted and show that role is "Reader".'}
+leanbuild::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g1007b9b3ffb_0_386")
+    ```
+
 1. Click “SAVE”
+
+    ```{r, echo=FALSE, fig.alt='Screenshot of the share Workspace pop out box. The student group email has been added with permissions correctly set. The "SAVE" button is highlighted.'}
+leanbuild::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g1007b9b3ffb_0_394")
+    ```
 
 You have now correctly set up your class permissions!
 
