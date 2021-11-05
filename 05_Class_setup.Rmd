@@ -26,7 +26,7 @@ Billing Projects in Terra help organize your compute costs. We suggest creating 
 
 Billing Projects must be globally unique and cannot exceed 30 characters.
 
-### Instructor Billing Project
+### Instructor Billing Project {#instructor-billing-project}
 
 First, create the Billing Project for instructors. We suggest the name of the Billing Project should be a combination of institution-class-role (e.g., "jhu-bmr2021-instructors-bill-1"). To create a Billing Project for instructors:
 
@@ -58,7 +58,7 @@ leanbuild::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K
     
 You now have a unique **Instructor Billing Project**.
 
-### Student Billing Project
+### Student Billing Project {#student-billing-project}
 
 Next, create a student Billing Project. Again, we suggest a combination of institution-class-role (e.g., “jhu-bmr2021-students-bill-1”). To create a Billing Project for students:
 
@@ -94,7 +94,7 @@ You now have a unique **Student Billing Project**.
 
 Groups enable you to share your class Workspace and manage permissions for many people at once. Like Billing Projects, we recommend starting with one Group for instructors and one Group for students.
 
-### Instructor Group
+### Instructor Group {#instructor-group}
 
 Create an informative, unique Group name for any co-instructors and teaching assistants, such as a combination of institution-class-role (e.g., “jhu-bmr2021-instructors”). Only letters, numbers, underscores, and dashes are allowed in Group names. To create a Group for instructors:
 
@@ -116,7 +116,7 @@ leanbuild::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K
 
 You now have a unique **Instructor Group**.
 
-### Student Group
+### Student Group {#student-group}
 
 Next, create an informative, unique Group name for students, such as a combination of institution-class-role (e.g., “jhu-bmr2021-students”). Only letters, numbers, underscores, and dashes are allowed in Group names. To create a Group for students:
 
@@ -230,7 +230,7 @@ Your instructor and student groups are now set up.
 
 ## Set Permissions - Billing Projects
 
-Now that your Groups have been created, it is relatively easy to permit other instructors and students to compute using your instructor and student Terra Billing Projects. You can change permissions for Billing Projects on https://anvil.terra.bio/#billing. AnVIL users can either be “Owners” Or “Users” of Billing Projects
+Now that your Groups have been created, it is relatively easy to permit other instructors and students to compute using your instructor and student Terra Billing Projects. You can change permissions for Billing Projects on https://anvil.terra.bio/#billing. AnVIL users can take on the “Owner” or “User” role for Billing Projects.
 
 ### Add Instructors as “Owner”
 
@@ -240,17 +240,41 @@ To set instructor permissions:
 
 1. Select the “Owned by You” Billing Project sub-list
 
-1. Select the Billing Project you made for instructors in [### Set Up Billing Projects]
+    ```{r, echo=FALSE, fig.alt='Screenshot of the AnVIL Billing page. The "Owned by You" billing list is highlighted.'}
+leanbuild::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g1007b9b3ffb_0_0")
+    ```
+
+1. Select the Billing Project you made for instructors in [Instructor Billing Project](#instructor-billing-project)
+
+    ```{r, echo=FALSE, fig.alt='Screenshot of the AnVIL Billing page. The "Owned by You" billing list has been expanded. The instructor Billing project, in this case jhu-bmr2021-instructors, is highlighted.'}
+leanbuild::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g1007b9b3ffb_0_10")
+    ```
 
 1. Select the “Users” tab
 
+    ```{r, echo=FALSE, fig.alt='Screenshot of the AnVIL Billing page. The instructor Billing project, in this case jhu-bmr2021-instructors, has been selected and the Users Tab is highlighted.'}
+leanbuild::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g1007b9b3ffb_0_24")
+    ```
+
 1. Click “+ Add User”. You will be prompted to add a “User email *”.
 
-1. Begin typing the instructor group name set up in [### Set Up Groups]. You should see an email in the form <group-name>@firecloud.org (e.g., jhu-bmr2021-instructors@firecloud.org).
+    ```{r, echo=FALSE, fig.alt='Screenshot of the AnVIL Billing page. The instructor Billing project, in this case jhu-bmr2021-instructors, has been selected and the "+Add User" button is highlighted.'}
+leanbuild::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g1007b9b3ffb_0_39")
+    ```
+
+1. Begin typing the instructor group name set up in [Instructor Group](#instructor-group). You should see an email in the form <group-name>@firecloud.org (e.g., jhu-bmr2021-instructors@firecloud.org).
 
 1. Ensure “Can manage users (Owner)” is **selected**
 
+    ```{r, echo=FALSE, fig.alt='Screenshot of the AnVIL Billing page with the "Add User" pop out box. The instructor Group email, in this case jhu-bmr2021-instructors@firecloud.org, has been filled in and the Owner role checkbox has been ticked.'}
+leanbuild::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g1007b9b3ffb_0_54")
+    ```
+
 1. Click “ADD USER”
+
+    ```{r, echo=FALSE, fig.alt='Screenshot of the AnVIL Billing page with the "Add User" pop out box. The instructor Group email, in this case jhu-bmr2021-instructors@firecloud.org, has been filled in and the Owner role checkbox has been ticked. The "ADD USER" button is highlighted.'}
+leanbuild::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g1007b9b3ffb_0_70")
+    ```
 
 ### Add Students as “User”
 
@@ -260,17 +284,41 @@ To set student permissions:
 
 1. Select the “Owned by You” Billing Project sub-list
 
-1. Select the Billing Project you made for students in [### Set Up Billing Projects]
+    ```{r, echo=FALSE, fig.alt='Screenshot of the AnVIL Billing page. The "Owned by You" billing list is highlighted.'}
+leanbuild::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g1007b9b3ffb_0_0")
+    ```
+
+1. Select the Billing Project you made for students in [Instructor Billing Project](#student-billing-project)
+
+    ```{r, echo=FALSE, fig.alt='Screenshot of the AnVIL Billing page. The "Owned by You" billing list has been expanded. The student Billing project, in this case jhu-bmr2021-students, is highlighted.'}
+leanbuild::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g1007b9b3ffb_0_90")
+    ```
 
 1. Select the “Users” tab
 
+    ```{r, echo=FALSE, fig.alt='Screenshot of the AnVIL Billing page. The student Billing project, in this case jhu-bmr2021-students, has been selected and the Users Tab is highlighted.'}
+leanbuild::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g1007b9b3ffb_0_301")
+    ```
+
 1. Click “+ Add User”. You will be prompted to add a “User email *”.
 
-1. Begin typing the student group name set up in [### Set Up Groups]. You should see an email in the form <group-name>@firecloud.org (e.g., jhu-bmr2021-students@firecloud.org). 
+    ```{r, echo=FALSE, fig.alt='Screenshot of the AnVIL Billing page. The student Billing project, in this case jhu-bmr2021-students, has been selected and the "+Add User" button is highlighted.'}
+leanbuild::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g1007b9b3ffb_0_315")
+    ```
 
-1. Keep “Can manage users (Owner)” deselected.
+1. Begin typing the student group name set up in [Student Group](#student-group). You should see an email in the form <group-name>@firecloud.org (e.g., jhu-bmr2021-students@firecloud.org). 
+
+1. Keep “Can manage users (Owner)” **deselected**.
+
+    ```{r, echo=FALSE, fig.alt='Screenshot of the AnVIL Billing page with the "Add User" pop out box. The student Group email, in this case jhu-bmr2021-students@firecloud.org, has been filled in and the Owner role checkbox has NOT been ticked.'}
+leanbuild::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g1007b9b3ffb_0_132")
+    ```
 
 1. Click “ADD USER”
+
+    ```{r, echo=FALSE, fig.alt='Screenshot of the AnVIL Billing page with the "Add User" pop out box. The student Group email, in this case jhu-bmr2021-students@firecloud.org, has been filled in and the Owner role checkbox has NOT been ticked. The "ADD USER" button is highlighted.'}
+leanbuild::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g1007b9b3ffb_0_327")
+    ```
 
 You also want to ensure any additional co-instructors and teaching assistants are able to administer the student Billing Project in case you are unavailable. Add the instructor Group to the student Billing Project:
 
@@ -280,15 +328,23 @@ You also want to ensure any additional co-instructors and teaching assistants ar
 
 1. Ensure “Can manage users (Owner)” is **selected**
 
+    ```{r, echo=FALSE, fig.alt='Screenshot of the AnVIL Billing page with the "Add User" pop out box. The instructor Group email, in this case jhu-bmr2021-instructors@firecloud.org, has been filled in and the Owner role checkbox has been ticked.'}
+leanbuild::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g1007b9b3ffb_0_54")
+    ```
+
 1. Click “ADD USER”
+
+    ```{r, echo=FALSE, fig.alt='Screenshot of the AnVIL Billing page with the "Add User" pop out box. The instructor Group email, in this case jhu-bmr2021-instructors@firecloud.org, has been filled in and the Owner role checkbox has been ticked. The "ADD USER" button is highlighted.'}
+leanbuild::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g1007b9b3ffb_0_70")
+    ```
 
 ## Set Permissions - Workspace
 
-Finally, you will want to set up permissions for co-instructors and students to see the class Workspace you created with the development Billing Project in [Developing Content]. 
+Finally, you will want to set up permissions for co-instructors and students to see the class Workspace you created with the development Billing Project in [Developing Content]. AnVIL users can take on the "Owner", "Writer", or "Reader" role for a Workspace.
 
 ### Add Instructors as “Owner”
 
-You should add your co-instructors and teaching assistants as “Owners” to the class Workspace. This is useful if they need to edit the course content on your behalf. To share and change permissions:
+You should add your co-instructors and teaching assistants as “Owners” to the class Workspace. This is useful if they need to edit the course content or share the space with students on your behalf. To share and change permissions:
 
 1. Go to https://anvil.terra.bio/#workspaces and find your class Workspace you set up in [Developing Content]
 
