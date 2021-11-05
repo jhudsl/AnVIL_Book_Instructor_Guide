@@ -56,7 +56,7 @@ leanbuild::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K
 leanbuild::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g100474897dd_0_9")
     ```
     
-You now have a unique **Instructor Billing Project**.
+You now have a unique **instructor Billing Project**.
 
 ### Student Billing Project {#student-billing-project}
 
@@ -88,7 +88,7 @@ leanbuild::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K
 leanbuild::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g100474897dd_0_27")
     ```
 
-You now have a unique **Student Billing Project**.
+You now have a unique **student Billing Project**.
    
 ## Set Up Groups
 
@@ -114,7 +114,7 @@ leanbuild::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K
 leanbuild::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.gdb96a00840_0_16")
     ```
 
-You now have a unique **Instructor Group**.
+You now have a unique **instructor Group**.
 
 ### Student Group {#student-group}
 
@@ -136,7 +136,7 @@ leanbuild::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K
 leanbuild::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g100474897dd_0_38")
     ```
 
-You now have a unique **Student Group**.
+You now have a unique **student Group**.
 
 ### Group Email List
 
@@ -148,7 +148,7 @@ leanbuild::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K
 
 ### Add Instructors as "Owner"
 
-Now that your Groups have been created, you will want to add additional instructors to your **Instructor Group**. First click on the name of the **Instructor Group** you just made. This should take you to the administration page for the Group. The page should be visible at `https://anvil.terra.bio/#groups/<group-name>` (e.g., `https://anvil.terra.bio/#groups/jhu-bmr2021-instructors`). With the steps below, you will add an additional instructor to appear alongside your AnVIL ID. You will also ensure that they have the correct permissions. 
+Now that your Groups have been created, you will want to add additional instructors to your instructor Group. First click on the name of the instructor Group you just made. This should take you to the administration page for the Group. The page should be visible at `https://anvil.terra.bio/#groups/<group-name>` (e.g., `https://anvil.terra.bio/#groups/jhu-bmr2021-instructors`). With the steps below, you will add an additional instructor to appear alongside your AnVIL ID. You will also ensure that they have the correct permissions. 
 
 1. Go to https://anvil.terra.bio/#groups/<group-name>
 
@@ -184,7 +184,7 @@ leanbuild::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K
 
 ### Add Students as "Member"
 
-To add participants to your **Student Group**, first click on the name of the **Student Group** you just made. This should take you to the administration page for the Group. The page should be visible at `https://anvil.terra.bio/#groups/<group-name>` (e.g., `https://anvil.terra.bio/#groups/jhu-bmr2021-students`). With the steps below, you will add students to the list of **Student Group** members.
+To add participants to your student Group, first click on the name of the student Group you just made. This should take you to the administration page for the Group. The page should be visible at `https://anvil.terra.bio/#groups/<group-name>` (e.g., `https://anvil.terra.bio/#groups/jhu-bmr2021-students`). With the steps below, you will add students to the list of student Group members.
 
 1. Go to https://anvil.terra.bio/#groups/<group-name>
 
@@ -212,7 +212,7 @@ Check to ensure the newly added student displays “Member” under “Roles” 
 leanbuild::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g100474897dd_0_125")
 ```
 
-You also want to ensure any additional co-instructors and teaching assistants are able to administer the **Student Group** in case you are unavailable. Repeat the following for each co-instructor in the **Student Group**:
+You also want to ensure any additional co-instructors and teaching assistants are able to administer the student Group in case you are unavailable. Repeat the following for each co-instructor in the student Group:
 
 1. Click on “+Add User”. You will be prompted to add the instructor’s AnVIL ID. 
 
@@ -346,15 +346,15 @@ Finally, you will want to set up permissions for co-instructors and students to 
 
 You should add your co-instructors and teaching assistants as “Owners” to the class Workspace. This is useful if they need to edit the course content or share the space with students on your behalf. To share and change permissions:
 
-1. Go to https://anvil.terra.bio/#workspaces and find your class Workspace you set up in [Developing Content]
+1. Go to https://anvil.terra.bio/#workspaces and find your class Workspace you set up in [Developing Content](developing-content.html)
 
 1. Click the teardrop button for your class Workspace
 
 1. Click “Share”. This will open a dialog box.
 
-1. Enter the name of the Instructor Group (e.g., jhu-bmr2021-instructors). This will create a dropdown for the Group permissions in the box.
+1. Enter the name of the instructor Group (e.g., jhu-bmr2021-instructors). This will create a dropdown for the Group permissions in the box. Select this Group.
 
-1. Change permissions to “Owner”
+1. Change permissions to “Owner” using the dropdown menu under the instructor Group
 
 1. Click “SAVE”
 
@@ -370,7 +370,7 @@ Next, add your students as “Readers” to the class Workspace. This means they
 
 1. Click “Share”. This will open a dialog box.
 
-1. Enter the name of the Student Group. This will create a dropdown for the Group permissions in the box.
+1. Enter the name of the student Group. This will create a dropdown for the Group permissions in the box. Select this Group.
 
 1. Ensure permissions are set to “Reader” (default)
 
