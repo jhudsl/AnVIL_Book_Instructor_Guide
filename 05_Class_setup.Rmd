@@ -220,9 +220,17 @@ leanbuild::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K
 
 Your instructor and student groups are now set up.
 
-<!-- ### Set Permissions -->
+## Set Permissions - Billing Projects
 
-<!-- TODO: THIS SECTION PROBABLY NEEDS TO BE REFACTORED -->
+### Add Instructors as “Owner”
+
+### Add Students as “User”
+
+## Set Permissions - Workspace
+
+### Add Instructors as “Owner”
+
+### Add Students as “User”
 
 ## Notify Terra
 
