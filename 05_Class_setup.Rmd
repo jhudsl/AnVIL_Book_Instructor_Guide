@@ -146,7 +146,7 @@ Note that your newly created Groups have Group emails associated with them.  Tak
 leanbuild::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g100474897dd_0_96")
 ```
 
-### Add Instructors as "Owner"
+### Add Instructors as "Admin"
 
 Now that your Groups have been created, you will want to add additional instructors to your instructor Group. First click on the name of the instructor Group you just made. This should take you to the administration page for the Group. The page should be visible at `https://anvil.terra.bio/#groups/<group-name>` (e.g., `https://anvil.terra.bio/#groups/jhu-bmr2021-instructors`). With the steps below, you will add an additional instructor to appear alongside your AnVIL ID. You will also ensure that they have the correct permissions. 
 
