@@ -26,7 +26,7 @@ Groups enable you to share your class Workspace and manage permissions for many 
 
 ### Instructor Group {#instructor-group}
 
-Create an informative, unique Group name for any co-instructors and teaching assistants, such as a combination of institution-class-role (e.g., “jhu-bmr2021-instructors”). Only letters, numbers, underscores, and dashes are allowed in Group names. To create a Group for instructors:
+Create an informative, unique Group name for any co-instructors and teaching assistants. We suggest a combination of institution-class-role (e.g., “jhu-bmr2021-instructors”). Only letters, numbers, underscores, and dashes are allowed in Group names. To create a Group for instructors:
 
 1. Go to https://anvil.terra.bio/#groups
 
@@ -48,9 +48,9 @@ You now have a unique **instructor Group**.
 
 ### Add Instructors as "Admin" (Instructor Group)
 
-Now that your instructor Group has been created, you will want to add any additional instructors. With the steps below, you will add an additional instructor to appear alongside your AnVIL ID. You will also ensure that they have the correct permissions. 
+Now that your instructor Group has been created, you should add any additional instructors. You should also ensure that they have the correct permissions. 
 
-1. Go to https://anvil.terra.bio/#groups/ and click on the instructor Group name. This page should be visible at `https://anvil.terra.bio/#groups/<group-name>` (e.g., `https://anvil.terra.bio/#groups/jhu-bmr2021-instructors`).
+1. Go to https://anvil.terra.bio/#groups/ and click on the instructor Group name. This page should also be visible at `https://anvil.terra.bio/#groups/<group-name>`.
 
     ```{r, echo=FALSE, fig.alt='Screenshot of the Terra Group, and the specific Group that was just created. The Group Name is highlighted.'}
 leanbuild::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g10118383b73_193_0")
@@ -80,7 +80,7 @@ leanbuild::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K
 leanbuild::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g100474897dd_0_71")
     ```
 
-Check to ensure the newly added instructor displays “Admin” under “Roles” beside their AnVIL ID. Repeat this process for any additional co-instructors and teaching assistants.
+Make sure the newly added instructor displays “Admin” under “Roles” beside their AnVIL ID. Repeat this process for any additional co-instructors and teaching assistants.
 
 ```{r, echo=FALSE, fig.alt='Screenshot of the Terra Group for the instructor Group that was just created, where the newly added instructor is visible in the user list. The instructor`s AnVIL ID, instructor-1@gmail.com is visible next to the role "Admin", which is highlighted.'}
 leanbuild::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g100474897dd_0_78")
@@ -88,7 +88,7 @@ leanbuild::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K
 
 ### Student Group {#student-group}
 
-Next, you will create a Group for your students. Create an informative, unique Group name, such as a combination of institution-class-role (e.g., “jhu-bmr2021-students”). Only letters, numbers, underscores, and dashes are allowed in Group names. To create a Group for students:
+Next, you will create a Group for your students. Create an informative, unique Group name. We suggest a combination of institution-class-role (e.g., “jhu-bmr2021-students”). Only letters, numbers, underscores, and dashes are allowed in Group names. To create a Group for students:
 
 1. Go to https://anvil.terra.bio/#groups
 
@@ -110,9 +110,9 @@ You now have a unique **student Group**.
 
 ### Add Instructors as "Admin" (Student Group)
 
-You want to ensure any additional co-instructors and teaching assistants are able to administer the student Group in case you are unavailable. Follow the steps below to add each co-instructor in the student Group:
+The next steps ensure any additional co-instructors and teaching assistants are able to administer the student Group in case you are unavailable. Follow the steps below to add each co-instructor in the student Group:
 
-1. Go to https://anvil.terra.bio/#groups/ and click on the student Group name. This page should be visible at `https://anvil.terra.bio/#groups/<group-name>` (e.g., `https://anvil.terra.bio/#groups/jhu-bmr2021-students`).
+1. Go to https://anvil.terra.bio/#groups/ and click on the student Group name. This page should be visible at `https://anvil.terra.bio/#groups/<group-name>`.
 
     ```{r, echo=FALSE, fig.alt='Screenshot of the Terra Group, and the specific Group that was just created. The student Group name is highlighted.'}
 leanbuild::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g10118383b73_193_8")
@@ -142,7 +142,7 @@ leanbuild::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K
 leanbuild::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g100474897dd_0_71")
     ```
 
-Check to ensure the newly added instructor displays “Admin” under “Roles” beside their AnVIL ID. Repeat this process for any additional co-instructors and teaching assistants.
+Make sure the newly added instructor displays “Admin” under “Roles” beside their AnVIL ID. Repeat this process for any additional co-instructors and teaching assistants.
 
 ```{r, echo=FALSE, fig.alt='Screenshot of the Terra Group for the student Group that was just created, where the newly added instructor is visible in the user list. The instructor`s AnVIL ID, instructor-1@gmail.com is visible next to the role "Admin", which is highlighted.'}
 leanbuild::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g100474897dd_0_87")
@@ -150,9 +150,9 @@ leanbuild::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K
 
 ### Add Students as "Member"
 
-Next, you will add students to the student Group. With the steps below, you will add students to the list of student Group members.
+Follow the steps below to add individual students to the student Group:
 
-1. Go to https://anvil.terra.bio/#groups/ and click on the student Group name. This page should be visible at `https://anvil.terra.bio/#groups/<group-name>` (e.g., `https://anvil.terra.bio/#groups/jhu-bmr2021-students`).
+1. Go to https://anvil.terra.bio/#groups/ and click on the student Group name. This page should be visible at `https://anvil.terra.bio/#groups/<group-name>`.
 
     ```{r, echo=FALSE, fig.alt='Screenshot of the Terra Group, and the specific Group that was just created. The student Group name is highlighted.'}
 leanbuild::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g10118383b73_193_8")
@@ -176,7 +176,7 @@ leanbuild::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K
 leanbuild::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g100474897dd_0_117")
     ```
 
-Check to ensure the newly added student displays “Member” under “Roles” beside their AnVIL ID. At present, each student’s AnVIL ID must be added separately.
+Make sure the newly added student displays “Member” under “Roles” beside their AnVIL ID. At present, each student’s AnVIL ID must be added separately.
 
 ```{r, echo=FALSE, fig.alt='Screenshot of the Terra Group for the student Group that was just created, where the newly added student is visible in the user list. The student`s AnVIL ID, student-1@gmail.com is visible next to the role "Member", which is highlighted.'}
 leanbuild::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g100474897dd_0_125")
@@ -186,7 +186,7 @@ Your instructor and student Groups are now set up.
 
 ### Group Email Lists
 
-Note that your newly created Groups have Group emails associated with them. Take note of these Group emails, you will use them for granting permission to access your class Billing Projects and Workspaces.
+Note that your newly created Groups have Group emails associated with them. Take note of these Group emails. You will use them for granting access to your class Billing Projects and Workspaces in the next steps.
 
 ```{r, echo=FALSE, fig.alt='Screenshot of the Terra Group page. Emails associated with newly formed Groups have been highlighted.'}
 leanbuild::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g100474897dd_0_96")
