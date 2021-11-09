@@ -140,7 +140,7 @@ You now have a unique **student Group**.
 
 ### Group Email List
 
-Note that your newly created Groups have Group emails associated with them.
+Note that your newly created Groups have Group emails associated with them.  Take note of these Group emails, you will use them for granting permission to access your class Billing Projects and Workspaces.
 
 ```{r, echo=FALSE, fig.alt='Screenshot of the Terra Group page. Emails associated with newly formed Groups have been highlighted.'}
 leanbuild::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g100474897dd_0_96")
