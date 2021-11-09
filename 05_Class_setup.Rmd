@@ -378,7 +378,7 @@ leanbuild::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K
 This step makes it so that co-instructors can edit the original content of the Workspace as needed. While this means you and co-instructors can compute using the development Billing Project, this makes spending difficult to track. Instructors should instead clone the Workspace using the **instructor Billing Project**. This makes it much easier to track costs associated with this iteration of your class versus further iterations (e.g., the following semester or year).
 :::
 
-### Add Students as “User”
+### Add Students as “Reader”
 
 Next, add your students as “Readers” to the class Workspace. This means they will be able to view and clone the Workspace, but not make edits or perform computations. To share the Workspace:
 
