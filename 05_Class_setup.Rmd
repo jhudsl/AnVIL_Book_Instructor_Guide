@@ -24,7 +24,7 @@ Co-instructors -- If you will be working with other instructors, such as co-inst
 
 Billing Projects in Terra help organize your compute costs. We suggest creating two different billing projects under the appropriate Billing Account that you created on `cloud.google.com`: one for students and one for co-instructors.
 
-Billing Projects must be globally unique and cannot exceed 30 characters.
+Billing Project names must be globally unique and cannot exceed 30 characters.
 
 ### Instructor Billing Project {#instructor-billing-project}
 
