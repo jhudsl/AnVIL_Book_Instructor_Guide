@@ -21,6 +21,14 @@ Students -- Contact students/participants to get their AnVIL IDs. These should b
 Co-instructors -- If you will be working with other instructors, such as co-instructors or teaching assistants, you will need to collect their IDs as well.
 
 ## Set Up Groups
+Reminder:
+
+- Google **Billing Accounts** are managed on Google Cloud Platform and are used for organizing *funding sources* (e.g. credit cards, cloud credits).
+- Terra **Billing Projects** are managed through Terra, and allow you to associate your Terra activity with the correct Google Billing Account.
+
+For a more detailed explanation, please see the chapter on Account Setup.
+
+We suggest creating two different Terra Billing Projects under the appropriate Billing Account that you created on `cloud.google.com`: one for students and one for co-instructors. The instructions below will walk you through how to set this up.
 
 Groups enable you to share your class Workspace and manage permissions for many people at once. We recommend starting with one Group for instructors and one Group for students.
 
