@@ -1,8 +1,13 @@
 AnVIL
 AnVILPublish
+AnVILPublishSkeleton
+bmr
+Gmail
+GSuite
 ITCR
 itcrtraining
 ITN
+jhu
 Jupyter
 leanbuild
 Markua
