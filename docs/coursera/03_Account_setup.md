@@ -6,7 +6,7 @@
 
 ## Overview of Account Setup
 
-## Step 1: Create a Google Account
+## Step 1: Create a Google Account {#google-account}
 
 ## Step 2: Set Up Google Billing
 
