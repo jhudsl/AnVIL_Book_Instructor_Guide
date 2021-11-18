@@ -1,7 +1,5 @@
 # AnVIL Instructor Guide
 
-[![Render Bookdown and Coursera](https://github.com/jhudsl/DaSL_Course_Template_Bookdown/actions/workflows/render-bookdown.yml/badge.svg)](https://github.com/jhudsl/DaSL_Course_Template_Bookdown/actions/workflows/render-bookdown.yml)
-
 This course was created from [this GitHub template](https://github.com/jhudsl/DaSL_Course_Template_Bookdown).
 
 You can see the rendered course material here: https://jhudatascience.org/AnVIL_Book_Instructor_Guide/
