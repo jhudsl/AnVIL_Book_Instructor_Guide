@@ -57,3 +57,4 @@ notify-students
 disable-billing
 class-checklist
 student-account-setup
+give-us-feedback
