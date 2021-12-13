@@ -10,6 +10,7 @@ rmd_files: ["index.Rmd",
             "06_Class_ending.Rmd",
             "07_Class_checklist.Rmd",
             "A_Student_account_setup.Rmd",
+            "B_Feedback.Rmd",
             "About.Rmd"]
 new_session: yes
 bibliography: [book.bib, packages.bib]
