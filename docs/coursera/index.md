@@ -1,6 +1,6 @@
 ---
 title: "AnVIL Instructor Guide"
-date: "December 21, 2021"
+date: "February 09, 2022"
 site: bookdown::bookdown_site
 documentclass: book
 biblio-style: apalike
