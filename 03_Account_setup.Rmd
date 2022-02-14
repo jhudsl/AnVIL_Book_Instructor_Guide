@@ -20,11 +20,9 @@ Your Google account will also (1) allow you to manage billing yourself or (2) al
 
 ```
 
-## Step 2: Set Up Terra
+## Step 2: Sign in to Terra
 
-[Launch Terra](https://anvil.terra.bio/#workspaces), and you should be prompted to sign in with your Google account.
-
-Once you have signed in, your Terra account is set up and the Billing Project manager should be able to add you to projects and/or Workspaces.
+You need to sign into Terra to allow Billing Project managers to add you to projects and/or Workspaces. [Launch Terra](https://anvil.terra.bio/#workspaces), and you should be prompted to sign in with your Google account.
 
 You can always access Terra by going to [`anvil.terra.bio`](https://anvil.terra.bio/), or by clicking the link on the AnVIL home page.
 
