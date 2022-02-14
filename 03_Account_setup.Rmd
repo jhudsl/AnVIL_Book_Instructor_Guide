@@ -20,14 +20,12 @@ Your Google account will also (1) allow you to manage billing yourself or (2) al
 
 ```
 
-## Step 2: Set Up Google Billing
+## Step 2: Sign in to Terra
 
-## Step 3: Add Terra to Google Billing Account
+You need to sign into Terra to allow Billing Project managers to add you to projects and/or Workspaces. [Launch Terra](https://anvil.terra.bio/#workspaces), and you should be prompted to sign in with your Google account.
 
-## Step 4: Create a Terra Billing Project
+You can always access Terra by going to [`anvil.terra.bio`](https://anvil.terra.bio/), or by clicking the link on the AnVIL home page.
 
-## Step 5: Set Up Alerts
-
-## Step 6: Create First Workspace {#first-workspace}
-
-## Wrap-Up
+```{r, echo=FALSE, fig.alt='Screenshot of the AnVIL home page. The button to "launch Terra" is highlighted.'}
+ottr::include_slide("https://docs.google.com/presentation/d/1tyt8ifxD3y7QW3nN27jh02aPrBvNEo1GN_u2Ne_UngM/edit#slide=id.gde7783227e_0_31")
+```
