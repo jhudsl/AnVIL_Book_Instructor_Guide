@@ -2,11 +2,9 @@
 
 # Student Account Setup
 
-## Overview of Account Setup
-
 AnVIL uses [Terra](https://anvil.terra.bio/) to run analyses. Terra operates on Google Cloud Platform, so you’ll need a Google account to make sure your instructor can keep track of any computing costs you accrue. 
 
-## Step 1: Create a Google Account {#google-account}
+## Step 1: Create a Google Account
 
 ```{r, child=c("_child_create_google_account.Rmd")}
 
