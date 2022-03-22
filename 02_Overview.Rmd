@@ -1,6 +1,6 @@
 
 ```{r, include = FALSE}
-ottr::set_knitr_image_path()
+ottrpal::set_knitr_image_path()
 ```
 
 # Overview
@@ -20,7 +20,7 @@ This book is targeted towards people who are teaching a course or workshop on An
 ### Goals for This Guide
 
 ```{r, echo=FALSE, fig.alt="List of goals for this guide: (1) get your accounts, (2) set up billing, (3) create your first Workspace, (4) develop content, and (5) set up classes with students."}
-ottr::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.ge21c626cf0_0_5")
+ottrpal::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.ge21c626cf0_0_5")
 ```
 
 ### Design Philosophy

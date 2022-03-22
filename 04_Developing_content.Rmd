@@ -1,6 +1,6 @@
 
 ```{r, include = FALSE}
-ottr::set_knitr_image_path()
+ottrpal::set_knitr_image_path()
 ```
 
 # Developing Content
@@ -57,7 +57,7 @@ system2("notedown", "--version")
 You should see the version number printed to the console:
 
 ```{r, echo=FALSE, fig.alt="Output on the RStudio console. You should see the version number printed if notedown has been installed correctly."}
-ottr::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.gdb96a00840_0_80")
+ottrpal::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.gdb96a00840_0_80")
 ```
 
 ## Create Workspace Structure
@@ -87,7 +87,7 @@ git clone https://github.com/avahoffman/AnVILPublishSkeleton
 You'll notice it contains a `DESCRIPTION` file, `NAMESPACE` file, and a `vignettes` directory with an `.Rmd` file.
 
 ```{r, echo=FALSE, fig.alt="RStudio screenshot showing the files present in the cloned AnVILPublishSkeleton repository."}
-ottr::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.geb84bbba9a_2_38")
+ottrpal::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.geb84bbba9a_2_38")
 ```
 
 ### Changing the `DESCRIPTION` File
@@ -97,13 +97,13 @@ Edit the information in `DESCRIPTION` but keep the structure the same.
 1. `Package:` argument: This "package name" must match the name of the folder containing the `DESCRIPTION` and other files. In this case, it should be "AnVILPublishSkeleton".
 
 ```{r, echo=FALSE, fig.alt="File screenshot showing the `Package:` argument is AnVILPublishSkeleton."}
-ottr::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.geb84bbba9a_2_8")
+ottrpal::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.geb84bbba9a_2_8")
 ```
 
 2. `Title:` argument: This will become the header for your Workspace's Dashboard.
 
 ```{r, echo=FALSE, fig.alt="File screenshot showing the `Title:` argument is 'Workspace title on the Dashboard'."}
-ottr::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.geb84bbba9a_2_14")
+ottrpal::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.geb84bbba9a_2_14")
 ```
 
 3. `Authors@R:` argument: Your author information and roles. At minimum, you should include a first name, family name, a role, and an email. You can add additional authors and roles as needed. See a more detailed guide to package metadata [here](https://r-pkgs.org/description.html#author). The most common roles are creator (`cre`), author (`aut`), and contributor (`ctb`), but there are [many more](https://www.loc.gov/marc/relators/relaterm.html) to choose from if none of these fit the bill.
@@ -138,17 +138,17 @@ AnVILPublish::as_workspace(
 You will see output in the console as the function converts the `.Rmd` to `.md`. You might get some warning messages, but make sure that the Workspace was created without error:
 
 ```{r, echo=FALSE, fig.alt="Code to create a new Workspace produces knitr output in the console."}
-ottr::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.geb84bbba9a_2_20")
+ottrpal::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.geb84bbba9a_2_20")
 ```
 
 ```{r, echo=FALSE, fig.alt="Code to create a new Workspace produces knitr output in the console. You should not see any errors in the output."}
-ottr::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.geb84bbba9a_2_26")
+ottrpal::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.geb84bbba9a_2_26")
 ```
 
 You should now see this new Workspace at [`https://anvil.terra.bio/#workspaces`](https://anvil.terra.bio/#workspaces).
 
 ```{r, echo=FALSE, fig.alt="After running AnVILPublish, you should see the newly created Workspace in https://anvil.terra.bio/#workspaces."}
-ottr::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.geb84bbba9a_2_32")
+ottrpal::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.geb84bbba9a_2_32")
 ```
 
 ## Update Dashboard
