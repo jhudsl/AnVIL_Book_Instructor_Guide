@@ -52,4 +52,7 @@ notify-students
 disable-billing
 class-checklist
 student-account-setup
+step-1-create-a-google-account
+step-2-sign-in-to-terra-1
+step-3-share-your-id
 give-us-feedback
