@@ -1,3 +1,24 @@
 # (APPENDIX) Appendix {-}
 
 # Student Account Setup
+
+AnVIL uses [Terra](https://anvil.terra.bio/) to run analyses. Terra operates on Google Cloud Platform, so you’ll need a Google account to make sure your instructor can keep track of any computing costs you accrue. 
+
+## Step 1: Create a Google Account
+
+
+If you do not already have a Google account that you would like to use for accessing Terra, [create one now](https://accounts.google.com/SignUp). Otherwise, please use a Gmail account you have already set up.
+
+If you would like to create a Google account that is associated with your non-Gmail, institutional email address, follow [these instructions](https://support.terra.bio/hc/en-us/articles/360029186611).
+
+## Step 2: Sign in to Terra
+
+You need to sign into Terra with your Google account to allow your instructor to add you to projects and/or Workspaces associated with your specific class. This is the only way you can launch applications and perform computations on AnVIL. [Launch Terra](https://anvil.terra.bio/), and you should be prompted to sign in with your Google account.
+
+You can always access Terra by going to [`anvil.terra.bio`](https://anvil.terra.bio/), or by clicking the link on the AnVIL home page.
+
+<img src="A_Student_account_setup_files/figure-html//1tyt8ifxD3y7QW3nN27jh02aPrBvNEo1GN_u2Ne_UngM_gde7783227e_0_31.png" title="Screenshot of the AnVIL home page. The button to &quot;launch Terra&quot; is highlighted." alt="Screenshot of the AnVIL home page. The button to &quot;launch Terra&quot; is highlighted." width="480" />
+
+## Step 3: Share your ID
+
+It is _very important_ that you share the Google account you used above with your instructor! Otherwise, they cannot add you to class projects or Workspaces.
