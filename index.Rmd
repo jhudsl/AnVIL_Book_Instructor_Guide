@@ -28,6 +28,7 @@ Please check out our full collection of AnVIL and related resources below!
 
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
 source("scripts/anvil_repo_table.R")
+
 # Add below any repositories that should not be added
 exclude = c(
   "anvil-intro",
