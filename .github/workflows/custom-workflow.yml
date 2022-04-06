@@ -40,7 +40,7 @@ jobs:
           branch_name='preview-${{ github.event.pull_request.number }}'
           git fetch --all
           git checkout $branch_name
-          git merge -s recursive --strategy-option=theirs origin/${{ github.head_ref }} --allow-unrelated-histories
+          git merge -s recursive --strategy-option=ours origin/${{ github.head_ref }} --allow-unrelated-histories
         shell: bash
 
       - name: Checkout if main
@@ -85,5 +85,5 @@ jobs:
           git add --force resources/AnVIL_repos.tsv || echo "No changes to commit"
           git commit -m 'Add AnVIL repos file' || echo "No changes to commit"
           git fetch
-          git merge -s recursive --strategy-option=theirs origin/${{ github.head_ref }} --allow-unrelated-histories
+          git merge -s recursive --strategy-option=ours origin/${{ github.head_ref }} --allow-unrelated-histories
           git push --force origin $branch_name || echo "No changes to commit"
