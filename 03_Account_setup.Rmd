@@ -31,7 +31,7 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1tyt8ifxD3y7QW3nN
 
 # Creating and adding student accounts
 
-AnVIL uses [Terra](https://anvil.terra.bio/) to run analyses. Terra operates on Google Cloud Platform, so students need a Google account to make sure you  can keep track of any computing costs they accrue. 
+Since Terra operates on Google Cloud Platform, students need a Google account to make sure you can keep track of any computing costs they accrue. 
 
 ## Step 1: Have students create a Google Account
 
