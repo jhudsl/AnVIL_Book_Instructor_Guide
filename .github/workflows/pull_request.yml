@@ -58,7 +58,7 @@ jobs:
       dockerfiles_changed: steps.verify-changed-files.outputs.files_changed
 
   call-custom-workflow:
-    name: AnVIL Library Build
+    name: Custom Workflow
     needs: yaml-check
     uses: ./.github/workflows/custom-workflow.yml
     with:
@@ -211,13 +211,12 @@ jobs:
       run: |
         chk_results=$(Rscript scripts/url-check.R)
         echo $chk_results
-
         echo "::set-output name=url_results::$chk_results"
 
     - name: Commit URL check
       run: |
         branch_name='preview-${{ github.event.pull_request.number }}'
-        git add --force check_reports/url_checks.tsv || echo "No changes to commit"
+        git add --force check_reports/url_checks.csv || echo "No changes to commit"
         git commit -m 'Add URL check file' || echo "No changes to commit"
         git fetch
         git merge -s recursive --strategy-option=theirs origin/${{ github.head_ref }} --allow-unrelated-histories
@@ -229,7 +228,7 @@ jobs:
         GH_PAT: ${{ secrets.GH_PAT }}
       run: |
         branch_name='preview-${{ github.event.pull_request.number }}'
-        url_errors=https://raw.githubusercontent.com/${GITHUB_REPOSITORY}/$branch_name/check_reports/url_checks.tsv
+        url_errors=https://raw.githubusercontent.com/${GITHUB_REPOSITORY}/$branch_name/check_reports/url_checks.csv
         echo ::set-output name=time::$(date +'%Y-%m-%d')
         echo ::set-output name=commit_id::$GITHUB_SHA
         echo ::set-output name=url_errors::$url_errors
