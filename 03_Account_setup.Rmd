@@ -8,7 +8,7 @@ ottrpal::set_knitr_image_path()
 
 AnVIL uses [Terra](https://anvil.terra.bio/) to run analyses. Terra operates on Google Cloud Platform, so you’ll pay for all storage and analysis costs through a Google account linked to Terra. The costs are the standard Google Cloud Platform fees for storing and moving data as well as executing an analysis. These costs are passed along through Terra without any markup.
 
-## Step 1: Create a Google Account {#google-account}
+## Create a Google Account {#google-account}
 
 Terra operates on Google Cloud Platform, so you will need a (free) Google account which will allow you to access the Terra platform to manage students and in-class analyses.
 
@@ -18,7 +18,7 @@ Your Google account will also (1) allow you to manage billing yourself or (2) al
 
 ```
 
-## Step 2: Sign in to Terra
+## Sign in to Terra
 
 You need to sign into Terra to allow Billing Project managers to add you to projects and/or Workspaces. [Launch Terra](https://anvil.terra.bio/#workspaces), and you should be prompted to sign in with your Google account.
 
@@ -33,13 +33,13 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1tyt8ifxD3y7QW3nN
 
 Since Terra operates on Google Cloud Platform, students need a Google account to make sure you can keep track of any computing costs they accrue. 
 
-## Step 1: Have students create a Google Account
+## Have students create a Google Account
 
 ```{r, child=c("_child_create_google_account.Rmd")}
 
 ```
 
-## Step 2: Have students sign in to Terra
+## Have students sign in to Terra
 
 Students need to sign into Terra with their Google account to allow you the  instructor to add them to projects and/or Workspaces associated with your specific class. This is the only way students can launch applications and perform computations on AnVIL. Have students [launch Terra](https://anvil.terra.bio/), and they should be prompted to sign in with your Google account.
 
@@ -49,11 +49,11 @@ Students can always access Terra by going to [`anvil.terra.bio`](https://anvil.t
 ottrpal::include_slide("https://docs.google.com/presentation/d/1tyt8ifxD3y7QW3nN27jh02aPrBvNEo1GN_u2Ne_UngM/edit#slide=id.gde7783227e_0_31")
 ```
 
-## Step 3: Get IDs from students
+## Get IDs from students
 
 It is _very important_ students share the Google account they used above with you! Otherwise, you cannot add them to class projects or Workspaces.
 
-# Creating groups
+# Grouping instructors and students
 
 Groups enable you to share your class Workspace and manage permissions for many people at once. We recommend starting with one Group for instructors and one Group for students.
 

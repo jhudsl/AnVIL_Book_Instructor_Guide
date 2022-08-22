@@ -134,7 +134,7 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7G
     ```
 
 
-# Keeping track of costs during your course
+# How much does a class cost?
 
 One of the advantages of billing projects in Terra is that you can keep track of the costs during real time. You can see how much each workspace is costing while your course is happening, so there are no unexpected surprises at the end!
 
@@ -167,7 +167,7 @@ Costs in AnVIL fall into one of three categories: compute costs, storage costs, 
 
 Finally, **network usage** costs are those involved with transferring data between networks or downloading data from the cloud to your local computer. Current prices can be found [here](https://cloud.google.com/storage/pricing#network-egress).
 
-# Where to get cost estimates
+## Estimating costs before the class begins
 
 AnVIL has a free [AnVIL_Cost_Estimator](https://docs.google.com/spreadsheets/d/1GUN93HDRqDbZ0uktaZjoP-y8Ril1T_VIJnQrjRD6tV4) that allows you estimate compute, storage, and network usage costs for your class. This is a Google sheet that you can tailor to fit your needs. Before you use it, make sure the prices are up to date by following the links at the bottom of the sheet. 
 
