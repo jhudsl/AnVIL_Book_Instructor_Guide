@@ -30,3 +30,4 @@ Note that some sections of this book cover steps in a lot of detail. When naviga
 ```{r, echo=FALSE, fig.alt="Double-clicking on the H2 headers (for example, 2.2) will expand the contents for view using the 'scroll_highlight' feature."}
 ottrpal::include_slide("https://docs.google.com/presentation/d/18yUr5XSEMgPk8JXFLKfG9JF7L9NpKbCF_mIcXagogKg/edit#slide=id.gde0d2ef5f6_0_1")
 ```
+
