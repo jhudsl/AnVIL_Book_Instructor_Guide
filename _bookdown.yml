@@ -7,6 +7,7 @@ rmd_files: ["index.Rmd",
             "03_Account_setup.Rmd",
             "04_Billing.Rmd",
             "05_Classroom_activities.Rmd",
+            "06_Running_the_class.Rmd",
             "B_Feedback.Rmd",
             "About.Rmd"]
 new_session: yes
