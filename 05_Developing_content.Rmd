@@ -153,57 +153,7 @@ You should now see this new Workspace at [`https://anvil.terra.bio/#workspaces`]
 ottrpal::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.geb84bbba9a_2_32")
 ```
 
-## Update Dashboard
-
-Edit the `README.md` file to add more details to your Workspace Dashboard page. You will use the same function you used to create the Workspace as to update it, with a small change. Instead of `create = TRUE` you’ll now see an argument `update = TRUE`. **Be very careful to use the correct Workspace name** here, so you don’t accidentally overwrite the wrong Workspace.
-
-```{r publish_2, eval = FALSE}
-AnVILPublish::as_workspace(
-  path = "/home/rstudio/AnVILPublishSkeleton", # directory containing DESCRIPTION file
-  namespace = "<billing-project>", # Billing project
-  name = "<My-Workspace>", # Actual Workspace name
-  update = TRUE, # Updates the Workspace with your changes
-  use_readme = TRUE # Use README file for Dashboard Description
-)
-```
-
-You can also click the pencil button next to “ABOUT THE WORKSPACE” to edit the Dashboard manually, but these changes won’t show up later in GitHub. They will also be overwritten by other AnVILPublish updates.
-
-## Post Jupyter Notebook
-
-The `.Rmd` file contains your content. You can make many `.Rmd` files. These will get turned into `.ipynb` Jupyter Notebooks when you update using AnVILPublish. After you make changes to your `.Rmd` files, update the Workspace by running:
-
-```{r publish_3, eval = FALSE}
-AnVILPublish::as_workspace(
-  path = "/home/rstudio/AnVILPublishSkeleton", # directory containing DESCRIPTION file
-  namespace = "<billing-project>", # Billing project
-  name = "<My-Workspace>", # Actual Workspace name
-  update = TRUE, # Updates the Workspace with your changes
-  use_readme = TRUE # Use README file for Dashboard Description
-)
-```
-
-Note that this is the same code used to update the Workspace Dashboard. You can use this exact code to update your workspace any time you save changes in RStudio!
-
-## Push Changes to GitHub
-
-Hosting your course's code on GitHub will ensure that it is reproducible, easy to update, and robust to any tweaks you make. After cloning the skeleton repository, you will need to make a few changes to ensure your content ends up associated with your GitHub account. This means you own it and can make/save changes!
-
-Briefly, you should:
-
-1. Create a new repository on [GitHub](https://github.com/new). Don't add a `README.md`, `.gitignore`, or license.
-
-1. Return to RStudio on AnVIL and Initialize your `.Rproj`.
-
-1. [`add`](https://git-scm.com/docs/git-add/en) and [`commit`](https://git-scm.com/docs/git-commit) your changes on AnVIL.  
-
-1. [`rename`](https://git-scm.com/docs/git-remote) and [`add`](https://git-scm.com/docs/git-remote) a new origin that points to the new repository you just created.
-
-1. [`push`](https://git-scm.com/docs/git-push) your changes. Remember that you will need to use a [GitHub Personal Token](https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token) instead of your password.
-
-Git can be challenging. Please reach out to our community network at [`help.anvilproject.org`](https://help.anvilproject.org/) for help.
-
-## Set Permissions - Workspace
+## Set Workspace permissions
 
 Finally, you will want to set up permissions for co-instructors and students to see the class Workspace you created with the development Billing Project in [Developing Content](developing-content.html). AnVIL users can take on the "Owner", "Writer", or "Reader" role for a Workspace.
 
@@ -274,6 +224,57 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7G
     ```
 
 You have now correctly set up your class permissions!
+
+## Update Dashboard
+
+Edit the `README.md` file to add more details to your Workspace Dashboard page. You will use the same function you used to create the Workspace as to update it, with a small change. Instead of `create = TRUE` you’ll now see an argument `update = TRUE`. **Be very careful to use the correct Workspace name** here, so you don’t accidentally overwrite the wrong Workspace.
+
+```{r publish_2, eval = FALSE}
+AnVILPublish::as_workspace(
+  path = "/home/rstudio/AnVILPublishSkeleton", # directory containing DESCRIPTION file
+  namespace = "<billing-project>", # Billing project
+  name = "<My-Workspace>", # Actual Workspace name
+  update = TRUE, # Updates the Workspace with your changes
+  use_readme = TRUE # Use README file for Dashboard Description
+)
+```
+
+You can also click the pencil button next to “ABOUT THE WORKSPACE” to edit the Dashboard manually, but these changes won’t show up later in GitHub. They will also be overwritten by other AnVILPublish updates.
+
+## Post Jupyter Notebook
+
+The `.Rmd` file contains your content. You can make many `.Rmd` files. These will get turned into `.ipynb` Jupyter Notebooks when you update using AnVILPublish. After you make changes to your `.Rmd` files, update the Workspace by running:
+
+```{r publish_3, eval = FALSE}
+AnVILPublish::as_workspace(
+  path = "/home/rstudio/AnVILPublishSkeleton", # directory containing DESCRIPTION file
+  namespace = "<billing-project>", # Billing project
+  name = "<My-Workspace>", # Actual Workspace name
+  update = TRUE, # Updates the Workspace with your changes
+  use_readme = TRUE # Use README file for Dashboard Description
+)
+```
+
+Note that this is the same code used to update the Workspace Dashboard. You can use this exact code to update your workspace any time you save changes in RStudio!
+
+## Push Changes to GitHub
+
+Hosting your course's code on GitHub will ensure that it is reproducible, easy to update, and robust to any tweaks you make. After cloning the skeleton repository, you will need to make a few changes to ensure your content ends up associated with your GitHub account. This means you own it and can make/save changes!
+
+Briefly, you should:
+
+1. Create a new repository on [GitHub](https://github.com/new). Don't add a `README.md`, `.gitignore`, or license.
+
+1. Return to RStudio on AnVIL and Initialize your `.Rproj`.
+
+1. [`add`](https://git-scm.com/docs/git-add/en) and [`commit`](https://git-scm.com/docs/git-commit) your changes on AnVIL.  
+
+1. [`rename`](https://git-scm.com/docs/git-remote) and [`add`](https://git-scm.com/docs/git-remote) a new origin that points to the new repository you just created.
+
+1. [`push`](https://git-scm.com/docs/git-push) your changes. Remember that you will need to use a [GitHub Personal Token](https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token) instead of your password.
+
+Git can be challenging. Please reach out to our community network at [`help.anvilproject.org`](https://help.anvilproject.org/) for help.
+
 
 ## Notify Terra
 
