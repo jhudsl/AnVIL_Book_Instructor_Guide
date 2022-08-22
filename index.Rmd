@@ -6,7 +6,7 @@ documentclass: book
 biblio-style: apalike
 link-citations: yes
 description: "Guide to help teachers and instructors set up accounts and use the AnVIL platform for instruction"
-favicon: assets/anvil_favicon.ico
+favicon: assets/AnVIL_style/anvil_favicon.ico
 ---
 
 ```{r include=FALSE}
