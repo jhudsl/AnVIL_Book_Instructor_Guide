@@ -1,13 +1,13 @@
-# (PART\*) Developing your own content {-}
+# (PART\*) Classroom activities {-}
 
 
 ```{r, include = FALSE}
 ottrpal::set_knitr_image_path()
 ```
 
-# Developing Content
+# Developing your own content
 
-## Overview of Developing Content
+## Overview
 
 This chapter will show you how to publish a Workspace on AnVIL using RStudio. Publishing Workspaces programmatically makes it easier to incorporate version control (e.g., using [git](https://git-scm.com/)) and ensures that all of your notebook files end up in the Workspace.
 
@@ -280,3 +280,48 @@ Git can be challenging. Please reach out to our community network at [`help.anvi
 
 Contacting Terra ahead of your class time helps the Terra team avoid any major disruptions to your class. Contact Terra by [submitting a request](https://support.terra.bio/hc/en-us/requests/new) for a hold on scheduled maintenance and downtime. It’s also a good idea to ask about major changes planned for the time prior to your class.
 
+
+# Using premade content
+
+## Overview
+
+This chapter will help you get started with the premade class activities available through AnVIL. Here are the activities currently available:
+
+| Activity | Skill level | Platform   | Estimated Cost per student	|
+| :-- | :-- | :-- | :--|
+| [GDSCN: SARS Galaxy on AnVIL](https://jhudatascience.org/GDSCN_Book_SARS_Galaxy_on_AnVIL) | Advanced undergraduates, Graduate students | Galaxy | Coming soon |
+| [GDSCN: Statistics for Genomics Differential Expression](https://jhudatascience.org/GDSCN_Book_Statistics_for_Genomics_Differential_Expression) | Graduate students | RStudio | Coming soon |
+| [GDSCN: Statistics for Genomics PCA](https://jhudatascience.org/GDSCN_Book_Statistics_for_Genomics_PCA) | Graduate students | RStudio | Coming soon |
+| [GDSCN: Statistics for Genomics RNA-seq](https://jhudatascience.org/GDSCN_Book_Statistics_for_Genomics_RNA-seq) | Graduate students | RStudio | Coming soon |
+| [GDSCN: Statistics for Genomics SCRNA-seq](https://jhudatascience.org/GDSCN_Book_Statistics_for_Genomics_SCRNA-seq) | Graduate students | RStudio | Coming soon |
+| [AnVIL: Phylogenetic Techniques, full semester course](https://jhudatascience.org/phylogenetic-techniques) | Advanced undergraduates, Graduate students | RStudio | Coming soon |
+| AnVIL: Phylogenetic Techniques, single activity | Advanced undergraduates, Graduate students | RStudio | Coming soon |
+| AnVIL: Epigenomics |  |  | Coming soon |
+
+### Before You Start
+
+1. You need to set up [Billing](#billing-project). This includes your Google Billing Account and Terra Billing Project. Take note of your Terra Billing Project name.
+
+1. If you are running one of the activities that uses RStudio, you should launch RStudio using the Community-Maintained RStudio Environment. This requires you to be familiar with [RStudio on AnVIL](#starting-rstudio).
+
+## Cloning the workspace
+
+Workspaces are the building blocks of projects in Terra. Inside a Workspace, you can run analyses, launch interactive tools like RStudio and Galaxy, store data, and share results. 
+
+Cloning the workspace associated with one of the premade AnVIL activities gives you access to all the necessary data. When cloning, AnVIL makes a copy of notebooks and code for you to modify. Data however, is linked back to the original Workspace through Data Tables, which saves space!
+
+The video below gives a brief introduction to the parts of a Workspace.
+
+<iframe src="https://drive.google.com/file/d/18WUmQfDnulHdaMlrH0Eh6kwIP3zTkaqp/preview" width="640" height="360" allow="autoplay"></iframe>
+
+
+```{r, echo = FALSE, results='asis'}
+cow::borrow_chapter(
+  doc_path = "child/_child_workspace_clone.Rmd",
+  repo_name = "jhudsl/AnVIL_Template"
+)
+```
+
+## Notify Terra
+
+Contacting Terra ahead of your class time helps the Terra team avoid any major disruptions to your class. Contact Terra by [submitting a request](https://support.terra.bio/hc/en-us/requests/new) for a hold on scheduled maintenance and downtime. It’s also a good idea to ask about major changes planned for the time prior to your class.
