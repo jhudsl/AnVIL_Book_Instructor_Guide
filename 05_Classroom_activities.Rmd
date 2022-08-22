@@ -287,16 +287,16 @@ Contacting Terra ahead of your class time helps the Terra team avoid any major d
 
 This chapter will help you get started with the premade class activities available through AnVIL. Here are the activities currently available:
 
-| Activity | Skill level | Platform   | Estimated Cost per student	|
-| :-- | :-- | :-- | :--|
-| [GDSCN: SARS Galaxy on AnVIL](https://jhudatascience.org/GDSCN_Book_SARS_Galaxy_on_AnVIL) | Advanced undergraduates, Graduate students | Galaxy | Coming soon |
-| [GDSCN: Statistics for Genomics Differential Expression](https://jhudatascience.org/GDSCN_Book_Statistics_for_Genomics_Differential_Expression) | Graduate students | RStudio | Coming soon |
-| [GDSCN: Statistics for Genomics PCA](https://jhudatascience.org/GDSCN_Book_Statistics_for_Genomics_PCA) | Graduate students | RStudio | Coming soon |
-| [GDSCN: Statistics for Genomics RNA-seq](https://jhudatascience.org/GDSCN_Book_Statistics_for_Genomics_RNA-seq) | Graduate students | RStudio | Coming soon |
-| [GDSCN: Statistics for Genomics SCRNA-seq](https://jhudatascience.org/GDSCN_Book_Statistics_for_Genomics_SCRNA-seq) | Graduate students | RStudio | Coming soon |
-| [AnVIL: Phylogenetic Techniques, full semester course](https://jhudatascience.org/phylogenetic-techniques) | Advanced undergraduates, Graduate students | RStudio | Coming soon |
-| AnVIL: Phylogenetic Techniques, single activity | Advanced undergraduates, Graduate students | RStudio | Coming soon |
-| AnVIL: Epigenomics |  |  | Coming soon |
+| Activity | Skill level | Platform   
+| :-- | :-- | :-- |
+| [GDSCN: SARS Galaxy on AnVIL](https://jhudatascience.org/GDSCN_Book_SARS_Galaxy_on_AnVIL) | Advanced undergraduates, Graduate students | Galaxy |
+| [GDSCN: Statistics for Genomics Differential Expression](https://jhudatascience.org/GDSCN_Book_Statistics_for_Genomics_Differential_Expression) | Graduate students | RStudio |
+| [GDSCN: Statistics for Genomics PCA](https://jhudatascience.org/GDSCN_Book_Statistics_for_Genomics_PCA) | Graduate students | RStudio |
+| [GDSCN: Statistics for Genomics RNA-seq](https://jhudatascience.org/GDSCN_Book_Statistics_for_Genomics_RNA-seq) | Graduate students | RStudio |
+| [GDSCN: Statistics for Genomics SCRNA-seq](https://jhudatascience.org/GDSCN_Book_Statistics_for_Genomics_SCRNA-seq) | Graduate students | RStudio |
+| [AnVIL: Phylogenetic Techniques](https://jhudatascience.org/phylogenetic-techniques) | Advanced undergraduates, Graduate students | RStudio |
+| AnVIL: Tree Thinking | Advanced undergraduates, Graduate students | RStudio |
+| AnVIL: Epigenomics |  | Galaxy |
 
 ### Before You Start
 
