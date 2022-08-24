@@ -55,7 +55,7 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1tyt8ifxD3y7QW3nN
 
 It is _very important_ students share the Google account they used above with you! Otherwise, you cannot add them to billing projects, groups, or Workspaces.
 
-# Grouping instructors and students
+# Groups for easy management
 
 Groups enable you to share your class Workspace and manage permissions for many people at once. We recommend starting with one Group for instructors and one Group for students.
 
@@ -63,7 +63,7 @@ Groups enable you to share your class Workspace and manage permissions for many 
 
 Create an informative, unique Group name for any co-instructors and teaching assistants. We suggest a combination of institution-class-role (e.g., “jhu-bmr2021-instructors”). Only letters, numbers, underscores, and dashes are allowed in Group names. To create a Group for instructors:
 
-1. Go to https://anvil.terra.bio/#groups
+1. Go to [https://anvil.terra.bio/#groups](https://anvil.terra.bio/#groups)
 
 1. Click “+ Create a New Group”
 
@@ -221,7 +221,7 @@ Your instructor and student Groups are now set up.
 
 ## Group Email Lists
 
-Note that your newly created Groups have Group emails associated with them. Take note of these Group emails. You will use them for granting access to your class Billing Projects and Workspaces.
+Note that your newly created Groups have Group emails associated with them. Take note of these Group emails. You will use them for granting access to your class Billing Projects and Workspaces. It saves you from having to add or revoke access to students one by one.
 
 ```{r, echo=FALSE, fig.alt='Screenshot of the Terra Group page. Emails associated with newly formed Groups have been highlighted.'}
 ottrpal::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g100474897dd_0_96")
