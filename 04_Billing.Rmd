@@ -4,9 +4,12 @@
 ottrpal::set_knitr_image_path()
 ```
 
-# Getting or setting up a billing project
-
-This is a step-by-step guide to help you set up billing projects for your class. 
+The following will help you set up billing for your class. You will:  
+* Set up a billing project for tracking costs
+* Add yourself and students to the billing project to grant permission to AnVIL resources
+* Learn about different sources of costs in AnVIL
+* Estimate costs for your class
+* Learn about how to track costs during your class
 
 ## Creating a billing project {#billing-project}
 
@@ -84,9 +87,9 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7G
 ottrpal::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g1007b9b3ffb_0_70")
     ```
 
-    
-::: {.fyi}
-This step makes it so that co-instructors can edit permissions and administer the Billing Project as needed. While this means you and co-instructors can compute using the student Billing Project, this makes spending difficult to track. Instructors should always use the **instructor workspace** to compute. This makes it much easier to track costs associated with instructors versus students.
+
+::: {.notice}
+This step makes it so that co-instructors can edit permissions and administer the Billing Project as needed. While this means you and co-instructors can compute using the student Billing Project, this makes spending difficult to track. Instructors should always use the **instructor Workspace** to compute. This makes it much easier to track costs associated with instructors versus students.
 :::
 
 ## Adding Students as “User”
@@ -133,10 +136,23 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7G
 ottrpal::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g1007b9b3ffb_0_327")
     ```
 
+## Understanding the various billing costs
+
+Costs in AnVIL fall into one of three categories: compute costs, storage costs, and network usage (egress) costs. **Compute costs** are those that students accrue when actively using an AnVIL Workspace. Students can clone a Workspace for no cost, but they will begin to accrue costs as soon as they set up a cloud environment. Compute costs are based on how many CPUs you need, as well as how much memory and storage space you choose. You can also pause the Workspace and pay a lower cost per hour than if you were to keep the Workspace running. Current prices can be found [here](https://cloud.google.com/compute/all-pricing#top_of_page).
+
+**Storage costs** are driven by the persistent disk. The persistent disk allows you to store data and installed programs/libraries for a low cost. Students can delete their Workspaces but maintain their persistent disk so they still have access to previous programs they have installed and previous files they've created. Current prices can be found [here](https://cloud.google.com/storage/pricing#storage-pricing%20and%20https://cloud.google.com/compute/all-pricing#localssdpricing).
+
+Finally, **network usage** costs are those involved with transferring data between networks or downloading data from the cloud to your local computer. Current prices can be found [here](https://cloud.google.com/storage/pricing#network-egress).
+
+## Estimating costs before the class begins
+
+AnVIL has a free [AnVIL_Cost_Estimator](https://docs.google.com/spreadsheets/d/1GUN93HDRqDbZ0uktaZjoP-y8Ril1T_VIJnQrjRD6tV4) that allows you estimate compute, storage, and network usage costs for your class. This is a Google sheet that you can tailor to fit your needs. Before you use it, make sure the prices are up to date by following the links at the bottom of the sheet. 
+
+If you need to create a Budget Justification for your class, you can also use the free [AnVIL_Budget_Justification](https://docs.google.com/document/d/145JFLn2hviLmaYF-mO06gbCkG0i4HRaWvkUBKORo85Y/edit) template. 
 
 # How much does a class cost?
 
-One of the advantages of billing projects in Terra is that you can keep track of the costs during real time. You can see how much each workspace is costing while your course is happening, so there are no unexpected surprises at the end!
+One of the advantages of billing projects in Terra is that you can keep track of the costs during real time. You can see how much each Workspace is costing while your course is happening, so there are no unexpected surprises at the end!
 
 Full details about billing in Terra can be found [here](https://support.terra.bio/hc/en-us/articles/4405325218075). These instructions are adapted from Terra Support.
 
@@ -156,22 +172,6 @@ This takes you to a report of the detailed charges accrued by the billing accoun
 
 
 <img src="resources/images/04_billing/billing_3.png" title="Locating dropdown menu" alt="Locating dropdown menu" style="display: block; margin: auto;" />
-
-
-
-## Understanding the various billing costs
-
-Costs in AnVIL fall into one of three categories: compute costs, storage costs, and network usage (egress) costs. **Compute costs** are those that students accrue when actively using an AnVIL workspace. Students can clone a workspace for no cost, but they will begin to accrue costs as soon as they set up a cloud environment. Compute costs are based on how many CPUs you need, as well as how much memory and storage space you choose. You can also pause the workspace and pay a lower cost per hour than if you were to keep the workspace running. Current prices can be found [here](https://cloud.google.com/compute/all-pricing#top_of_page).
-
-**Storage costs** are driven by the persistent disk. The persistent disk allows you to store data and installed programs/libraries for a low cost. Students can delete their workspaces but maintain their persistent disk so they still have access to previous programs they have installed and previous files they've created. Current prices can be found [here](https://cloud.google.com/storage/pricing#storage-pricing%20and%20https://cloud.google.com/compute/all-pricing#localssdpricing).
-
-Finally, **network usage** costs are those involved with transferring data between networks or downloading data from the cloud to your local computer. Current prices can be found [here](https://cloud.google.com/storage/pricing#network-egress).
-
-## Estimating costs before the class begins
-
-AnVIL has a free [AnVIL_Cost_Estimator](https://docs.google.com/spreadsheets/d/1GUN93HDRqDbZ0uktaZjoP-y8Ril1T_VIJnQrjRD6tV4) that allows you estimate compute, storage, and network usage costs for your class. This is a Google sheet that you can tailor to fit your needs. Before you use it, make sure the prices are up to date by following the links at the bottom of the sheet. 
-
-If you need to create a Budget Justification for your class, you can also use the free [AnVIL_Budget_Justication](https://docs.google.com/document/d/145JFLn2hviLmaYF-mO06gbCkG0i4HRaWvkUBKORo85Y/edit) template. 
 
 ## Funding sources
 
