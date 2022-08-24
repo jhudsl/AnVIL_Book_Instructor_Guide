@@ -51,7 +51,9 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1tyt8ifxD3y7QW3nN
 
 ## Get IDs from students
 
-It is _very important_ students share the Google account they used above with you! Otherwise, you cannot add them to class projects or Workspaces.
+<!-- This would make a great callout box -->
+
+It is _very important_ students share the Google account they used above with you! Otherwise, you cannot add them to billing projects, groups, or Workspaces.
 
 # Grouping instructors and students
 
