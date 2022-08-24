@@ -88,7 +88,7 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7G
     ```
 
     
-::: {.fyi}
+::: {.notice}
 This step makes it so that co-instructors can edit permissions and administer the Billing Project as needed. While this means you and co-instructors can compute using the student Billing Project, this makes spending difficult to track. Instructors should always use the **instructor Workspace** to compute. This makes it much easier to track costs associated with instructors versus students.
 :::
 
