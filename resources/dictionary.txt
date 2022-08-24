@@ -4,7 +4,6 @@ AnVILPublishSkeleton
 bioinformatics
 bmr
 dropdown
-fyi
 Gmail
 GSuite
 https
