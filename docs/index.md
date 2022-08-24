@@ -1,12 +1,12 @@
 ---
 title: "AnVIL Instructor Guide"
-date: "August 18, 2022"
+date: "August 24, 2022"
 site: bookdown::bookdown_site
 documentclass: book
 biblio-style: apalike
 link-citations: yes
 description: "Guide to help teachers and instructors set up accounts and use the AnVIL platform for instruction"
-favicon: assets/anvil_favicon.ico
+favicon: assets/AnVIL_style/anvil_favicon.ico
 ---
 
 
@@ -22,44 +22,9 @@ This book is part of a series of books for the Genomic Data Science Analysis, Vi
 Please check out our full collection of AnVIL and related resources below!
 
 <table>
- <thead>
-  <tr>
-   <th style="text-align:left;"> Book Name </th>
-   <th style="text-align:left;"> Link </th>
-  </tr>
- </thead>
 <tbody>
   <tr>
-   <td style="text-align:left;"> AnVIL: Getting Started </td>
-   <td style="text-align:left;"> https://jhudatascience.org/AnVIL_Book_Getting_Started </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> AnVIL: Instructor Guide </td>
-   <td style="text-align:left;"> https://jhudatascience.org/AnVIL_Book_Instructor_Guide </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> AnVIL: WDL </td>
-   <td style="text-align:left;"> https://jhudatascience.org/AnVIL_Book_WDL </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> GDSCN: SARS Galaxy on AnVIL </td>
-   <td style="text-align:left;"> https://jhudatascience.org/GDSCN_Book_SARS_Galaxy_on_AnVIL </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> GDSCN: Statistics for Genomics Differential Expression </td>
-   <td style="text-align:left;"> https://jhudatascience.org/GDSCN_Book_Statistics_for_Genomics_Differential_Expression </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> GDSCN: Statistics for Genomics PCA </td>
-   <td style="text-align:left;"> https://jhudatascience.org/GDSCN_Book_Statistics_for_Genomics_PCA </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> GDSCN: Statistics for Genomics RNA-seq </td>
-   <td style="text-align:left;"> https://jhudatascience.org/GDSCN_Book_Statistics_for_Genomics_RNA-seq </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> GDSCN: Statistics for Genomics SCRNA-seq </td>
-   <td style="text-align:left;"> https://jhudatascience.org/GDSCN_Book_Statistics_for_Genomics_SCRNA-seq </td>
+
   </tr>
 </tbody>
 </table>

@@ -276,7 +276,7 @@ You want to ensure any additional co-instructors and teaching assistants are abl
 
     <img src="05_Class_setup_files/figure-html//1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag_g1007b9b3ffb_0_70.png" title="Screenshot of the AnVIL Billing page with the &quot;Add User&quot; pop out box. The instructor Group email, in this case jhu-bmr2021-instructors@firecloud.org, has been filled in and the Owner role checkbox has been ticked. The &quot;ADD USER&quot; button is highlighted." alt="Screenshot of the AnVIL Billing page with the &quot;Add User&quot; pop out box. The instructor Group email, in this case jhu-bmr2021-instructors@firecloud.org, has been filled in and the Owner role checkbox has been ticked. The &quot;ADD USER&quot; button is highlighted." width="480" />
     
-::: {.fyi}
+::: {.notice}
 This step makes it so that co-instructors can edit permissions and administer the student Billing Project as needed. While this means you and co-instructors can compute using the student Billing Project, this makes spending difficult to track. Instructors should always use the **instructor Billing Project** to compute. This makes it much easier to track costs associated with instructors versus students.
 :::
 
@@ -342,7 +342,7 @@ You should add your co-instructors and teaching assistants as “Owners” to th
 
     <img src="05_Class_setup_files/figure-html//1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag_g1007b9b3ffb_0_365.png" title="Screenshot of the share Workspace pop out box. The instructor Group email has been added with permissions correctly set. The &quot;SAVE&quot; button is highlighted." alt="Screenshot of the share Workspace pop out box. The instructor Group email has been added with permissions correctly set. The &quot;SAVE&quot; button is highlighted." width="480" />
 
-::: {.fyi}
+::: {.notice}
 This step makes it so that co-instructors can edit the original content of the Workspace as needed. While this means you and co-instructors can compute using the development Billing Project, this makes spending difficult to track. Instructors should instead clone the Workspace using the **instructor Billing Project**. This makes it much easier to track costs associated with this iteration of your class versus further iterations (e.g., the following semester or year).
 :::
 
