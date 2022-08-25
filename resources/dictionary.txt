@@ -1,10 +1,12 @@
 AnVIL
 AnVILPublish
 AnVILPublishSkeleton
+bioinformatics
 bmr
 dropdown
 Gmail
 GSuite
+https
 ITCR
 itcrtraining
 ITN
@@ -15,9 +17,11 @@ Markua
 NCI
 NHGRI
 NHGRI's
+premade
 preprint
 programmatically
 RStudio
+terra
 UE5
 walkthrough
 Workspace
