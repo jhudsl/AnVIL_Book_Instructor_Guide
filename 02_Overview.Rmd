@@ -19,7 +19,7 @@ This book is targeted towards people who are teaching a course or workshop on An
 
 ```{r, echo = FALSE, results='asis'}
 cow::borrow_chapter(
-  doc_path = "child/_child_google_billing_create_account.Rmd",
+  doc_path = "child/_child_why_AnVIL_instructor.Rmd",
   branch = "why-anvil",
   repo_name = "jhudsl/AnVIL_Template"
 )
