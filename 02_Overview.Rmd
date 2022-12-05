@@ -21,7 +21,7 @@ This book is targeted towards people who are teaching a course or workshop on An
 cow::borrow_chapter(
   doc_path = "child/_child_why_AnVIL_instructor.Rmd",
   branch = "why-anvil",
-  repo_name = "jhudsl/AnVIL_Template"
+  repo_name = "jhudsl/AnVIL_Book_Instructor_Guide"
 )
 ```
 
