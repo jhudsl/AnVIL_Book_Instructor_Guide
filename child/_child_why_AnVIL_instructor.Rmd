@@ -9,5 +9,5 @@ AnVIL provides all the advantages of a cloud computing environment:
 AnVIL is purpose-built for genomic data science:
 
 - **Tools**: Through AnVIL, students can access a wide range of tools (Galaxy, RStudio/Bioconductor, Jupyter, as well as scripted workflows) all in one place, and can easily transition between them.
-- **Datasets**: AnVIL provides a large and growing collection of relevant datasets with standardized organization, for easier importing and processing
+- **Datasets**: AnVIL provides a large and growing collection of relevant datasets with standardized organization, for easier importing and processing.
 - **Authenticity**: On AnVIL, students will be working in the same environment as scientists carrying out cutting edge research.
