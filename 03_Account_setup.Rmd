@@ -28,14 +28,13 @@ You can always access Terra by going to [`anvil.terra.bio`](https://anvil.terra.
 ottrpal::include_slide("https://docs.google.com/presentation/d/1tyt8ifxD3y7QW3nN27jh02aPrBvNEo1GN_u2Ne_UngM/edit#slide=id.gde7783227e_0_31")
 ```
 
-
-## Set up Google Billing (some users)
+# Set up Google Billing (some users)
 
 Google Billing Accounts are how you pay Google for you and your students' cloud costs.
 
 Depending on how you are being funded, this may be taken care of for you. If your funding is being managed by a third party (e.g. through a funding mechanism such as [STRIDES](https://datascience.nih.gov/strides), or through your institution), contact them to determine whether you need to do any billing administration through Google.  If not, you can proceed directly to [Terra Billing Projects](#terra-billing-projects).
 
-## Set up Terra Billing Projects {#terra-billing-projects}
+# Set up Terra Billing Projects {#terra-billing-projects}
 
 Terra Billing Projects are how you grant people permission to compute on AnVIL.  By adding someone to your Billing Project, you enable them to use your funding to carry out activities on AnVIL.
 
@@ -47,7 +46,7 @@ When teaching on AnVIL
 The instructions below walk you through creating a Terra Billing Project.  If you do not need to create your own, you can proceed directly to creating an Instructor / TA Group.
 
 
-### Create Terra Billing Project(s)
+## Create Terra Billing Project(s)
 
 It's often beneficial to set up two separate Billing Projects for a course:
 
@@ -56,7 +55,18 @@ It's often beneficial to set up two separate Billing Projects for a course:
 
 This is not required, but can make management a bit easier.
 
- 
+Terra Billing Projects need unique names.  One option is to use a combination of institution-class-term (e.g. `jhu-bio101-2022SP`).
+
+To create a Terra Billing Project:
+
+:::: {.borrowed_chunk}
+```{r, echo = FALSE, results='asis'}
+cow::borrow_chapter(
+  doc_path = "child/_child_terra_create_billing_project.Rmd",
+  repo_name = "jhudsl/AnVIL_Template"
+)
+```
+::::
 
 # Creating and adding student accounts
 
