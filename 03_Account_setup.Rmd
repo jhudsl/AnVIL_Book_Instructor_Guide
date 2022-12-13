@@ -1,4 +1,4 @@
-# (PART\*) User Setup {-}
+# (PART\*) Instructor Setup {-}
 
 ```{r, include = FALSE}
 ottrpal::set_knitr_image_path()
@@ -28,6 +28,35 @@ You can always access Terra by going to [`anvil.terra.bio`](https://anvil.terra.
 ottrpal::include_slide("https://docs.google.com/presentation/d/1tyt8ifxD3y7QW3nN27jh02aPrBvNEo1GN_u2Ne_UngM/edit#slide=id.gde7783227e_0_31")
 ```
 
+
+## Set up Google Billing (some users)
+
+Google Billing Accounts are how you pay Google for you and your students' cloud costs.
+
+Depending on how you are being funded, this may be taken care of for you. If your funding is being managed by a third party (e.g. through a funding mechanism such as [STRIDES](https://datascience.nih.gov/strides), or through your institution), contact them to determine whether you need to do any billing administration through Google.  If not, you can proceed directly to [Terra Billing Projects](#terra-billing-projects).
+
+## Set up Terra Billing Projects {#terra-billing-projects}
+
+Terra Billing Projects are how you grant people permission to compute on AnVIL.  By adding someone to your Billing Project, you enable them to use your funding to carry out activities on AnVIL.
+
+When teaching on AnVIL
+
+- You will need to *manage* members of your Billing Project, in order to add students and TAs.  This is most easily done using Terra Groups.
+- You may or may not need to *create* your own Terra Billing Projects.  If your funding is being managed by a third party (e.g. through a funding mechanism such as [STRIDES](https://datascience.nih.gov/strides), or through your institution), contact them to determine whether you should create Terra Billing Projects yourself.
+
+The instructions below walk you through creating a Terra Billing Project.  If you do not need to create your own, you can proceed directly to creating an Instructor / TA Group.
+
+
+### Create Terra Billing Project(s)
+
+It's often beneficial to set up two separate Billing Projects for a course:
+
+1. Instructor/TA - used to fund development and testing of the material.  It can persist for multiple sessions of the course.
+2. Student - funds all student activity, and is deleted at the end of the course activities.
+
+This is not required, but can make management a bit easier.
+
+ 
 
 # Creating and adding student accounts
 
