@@ -40,10 +40,10 @@ Terra Billing Projects are how you grant people permission to compute on AnVIL. 
 
 When teaching on AnVIL
 
-- You will need to *manage* members of your Billing Project, in order to add students and TAs.  This is most easily done using Terra Groups.
-- You may or may not need to *create* your own Terra Billing Projects.  If your funding is being managed by a third party (e.g. through a funding mechanism such as [STRIDES](https://datascience.nih.gov/strides), or through your institution), contact them to determine whether you should create Terra Billing Projects yourself.
+- You **will** need to manage members of your Billing Project, in order to add students and TAs.  This is most easily done using Terra Groups.
+- You may or may not need to create your own Terra Billing Projects.  If your funding is being managed by a third party (e.g. through a funding mechanism such as [STRIDES](https://datascience.nih.gov/strides), or through your institution), contact them to determine whether you should create Terra Billing Projects yourself.
 
-The instructions below walk you through creating a Terra Billing Project.  If you do not need to create your own, you can proceed directly to creating an Instructor / TA Group.
+The instructions below walk you through creating a Terra Billing Project.  If you do not need to create your own, you can proceed directly to creating an [Instructor / TA Group](#instructor-group).
 
 
 ## Create Terra Billing Project(s)
@@ -54,6 +54,10 @@ It's often beneficial to set up two separate Billing Projects for a course:
 2. Student - funds all student activity, and is deleted at the end of the course activities.
 
 This is not required, but can make management a bit easier.
+
+::: {.warning}
+Make sure the Google Account you use to log into Terra is the one associated with Google Billing (the account your funding manager has set up for you, or the account you used to set up Google Billing yourself)
+:::
 
 Terra Billing Projects need unique names.  One option is to use a combination of institution-class-term (e.g. `jhu-bio101-2022SP`).
 
@@ -68,35 +72,11 @@ cow::borrow_chapter(
 ```
 ::::
 
-# Creating and adding student accounts
-
-Since Terra operates on Google Cloud Platform, students need a Google account to make sure you can keep track of any computing costs they accrue. 
-
-## Have students create a Google Account
-
-```{r, child=c("_child_create_google_account.Rmd")}
-
-```
-
-## Have students sign in to Terra
-
-Students need to sign into Terra with their Google account to allow you the  instructor to add them to projects and/or Workspaces associated with your specific class. This is the only way students can launch applications and perform computations on AnVIL. Have students [launch Terra](https://anvil.terra.bio/), and they should be prompted to sign in with your Google account.
-
-::: {.warning}
-**Collect Accounts**: It is _very important_ students share the Google account they used above with you! Otherwise, you cannot add them to billing projects, groups, or Workspaces.
-:::
-
-Students can always access Terra by going to [`anvil.terra.bio`](https://anvil.terra.bio/), or by clicking the link on the AnVIL home page.
-
-```{r, echo=FALSE, fig.alt='Screenshot of the AnVIL home page. The button to "launch Terra" is highlighted.'}
-ottrpal::include_slide("https://docs.google.com/presentation/d/1tyt8ifxD3y7QW3nN27jh02aPrBvNEo1GN_u2Ne_UngM/edit#slide=id.gde7783227e_0_31")
-```
-
-# Groups for easy management
+# Create Instructor/TA group {#instructor-group}
 
 Groups enable you to share your class Workspace and manage permissions for many people at once. We recommend starting with one Group for instructors and one Group for students.
 
-## Instructor Group {#instructor-group}
+## Instructor Group 
 
 Create an informative, unique Group name for any co-instructors and teaching assistants. We suggest a combination of institution-class-role (e.g., “jhu-bmr2021-instructors”). Only letters, numbers, underscores, and dashes are allowed in Group names. To create a Group for instructors:
 
@@ -157,6 +137,41 @@ Make sure the newly added instructor displays “Admin” under “Roles” besi
 ```{r, echo=FALSE, fig.alt='Screenshot of the Terra Group for the instructor Group that was just created, where the newly added instructor is visible in the user list. The instructor`s AnVIL ID, instructor-1@gmail.com is visible next to the role "Admin", which is highlighted.'}
 ottrpal::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g100474897dd_0_78")
 ```
+
+## Group Email Lists
+
+Note that your newly created Groups have Group emails associated with them. Take note of these Group emails. You will use them for granting access to your class Billing Projects and Workspaces. It saves you from having to add or revoke access to students one by one.
+
+```{r, echo=FALSE, fig.alt='Screenshot of the Terra Group page. Emails associated with newly formed Groups have been highlighted.'}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g100474897dd_0_96")
+```
+
+
+# Creating and adding student accounts
+
+Since Terra operates on Google Cloud Platform, students need a Google account to make sure you can keep track of any computing costs they accrue. 
+
+## Have students create a Google Account
+
+```{r, child=c("_child_create_google_account.Rmd")}
+
+```
+
+## Have students sign in to Terra
+
+Students need to sign into Terra with their Google account to allow you the  instructor to add them to projects and/or Workspaces associated with your specific class. This is the only way students can launch applications and perform computations on AnVIL. Have students [launch Terra](https://anvil.terra.bio/), and they should be prompted to sign in with your Google account.
+
+::: {.warning}
+**Collect Accounts**: It is _very important_ students share the Google account they used above with you! Otherwise, you cannot add them to billing projects, groups, or Workspaces.
+:::
+
+Students can always access Terra by going to [`anvil.terra.bio`](https://anvil.terra.bio/), or by clicking the link on the AnVIL home page.
+
+```{r, echo=FALSE, fig.alt='Screenshot of the AnVIL home page. The button to "launch Terra" is highlighted.'}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1tyt8ifxD3y7QW3nN27jh02aPrBvNEo1GN_u2Ne_UngM/edit#slide=id.gde7783227e_0_31")
+```
+
+# Groups for easy management
 
 ## Student Group {#student-group}
 
