@@ -80,8 +80,11 @@ Groups enable you to share your class Workspace and manage permissions for many 
 
 Choose an informative, unique Group name. We suggest a combination of institution-class-term-role (e.g., “jhu-bio101-2022SP-instructors”). Only letters, numbers, underscores, and dashes are allowed in Group names.
 
+# Create Terra Group
+
 To create a Group:
 
+::::{.borrowed_chunk}
 ```{r, echo = FALSE, results='asis'}
 cow::borrow_chapter(
   doc_path = "child/_child_terra_group_create.Rmd",
@@ -89,6 +92,7 @@ cow::borrow_chapter(
   repo_name = "jhudsl/AnVIL_Template"
 )
 ```
+::::
 
 You now have a unique **instructor Group**.
 
