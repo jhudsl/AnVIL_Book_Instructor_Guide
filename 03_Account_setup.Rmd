@@ -76,25 +76,19 @@ cow::borrow_chapter(
 
 Groups enable you to share your class Workspace and manage permissions for many people at once. We recommend starting with one Group for instructors and one Group for students.
 
-## Instructor Group 
+<br>
 
-Create an informative, unique Group name for any co-instructors and teaching assistants. We suggest a combination of institution-class-role (e.g., “jhu-bmr2021-instructors”). Only letters, numbers, underscores, and dashes are allowed in Group names. To create a Group for instructors:
+Choose an informative, unique Group name. We suggest a combination of institution-class-term-role (e.g., “jhu-bio101-2022SP-instructors”). Only letters, numbers, underscores, and dashes are allowed in Group names.
 
-1. Go to [https://anvil.terra.bio/#groups](https://anvil.terra.bio/#groups)
+To create a Group:
 
-1. Click “+ Create a New Group”
-
-    ```{r, echo=FALSE, fig.alt='Screenshot of the Terra Group page. The "Create a New Group" button is highlighted.'}
-ottrpal::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.gdb96a00840_0_6")
-    ```
-
-1. Type in your instructor Group name
-
-1. Click “CREATE GROUP”
-
-    ```{r, echo=FALSE, fig.alt='Screenshot of the Terra Group page with Create New Group pop out box. The Group name, jhu-bmr2021-instructors, has been entered and the "CREATE GROUP" button is highlighted.'}
-ottrpal::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.gdb96a00840_0_16")
-    ```
+```{r, echo = FALSE, results='asis'}
+cow::borrow_chapter(
+  doc_path = "child/_child_terra_group_create.Rmd",
+  branch = "add-terra-groups-modules",
+  repo_name = "jhudsl/AnVIL_Template"
+)
+```
 
 You now have a unique **instructor Group**.
 
