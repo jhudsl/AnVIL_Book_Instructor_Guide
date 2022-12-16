@@ -80,7 +80,7 @@ Groups enable you to share your class Workspace and manage permissions for many 
 
 Choose an informative, unique Group name. We suggest a combination of institution-class-term-role (e.g., “jhu-bio101-2022SP-instructors”). Only letters, numbers, underscores, and dashes are allowed in Group names.
 
-# Create Terra Group
+## Create Terra Group
 
 To create a Group:
 
@@ -96,53 +96,31 @@ cow::borrow_chapter(
 
 You now have a unique **instructor Group**.
 
-### Add Instructors as "Admin" (Instructor Group)
+## Add Instructors and TAs to Group
 
-Now that your instructor Group has been created, you should add any additional instructors. You should also ensure that they have the correct permissions. 
+Now that your instructor Group has been created, you should add any additional instructors and TAs. You should also ensure that they have the correct permissions.
 
-1. Go to https://anvil.terra.bio/#groups/ and click on the instructor Group name. This page should also be visible at `https://anvil.terra.bio/#groups/<group-name>`.
+:::{.notice}
+Users can be added to a Group as either **Admins** or **Members**.  Admins can add and remove members from the group.
 
-    ```{r, echo=FALSE, fig.alt='Screenshot of the Terra Group, and the specific Group that was just created. The Group Name is highlighted.'}
-ottrpal::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g10118383b73_193_0")
-    ```
+Group roles only affect whether or not someone can add and remove members from the Group.  They do not grant special privileges with respect to Billing Projects and Workspaces.
 
-1. Click on “+Add User”. You will be prompted to add the instructor’s AnVIL ID. 
+However, an admin for the group can *indirectly* grant access to your Billing Projects and Workspaces.  By adding someone to the group, they grant that person access to any Terra Resources that the group has been given permission to access.
+:::
 
-    ```{r, echo=FALSE, fig.alt='Screenshot of the Terra Group page for the specific Group that was just created. The "+Add User" button is highlighted.'}
-ottrpal::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g100474897dd_0_45")
-    ```
+Often it's appropriate to have any co-instructors as admins, with TAs as members.
 
-1. Type in the instructor’s AnVIL ID
+To add someone to your group:
 
-    ```{r, echo=FALSE, fig.alt='Screenshot of the Terra Group for the specific Group that was just created, with "Add user to Terra Group" pop out box. The instructor`s AnVIL ID, instructor-1@gmail.com, has been entered and the AnVIL ID (email) is highlighted.'}
-ottrpal::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g100474897dd_0_58")
-    ```
-
-1. Make sure “Can manage users (admin)” is **selected**
-
-    ```{r, echo=FALSE, fig.alt='Screenshot of the Terra Group for the specific Group that was just created, with "Add user to Terra Group" pop out box. The instructor`s AnVIL ID, instructor-1@gmail.com, has been entered and the checkbox "Can manage users (admin)" has been selected and is highlighted.'}
-ottrpal::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g100474897dd_0_65")
-    ```
-
-1. Click ADD USER. This will take you back to the Group administration page.
-
-    ```{r, echo=FALSE, fig.alt='Screenshot of the Terra Group for the specific Group that was just created, with "Add user to Terra Group" pop out box. The instructor`s AnVIL ID, instructor-1@gmail.com, has been entered and the "ADD USER" button is highlighted.'}
-ottrpal::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g100474897dd_0_71")
-    ```
-
-Make sure the newly added instructor displays “Admin” under “Roles” beside their AnVIL ID. Repeat this process for any additional co-instructors and teaching assistants.
-
-```{r, echo=FALSE, fig.alt='Screenshot of the Terra Group for the instructor Group that was just created, where the newly added instructor is visible in the user list. The instructor`s AnVIL ID, instructor-1@gmail.com is visible next to the role "Admin", which is highlighted.'}
-ottrpal::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g100474897dd_0_78")
+:::: {.borrowed_chunk}
+```{r, echo = FALSE, results='asis'}
+cow::borrow_chapter(
+  doc_path = "child/_child_terra_group_add_member.Rmd",
+  branch = "add-terra-groups-modules",
+  repo_name = "jhudsl/AnVIL_Template"
+)
 ```
-
-## Group Email Lists
-
-Note that your newly created Groups have Group emails associated with them. Take note of these Group emails. You will use them for granting access to your class Billing Projects and Workspaces. It saves you from having to add or revoke access to students one by one.
-
-```{r, echo=FALSE, fig.alt='Screenshot of the Terra Group page. Emails associated with newly formed Groups have been highlighted.'}
-ottrpal::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g100474897dd_0_96")
-```
+::::
 
 
 # Creating and adding student accounts
