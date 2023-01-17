@@ -164,7 +164,7 @@ Group roles only affect whether or not someone can add and remove members from t
 However, an admin for the group can *indirectly* grant access to your Billing Projects and Workspaces.  By adding someone to the group, they grant that person access to any Terra Resources that the group has been given permission to access.
 :::
 
-Often it's appropriate to have any co-instructors as admins, with TAs as members.
+Often it's appropriate to add any **co-instructors as admins, with TAs as members**.
 
 To add someone to your group:
 
