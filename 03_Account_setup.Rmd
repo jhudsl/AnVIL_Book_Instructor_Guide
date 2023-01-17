@@ -92,10 +92,12 @@ cow::borrow_chapter(
 
 Terra Billing Projects are how you grant people permission to compute on AnVIL.  By adding someone to your Billing Project, you enable them to use your funding to carry out activities on AnVIL.
 
+:::{.notice}
 When teaching on AnVIL
 
 - You **will** need to manage members of your Billing Project, in order to add students and TAs.  This is most easily done using Terra Groups.
 - You may or may not need to create your own Terra Billing Projects.  If your funding is being managed by a third party (e.g. through a funding mechanism such as [STRIDES](https://datascience.nih.gov/strides), or through your institution), contact them to determine whether you should create Terra Billing Projects yourself.
+:::
 
 The instructions below walk you through creating a Terra Billing Project.  If you do not need to create your own, you can proceed directly to creating an [Instructor / TA Group](#instructor-group).
 
@@ -104,8 +106,8 @@ The instructions below walk you through creating a Terra Billing Project.  If yo
 
 It's often beneficial to set up two separate Billing Projects for a course:
 
-1. Instructor/TA - used to fund development and testing of the material.  It can persist for multiple sessions of the course.
-2. Student - funds all student activity, and is deleted at the end of the course activities.
+1. **Instructor/TA** - used to fund development and testing of the material.  It can persist for multiple sessions of the course.
+2. **Student** - funds all student activity, and is deactivated at the end of the course activities.
 
 This is not required, but can make management a bit easier.
 
@@ -113,7 +115,7 @@ This is not required, but can make management a bit easier.
 Make sure the Google Account you use to log into Terra is the one associated with Google Billing (the account your funding manager has set up for you, or the account you used to set up Google Billing yourself)
 :::
 
-Terra Billing Projects need unique names.  One option is to use a combination of institution-class-term (e.g. `jhu-bio101-2022SP`).
+**Note:** Terra Billing Projects need unique names.  One option is to use a combination of institution-class-term (e.g. `jhu-bio101-2022SP`).
 
 To create a Terra Billing Project:
 
