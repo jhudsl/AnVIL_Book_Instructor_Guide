@@ -4,7 +4,7 @@
 ottrpal::set_knitr_image_path()
 ```
 
-# Creating an instructor account
+# Create instructor account
 
 AnVIL uses [Terra](https://anvil.terra.bio/) to run analyses. Terra operates on Google Cloud Platform, so you’ll pay for all storage and analysis costs through a Google account linked to Terra. The costs are the standard Google Cloud Platform fees for storing and moving data as well as executing an analysis. These costs are passed along through Terra without any markup.
 
@@ -33,6 +33,11 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1tyt8ifxD3y7QW3nN
 Google Billing Accounts are how you pay Google for you and your students' cloud costs.
 
 Depending on how you are being funded, this may be taken care of for you. If your funding is being managed by a third party (e.g. through a funding mechanism such as [STRIDES](https://datascience.nih.gov/strides), or through your institution), contact them to determine whether you need to do any billing administration through Google.  If not, you can proceed directly to [Terra Billing Projects](#terra-billing-projects).
+
+## Before You Start
+
+- You will need a **credit card or bank account** to get started.  Google provides a free trial for first-time users, but payment information is still needed for verification purposes. Don't worry!  If using the free trial, **you won't be billed until you explicitly turn on automatic billing**.
+- Before setting up billing yourself, you may want to check with your institutional procurement office and see if they have a preferred account set-up method with Google (such as a third party reseller or an existing account).
 
 # Set up Terra Billing Projects {#terra-billing-projects}
 
