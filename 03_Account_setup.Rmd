@@ -28,7 +28,7 @@ You can always access Terra by going to [`anvil.terra.bio`](https://anvil.terra.
 ottrpal::include_slide("https://docs.google.com/presentation/d/1tyt8ifxD3y7QW3nN27jh02aPrBvNEo1GN_u2Ne_UngM/edit#slide=id.gde7783227e_0_31")
 ```
 
-# Set up Google Billing (some users)
+# Set up Google Billing (some users) {#google-billing-account}
 
 Google Billing Accounts are how you pay Google for you and your students' cloud costs.
 
@@ -38,6 +38,31 @@ Depending on how you are being funded, this may be taken care of for you. If you
 
 - You will need a **credit card or bank account** to get started.  Google provides a free trial for first-time users, but payment information is still needed for verification purposes. Don't worry!  If using the free trial, **you won't be billed until you explicitly turn on automatic billing**.
 - Before setting up billing yourself, you may want to check with your institutional procurement office and see if they have a preferred account set-up method with Google (such as a third party reseller or an existing account).
+
+## Google Billing Account
+
+AnVIL operates on Google Cloud Platform, and does not charge any markup.  Rather than paying Terra or AnVIL, users set up billing directly with Google Cloud Platform.
+
+**Make sure to use the same Google account ID you use to log into Terra for Google Cloud Billing.**
+
+To set up billing, you must first create a **Google “Billing Account”**.
+
+:::{.notice}
+**Tip**:  You can create multiple Billing Accounts associated with your Google ID.
+
+- A single Billing Account can fund multiple courses, sections, or iterations of a course, as long as they have a common funding source.
+- But, if courses are funded separately, we recommend creating separate Billing Accounts
+:::
+
+### Create a Google Billing Account
+
+```{r, echo = FALSE, results='asis'}
+cow::borrow_chapter(
+  doc_path = "child/_child_google_billing_create_account.Rmd",
+  repo_name = "jhudsl/AnVIL_Template"
+)
+```
+
 
 # Set up Terra Billing Projects {#terra-billing-projects}
 
