@@ -130,11 +130,11 @@ cow::borrow_chapter(
 
 # Create Instructor/TA group {#instructor-group}
 
-Groups enable you to share your class Workspace and manage permissions for many people at once. We recommend starting with one Group for instructors and one Group for students.
+Groups enable you to share your class Workspace and manage permissions for many people at once. We recommend starting with **one Group for instructors and one Group for students**.
 
 <br>
 
-Choose an informative, unique Group name. We suggest a combination of institution-class-term-role (e.g., “jhu-bio101-2022SP-instructors”). Only letters, numbers, underscores, and dashes are allowed in Group names.
+Choose an informative, unique Group name. We suggest a combination of institution-class-term-role (e.g., `jhu-bio101-2022SP-instructors`). Only letters, numbers, underscores, and dashes are allowed in Group names.
 
 ## Create Terra Group
 
