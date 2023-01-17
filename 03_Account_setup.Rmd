@@ -39,6 +39,8 @@ Depending on how you are being funded, this may be taken care of for you. If you
 - You will need a **credit card or bank account** to get started.  Google provides a free trial for first-time users, but payment information is still needed for verification purposes. Don't worry!  If using the free trial, **you won't be billed until you explicitly turn on automatic billing**.
 - Before setting up billing yourself, you may want to check with your institutional procurement office and see if they have a preferred account set-up method with Google (such as a third party reseller or an existing account).
 
+## Overview
+
 ## Google Billing Account
 
 AnVIL operates on Google Cloud Platform, and does not charge any markup.  Rather than paying Terra or AnVIL, users set up billing directly with Google Cloud Platform.
@@ -77,6 +79,14 @@ cow::borrow_chapter(
 )
 ```
 
+## Add Terra to Google Billing Account
+
+```{r, echo = FALSE, results='asis'}
+cow::borrow_chapter(
+  doc_path = "child/_child_google_billing_add_terra.Rmd",
+  repo_name = "jhudsl/AnVIL_Template"
+)
+```
 
 # Set up Terra Billing Projects {#terra-billing-projects}
 
