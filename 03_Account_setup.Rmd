@@ -63,6 +63,20 @@ cow::borrow_chapter(
 )
 ```
 
+### Add Users or Viewers (optional)
+
+If you have a finance administrator who needs access to a Billing Account, you can add them with a few different levels of permissions.  Generally the most useful are:
+
+- **Users** have a great deal of power over spending - they can create new "Billing Projects" and control who can spend money on those projects.  If you have an accounts manager responsible for expenses, it may make sense to add them as a Billing Account User.  If you wish to retain full control over who can spend money, you should not add any Users.
+- **Viewers** can see the activity in the Billing Account but can’t make any changes.  This can be useful for finance staff who need access to the reports, or for anyone who needs to monitor spending.
+
+```{r, echo = FALSE, results='asis'}
+cow::borrow_chapter(
+  doc_path = "child/_child_google_billing_add_member.Rmd",
+  repo_name = "jhudsl/AnVIL_Template"
+)
+```
+
 
 # Set up Terra Billing Projects {#terra-billing-projects}
 
