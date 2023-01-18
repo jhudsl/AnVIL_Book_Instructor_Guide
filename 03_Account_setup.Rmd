@@ -109,7 +109,7 @@ It's often beneficial to set up two separate Billing Projects for a course:
 1. **Instructor/TA** - used to fund development and testing of the material.  It can persist for multiple sessions of the course.
 2. **Student** - funds all student activity, and is deactivated at the end of the course activities.
 
-This is not required, but can make management a bit easier.
+Having separate Billing Projects is not required, but can make management a bit easier.
 
 ::: {.warning}
 Make sure the Google Account you use to log into Terra is the one associated with Google Billing (the account your funding manager has set up for you, or the account you used to set up Google Billing yourself)
