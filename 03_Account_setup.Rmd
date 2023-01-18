@@ -111,11 +111,12 @@ It's often beneficial to set up two separate Billing Projects for a course:
 
 Having separate Billing Projects is not required, but can make management a bit easier.
 
+**Note:** Terra Billing Projects need unique names.  One option is to use a combination of institution-class-term (e.g. `jhu-bio101-2022SP`).
+
 ::: {.warning}
-Make sure the Google Account you use to log into Terra is the one associated with Google Billing (the account your funding manager has set up for you, or the account you used to set up Google Billing yourself)
+When working on AnVIL, make sure the Google Account you use to log into Terra is the one associated with Google Billing (the account your funding manager has set up for you, or the account you used to set up Google Billing yourself).  If you use a different account, you won't have access to your funding.
 :::
 
-**Note:** Terra Billing Projects need unique names.  One option is to use a combination of institution-class-term (e.g. `jhu-bio101-2022SP`).
 
 To create a Terra Billing Project:
 
