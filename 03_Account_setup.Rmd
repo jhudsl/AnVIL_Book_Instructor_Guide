@@ -32,7 +32,7 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1tyt8ifxD3y7QW3nN
 
 Google Billing Accounts are how you pay Google for you and your students' cloud costs.
 
-Depending on how you are being funded, this may be taken care of for you. If your funding is being managed by a third party (e.g. through a funding mechanism such as [STRIDES](https://datascience.nih.gov/strides), or through your institution), contact them to determine whether you need to do any billing administration through Google.  If not, you can proceed directly to [Terra Billing Projects](#terra-billing-projects).
+Depending on how you are being funded, this may be taken care of for you. If your funding is being managed by a third party (e.g. through a funding mechanism such as [STRIDES](https://datascience.nih.gov/strides), or through your institution), contact them to determine whether you need to do any billing administration through Google.  If not, you can proceed directly to [create Instructor Group](#instructor-group).
 
 ## Before You Start
 
@@ -88,13 +88,20 @@ cow::borrow_chapter(
 )
 ```
 
-# Create Instructor/TA group {#instructor-group}
+# Create Instructor/TA group(s) {#instructor-group}
 
-Groups enable you to share your class Workspace and manage permissions for many people at once. We recommend starting with **one Group for instructors and one Group for students**.
+Groups enable you to share AnVIL resources and manage permissions for many people at once.  If you have co-instructors or TAs who will be teaching with you, we recommend setting up an "instructor" Group where you can share materials under development and any other resources that are not meant to be shared with students.  If you are teaching by yourself, you can proceed directly to [Terra Billing Projects](#terra-billing-projects).
 
-<br>
+:::{.notice}
+Depending on your needs, you may want to
 
-Choose an informative, unique Group name. We suggest a combination of institution-class-term-role (e.g., `jhu-bio101-2022SP-instructors`). Only letters, numbers, underscores, and dashes are allowed in Group names.
+- Create single Group that persists across course offerings.  This is convenient if the same people will be teaching the course multiple times; you will not have to re-share resources each time.
+- Create a new Group for each offering of the course.  This can be useful if you have different TAs for every offering and you don't want them to access materials and funding for past and future offerings.
+
+You can always add/remove Groups and Group members later, so we recommend starting out with a single instructor group.  You can decide later if you want to create a new Group for the next course.
+:::
+
+Choose an informative, unique Group name. We suggest a combination of institution-class-role (e.g., `jhu-bio101-instructors`). Only letters, numbers, underscores, and dashes are allowed in Group names.
 
 ## Create Terra Group
 
