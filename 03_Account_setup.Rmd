@@ -148,7 +148,7 @@ cow::borrow_chapter(
 
 # Set up Terra Billing Projects {#terra-billing-projects}
 
-Terra Billing Projects are how you grant people permission to compute on AnVIL.  By adding someone to your Billing Project, you enable them to use your funding to carry out activities on AnVIL.
+Terra Billing Projects are how you grant people (including yourself!) permission to compute on AnVIL.  By adding someone to your Billing Project, you enable them to use your funding to carry out activities on AnVIL.
 
 :::{.notice}
 When teaching on AnVIL
@@ -157,7 +157,7 @@ When teaching on AnVIL
 - You may or may not need to create your own Terra Billing Projects.  If your funding is being managed by a third party (e.g. through a funding mechanism such as [STRIDES](https://datascience.nih.gov/strides), or through your institution), contact them to determine whether you should create Terra Billing Projects yourself.
 :::
 
-The instructions below walk you through creating a Terra Billing Project.  If you do not need to create your own, you can proceed directly to [creating an Instructor / TA Group](#instructor-group).
+The instructions below walk you through creating a Terra Billing Project.  If you do not need to create your own, you can proceed directly to [adding instructors to Billing Project](#add-instructors-billing-project).
 
 
 ## Create Terra Billing Project(s)
@@ -182,6 +182,25 @@ To create a Terra Billing Project:
 ```{r, echo = FALSE, results='asis'}
 cow::borrow_chapter(
   doc_path = "child/_child_terra_create_billing_project.Rmd",
+  repo_name = "jhudsl/AnVIL_Template"
+)
+```
+::::
+
+## Add Instructors to Billing Project {#add-instructors-billing-project}
+
+Before you or any of your team can compute on AnVIL, you must be added to a Billing Project.
+
+You can add individual users to a Billing Project, or you can add a Terra Group, which will enable everyone in the group to charge to the Billing Project.
+
+To add an individual user, you will need to know the email address they will be using to access AnVIL.
+
+If you want to grant a Terra Group access to Terra resources (Billing Projects or Workspaces), you will need the email address associated with the Group.  You can find this on the Group Management page:
+
+:::: {.borrowed_chunk}
+```{r, echo = FALSE, results='asis'}
+cow::borrow_chapter(
+  doc_path = "child/_child_terra_group_find_email.Rmd",
   repo_name = "jhudsl/AnVIL_Template"
 )
 ```
