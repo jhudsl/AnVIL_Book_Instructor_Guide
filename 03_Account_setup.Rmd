@@ -156,10 +156,10 @@ Users can be added to a Group as either **Admins** or **Members**.  Admins can a
 
 Group roles only affect whether or not someone can add and remove members from the Group.  They do not grant special privileges with respect to Terra resources (Billing Projects and Workspaces).
 
-However, an admin for the group can *indirectly* grant access to Terra resources.  By adding someone to the Group, they grant that person access to any Terra resources that the group has been given permission to access.
+However, an Admin for the Group can *indirectly* grant access to Terra resources.  By adding someone to the Group, they grant that person access to any Terra resources that the Group has been given permission to access.
 :::
 
-Often it's appropriate to add any **co-instructors as admins, with TAs as members**.
+Often it's appropriate to add any **co-instructors as Admins, with TAs as Members**.
 
 To add someone to your group:
 
