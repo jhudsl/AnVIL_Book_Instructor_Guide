@@ -119,7 +119,7 @@ Groups enable you to share AnVIL resources and manage permissions for many peopl
 :::{.notice}
 Depending on your needs, you may want to
 
-- Create single Group that persists across course offerings.  This is convenient if the same people will be teaching the course multiple times; you will not have to re-share resources each time.
+- Create a single Group that persists across course offerings.  This is convenient if the same people will be teaching the course multiple times; you will not have to re-share resources each time.
 - Create a new Group for each offering of the course.  This can be useful if you have different TAs for every offering and you don't want them to access materials and funding for past and future offerings.
 
 You can always add/remove Groups and Group members later, so we recommend starting out with a single instructor group.  You can decide later if you want to create a new Group for the next course.
@@ -150,9 +150,9 @@ Now that your instructor Group has been created, you should add any additional i
 :::{.notice}
 Users can be added to a Group as either **Admins** or **Members**.  Admins can add and remove members from the group.
 
-Group roles only affect whether or not someone can add and remove members from the Group.  They do not grant special privileges with respect to Billing Projects and Workspaces.
+Group roles only affect whether or not someone can add and remove members from the Group.  They do not grant special privileges with respect to Terra resources (Billing Projects and Workspaces).
 
-However, an admin for the group can *indirectly* grant access to your Billing Projects and Workspaces.  By adding someone to the group, they grant that person access to any Terra Resources that the group has been given permission to access.
+However, an admin for the group can *indirectly* grant access to Terra resources.  By adding someone to the Group, they grant that person access to any Terra resources that the group has been given permission to access.
 :::
 
 Often it's appropriate to add any **co-instructors as admins, with TAs as members**.
