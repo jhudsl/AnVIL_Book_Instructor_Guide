@@ -198,6 +198,13 @@ cow::borrow_chapter(
 
 Before you or any of your team can compute on AnVIL, you must be added to a Billing Project.
 
+::: {.warning}
+To add members to a Billing Project, you must be an "Owner" of the Billing Project.
+
+- If you created the Billing Project yourself, you're good to go!
+- If a third party created the Billing Project, check to see whether you are an Owner or a User.  If you are not an Owner, you will need to contact your funding manager.  They can either make you an Owner, or can add other team members to the Billing Project themselves.
+:::
+
 You can add individual users to a Billing Project, or you can add a Terra Group, which will enable everyone in the Group to charge to the Billing Project.
 
 - To add an individual user, you will need to know the email address they will be using to access AnVIL.
