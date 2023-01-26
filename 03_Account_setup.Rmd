@@ -178,26 +178,12 @@ cow::borrow_chapter(
 
 Terra Billing Projects are how you grant people (including yourself!) permission to compute on AnVIL.  By adding someone to your Billing Project, you enable them to use your funding to carry out activities on AnVIL.
 
-:::{.notice}
-When teaching on AnVIL
-
-- You **will** need to manage members of your Billing Project(s), in order to add students and TAs.  This is most easily done using Terra Groups.
-- You may or may not need to create your own Terra Billing Projects.  If your funding is being managed by a third party (e.g. through a funding mechanism such as [STRIDES](https://datascience.nih.gov/strides), or through your institution), contact them to determine whether you should create Terra Billing Projects yourself.
-:::
+Depending on how you are being funded, this may be taken care of for you. If your funding is being managed by a third party (e.g. through a funding mechanism such as [STRIDES](https://datascience.nih.gov/strides), or through your institution), contact them to determine whether you should create Terra Billing Projects yourself.
 
 The instructions below walk you through creating a Terra Billing Project.  If you do not need to create your own, you can skip to [adding instructors to Billing Project](#add-instructors-billing-project).
 
 
 ## Create Terra Billing Project(s)
-
-It's often beneficial to set up two separate Billing Projects for a course:
-
-1. **Instructor/TA** - used to fund development and testing of the material.  It can persist for multiple sessions of the course.
-2. **Student** - funds all student activity, and is deactivated at the end of the course activities.
-
-Having separate Billing Projects is not required, but can make management a bit easier.
-
-**Note:** Terra Billing Projects need unique names.  One option is to use a combination of institution-class-term (e.g. `jhu-bio101-2022SP`).
 
 ::: {.warning}
 To create a Billing Project, you need access to a Google Billing Account.
@@ -210,6 +196,14 @@ To create a Billing Project, you need access to a Google Billing Account.
     - They have not already created a Billing Project for you
 :::
 
+It's often beneficial to set up two separate Billing Projects for a course:
+
+1. **Instructor/TA** - used to fund development and testing of the material.  It can persist for multiple sessions of the course.
+2. **Student** - funds all student activity, and is deactivated at the end of the course activities.
+
+Having separate Billing Projects is not required, but can make management a bit easier.
+
+**Note:** Terra Billing Projects need unique names.  One option is to use a combination of institution-class-term (e.g. `jhu-bio101-2022SP`).
 
 To create a Terra Billing Project:
 
