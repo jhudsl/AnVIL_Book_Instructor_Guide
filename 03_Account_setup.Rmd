@@ -6,7 +6,11 @@ ottrpal::set_knitr_image_path()
 
 # Overview
 
-This section covers everything needed to set up yourself and any co-instructors or TAs to work on AnVIL.  By the end of this section you and your team will be able to develop and run exercises on AnVIL and share your work with each other.
+This section covers everything needed to set up yourself and any co-instructors or TAs to work on AnVIL.
+
+<br>
+
+By the end of this section you and your team will be able to develop and run exercises on AnVIL and share your work with each other.
 
 - Depending on your team and funding, you may only need to do these steps once (and then make updates on an as-needed basis for changes in team members or funding).
 
@@ -18,15 +22,15 @@ The section on class setup covers how to grant your students access to AnVIL.
 
 You may not need to do everything in the instructor setup guide!
 
-The guide contains instructions for setting up billing from scratch.  If your funding is being managed by a third party (such as or your department) you can skip some steps.  The table below provides guidance on which steps you will need to complete:
+The guide contains instructions for setting up billing from scratch.  If your funding is being managed by a third party (e.g. through a funding mechanism such as [STRIDES](https://datascience.nih.gov/strides) or through your institution) you can skip some steps.  The table below provides guidance on which steps you will need to complete:
 
 | Task | Self-managed Funding | 3rd-party Funding |
-|:-----|:---:|:--:| 
+|:----|:--:|:----:| 
 |Create Google Account|Yes|Yes|
-|Set up Google Billing|Yes|Probably No (but check with your funding manager)|
-|Set up Terra Billing Projects|Yes|Probably Yes (but check with your funding manager|
+|Set up Google Billing|Yes|Probably No (check with your funding manager)|
+|Set up Terra Billing Projects|Yes|Probably Yes (check with your funding manager|
 
-The guide contains instructions for setting up Groups for collaboration with co-instructors and TAs.  If you are teaching by yourself, you can skip Creating Instructor/TA groups.
+The guide also contains instructions for setting up Groups for collaboration with co-instructors and TAs.  If you are teaching by yourself, you do not need to create an Instructor/TA Groups.
 
 # Create instructor account
 
