@@ -172,7 +172,14 @@ Having separate Billing Projects is not required, but can make management a bit 
 **Note:** Terra Billing Projects need unique names.  One option is to use a combination of institution-class-term (e.g. `jhu-bio101-2022SP`).
 
 ::: {.warning}
-When working on AnVIL, make sure the Google Account you use to log into Terra is the one associated with Google Billing (the account your funding manager has set up for you, or the account you used to set up Google Billing yourself).  If you use a different account, you won't have access to your funding.
+To create a Billing Project, you need access to a Google Billing Account.
+
+- If you set up Google Billing yourself, you're good to go!  Just make sure to use the same Google Account when logging in to Terra.
+- If a third party is handling Google Billing, you likely do not need to log in to Google Billing yourself; you should be able to follow the instructions below to create a Billing Project within Terra.  If you run into trouble, check with your funding manager to confirm:
+    - They have set up a Google Billing Account
+    - They have added you to the Account as a "User" (or higher)
+    - You are using the correct Google ID (i.e. email address) to log in to Terra
+    - They have not already created a Billing Project for you
 :::
 
 
@@ -196,7 +203,6 @@ You can add individual users to a Billing Project, or you can add a Terra Group,
 - To add an individual user, you will need to know the email address they will be using to access AnVIL.
 - To add a Group, you will need the email address associated with the Group.  You can find this on the Group Management page:
 
-:::
 ```{r, echo = FALSE, results='asis'}
 cow::borrow_chapter(
   doc_path = "child/_child_terra_group_find_email.Rmd",
@@ -204,7 +210,6 @@ cow::borrow_chapter(
   repo_name = "jhudsl/AnVIL_Template"
 )
 ```
-:::
 
 # Creating and adding student accounts
 
