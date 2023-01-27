@@ -64,8 +64,10 @@ Depending on how you are being funded, this may be taken care of for you. If you
 
 ## Before You Start
 
-- You will need a **credit card or bank account** to get started.  Google provides a free trial for first-time users, but payment information is still needed for verification purposes. Don't worry!  If using the free trial, **you won't be billed until you explicitly turn on automatic billing**.
+- If you are managing your own billing, you will need a **credit card or bank account** to get started.  Google provides a free trial for first-time users, but payment information is still needed for verification purposes. Don't worry!  If using the free trial, **you won't be billed until you explicitly turn on automatic billing**.
 - Before setting up billing yourself, you may want to check with your institutional procurement office and see if they have a preferred account set-up method with Google (such as a third party reseller or an existing account).
+- You can also work with your AnVIL collaborators or grant program officer to determine an appropriate Google Billing Account for your class.
+
 
 ## Overview
 
