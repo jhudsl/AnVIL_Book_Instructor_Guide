@@ -4,19 +4,14 @@
 ottrpal::set_knitr_image_path()
 ```
 
-# Overview
-
-This section covers everything needed to set up yourself and any co-instructors or TAs to work on AnVIL.
+# Overview 
 
 <br>
 
-By the end of this section you and your team will be able to develop and run exercises on AnVIL and share your work with each other.
+The setup instructions are presented in two parts:
 
-- Depending on your team and funding, you may only need to do these steps once (and then make updates on an as-needed basis for changes in team members or funding).
-
-The section on class setup covers how to grant your students access to AnVIL.
-
-- These steps will need to be repeated for each new offering of the course.
+- **Instructor Setup:** covers everything needed to set up yourself and any co-instructors or TAs to work on AnVIL.  Depending on your team and funding, *you may only need to do these steps once* (and then make updates on an as-needed basis for changes in team members or funding).
+- **Class Setup:** covers how to grant your students access to AnVIL.  These steps will need to be *repeated for each new offering of the course*.
 
 ## What do I need to do?
 
