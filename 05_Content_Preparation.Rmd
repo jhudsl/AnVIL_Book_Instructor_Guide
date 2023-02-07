@@ -1,4 +1,4 @@
-# (PART\*) Classroom activities {-}
+# (PART\*) Content Preparation {-}
 
 
 ```{r, include = FALSE}
