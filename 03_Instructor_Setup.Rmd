@@ -241,3 +241,13 @@ cow::borrow_chapter(
 ```
 
 ### Add members to Billing Project
+
+:::: {.borrowed_chunk}
+```{r, echo = FALSE, results='asis'}
+cow::borrow_chapter(
+  doc_path = "child/_child_terra_billing_project_add_member.Rmd",
+  branch = "add-billing-project-member",
+  repo_name = "jhudsl/AnVIL_Template"
+)
+```
+::::
