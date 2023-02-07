@@ -20,12 +20,11 @@ You may not need to do everything in the instructor setup section!
 This section contains instructions for setting up billing from scratch.  If your funding is being managed by a third party (e.g. through a funding mechanism such as [STRIDES](https://datascience.nih.gov/strides) or through your institution) you can skip some steps.  The table below provides guidance on which steps you will need to complete:
 
 | Task | Self-managed Funding | 3rd-party Funding |
-|:----|:--:|:----:| 
+|:----|:---:|:----:| 
 |Create Google Account|Yes|Yes|
-|Set up Google Billing|Yes|Probably No (check with your funding manager)|
-|Set up Terra Billing Projects|Yes|Probably Yes (check with your funding manager|
-
-This section also contains instructions for setting up Groups for collaboration with co-instructors and TAs.  If you are teaching by yourself, you do not need to create an Instructor/TA Groups.
+|Set up Google Billing|Yes|Probably No (ask your funding manager)|
+|Set up Terra Billing Projects|Yes|Probably Yes (ask your funding manager|
+|Create Instructor/TA Group| Only if you have co-instructors or TAs|Only if you have co-instructors or TAs|
 
 # Create instructor account
 
