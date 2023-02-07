@@ -228,7 +228,9 @@ You can add individual users to a Billing Project, or you can add a Terra Group,
 - To add an individual user, you will need to know the email address they will be using to access AnVIL.
 - To add a Group, you will need the email address associated with the Group.
 
-To find the Group email so you can add the Group to your Billing Project, check the Group Management page:
+### Find Group email
+
+If you want to add a Terra Group to your Billing Project, you can find the Group email address on the Group Managment page:
 
 ```{r, echo = FALSE, results='asis'}
 cow::borrow_chapter(
@@ -237,6 +239,8 @@ cow::borrow_chapter(
   repo_name = "jhudsl/AnVIL_Template"
 )
 ```
+
+### Add members to Billing Project
 
 # Creating and adding student accounts
 
