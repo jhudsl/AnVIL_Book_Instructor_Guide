@@ -5,10 +5,10 @@ rmd_files: ["index.Rmd",
             "01_Intro.Rmd",
             "02_Overview.Rmd",
             "03_Instructor_Setup.Rmd",
+            "04_Content_Preparation.Rmd",
             "04_Class_Setup.Rmd",
-            "04_Billing.Rmd",
-            "05_Classroom_activities.Rmd",
             "06_Running_the_class.Rmd",
+            "04_Billing.Rmd",
             "B_Feedback.Rmd",
             "About.Rmd"]
 new_session: yes
