@@ -110,7 +110,7 @@ cow::borrow_chapter(
 )
 ```
 
-# Create Instructor/TA group(s) {#instructor-group}
+# Create Instructor/TA Group(s) {#instructor-group}
 
 Groups enable you to share AnVIL resources and manage permissions for many people at once.  If you have co-instructors or TAs who will be teaching with you, we recommend setting up an "instructor" Group where you can share materials under development and any other resources that are not meant to be shared with students.  If you are teaching by yourself, you can proceed directly to [Terra Billing Projects](#terra-billing-projects).
 
