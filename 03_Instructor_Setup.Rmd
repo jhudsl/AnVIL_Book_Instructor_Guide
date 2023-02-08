@@ -174,7 +174,7 @@ Terra Billing Projects are how you grant people (including yourself!) permission
 
 Depending on how you are being funded, this may be taken care of for you. If your funding is being managed by a third party (e.g. through a funding mechanism such as [STRIDES](https://datascience.nih.gov/strides), or through your institution), contact them to determine whether you should create Terra Billing Projects yourself.
 
-The instructions below walk you through creating a Terra Billing Project.  If you do not need to create your own, you can skip to [adding instructors to Billing Project](#add-instructors-billing-project).
+The first set of instructions below walk you through creating a Terra Billing Project.  If you do not need to create your own, you can skip down to [adding instructors to Billing Project](#add-instructors-billing-project).
 
 
 ## Create Terra Billing Project(s)
@@ -228,7 +228,7 @@ You can add individual users to a Billing Project, or you can add a Terra Group,
 
 ### Find Group email
 
-If you want to add a Terra Group to your Billing Project, you can find the Group email address on the Group Managment page:
+If you want to add a Terra Group (such as your "instructor" Group) to your Billing Project, you can find the Group email address on the Group Managment page:
 
 ```{r, echo = FALSE, results='asis'}
 cow::borrow_chapter(
@@ -237,6 +237,8 @@ cow::borrow_chapter(
   repo_name = "jhudsl/AnVIL_Template"
 )
 ```
+
+Now that you have the Group email address, you can add the group to your Billing Project.
 
 ### Add members to Billing Project
 
