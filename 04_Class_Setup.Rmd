@@ -26,7 +26,21 @@ cow::borrow_chapter(
 
 You now have a unique **student Group**.
 
-## Add Students and Instructors
+## Add Instructors to Group
+
+Now that your student Group has been created, you should add any additional instructors / course coordinators as **Admins**.  This will give them permission to add and remove students, in case you are unavailable.
+
+To add someone to your group:
+
+:::: {.borrowed_chunk}
+```{r, echo = FALSE, results='asis'}
+cow::borrow_chapter(
+  doc_path = "child/_child_terra_group_add_member.Rmd",
+  branch = "add-terra-groups-modules",
+  repo_name = "jhudsl/AnVIL_Template"
+)
+```
+::::
 
 
 # Creating and adding student accounts
