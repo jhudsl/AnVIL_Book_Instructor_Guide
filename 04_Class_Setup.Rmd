@@ -1,5 +1,34 @@
 # (PART\*) Class Setup {-}
 
+# Overview
+
+This section describes how to get your students set up to access AnVIL.  These steps will need to be *repeated for each new offering of the course*.
+
+# Create Student Group {#student-group}
+
+Creating a Group for your students will let you easily manage the class as a whole by granting the Group access to Billing Projects and Workspaces.
+
+You will need a unique name for your Group. We suggest a combination of institution-class-role-term (e.g., `jhu-bio101-students-2023FA`). Only letters, numbers, underscores, and dashes are allowed in Group names.
+
+## Create Terra Group
+
+To create a Group:
+
+::::{.borrowed_chunk}
+```{r, echo = FALSE, results='asis'}
+cow::borrow_chapter(
+  doc_path = "child/_child_terra_group_create.Rmd",
+  branch = "add-terra-groups-modules",
+  repo_name = "jhudsl/AnVIL_Template"
+)
+```
+::::
+
+You now have a unique **student Group**.
+
+## Add Students and Instructors
+
+
 # Creating and adding student accounts
 
 Since Terra operates on Google Cloud Platform, students need a Google account to make sure you can keep track of any computing costs they accrue. 
@@ -24,28 +53,6 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1tyt8ifxD3y7QW3nN
 ```
 
 # Groups for easy management
-
-## Student Group {#student-group}
-
-Next, you will create a Group for your students. Create an informative, unique Group name. We suggest a combination of institution-class-role (e.g., “jhu-bmr2021-students”). Only letters, numbers, underscores, and dashes are allowed in Group names. To create a Group for students:
-
-1. Go to https://anvil.terra.bio/#groups
-
-1. Click “+ Create a New Group”
-
-    ```{r, echo=FALSE, fig.alt='Screenshot of the Terra Group page. The "Create a New Group" button is highlighted.'}
-ottrpal::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.gdb96a00840_0_6")
-    ```
-
-1. Type in your student Group name
-
-1. Click “CREATE GROUP”
-
-    ```{r, echo=FALSE, fig.alt='Screenshot of the Terra Group page with Create New Group pop out box. The Group name, jhu-bmr2021-students, has been entered and the "CREATE GROUP" button is highlighted.'}
-ottrpal::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g100474897dd_0_38")
-    ```
-
-You now have a unique **student Group**.
 
 ### Add Instructors as "Admin" (Student Group)
 
