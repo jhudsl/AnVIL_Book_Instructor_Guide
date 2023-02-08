@@ -21,12 +21,12 @@ This section contains instructions for setting up billing from scratch.  If your
 
 | Task | Self-managed Funding | 3rd-party Funding |
 |:----|:---:|:----:| 
-|Create Google Account|Yes|Yes|
-|Set up Google Billing|Yes|Probably No (ask your funding manager)|
-|Set up Terra Billing Projects|Yes|Probably Yes (ask your funding manager|
-|Create Instructor/TA Group| Only if you have co-instructors or TAs|Only if you have co-instructors or TAs|
+|[Create Google Account](#instructor-google-account)|Yes|Yes|
+|[Set up Google Billing](#google-billing-account)|Yes|Probably No (ask your funding manager)|
+|[Create Instructor/TA Group](#instructor-group)| Only if you have co-instructors or TAs|Only if you have co-instructors or TAs|
+|[Set up Terra Billing Projects](#terra-billing-projects)|Yes|Probably Yes (ask your funding manager|
 
-# Create instructor account
+# Create Google account {#instructor-google-account}
 
 AnVIL uses [Terra](https://anvil.terra.bio/) to run analyses. Terra operates on Google Cloud Platform, so you’ll pay for all storage and analysis costs through a Google account linked to Terra. The costs are the standard Google Cloud Platform fees for storing and moving data as well as executing an analysis. These costs are passed along through Terra without any markup.
 
@@ -52,9 +52,7 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1tyt8ifxD3y7QW3nN
 
 # Set up Google Billing (some users) {#google-billing-account}
 
-Google Billing Accounts are how you pay Google for you and your students' cloud costs.
-
-Depending on how you are being funded, this may be taken care of for you. If your funding is being managed by a third party (e.g. through a funding mechanism such as [STRIDES](https://datascience.nih.gov/strides), or through your institution), contact them to determine whether you need to do any billing administration through Google.  If not, you can proceed directly to [create Instructor Group](#instructor-group).
+Google Billing Accounts are how you pay Google for you and your students' cloud costs.  Depending on how you are being funded, this may be taken care of for you. If your funding is being managed by a third party (e.g. through a funding mechanism such as [STRIDES](https://datascience.nih.gov/strides), or through your institution), contact them to determine whether you need to do any billing administration through Google.  If not, you can proceed directly to [create Instructor Group](#instructor-group).
 
 ## Before You Start
 
