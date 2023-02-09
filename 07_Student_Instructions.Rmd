@@ -1,6 +1,6 @@
 # (PART\*) Student Instructions {-}
 
-# Overview
+# Overview {#student-instructions}
 
 The following chapters are aimed at students and provide instructions on how to sign up and access materials on AnVIL.
 
