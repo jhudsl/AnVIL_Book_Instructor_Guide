@@ -2,14 +2,16 @@
 
 # Overview {#student-instructions}
 
-The following chapters are aimed at students and provide instructions on how to sign up and access materials on AnVIL.
+The chapters in this section are aimed at students and provide instructions on how to sign up and access materials on AnVIL.
+
+<br>
 
 - If you are teaching an activity from the GDSCN or AnVIL collections, there may be more specific student instructions available in those books.
 - If you are using your own materials, the instructions below should be sufficiently general.
 
 # Setup AnVIL Account {#student-account-setup}
 
-The following instructions will walk you through setting up an account so that you can carry out data analysis in the cloud.
+The following instructions will walk you through setting up an AnVIL account so that you can carry out data analysis in the cloud.
 
 <br>
 
