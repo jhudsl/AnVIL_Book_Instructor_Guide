@@ -1,0 +1,47 @@
+# (PART\*) Student Instructions {-}
+
+# Overview
+
+The following chapters are aimed at students and provide instructions on how to sign up and access materials on AnVIL.
+
+- If you are teaching an activity from the GDSCN or AnVIL collections, there may be more specific student instructions available in those books.
+- If you are using your own materials, the instructions below should be sufficiently general.
+
+# Setup AnVIL Account
+
+The following instructions will walk you through setting up an account so that you can carry out data analysis in the cloud.
+
+<br>
+
+:::: {.borrowed_chunk}
+```{r, echo = FALSE, results='asis'}
+cow::borrow_chapter(
+  doc_path = "child/_child_student_create_account.Rmd",
+  repo_name = "jhudsl/AnVIL_Template"
+)
+```
+::::
+
+# Access Materials
+
+The following instructions will show you how to access materials (tools and data) on AnVIL.
+
+<br>
+
+:::: {.borrowed_chunk}
+```{r, echo = FALSE, results='asis'}
+billing_project <- "provided by your instructor"
+cow::borrow_chapter(
+  doc_path = "child/_child_student_workspace_clone.Rmd",
+  repo_name = "jhudsl/AnVIL_Template"
+)
+```
+::::
+
+# Open Galaxy
+
+Coming soon!
+
+# Open RStudio
+
+Opening soon!
