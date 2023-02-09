@@ -257,3 +257,8 @@ cow::borrow_chapter(
 **Congratulations! You have successfully set up AnVIL for your teaching team!**
 
 Your team members should be free to develop and test content, funded by your Billing Project.  Checkout the *Content Preparation* section for more information about how to use or develop content on AnVIL.
+
+When you're ready to set things up for your students
+
+- [**Class Setup**](#class-setup) has instructions on getting everything set up to teach your course or workshop
+- [**Student Instructions**](#student-instructions) has student-facing instructions that you can share with your students so they can sign up for an AnVIL account and access any necessary resources
