@@ -6,9 +6,15 @@ This section describes how to get your students set up to access AnVIL.  These s
 
 # Setup Funding
 
+:::{.warning}
+Regardless of who is managing funding, it is essential to make sure that you have permission to create enough Workspaces for all of your students!
+
+To prevent abuse, new users are only permitted to create a few Workspaces.  See [Request Quota Increase](#quota-increase) for more information about how to make sure your students will be able to create Workspaces.
+:::
+
 ## Create Student Billing Project
 
-## Request Quota Increase
+## Request Quota Increase {#quota-increase}
 
 To prevent abuse, new users are only permitted to create a few Workspaces.  If each of your students need their own Workspace (e.g. they each clone their own copy of a Workspace), you will quickly run into this limit and students will not be able to clone or create new Workspaces.
 
