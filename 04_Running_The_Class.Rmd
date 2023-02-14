@@ -22,6 +22,10 @@ This limit is imposed by Google, rather than Terra (Google only permits you to c
 
 At the time of writing (Feb 2023) Terra is working to expedite this process for Terra users; we recommend checking the [relevant Terra documentation](https://support.terra.bio/hc/en-us/articles/360029071251#h_01FFNCK82NB0YMAH5BTP41GYSY) for the latest information as well as recommendations about how to fill out the form.
 
+# Notify Terra
+
+Contacting Terra ahead of your class time helps the Terra team avoid any major disruptions to your class. Contact Terra by [submitting a request](https://support.terra.bio/hc/en-us/requests/new) for a hold on scheduled maintenance and downtime. It’s also a good idea to ask about major changes planned for the time prior to your class.
+
 # Create Student Group {#student-group}
 
 Creating a Group for your students will let you easily manage the class as a whole by granting the Group access to Billing Projects and Workspaces.
