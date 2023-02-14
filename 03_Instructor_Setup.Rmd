@@ -204,7 +204,7 @@ To create a Terra Billing Project:
 :::: {.borrowed_chunk}
 ```{r, echo = FALSE, results='asis'}
 cow::borrow_chapter(
-  doc_path = "child/_child_terra_create_billing_project.Rmd",
+  doc_path = "child/_child_terra_billing_project_create.Rmd",
   repo_name = "jhudsl/AnVIL_Template"
 )
 ```
@@ -246,7 +246,6 @@ Now that you have the Group email address, you can add the group to your Billing
 ```{r, echo = FALSE, results='asis'}
 cow::borrow_chapter(
   doc_path = "child/_child_terra_billing_project_add_member.Rmd",
-  branch = "add-billing-project-member",
   repo_name = "jhudsl/AnVIL_Template"
 )
 ```
