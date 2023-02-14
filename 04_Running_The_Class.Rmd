@@ -79,6 +79,10 @@ You now have a unique **student Group**.
 
 Now that your student Group has been created, you should add any additional instructors / course coordinators as **Admins**.  This will give them permission to add and remove students, in case you are unavailable.
 
+::: {.notice}
+If you created an instructor Group, you can instead add the *Instructor Group* as an Admin of the *Student Group*.  This will enable everyone in the Instructor Group to act as an Admin for the Student Group.  To do this, you will need the email address associated with the Instructor Group.
+:::
+
 To add someone to your group:
 
 :::: {.borrowed_chunk}
