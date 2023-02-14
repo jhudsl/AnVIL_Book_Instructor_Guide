@@ -4,7 +4,15 @@
 
 This section describes how to get your students set up to access AnVIL.  These steps will need to be *repeated for each new offering of the course*.
 
+
+
 # Setup Funding
+
+As a reminder, Terra Billing Projects are how you grant people, including your students, permission to compute on AnVIL.  By adding someone to your Billing Project, you enable them to use your funding to carry out activities on AnVIL.
+
+You *can* just add students to the same Billing Project that you are using yourself, but we generally recommend creating a separate Billing Project to fund student activity.  This makes it easy to deactivate when the course is over, without freezing your own projects.
+
+Depending on how you are being funded, this may be taken care of for you. If your funding is being managed by a third party (e.g. through a funding mechanism such as [STRIDES](https://datascience.nih.gov/strides), or through your institution), contact them to determine whether you should create a Terra Billing Project for your students.
 
 :::{.warning}
 Regardless of who is managing funding, it is essential to make sure that you have permission to create enough Workspaces for all of your students!
@@ -13,6 +21,19 @@ To prevent abuse, new users are only permitted to create a few Workspaces.  See 
 :::
 
 ## Create Student Billing Project
+
+**Note:** Terra Billing Projects need unique names.  One option is to use a combination of institution-class-term (e.g. `jhu-bio101-2022SP`).
+
+To create a Terra Billing Project:
+
+:::: {.borrowed_chunk}
+```{r, echo = FALSE, results='asis'}
+cow::borrow_chapter(
+  doc_path = "child/_child_terra_billing_project_create.Rmd",
+  repo_name = "jhudsl/AnVIL_Template"
+)
+```
+::::
 
 ## Request Quota Increase {#quota-increase}
 
