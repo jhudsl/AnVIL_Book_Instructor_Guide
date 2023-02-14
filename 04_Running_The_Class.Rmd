@@ -4,7 +4,11 @@
 
 This section describes how to get your students set up to access AnVIL.  These steps will need to be *repeated for each new offering of the course*.
 
+::: {.notice}
+**Notify Terra**
 
+Contacting Terra ahead of your class time helps the Terra team avoid any major disruptions to your class. Contact Terra by [submitting a request](https://support.terra.bio/hc/en-us/requests/new) for a hold on scheduled maintenance and downtime. It’s also a good idea to ask about major changes planned for the time prior to your class.
+:::
 
 # Setup Funding
 
