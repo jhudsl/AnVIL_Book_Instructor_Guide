@@ -39,6 +39,10 @@ cow::borrow_chapter(
 ```
 ::::
 
+::: {.notice}
+**Reminder**: It's often a good idea to add at least one other Owner of a Billing Project in order to avoid getting locked out, in case the original owner loses access to their account.  See the section on [adding instructors to a billing project](#add-instructors-billing-project) if you need a reminder on how to do this.
+:::
+
 ## Request Quota Increase {#quota-increase}
 
 To prevent abuse, new users are only permitted to create a few Workspaces.  If each of your students need their own Workspace (e.g. they each clone their own copy of a Workspace), you will quickly run into this limit and students will not be able to clone or create new Workspaces.
@@ -96,28 +100,44 @@ cow::borrow_chapter(
 ::::
 
 
-# Creating and adding student accounts
+# Grant Students Access
 
-Since Terra operates on Google Cloud Platform, students need a Google account to make sure you can keep track of any computing costs they accrue. 
-
-## Have students create a Google Account
-
-```{r, child=c("_child_create_google_account.Rmd")}
-```
-
-## Have students sign in to Terra
-
-Students need to sign into Terra with their Google account to allow you the  instructor to add them to projects and/or Workspaces associated with your specific class. This is the only way students can launch applications and perform computations on AnVIL. Have students [launch Terra](https://anvil.terra.bio/), and they should be prompted to sign in with your Google account.
+The final step is to grant your students permission to access resources (Billing Projects and Workspaces) so that they can launch applications and perform computations on AnVIL.
 
 ::: {.warning}
-**Collect Accounts**: It is _very important_ students share the Google account they used above with you! Otherwise, you cannot add them to billing projects, groups, or Workspaces.
+Make sure you understand when and where your students can spend money!
+
+The following actions will give your students the ability to spend money on AnVIL:
+
+- Adding them to a Billing Project - this will let them create their own Workspaces
+- Adding them as Writers or Owners to a Workspace - this will let them compute in the Workspace
 :::
 
-Students can always access Terra by going to [`anvil.terra.bio`](https://anvil.terra.bio/), or by clicking the link on the AnVIL home page.
+Our recommendation is to
 
-```{r, echo=FALSE, fig.alt='Screenshot of the AnVIL home page. The button to "launch Terra" is highlighted.'}
-ottrpal::include_slide("https://docs.google.com/presentation/d/1tyt8ifxD3y7QW3nN27jh02aPrBvNEo1GN_u2Ne_UngM/edit#slide=id.gde7783227e_0_31")
-```
+1. Do the following steps ahead of time:
+
+- Have students create accounts
+- Add students to the Student Group
+- Give the Student Group access to any Workspaces **as Readers**.  This will let them view the contents of the Workspace but not spend money in it.
+
+2. Wait until shortly before the students need to compute to add the Student Group to the Billing Project.
+
+## Have Students Create Accounts
+
+Each of your students will need to:
+
+1. Create a Google account, if they do not already have one
+2. Sign in to Terra
+3. Provide you with their username, so that you can add them to your Student Group
+
+Student-facing instructions for account creation (and several other activities) are provided in the [**Student Instructions**](#student-instructions) section.
+
+## Add Students to Group
+
+## Add Student Group to Workspace(s)
+
+## Add Student Grouop to Billing Project
 
 # Groups for easy management
 
