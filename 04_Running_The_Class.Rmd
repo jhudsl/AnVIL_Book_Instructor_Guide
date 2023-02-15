@@ -4,10 +4,12 @@
 
 This section describes how to get your students set up to access AnVIL.  These steps will need to be *repeated for each new offering of the course*.
 
+<br>
+
 ::: {.notice}
 **Notify Terra**
 
-Contacting Terra ahead of your class time helps the Terra team avoid any major disruptions to your class. Contact Terra by [submitting a request](https://support.terra.bio/hc/en-us/requests/new) for a hold on scheduled maintenance and downtime. It’s also a good idea to ask about major changes planned for the time prior to your class.
+In addition to setting up your class, you may want to contact Terra to [submit a request](https://support.terra.bio/hc/en-us/requests/new) for a hold on scheduled maintenance and downtime.  Contacting Terra ahead of your class time helps the Terra team avoid any major disruptions to your class.  It’s also a good idea to ask about major changes planned for the time prior to your class.
 :::
 
 # Setup Funding
@@ -52,10 +54,6 @@ This limit is imposed by Google, rather than Terra (Google only permits you to c
 At the time of writing (Feb 2023) Terra is working to expedite this process for Terra users; we recommend checking the [relevant Terra documentation](https://support.terra.bio/hc/en-us/articles/6101030164507-When-workspace-creation-fails-Google-project-quotas) for the latest information as well as recommendations about how to fill out the form.
 
 In our experience, the process has been reasonably straightforward and quick (approved in a couple of days).
-
-# Notify Terra
-
-Contacting Terra ahead of your class time helps the Terra team avoid any major disruptions to your class. Contact Terra by [submitting a request](https://support.terra.bio/hc/en-us/requests/new) for a hold on scheduled maintenance and downtime. It’s also a good idea to ask about major changes planned for the time prior to your class.
 
 # Create Student Group {#student-group}
 
