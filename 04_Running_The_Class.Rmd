@@ -45,7 +45,7 @@ To prevent abuse, new users are only permitted to create a few Workspaces.  If e
 
 This limit is imposed by Google, rather than Terra (Google only permits you to create a few Google Cloud "Projects", and each Terra Workspace is a Google Cloud Project), so you will need to contact Google directly to request a "billing quota increase", using [this form](https://support.google.com/code/contact/billing_quota_increase).  This should be done by the owner of the Google Billing Account.  If you set up billing yourself, this is you; otherwise talk to your funding provider and make sure that you have enough Google Cloud Projects available for all your students (typically one per student, unless students need multiple Workspaces).
 
-At the time of writing (Feb 2023) Terra is working to expedite this process for Terra users; we recommend checking the [relevant Terra documentation](https://support.terra.bio/hc/en-us/articles/360029071251#h_01FFNCK82NB0YMAH5BTP41GYSY) for the latest information as well as recommendations about how to fill out the form.
+At the time of writing (Feb 2023) Terra is working to expedite this process for Terra users; we recommend checking the [relevant Terra documentation](https://support.terra.bio/hc/en-us/articles/6101030164507-When-workspace-creation-fails-Google-project-quotas) for the latest information as well as recommendations about how to fill out the form.
 
 In our experience, the process has been reasonably straightforward and quick (approved in a couple of days).
 
