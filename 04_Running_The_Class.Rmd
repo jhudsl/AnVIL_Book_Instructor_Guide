@@ -26,7 +26,7 @@ To prevent abuse, new users are only permitted to create a few Workspaces.  See 
 
 ## Create Student Billing Project
 
-**Note:** Terra Billing Projects need unique names.  One option is to use a combination of institution-class-term (e.g. `jhu-bio101-2022SP`).
+**Note:** Terra Billing Projects need unique names.  One option is to use a combination of institution-class-role-term (e.g. `jhu-bio101-students-2023FA`).
 
 To create a Terra Billing Project:
 
@@ -80,7 +80,7 @@ You now have a unique **student Group**.
 Now that your student Group has been created, you should add any additional instructors / course coordinators as **Admins**.  This will give them permission to add and remove students, in case you are unavailable.
 
 ::: {.notice}
-If you created an instructor Group, you can instead add the *Instructor Group* as an Admin of the *Student Group*.  This will enable everyone in the Instructor Group to act as an Admin for the Student Group.  To do this, you will need the email address associated with the Instructor Group.
+If you created an instructor Group, you can instead add the *Instructor Group* as an Admin of the *Student Group*.  This will enable everyone in the Instructor Group to act as an Admin for the Student Group.  To do this, you will need the email address associated with the Instructor Group, which can be found on the Group management page: https://anvil.terra.bio/#groups.
 :::
 
 To add someone to your group:
