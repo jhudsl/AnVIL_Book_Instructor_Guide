@@ -226,7 +226,7 @@ You can add individual users to a Billing Project, or you can add a Terra Group,
 - To add an individual user, you will need to know the email address they will be using to access AnVIL.
 - To add a Group, you will need the email address associated with the Group.
 
-### Find Group email
+### Find Group email {#group-email}
 
 If you want to add a Terra Group (such as your "instructor" Group) to your Billing Project, you can find the Group email address on the Group Managment page:
 
