@@ -242,6 +242,14 @@ Now that you have the Group email address, you can add the group to your Billing
 
 ### Add members to Billing Project
 
+:::{.notice}
+Users can be added to a Billing Project as either **Owners** or **Users**.  Owners can add and remove users from the Billing Project (including other Owners!).  This means Billing Project Owners have a great deal of power over how money can be spent.
+
+It’s often a good idea to have at least one other Owner of a Billing Project in order to avoid getting locked out, in case the original Owner leaves or loses access to their account.  But you should exercise caution when selecing Billing Project Owners.
+
+When teaching with a team, it may make sense to add only those most comfortable with Terra and/or most involved in Terra administration Owners, and to add everyone else as Users.
+:::
+
 :::: {.borrowed_chunk}
 ```{r, echo = FALSE, results='asis'}
 cow::borrow_chapter(
