@@ -102,24 +102,26 @@ cow::borrow_chapter(
 
 The final step is to grant your students permission to access resources (Billing Projects and Workspaces) so that they can launch applications and perform computations on AnVIL.
 
+<br>
+
 ::: {.warning}
 Make sure you understand when and where your students can spend money!
 
 The following actions will give your students the ability to spend money on AnVIL:
 
-- Adding them to a Billing Project - this will let them create their own Workspaces
-- Adding them as Writers or Owners to a Workspace - this will let them compute in the Workspace
+- Adding them to a **Billing Project** - this will let them create their own Workspaces
+- Adding them as **Writers or Owners to a Workspace** - this will let them compute in the Workspace
 :::
 
 Our recommendation is to
 
-1. Do the following steps ahead of time:
+Do the following steps ahead of time:
 
 - Have students create accounts
 - Add students to the Student Group
 - Give the Student Group access to any Workspaces **as Readers**.  This will let them view the contents of the Workspace but not spend money in it.
 
-2. Wait until shortly before the students need to compute to add the Student Group to the Billing Project.
+Wait until shortly before the students need to compute to add the Student Group to the Billing Project.
 
 ## Have Students Create Accounts
 
