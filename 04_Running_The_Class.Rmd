@@ -133,48 +133,44 @@ Student-facing instructions for account creation (and several other activities) 
 
 ## Add Students to Group
 
+Once your students have accounts, you will need to add them to your Student Group as **Members**.
+
+::: {.notice}
+In order to add students to your Group, you will need the usernames for the Google accounts your students are using to access AnVIL.
+:::
+
+Unfortunately there is currently no way to add members to a Group in bulk, so you will need to add students to the group one-by-one.  You can make this a bit easier on yourself by having students request to join the Group, so that you just need to approve them.  Instructions for both methods are provided below.
+
+### Add students yourself:
+
+The following instructions explain how to add someone to a Terra Group.  You will want to add students to the Group as **Members**.
+
+:::: {.borrowed_chunk}
+```{r, echo = FALSE, results='asis'}
+cow::borrow_chapter(
+  doc_path = "child/_child_terra_group_add_member.Rmd",
+  branch = "add-terra-groups-modules",
+  repo_name = "jhudsl/AnVIL_Template"
+)
+```
+::::
+
+### Have students request to join
+
+Having your students request to join the Group can make things easier if you have a large class. You will need to provide your students with the name of the Group so they can search for it and request to join.
+
 ## Add Student Group to Workspace(s)
 
-## Add Student Grouop to Billing Project
+## Add Student Group to Billing Project
 
 # Groups for easy management
 
-
-### Add Students as "Member"
-
-Follow the steps below to add individual students to the student Group:
-
-1. Go to https://anvil.terra.bio/#groups/ and click on the student Group name. This page should be visible at `https://anvil.terra.bio/#groups/<group-name>`.
-
-    ```{r, echo=FALSE, fig.alt='Screenshot of the Terra Group, and the specific Group that was just created. The student Group name is highlighted.'}
-ottrpal::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g10118383b73_193_8")
-    ```
-
-1. Click on “+Add User”. You will be prompted to add an AnVIL ID. 
-
-    ```{r, echo=FALSE, fig.alt='Screenshot of the Terra Group page for the specific Group that was just created. The "+Add User" button is highlighted.'}
-ottrpal::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g100474897dd_0_104")
-    ```
-
-1. Type in the student’s AnVIL ID
-
-    ```{r, echo=FALSE, fig.alt='Screenshot of the Terra Group for the specific Group that was just created, with "Add user to Terra Group" pop out box. The student`s AnVIL ID, student-1@gmail.com, has been entered and the AnVIL ID (email) is highlighted.'}
-ottrpal::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g100474897dd_0_111")
-    ```
-
-1. Click ADD USER
-
-    ```{r, echo=FALSE, fig.alt='Screenshot of the Terra Group for the specific Group that was just created, with "Add user to Terra Group" pop out box. The student`s AnVIL ID, student-1@gmail.com, has been entered and the "ADD USER" button is highlighted.'}
-ottrpal::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g100474897dd_0_117")
-    ```
 
 Make sure the newly added student displays “Member” under “Roles” beside their AnVIL ID. At present, each student’s AnVIL ID must be added separately.
 
 ```{r, echo=FALSE, fig.alt='Screenshot of the Terra Group for the student Group that was just created, where the newly added student is visible in the user list. The student`s AnVIL ID, student-1@gmail.com is visible next to the role "Member", which is highlighted.'}
 ottrpal::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g100474897dd_0_125")
 ```
-
-Your instructor and student Groups are now set up.
 
 ## Group Email Lists
 
