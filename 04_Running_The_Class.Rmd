@@ -12,7 +12,7 @@ This section describes how to get your students set up to access AnVIL.  These s
 In addition to setting up your class, you may want to contact Terra to [submit a request](https://support.terra.bio/hc/en-us/requests/new) for a hold on scheduled maintenance and downtime.  Contacting Terra ahead of your class time helps the Terra team avoid any major disruptions to your class.  It’s also a good idea to ask about major changes planned for the time prior to your class.
 :::
 
-# Setup Funding
+# Set up Funding
 
 As a reminder, Terra Billing Projects are how you grant people, including your students, permission to compute on AnVIL.  By adding someone to your Billing Project, you enable them to use your funding to carry out activities on AnVIL.
 
@@ -113,15 +113,13 @@ The following actions will give your students the ability to spend money on AnVI
 - Adding them as **Writers or Owners to a Workspace** - this will let them compute in the Workspace
 :::
 
-Our recommendation is to
-
-Do the following steps ahead of time:
+Our recommendation is to **do the following steps ahead of time**:
 
 - Have students create accounts
 - Add students to the Student Group
 - Give the Student Group access to any Workspaces **as Readers**.  This will let them view the contents of the Workspace but not spend money in it.
 
-Wait until shortly before the students need to compute to add the Student Group to the Billing Project.
+**Wait until shortly before the students need to compute** to add the Student Group to the Billing Project.  This prevents them from starting something up early and then accruing costs by failing to shut it down.
 
 ## Have Students Create Accounts
 
