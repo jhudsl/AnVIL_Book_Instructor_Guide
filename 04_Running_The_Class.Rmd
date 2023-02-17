@@ -76,7 +76,7 @@ Our recommendation is to **do most steps ahead of time**:
 - Create Student Group (and add Instructors)
 - Have students create accounts
 - Add students to the Student Group
-- Give the Student Group access to any Workspaces **as Readers**.  This will let them view the contents of the Workspace but not spend money in it.
+- Give the Student Group access to any Workspaces **as Readers**.  This will let them view the contents but not spend money.
 
 **Wait until shortly before the students need to compute** to add the Student Group to the Billing Project.  This prevents them from starting something up early and then accruing costs by failing to shut it down.
 
