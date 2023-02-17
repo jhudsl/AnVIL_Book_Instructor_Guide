@@ -161,18 +161,37 @@ Having your students request to join the Group can make things easier if you hav
 
 ## Add Student Group to Workspace(s)
 
+Now that you have added students to the Group, you can easily share Terra resources with the entire Group.
+
+First, you will need to give your Student Group access to any Workspaces that they will need.
+
+If you are **using a Public Workspace** (most pre-made content uses Public Workspaces), **you can skip this step** - Public Workspaces are automatically available to everyone on AnVIL.  
+
+If you have **Workspaces of your own** that your students will need to access, you should **add the Student Group to your Workspace as a *Reader***.
+
+- Adding students as a Reader gives them permission to view the Workspace, and (once they have funding) to **clone their own copy**.  This will enable them to work safely in their own space without interfering with each other or overwriting anything in the original Workspace.
+- Adding students to your Workspace(s) can safely be done ahead of time; as Readers they can't run computations and run up a bill.
+
+To add the Student Group to the Workspace, you will need the Group email address, which can be found on the Group management page: https://anvil.terra.bio/#groups
+
+The following instructions explain how to add someone to a Terra Workspace.  You will want to add students to the Workspace as **Readers**.
+
+:::: {.borrowed_chunk}
+```{r, echo = FALSE, results='asis'}
+cow::borrow_chapter(
+  doc_path = "child/_child_workspace_share.Rmd",
+  branch = "add-terra-groups-modules",
+  repo_name = "jhudsl/AnVIL_Template"
+)
+```
+::::
+
+Make sure the newly added Student Group displays “Member” under “Roles”.
+
 ## Add Student Group to Billing Project
 
-# Groups for easy management
 
-
-Make sure the newly added student displays “Member” under “Roles” beside their AnVIL ID. At present, each student’s AnVIL ID must be added separately.
-
-```{r, echo=FALSE, fig.alt='Screenshot of the Terra Group for the student Group that was just created, where the newly added student is visible in the user list. The student`s AnVIL ID, student-1@gmail.com is visible next to the role "Member", which is highlighted.'}
-ottrpal::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g100474897dd_0_125")
-```
-
-## Group Email Lists
+# Group Email Lists
 
 Note that your newly created Groups have Group emails associated with them. Take note of these Group emails. You will use them for granting access to your class Billing Projects and Workspaces. It saves you from having to add or revoke access to students one by one.
 
