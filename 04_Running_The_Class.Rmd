@@ -186,10 +186,33 @@ cow::borrow_chapter(
 ```
 ::::
 
-Make sure the newly added Student Group displays “Member” under “Roles”.
+Make sure the newly added Student Group displays "Reader" under "Roles".
 
 ## Add Student Group to Billing Project
 
+Finally, when you are ready for your students to start computing, you should add the Student Group to your Billing Project.  This will enable them to clone or create Workspaces funded by the Billing Project.  Everything they do in those Workspaces will be charged to your Billing Project.
+
+::: {.warning}
+To add members to a Billing Project, you must be an "Owner" of the Billing Project.
+
+- If you created the Billing Project yourself, you're good to go!
+- If a third party created the Billing Project, check to see whether you are an Owner or a User.  If you are not an Owner, you will need to contact your funding manager.  They can either make you an Owner, or can add the Student Group to the Billing Project themselves.
+:::
+
+To add the Student Group to the Workspace, you will need the Group email address, which can be found on the Group management page: https://anvil.terra.bio/#groups
+
+The following instructions explain how to add someone to a Terra Billing Project.  You will want to add students to the Billing Project as **Users**.
+
+:::: {.borrowed_chunk}
+```{r, echo = FALSE, results='asis'}
+cow::borrow_chapter(
+  doc_path = "child/_child_terra_billing_project_add_member.Rmd",
+  repo_name = "jhudsl/AnVIL_Template"
+)
+```
+::::
+
+Make sure the newly added Student Group displays "User" under "Roles".
 
 # Group Email Lists
 
