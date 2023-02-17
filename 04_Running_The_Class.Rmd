@@ -85,7 +85,7 @@ Now that your student Group has been created, you should add any additional inst
 If you created an instructor Group, you can instead add the *Instructor Group* as an Admin of the *Student Group*.  This will enable everyone in the Instructor Group to act as an Admin for the Student Group.  To do this, you will need the email address associated with the Instructor Group, which can be found on the Group management page: https://anvil.terra.bio/#groups.
 :::
 
-To add someone to your group:
+The following instructions explain how to add someone to a Terra Group.  You will want to add instructors to the Student Group as **Admins**.
 
 :::: {.borrowed_chunk}
 ```{r, echo = FALSE, results='asis'}
@@ -214,12 +214,5 @@ cow::borrow_chapter(
 
 Make sure the newly added Student Group displays "User" under "Roles".
 
-# Group Email Lists
-
-Note that your newly created Groups have Group emails associated with them. Take note of these Group emails. You will use them for granting access to your class Billing Projects and Workspaces. It saves you from having to add or revoke access to students one by one.
-
-```{r, echo=FALSE, fig.alt='Screenshot of the Terra Group page. Emails associated with newly formed Groups have been highlighted.'}
-ottrpal::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g100474897dd_0_96")
-```
 
 # Shutting Down
