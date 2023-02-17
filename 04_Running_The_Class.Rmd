@@ -73,8 +73,7 @@ The following actions will give your students the ability to spend money on AnVI
 
 Our recommendation is to **do most steps ahead of time**:
 
-- Create Student Group
-- Add Instructors to Student Group
+- Create Student Group (and add Instructors)
 - Have students create accounts
 - Add students to the Student Group
 - Give the Student Group access to any Workspaces **as Readers**.  This will let them view the contents of the Workspace but not spend money in it.
@@ -100,9 +99,9 @@ cow::borrow_chapter(
 ```
 ::::
 
-You now have a unique **student Group**.
+You now have a unique **Student Group**.
 
-## Add Instructors to Group
+### Add Instructors to Group
 
 Now that your student Group has been created, you should add any additional instructors / course coordinators as **Admins**.  This will give them permission to add and remove students, in case you are unavailable.
 
