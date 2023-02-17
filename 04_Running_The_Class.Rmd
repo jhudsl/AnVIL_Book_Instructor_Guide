@@ -216,3 +216,19 @@ Make sure the newly added Student Group displays "User" under "Roles".
 
 
 # Shutting Down
+
+Once your students are done working, you will want to deactivate the Billing Project.
+
+:::{.warning}
+**It is essential to disable the Billing Project, not just remove students from it!**
+
+Removing students from the Billing Project will prevent them from making new Workspaces, but will not stop them from computing in Workspaces that already exist.  You will continue to accrue costs for any storage and cloud environments until you disable the Billing Project.
+:::
+
+:::{.warning}
+**Disabling the Billing Project makes the Workspace contents inaccessible!**
+
+You will be unable to access any data stored in the Workspace or cloud environment.  It is sometimes possible to restore access by reactivating billing, but Google makes no promises about whether the data will be recoverable.
+
+**Make sure you and your students have saved anything you want to keep in another location** before disabling billing for your class.
+:::
