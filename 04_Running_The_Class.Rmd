@@ -55,13 +55,38 @@ At the time of writing (Feb 2023) Terra is working to expedite this process for 
 
 In our experience, the process has been reasonably straightforward and quick (approved in a couple of days).
 
-# Create Student Group {#student-group}
+
+# Grant Students Access
+
+The final step is to grant your students permission to access resources (Billing Projects and Workspaces) so that they can launch applications and perform computations on AnVIL.
+
+<br>
+
+::: {.warning}
+Make sure you understand when and where your students can spend money!
+
+The following actions will give your students the ability to spend money on AnVIL:
+
+- Adding them to a **Billing Project** - this will let them create their own Workspaces
+- Adding them as **Writers or Owners to a Workspace** - this will let them compute in the Workspace
+:::
+
+Our recommendation is to **do most steps ahead of time**:
+
+- Create Student Group
+- Add Instructors to Student Group
+- Have students create accounts
+- Add students to the Student Group
+- Give the Student Group access to any Workspaces **as Readers**.  This will let them view the contents of the Workspace but not spend money in it.
+
+**Wait until shortly before the students need to compute** to add the Student Group to the Billing Project.  This prevents them from starting something up early and then accruing costs by failing to shut it down.
+
+
+## Create Student Group {#student-group}
 
 Creating a Group for your students will let you easily manage the class as a whole by granting the Group access to Billing Projects and Workspaces.
 
 You will need a unique name for your Group. We suggest a combination of institution-class-role-term (e.g., `jhu-bio101-students-2023FA`). Only letters, numbers, underscores, and dashes are allowed in Group names.
-
-## Create Terra Group
 
 To create a Group:
 
@@ -96,30 +121,6 @@ cow::borrow_chapter(
 )
 ```
 ::::
-
-
-# Grant Students Access
-
-The final step is to grant your students permission to access resources (Billing Projects and Workspaces) so that they can launch applications and perform computations on AnVIL.
-
-<br>
-
-::: {.warning}
-Make sure you understand when and where your students can spend money!
-
-The following actions will give your students the ability to spend money on AnVIL:
-
-- Adding them to a **Billing Project** - this will let them create their own Workspaces
-- Adding them as **Writers or Owners to a Workspace** - this will let them compute in the Workspace
-:::
-
-Our recommendation is to **do the following steps ahead of time**:
-
-- Have students create accounts
-- Add students to the Student Group
-- Give the Student Group access to any Workspaces **as Readers**.  This will let them view the contents of the Workspace but not spend money in it.
-
-**Wait until shortly before the students need to compute** to add the Student Group to the Billing Project.  This prevents them from starting something up early and then accruing costs by failing to shut it down.
 
 ## Have Students Create Accounts
 
