@@ -40,10 +40,26 @@ cow::borrow_chapter(
 ```
 ::::
 
-# Open Galaxy
+# Start Galaxy
 
 Coming soon!
 
-# Open RStudio
+# Start RStudio {#student-start-RStudio}
 
-Opening soon!
+:::{.warning}
+**Pause here** if you are not going to start working right away.  Once you start up RStudio, it will cost money to keep it running.  It costs a few cents an hour, so it's quite cheap as long as you use it responsibly.  But it can add up if you leave it running for days or weeks when you don't need it.
+:::
+
+## Start RStudio 
+
+```{r, echo = FALSE, results='asis'}
+AnVIL_module_settings <- list(
+  audience = "student",
+#   docker_image = "example docker image link",
+#  startup_script = "ask your instructor"
+)
+cow::borrow_chapter(
+  doc_path = "child/_child_rstudio_launch.Rmd",
+  repo_name = "jhudsl/AnVIL_Template"
+)
+```
