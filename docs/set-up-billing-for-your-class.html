@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Chapter 8 Using premade content | AnVIL Instructor Guide</title>
+  <title>Chapter 6 Set Up Billing for Your Class | AnVIL Instructor Guide</title>
   <meta name="description" content="Guide to help teachers and instructors set up accounts and use the AnVIL platform for instruction" />
   <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Chapter 8 Using premade content | AnVIL Instructor Guide" />
+  <meta property="og:title" content="Chapter 6 Set Up Billing for Your Class | AnVIL Instructor Guide" />
   <meta property="og:type" content="book" />
   
   
@@ -16,7 +16,7 @@
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Chapter 8 Using premade content | AnVIL Instructor Guide" />
+  <meta name="twitter:title" content="Chapter 6 Set Up Billing for Your Class | AnVIL Instructor Guide" />
   
   <meta name="twitter:description" content="Guide to help teachers and instructors set up accounts and use the AnVIL platform for instruction" />
   
@@ -30,8 +30,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   <link rel="shortcut icon" href="assets/AnVIL_style/anvil_favicon.ico" type="image/x-icon" />
-<link rel="prev" href="how-much-does-a-class-cost.html"/>
-<link rel="next" href="developing-your-own-content.html"/>
+<link rel="prev" href="groups-for-easy-management.html"/>
+<link rel="next" href="how-much-does-a-class-cost.html"/>
 <script src="libs/header-attrs-2.10/header-attrs.js"></script>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
@@ -265,46 +265,83 @@ code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warni
 <div class="hero-image-container"> 
   <img class= "hero-image" src="assets/AnVIL_style/dasl_thin_main_image.png">
 </div>
-<div id="using-premade-content" class="section level1" number="8">
-<h1><span class="header-section-number">Chapter 8</span> Using premade content</h1>
-<p>This chapter will help you get started with the premade class activities available through AnVIL. Activities currently available are listed on the home page of this guide.</p>
+<div id="set-up-billing-for-your-class" class="section level1" number="6">
+<h1><span class="header-section-number">Chapter 6</span> Set Up Billing for Your Class</h1>
+<p>The following will help you set up billing for your class. You will:<br />
+* Set up a billing project for tracking costs
+* Add yourself and students to the billing project to grant permission to AnVIL resources
+* Learn about different sources of costs in AnVIL
+* Estimate costs for your class
+* Learn about how to track costs during your class</p>
+<div id="billing-project" class="section level2" number="6.1">
+<h2><span class="header-section-number">6.1</span> Creating a Billing Project</h2>
+<p>First, create the Billing Project. Billing Project names must be globally unique and cannot exceed 30 characters. We suggest the name of the Billing Project should be a combination of institution-class- (e.g., “jhu-bmr2021-bill-1”). To create a Billing Project:</p>
+<ol style="list-style-type: decimal">
+<li><p>Go to <a href="https://anvil.terra.bio/#billing" class="uri">https://anvil.terra.bio/#billing</a></p></li>
+<li><p>Click “+CREATE”</p>
+<p><img src="resources/images/04_Billing_files/figure-html/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag_gdb96a00840_0_88.png" title="Screenshot of the Terra Billing page. The &quot;+CREATE&quot; button is highlighted." alt="Screenshot of the Terra Billing page. The &quot;+CREATE&quot; button is highlighted." width="480" /></p></li>
+<li><p>Type in your Billing Project name</p>
+<p><img src="resources/images/04_Billing_files/figure-html/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag_gdb96a00840_0_98.png" title="Screenshot of the Terra Billing page with Create Billing Project pop out box. The new billing project name, jhu-bmr2021-instructors-bill-1, is highlighted." alt="Screenshot of the Terra Billing page with Create Billing Project pop out box. The new billing project name, jhu-bmr2021-instructors-bill-1, is highlighted." width="480" /></p></li>
+<li><p>Select the appropriate Billing Account</p>
+<p><img src="resources/images/04_Billing_files/figure-html/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag_g100474897dd_0_2.png" title="Screenshot of the Terra Billing page with Create Billing Project pop out box. The appropriate billing account name, My Billing Account, is highlighted." alt="Screenshot of the Terra Billing page with Create Billing Project pop out box. The appropriate billing account name, My Billing Account, is highlighted." width="480" /></p></li>
+<li><p>Click “CREATE BILLING PROJECT”</p>
+<p><img src="resources/images/04_Billing_files/figure-html/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag_g100474897dd_0_9.png" title="Screenshot of the Terra Billing page with Create Billing Project pop out box. The &quot;CREATE BILLING PROJECT&quot; button is highlighted." alt="Screenshot of the Terra Billing page with Create Billing Project pop out box. The &quot;CREATE BILLING PROJECT&quot; button is highlighted." width="480" /></p></li>
+</ol>
+<p>You now have a unique <strong>Billing Project</strong>.</p>
+</div>
+<div id="adding-instructors-as-owner" class="section level2" number="6.2">
+<h2><span class="header-section-number">6.2</span> Adding Instructors as “Owner”</h2>
+<p>Next, you want to give instructors permission to use the Billing Project to compute. To set instructor permissions:</p>
+<ol style="list-style-type: decimal">
+<li><p>Go to <a href="https://anvil.terra.bio/#billing" class="uri">https://anvil.terra.bio/#billing</a></p></li>
+<li><p>Select the “Owned by You” Billing Project sub-list</p>
+<p><img src="resources/images/04_Billing_files/figure-html/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag_g1007b9b3ffb_0_0.png" title="Screenshot of the AnVIL Billing page. The &quot;Owned by You&quot; billing list is highlighted." alt="Screenshot of the AnVIL Billing page. The &quot;Owned by You&quot; billing list is highlighted." width="480" /></p></li>
+<li><p>Select the Billing Project you made in <a href="set-up-billing-for-your-class.html#billing-project">Instructor Billing Project</a></p>
+<p><img src="resources/images/04_Billing_files/figure-html/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag_g1007b9b3ffb_0_10.png" title="Screenshot of the AnVIL Billing page. The &quot;Owned by You&quot; billing list has been expanded. The instructor Billing project, in this case jhu-bmr2021-instructors, is highlighted." alt="Screenshot of the AnVIL Billing page. The &quot;Owned by You&quot; billing list has been expanded. The instructor Billing project, in this case jhu-bmr2021-instructors, is highlighted." width="480" /></p></li>
+<li><p>Select the “Users” tab</p>
+<p><img src="resources/images/04_Billing_files/figure-html/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag_g1007b9b3ffb_0_24.png" title="Screenshot of the AnVIL Billing page. The instructor Billing project, in this case jhu-bmr2021-instructors, has been selected and the Users Tab is highlighted." alt="Screenshot of the AnVIL Billing page. The instructor Billing project, in this case jhu-bmr2021-instructors, has been selected and the Users Tab is highlighted." width="480" /></p></li>
+<li><p>Click “+ Add User”. You will be prompted to add a “User email *”.</p>
+<p><img src="resources/images/04_Billing_files/figure-html/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag_g1007b9b3ffb_0_39.png" title="Screenshot of the AnVIL Billing page. The instructor Billing project, in this case jhu-bmr2021-instructors, has been selected and the &quot;+Add User&quot; button is highlighted." alt="Screenshot of the AnVIL Billing page. The instructor Billing project, in this case jhu-bmr2021-instructors, has been selected and the &quot;+Add User&quot; button is highlighted." width="480" /></p></li>
+<li><p>Begin typing the instructor Group name set up in <a href="groups-for-easy-management.html#instructor-group">Instructor Group</a>. You should see an email in the form <group-name><span class="citation">@firecloud.org</span> (e.g., <a href="mailto:jhu-bmr2021-instructors@firecloud.org" class="email">jhu-bmr2021-instructors@firecloud.org</a>).</p></li>
+<li><p>Ensure “Can manage users (Owner)” is <strong>selected</strong></p>
+<p><img src="resources/images/04_Billing_files/figure-html/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag_g1007b9b3ffb_0_54.png" title="Screenshot of the AnVIL Billing page with the &quot;Add User&quot; pop out box. The instructor Group email, in this case jhu-bmr2021-instructors@firecloud.org, has been filled in and the Owner role checkbox has been ticked." alt="Screenshot of the AnVIL Billing page with the &quot;Add User&quot; pop out box. The instructor Group email, in this case jhu-bmr2021-instructors@firecloud.org, has been filled in and the Owner role checkbox has been ticked." width="480" /></p></li>
+<li><p>Click “ADD USER”</p>
+<p><img src="resources/images/04_Billing_files/figure-html/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag_g1007b9b3ffb_0_70.png" title="Screenshot of the AnVIL Billing page with the &quot;Add User&quot; pop out box. The instructor Group email, in this case jhu-bmr2021-instructors@firecloud.org, has been filled in and the Owner role checkbox has been ticked. The &quot;ADD USER&quot; button is highlighted." alt="Screenshot of the AnVIL Billing page with the &quot;Add User&quot; pop out box. The instructor Group email, in this case jhu-bmr2021-instructors@firecloud.org, has been filled in and the Owner role checkbox has been ticked. The &quot;ADD USER&quot; button is highlighted." width="480" /></p></li>
+</ol>
 <div class="notice">
-<p><strong>Notify Terra</strong></p>
-<p>Contacting Terra ahead of your class time helps the Terra team avoid any major disruptions to your class. Contact Terra by <a href="https://support.terra.bio/hc/en-us/requests/new">submitting a request</a> for a hold on scheduled maintenance and downtime. It’s also a good idea to ask about major changes planned for the time prior to your class.</p>
+<p>This step makes it so that co-instructors can edit permissions and administer the Billing Project as needed. While this means you and co-instructors can compute using the student Billing Project, this makes spending difficult to track. Instructors should always use the <strong>instructor Workspace</strong> to compute. This makes it much easier to track costs associated with instructors versus students.</p>
 </div>
-<div id="before-you-start-1" class="section level2" number="8.1">
-<h2><span class="header-section-number">8.1</span> Before You Start</h2>
+</div>
+<div id="adding-students-as-user" class="section level2" number="6.3">
+<h2><span class="header-section-number">6.3</span> Adding Students as “User”</h2>
+<p>Next, you will add your student Group to the Billing Project so that they can compute. To set student permissions:</p>
 <ol style="list-style-type: decimal">
-<li><p>You need to <strong>set up <a href="set-up-billing-for-your-class.html#billing-project">Billing</a></strong>. This includes your Google Billing Account and Terra Billing Project. Take note of your Terra Billing Project name.</p></li>
-<li><p>If you are running one of the activities that uses RStudio, you should <strong>launch RStudio</strong> using the Community-Maintained RStudio Environment. This requires you to be familiar with <a href="#starting-rstudio">RStudio on AnVIL</a>.</p></li>
-<li><p><strong>Notify Terra</strong>. Contacting Terra ahead of your class time helps the Terra team avoid any major disruptions to your class. Contact Terra by <a href="https://support.terra.bio/hc/en-us/requests/new">submitting a request</a> for a hold on scheduled maintenance and downtime. It’s also a good idea to ask about major changes planned for the time prior to your class.</p></li>
+<li><p>Go to <a href="https://anvil.terra.bio/#billing" class="uri">https://anvil.terra.bio/#billing</a></p></li>
+<li><p>Select the “Owned by You” Billing Project sub-list</p>
+<p><img src="resources/images/04_Billing_files/figure-html/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag_g1007b9b3ffb_0_0.png" title="Screenshot of the AnVIL Billing page. The &quot;Owned by You&quot; billing list is highlighted." alt="Screenshot of the AnVIL Billing page. The &quot;Owned by You&quot; billing list is highlighted." width="480" /></p></li>
+<li><p>Select the Billing Project you made in <a href="set-up-billing-for-your-class.html#billing-project">Billing Project</a></p>
+<p><img src="resources/images/04_Billing_files/figure-html/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag_g1007b9b3ffb_0_90.png" title="Screenshot of the AnVIL Billing page. The &quot;Owned by You&quot; billing list has been expanded. The student Billing project, in this case jhu-bmr2021-students, is highlighted." alt="Screenshot of the AnVIL Billing page. The &quot;Owned by You&quot; billing list has been expanded. The student Billing project, in this case jhu-bmr2021-students, is highlighted." width="480" /></p></li>
+<li><p>Select the “Users” tab</p>
+<p><img src="resources/images/04_Billing_files/figure-html/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag_g1007b9b3ffb_0_301.png" title="Screenshot of the AnVIL Billing page. The student Billing project, in this case jhu-bmr2021-students, has been selected and the Users Tab is highlighted." alt="Screenshot of the AnVIL Billing page. The student Billing project, in this case jhu-bmr2021-students, has been selected and the Users Tab is highlighted." width="480" /></p></li>
+<li><p>Click “+ Add User”. You will be prompted to add a “User email *”.</p>
+<p><img src="resources/images/04_Billing_files/figure-html/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag_g1007b9b3ffb_0_315.png" title="Screenshot of the AnVIL Billing page. The student Billing project, in this case jhu-bmr2021-students, has been selected and the &quot;+Add User&quot; button is highlighted." alt="Screenshot of the AnVIL Billing page. The student Billing project, in this case jhu-bmr2021-students, has been selected and the &quot;+Add User&quot; button is highlighted." width="480" /></p></li>
+<li><p>Begin typing the student Group name set up in <a href="groups-for-easy-management.html#student-group">Student Group</a>. You should see an email in the form <group-name><span class="citation">@firecloud.org</span> (e.g., <a href="mailto:jhu-bmr2021-students@firecloud.org" class="email">jhu-bmr2021-students@firecloud.org</a>).</p></li>
+<li><p>Keep “Can manage users (Owner)” <strong>deselected</strong>.</p>
+<p><img src="resources/images/04_Billing_files/figure-html/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag_g1007b9b3ffb_0_132.png" title="Screenshot of the AnVIL Billing page with the &quot;Add User&quot; pop out box. The student Group email, in this case jhu-bmr2021-students@firecloud.org, has been filled in and the Owner role checkbox has NOT been ticked." alt="Screenshot of the AnVIL Billing page with the &quot;Add User&quot; pop out box. The student Group email, in this case jhu-bmr2021-students@firecloud.org, has been filled in and the Owner role checkbox has NOT been ticked." width="480" /></p></li>
+<li><p>Click “ADD USER”</p>
+<p><img src="resources/images/04_Billing_files/figure-html/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag_g1007b9b3ffb_0_327.png" title="Screenshot of the AnVIL Billing page with the &quot;Add User&quot; pop out box. The student Group email, in this case jhu-bmr2021-students@firecloud.org, has been filled in and the Owner role checkbox has NOT been ticked. The &quot;ADD USER&quot; button is highlighted." alt="Screenshot of the AnVIL Billing page with the &quot;Add User&quot; pop out box. The student Group email, in this case jhu-bmr2021-students@firecloud.org, has been filled in and the Owner role checkbox has NOT been ticked. The &quot;ADD USER&quot; button is highlighted." width="480" /></p></li>
 </ol>
 </div>
-<div id="cloning-the-workspace" class="section level2" number="8.2">
-<h2><span class="header-section-number">8.2</span> Cloning the workspace</h2>
-<p>Workspaces are the building blocks of projects in Terra. Inside a Workspace, you can run analyses, launch interactive tools like RStudio and Galaxy, store data, and share results.</p>
-<p>Cloning the workspace associated with one of the premade AnVIL activities gives you access to all the necessary data. When cloning, AnVIL makes a copy of notebooks and code for you to modify. Data however, is linked back to the original Workspace through Data Tables, which saves space!</p>
-<p>The video below gives a brief introduction to the parts of a Workspace.</p>
-<iframe src="https://drive.google.com/file/d/18WUmQfDnulHdaMlrH0Eh6kwIP3zTkaqp/preview" width="640" height="360" allow="autoplay">
-</iframe>
-<ol style="list-style-type: decimal">
-<li><p><a href="https://anvil.terra.bio/#workspaces">Launch Terra</a></p></li>
-<li><p>Locate the Workspace you want to clone. If a Workspace has been shared with you ahead of time, it will appear in “MY WORKSPACES”. You can clone a Workspace that was shared with you to perform your own analyses. In the screenshot below, no Workspaces have been shared.</p>
-<p><img src="resources/images/05_Classroom_activities_files/figure-html/1JvfOluHe543cUCyyH3zz0ew-1J1QjhdYGZufW9NrC_M_g117abafa453_0_0.png" title="Screenshot of Terra &quot;MY WORKSPACES&quot; menu. The &quot;MY WORKSPACES&quot; tab is highlighted. No Workspaces are visible because none have been shared with the user. There is an option to create a new Workspace." alt="Screenshot of Terra &quot;MY WORKSPACES&quot; menu. The &quot;MY WORKSPACES&quot; tab is highlighted. No Workspaces are visible because none have been shared with the user. There is an option to create a new Workspace." width="480" /></p></li>
-<li><p>If a Workspace hasn’t been shared with you, navigate to the “FEATURED” or “PUBLIC” Workspace tabs.</p>
-<p><img src="resources/images/05_Classroom_activities_files/figure-html/1JvfOluHe543cUCyyH3zz0ew-1J1QjhdYGZufW9NrC_M_g117abafa453_0_144.png" title="Screenshot of Terra &quot;My Workspaces&quot; menu. The &quot;FEATURED&quot; tab is highlighted." alt="Screenshot of Terra &quot;My Workspaces&quot; menu. The &quot;FEATURED&quot; tab is highlighted." width="480" /></p></li>
-<li><p>Use the search box to find the Workspace you want to clone.</p>
-<p><img src="resources/images/05_Classroom_activities_files/figure-html/1JvfOluHe543cUCyyH3zz0ew-1J1QjhdYGZufW9NrC_M_g117abafa453_0_288.png" title="Screenshot of Terra &quot;My Workspaces&quot; menu. The search bar is highlighted and the user has typed in the term &quot;COVID-19&quot;. A Workspace related to COVID-19 appears in the results." alt="Screenshot of Terra &quot;My Workspaces&quot; menu. The search bar is highlighted and the user has typed in the term &quot;COVID-19&quot;. A Workspace related to COVID-19 appears in the results." width="480" /></p></li>
-<li><p>Click the teardrop button on the far right next to the Workspace you want to clone. Click “Clone”. You can also clone the Workspace from the Workspace Dashboard instead of the search results.</p>
-<p><img src="resources/images/05_Classroom_activities_files/figure-html/1JvfOluHe543cUCyyH3zz0ew-1J1QjhdYGZufW9NrC_M_g117abafa453_0_432.png" title="Screenshot of Terra &quot;My Workspaces&quot; menu with the Workspace that we want to clone. The teardrop button has been clicked to bring up the options. The &quot;Clone&quot; option from the list is highlighted." alt="Screenshot of Terra &quot;My Workspaces&quot; menu with the Workspace that we want to clone. The teardrop button has been clicked to bring up the options. The &quot;Clone&quot; option from the list is highlighted." width="480" />
-<img src="resources/images/05_Classroom_activities_files/figure-html/1JvfOluHe543cUCyyH3zz0ew-1J1QjhdYGZufW9NrC_M_g117abafa453_0_577.png" title="Screenshot of the Dashboard for the Workspace that we want to clone. The teardrop button has been clicked to bring up the options. The &quot;Clone&quot; option from the list is highlighted." alt="Screenshot of the Dashboard for the Workspace that we want to clone. The teardrop button has been clicked to bring up the options. The &quot;Clone&quot; option from the list is highlighted." width="480" /></p></li>
-<li><p>You will see a popup box appear. Name your Workspace and select the appropriate Terra Billing Project. <strong>All activity in the Workspace will be charged to this Billing Project</strong> (regardless of who conducted it). Remember that each Workspace should have its own Billing Project.</p>
-<p><img src="resources/images/05_Classroom_activities_files/figure-html/1JvfOluHe543cUCyyH3zz0ew-1J1QjhdYGZufW9NrC_M_g117abafa453_0_722.png" title="Screenshot of the &quot;clone workspace&quot; Terra popup dialog box. The Workspace name and Billing Project dropdown are highlighted. Text has been filled in for the Workspace name as &quot;Lab-member-1-workspace-2&quot;." alt="Screenshot of the &quot;clone workspace&quot; Terra popup dialog box. The Workspace name and Billing Project dropdown are highlighted. Text has been filled in for the Workspace name as &quot;Lab-member-1-workspace-2&quot;." width="480" /></p></li>
-<li><p>If you are working with protected data, you can set the <strong>Authorization Domain</strong> to limit who can be added to your Workspace. Note that the Authorization Domain cannot be changed after the Workspace is created (i.e. there is no way to make this Workspace shareable with a larger audience in the future). Workspaces by default are only visible to people you specifically share them with. Authorization domains add an extra layer of enforcement over privacy, but by nature make sharing more complicated. We recommend using Authorization Domains in cases where it is extremely important and/or legally required that the data be kept private (e.g. protected patient data, industry data). For data you would merely prefer not be shared with the world, we recommend relying on standard Workspace sharing permissions rather than Authorization Domains, as Authorization Domains can make future collaborations, publications, or other sharing complicated.</p>
-<p><img src="resources/images/05_Classroom_activities_files/figure-html/1JvfOluHe543cUCyyH3zz0ew-1J1QjhdYGZufW9NrC_M_g117abafa453_0_867.png" title="Screenshot of Terra popup dialog box for creating a new Workspace. The drop-down menu labeled &quot;Authorization domain&quot; is highlighted." alt="Screenshot of Terra popup dialog box for creating a new Workspace. The drop-down menu labeled &quot;Authorization domain&quot; is highlighted." width="480" /></p></li>
-<li><p>Click “CLONE WORKSPACE”. The new Workspace should now show up under your Workspaces.</p>
-<p><img src="resources/images/05_Classroom_activities_files/figure-html/1JvfOluHe543cUCyyH3zz0ew-1J1QjhdYGZufW9NrC_M_g117abafa453_0_1012.png" title="Screenshot of Terra popup dialog box for creating a new Workspace. The &quot;Clone Workspace&quot; button is highlighted." alt="Screenshot of Terra popup dialog box for creating a new Workspace. The &quot;Clone Workspace&quot; button is highlighted." width="480" /></p></li>
-</ol>
+<div id="understanding-the-various-billing-costs" class="section level2" number="6.4">
+<h2><span class="header-section-number">6.4</span> Understanding the various billing costs</h2>
+<p>Costs in AnVIL fall into one of three categories: compute costs, storage costs, and network usage (egress) costs. <strong>Compute costs</strong> are those that students accrue when actively using an AnVIL Workspace. Students can clone a Workspace for no cost, but they will begin to accrue costs as soon as they set up a cloud environment. Compute costs are based on how many CPUs you need, as well as how much memory and storage space you choose. You can also pause the Workspace and pay a lower cost per hour than if you were to keep the Workspace running. Current prices can be found <a href="https://cloud.google.com/compute/all-pricing#top_of_page">here</a>.</p>
+<p><strong>Storage costs</strong> are driven by the persistent disk. The persistent disk allows you to store data and installed programs/libraries for a low cost. Students can delete their Workspaces but maintain their persistent disk so they still have access to previous programs they have installed and previous files they’ve created. Current prices can be found <a href="https://cloud.google.com/storage/pricing#storage-pricing%20and%20https://cloud.google.com/compute/all-pricing#localssdpricing">here</a>.</p>
+<p>Finally, <strong>network usage</strong> costs are those involved with transferring data between networks or downloading data from the cloud to your local computer. Current prices can be found <a href="https://cloud.google.com/storage/pricing#network-egress">here</a>.</p>
+</div>
+<div id="estimating-costs-before-the-class-begins" class="section level2" number="6.5">
+<h2><span class="header-section-number">6.5</span> Estimating costs before the class begins</h2>
+<p>AnVIL has a free <a href="https://docs.google.com/spreadsheets/d/1GUN93HDRqDbZ0uktaZjoP-y8Ril1T_VIJnQrjRD6tV4">AnVIL_Cost_Estimator</a> that allows you estimate compute, storage, and network usage costs for your class. This is a Google sheet that you can tailor to fit your needs. Before you use it, make sure the prices are up to date by following the links at the bottom of the sheet.</p>
+<p>If you need to create a Budget Justification for your class, you can also use the free <a href="https://docs.google.com/document/d/145JFLn2hviLmaYF-mO06gbCkG0i4HRaWvkUBKORo85Y/edit">AnVIL_Budget_Justification</a> template.</p>
 </div>
 </div>
 <hr>
@@ -320,8 +357,8 @@ code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warni
           </div>
         </div>
       </div>
-<a href="how-much-does-a-class-cost.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="developing-your-own-content.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="groups-for-easy-management.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="how-much-does-a-class-cost.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
@@ -352,7 +389,7 @@ gitbook.start({
 "size": 2
 },
 "edit": {
-"link": "https://github.com/jhudsl/AnVIL_Book_Instructor_Guide/edit/main/05_Classroom_activities.Rmd",
+"link": "https://github.com/jhudsl/AnVIL_Book_Instructor_Guide/edit/main/04_Billing.Rmd",
 "text": "Edit"
 },
 "history": {

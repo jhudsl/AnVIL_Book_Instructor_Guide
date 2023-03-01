@@ -2,6 +2,8 @@
 
 
 
+# Set Up Billing for Your Class
+
 The following will help you set up billing for your class. You will:  
 * Set up a billing project for tracking costs
 * Add yourself and students to the billing project to grant permission to AnVIL resources
@@ -9,7 +11,7 @@ The following will help you set up billing for your class. You will:
 * Estimate costs for your class
 * Learn about how to track costs during your class
 
-## Creating a billing project {#billing-project}
+## Creating a Billing Project {#billing-project}
 
 First, create the Billing Project. Billing Project names must be globally unique and cannot exceed 30 characters. We suggest the name of the Billing Project should be a combination of institution-class- (e.g., "jhu-bmr2021-bill-1"). To create a Billing Project:
 
@@ -122,6 +124,8 @@ One of the advantages of billing projects in Terra is that you can keep track of
 
 Full details about billing in Terra can be found [here](https://support.terra.bio/hc/en-us/articles/4405325218075). These instructions are adapted from Terra Support.
 
+## Viewing Costs in Google Cloud Console
+
 To view the costs being accrued by each billing project, you can go to [https://console.cloud.google.com/billing](https://console.cloud.google.com/billing). At the top of the page, there is a dropdown menu. Choose the billing project name you'd like to view.
 
 
@@ -139,8 +143,8 @@ This takes you to a report of the detailed charges accrued by the billing accoun
 
 <img src="resources/images/04_billing/billing_3.png" title="Locating dropdown menu" alt="Locating dropdown menu" style="display: block; margin: auto;" />
 
-## Funding sources
+## Funding Sources
 
-NHGRI STRIDES {#strides-funding}
+### NHGRI STRIDES {#strides-funding}
 
 Through the [STRIDES](https://datascience.nih.gov/strides) program, NHGRI makes funding available to new users of the AnVIL, in collaboration with the [NIH Office of Data Science Strategy](https://datascience.nih.gov/about/odss). NHGRI currently supports the [AnVIL Cloud Credits Program (AC2)](https://anvilproject.org/news/2021/04/12/announcing-anvil-cloud-cost-credits-program) and will have a second round of funding available in fall of 2021.

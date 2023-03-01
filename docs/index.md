@@ -1,6 +1,6 @@
 ---
 title: "AnVIL Instructor Guide"
-date: "August 25, 2022"
+date: "March 01, 2023"
 site: bookdown::bookdown_site
 documentclass: book
 biblio-style: apalike
@@ -15,16 +15,24 @@ favicon: assets/AnVIL_style/anvil_favicon.ico
 
 This book is a guide to help instructors who are new to AnVIL. It helps these users set up their accounts and start developing content on the AnVIL platform.
 
-This book is part of a series of books for the Genomic Data Science Analysis, Visualization, and Informatics Lab-space (AnVIL) of the National Human Genome Research Institute (NHGRI). Learn more about AnVIL by visiting `https://anvilproject.org` or reading the [article in Cell Genomics](https://www.sciencedirect.com/science/article/pii/S2666979X21001063).
+This book is part of a series of books for the Genomic Data Science Analysis, Visualization, and Informatics Lab-space (AnVIL) of the National Human Genome Research Institute (NHGRI).
 
-## AnVIL Collection {-}
+### Skills Level {-} 
 
-Please check out our full collection of AnVIL and related resources below!
+Please choose the closest matching persona from the lefthand menu.
 
-<table>
-<tbody>
-  <tr>
+::: {.notice}
+_Genetics_  
 
-  </tr>
-</tbody>
-</table>
+**Novice**: no genetics knowledge needed
+
+_Programming skills_  
+
+**Novice**: no programming experience needed
+:::
+
+### AnVIL Collection {-}
+
+Additional guides are provided to help you with Workspaces, launch interactive tools, and start working with data. Learn more about AnVIL by visiting https://anvilproject.org or reading the [article in Cell Genomics](https://www.sciencedirect.com/science/article/pii/S2666979X21001063).
+
+Please check out our full collection of AnVIL and related resources: https://hutchdatascience.org/AnVIL_Collection/
