@@ -133,7 +133,6 @@ To create a Group:
 ```{r, echo = FALSE, results='asis'}
 cow::borrow_chapter(
   doc_path = "child/_child_terra_group_create.Rmd",
-  branch = "add-terra-groups-modules",
   repo_name = "jhudsl/AnVIL_Template"
 )
 ```
@@ -161,7 +160,6 @@ To add someone to your group:
 ```{r, echo = FALSE, results='asis'}
 cow::borrow_chapter(
   doc_path = "child/_child_terra_group_add_member.Rmd",
-  branch = "add-terra-groups-modules",
   repo_name = "jhudsl/AnVIL_Template"
 )
 ```
@@ -233,7 +231,6 @@ If you want to add a Terra Group (such as your "instructor" Group) to your Billi
 ```{r, echo = FALSE, results='asis'}
 cow::borrow_chapter(
   doc_path = "child/_child_terra_group_find_email.Rmd",
-  branch = "add-terra-groups-modules",
   repo_name = "jhudsl/AnVIL_Template"
 )
 ```
