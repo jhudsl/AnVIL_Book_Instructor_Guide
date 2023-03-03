@@ -213,6 +213,8 @@ Make sure the newly added Student Group displays "User" under "Roles".
 
 # Shutting Down
 
+<br>
+
 Once your students are done working, you will want to deactivate the Billing Project.
 
 :::{.warning}
@@ -228,3 +230,14 @@ You will be unable to access any data stored in the Workspace or cloud environme
 
 **Make sure you and your students have saved anything you want to keep in another location** before disabling billing for your class.
 :::
+
+:::: {.borrowed_chunk}
+```{r, echo = FALSE, results='asis'}
+AnVIL_module_settings <- list(warning = FALSE)
+cow::borrow_chapter(
+  doc_path = "child/_child_terra_billing_project_disable.Rmd",
+  branch = "disable-billing-project",
+  repo_name = "jhudsl/AnVIL_Template"
+)
+```
+::::
