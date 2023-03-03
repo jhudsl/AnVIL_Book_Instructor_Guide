@@ -213,9 +213,9 @@ Make sure the newly added Student Group displays "User" under "Roles".
 
 # Shutting Down
 
-<br>
-
 Once your students are done working, you will want to deactivate the Billing Project.
+
+<br>
 
 :::{.warning}
 **It is essential to disable the Billing Project, not just remove students from it!**
