@@ -137,9 +137,7 @@ Once your students have accounts, you will need to add them to your Student Grou
 In order to add students to your Group, you will need the usernames for the Google accounts your students are using to access AnVIL.
 :::
 
-Unfortunately there is currently no way to add members to a Group in bulk, so you will need to add students to the group one-by-one.  You can make this a bit easier on yourself by having students request to join the Group, so that you just need to approve them.  Instructions for both methods are provided below.
-
-### Add students yourself:
+Unfortunately there is currently no way to add members to a Group in bulk, so you will need to add students to the group one-by-one.
 
 The following instructions explain how to add someone to a Terra Group.  You will want to add students to the Group as **Members**.
 
@@ -151,10 +149,6 @@ cow::borrow_chapter(
 )
 ```
 ::::
-
-### Have students request to join
-
-Having your students request to join the Group can make things easier if you have a large class. You will need to provide your students with the name of the Group so they can search for it and request to join.
 
 ## Add Student Group to Workspace(s)
 
@@ -236,7 +230,6 @@ You will be unable to access any data stored in the Workspace or cloud environme
 AnVIL_module_settings <- list(warning = FALSE)
 cow::borrow_chapter(
   doc_path = "child/_child_terra_billing_project_disable.Rmd",
-  branch = "disable-billing-project",
   repo_name = "jhudsl/AnVIL_Template"
 )
 ```
