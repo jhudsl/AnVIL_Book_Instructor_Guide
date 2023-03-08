@@ -1,27 +1,18 @@
-# (PART\*) Billing {-}
+# (PART\*) Cost Management {-}
 
 ```{r, include = FALSE}
 ottrpal::set_knitr_image_path()
 ```
-## Reorganize this section
 
-Here's the old overview:
+# Understanding AnVIL Billing
 
-The following will help you set up billing for your class. You will:  
-* Set up a billing project for tracking costs
-* Add yourself and students to the billing project to grant permission to AnVIL resources
-* Learn about different sources of costs in AnVIL
-* Estimate costs for your class
-* Learn about how to track costs during your class
-
-
-Here's an old notice:
+The following chapters will help you understand and estimate the cost of running a class on AnVIL.
 
 ::: {.notice}
-This step makes it so that co-instructors can edit permissions and administer the Billing Project as needed. While this means you and co-instructors can compute using the student Billing Project, this makes spending difficult to track. Instructors should always use the **instructor Workspace** to compute. This makes it much easier to track costs associated with instructors versus students.
+This section is under revision.
 :::
 
-## Understanding the various billing costs
+## Types of costs
 
 Costs in AnVIL fall into one of three categories: compute costs, storage costs, and network usage (egress) costs. **Compute costs** are those that students accrue when actively using an AnVIL Workspace. Students can clone a Workspace for no cost, but they will begin to accrue costs as soon as they set up a cloud environment. Compute costs are based on how many CPUs you need, as well as how much memory and storage space you choose. You can also pause the Workspace and pay a lower cost per hour than if you were to keep the Workspace running. Current prices can be found [here](https://cloud.google.com/compute/all-pricing#top_of_page).
 
