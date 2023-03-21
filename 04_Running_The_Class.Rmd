@@ -12,7 +12,7 @@ This section describes how to get your students set up to access AnVIL.  These s
 In addition to setting up your class, you may want to contact Terra to [submit a request](https://support.terra.bio/hc/en-us/requests/new) for a hold on scheduled maintenance and downtime.  Contacting Terra ahead of your class time helps the Terra team avoid any major disruptions to your class.  It’s also a good idea to ask about major changes planned for the time prior to your class.
 :::
 
-# Set up Funding
+# Set Up Funding
 
 As a reminder, Terra Billing Projects are how you grant people, including your students, permission to compute on AnVIL.  By adding someone to your Billing Project, you enable them to use your funding to carry out activities on AnVIL.
 
@@ -56,9 +56,11 @@ At the time of writing (Feb 2023) Terra is working to expedite this process for 
 In our experience, the process has been reasonably straightforward and quick (approved in a couple of days).
 
 
-# Grant Students Access
+# Set Up Student Accounts
 
-The final step is to grant your students permission to access resources (Billing Projects and Workspaces) so that they can launch applications and perform computations on AnVIL.
+In order for your students to compute on AnVIL, they will need to set up an account and provide you with their username so that you can grant them access to resources (Billing Projects and Workspaces).
+
+If possible, it can be helpful to do this ahead of time, so that you do not need to dedicate class time for it.
 
 <br>
 
@@ -71,14 +73,16 @@ The following actions will give your students the ability to spend money on AnVI
 - Adding them as **Writers or Owners to a Workspace** - this will let them compute in the Workspace
 :::
 
-Our recommendation is to **do most steps ahead of time**:
+Our recommendation is to **do most set up ahead of time**:
 
 - Create Student Group (and add Instructors)
-- Have students create accounts
+- Have students create accounts (and collect usernames)
 - Add students to the Student Group
 - Give the Student Group access to any Workspaces **as Readers**.  This will let them view the contents but not spend money.
 
 **Wait until shortly before the students need to compute** to add the Student Group to the Billing Project.  This prevents them from starting something up early and then accruing costs by failing to shut it down.
+
+This chapter walks through all of the student setup steps that can safely be done ahead of time.  The final step for activating student billing is covered in the next chapter.
 
 
 ## Create Student Group {#student-group}
@@ -178,9 +182,27 @@ cow::borrow_chapter(
 
 Make sure the newly added Student Group displays "Reader" under "Roles".
 
-## Add Student Group to Billing Project
+# Teach the Class
 
-Finally, when you are ready for your students to start computing, you should add the Student Group to your Billing Project.  This will enable them to clone or create Workspaces funded by the Billing Project.  Everything they do in those Workspaces will be charged to your Billing Project.
+This chapter covers things that you will generally do on the day of the class:
+
+<br>
+
+**Before class**
+
+- Add students to Billing Project
+- Direct students to clone the Workspace
+
+We generally recommend waiting until shortly before the class to add students to the Billing Project, to prevent them from starting something up early and accruing costs.  We typically have students clone the Workspace in the first few minutes of class.  This both helps ensure they won't start up their cloud environments early, and ensures they get the most up-to-date version of the Workspace.
+
+**After class**
+
+- Collect feedback
+- Give students any necessary instructions on how to save and export any important files, and how to pause or delete their cloud environments
+
+## Before: Add Students to Billing Project
+
+When you are ready for your students to start computing, you should add the Student Group to your Billing Project.  This will enable them to clone or create Workspaces funded by the Billing Project.  Everything they do in those Workspaces will be charged to your Billing Project.
 
 ::: {.warning}
 To add members to a Billing Project, you must be an "Owner" of the Billing Project.
@@ -204,6 +226,27 @@ cow::borrow_chapter(
 
 Make sure the newly added Student Group displays "User" under "Roles".
 
+## Before: Direct Students to Clone Workspace
+
+Student-facing instructions for [how to clone a Workspace](#student-clone-workspace) are provided in the **Student Instructions** section.
+
+You will need to provide your students with a link to the Workspace they will be cloning, and the name of the Billing Project they should use.
+
+## After: Collect Feedback
+
+If you are using one of the premade courses, we would appreciate feedback!  If you are willing to ask your students to provide feedback, please direct them to this form:
+
+https://forms.gle/AK12iVXTjsB7yCUUA
+
+Responses are anonymous, unless the responder chooses to provide contact information for follow up.
+
+We would also greatly appreciate feedback from you as the instructor!  Comments can be submitted through the same form, or if you are comfortable on GitHub you can open an issue in the corresponding repository.
+
+## After: Instruct Students on Shutdown
+
+If your students will not be doing any more work in this Workspace, have students export any files they wish to keep.  Once you disable Billing, they (and you) will lose access to files in the Workspace.
+
+If your students will continue using the Workspace in a subsequent class or for homework, have them pause or delete the cloud environment so they do not accrue charges while they are not working.
 
 # Shutting Down
 

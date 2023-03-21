@@ -7,8 +7,8 @@ rmd_files: ["index.Rmd",
             "02_Instructor_Setup.Rmd",
             "03_Content_Preparation.Rmd",
             "04_Running_The_Class.Rmd",
-            "05_Billing.Rmd",
-            "07_Student_Instructions.Rmd",
+            "05_Cost_Management.Rmd",
+            "06_Student_Instructions.Rmd",
             "B_Feedback.Rmd",
             "About.Rmd"]
 new_session: yes

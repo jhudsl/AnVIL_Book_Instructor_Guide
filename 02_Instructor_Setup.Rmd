@@ -24,7 +24,7 @@ This section contains instructions for setting up billing from scratch.  If your
 |[Create Google Account](#instructor-google-account)|Yes|Yes|
 |[Set up Google Billing](#google-billing-account)|Yes|Probably No (ask your funding manager)|
 |[Create Instructor/TA Group](#instructor-group)| Only if you have co-instructors or TAs|Only if you have co-instructors or TAs|
-|[Set up Terra Billing Projects](#terra-billing-projects)|Yes|Probably Yes (ask your funding manager|
+|[Set up Terra Billing Projects](#terra-billing-projects)|Yes|Probably Yes (ask your funding manager)|
 
 # Create Google account {#instructor-google-account}
 
@@ -244,7 +244,7 @@ Users can be added to a Billing Project as either **Owners** or **Users**.  Owne
 
 It’s often a good idea to have at least one other Owner of a Billing Project in order to avoid getting locked out, in case the original Owner leaves or loses access to their account.  But you should exercise caution when selecing Billing Project Owners.
 
-When teaching with a team, it may make sense to add only those most comfortable with Terra and/or most involved in Terra administration Owners, and to add everyone else as Users.  This can be done by adding the Owners individually as Owners, and then adding the Instructor Group as User.
+When teaching with a team, it may make sense to add only those most comfortable with Terra and/or most involved in Terra administration as Owners, and to add everyone else as Users.  This can be done by adding the Owners individually as Owners, and then adding the Instructor Group as User.
 :::
 
 :::: {.borrowed_chunk}
