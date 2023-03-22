@@ -193,7 +193,7 @@ It's often beneficial to set up two separate Billing Projects for a course:
 1. **Instructor/TA** - used to fund development and testing of the material.  It can persist for multiple sessions of the course.
 2. **Student** - funds all student activity, and is deactivated at the end of the course activities.
 
-Having separate Billing Projects is not required, but can make management a bit easier.
+Having separate Billing Projects is not required, but can make management easier, particularly when it comes to shutting things down.
 
 **Note:** Terra Billing Projects need unique names.  One option is to use a combination of institution-class-term (e.g. `jhu-bio101-2022SP`).
 

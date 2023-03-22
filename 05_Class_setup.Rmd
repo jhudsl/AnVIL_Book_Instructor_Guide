@@ -21,6 +21,7 @@ Students -- Contact students/participants to get their AnVIL IDs. These should b
 Co-instructors -- If you will be working with other instructors, such as co-instructors or teaching assistants, you will need to collect their IDs as well.
 
 ## Set Up Groups
+
 Reminder:
 
 - Google **Billing Accounts** are managed on Google Cloud Platform and are used for organizing *funding sources* (e.g. credit cards, cloud credits).
@@ -29,168 +30,6 @@ Reminder:
 For a more detailed explanation, please see the chapter on Account Setup.
 
 We suggest creating two different Terra Billing Projects under the appropriate Billing Account that you created on `cloud.google.com`: one for students and one for co-instructors. The instructions below will walk you through how to set this up.
-
-Groups enable you to share your class Workspace and manage permissions for many people at once. We recommend starting with one Group for instructors and one Group for students.
-
-### Instructor Group {#instructor-group}
-
-Create an informative, unique Group name for any co-instructors and teaching assistants. We suggest a combination of institution-class-role (e.g., “jhu-bmr2021-instructors”). Only letters, numbers, underscores, and dashes are allowed in Group names. To create a Group for instructors:
-
-1. Go to https://anvil.terra.bio/#groups
-
-1. Click “+ Create a New Group”
-
-    ```{r, echo=FALSE, fig.alt='Screenshot of the Terra Group page. The "Create a New Group" button is highlighted.'}
-ottrpal::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.gdb96a00840_0_6")
-    ```
-
-1. Type in your instructor Group name
-
-1. Click “CREATE GROUP”
-
-    ```{r, echo=FALSE, fig.alt='Screenshot of the Terra Group page with Create New Group pop out box. The Group name, jhu-bmr2021-instructors, has been entered and the "CREATE GROUP" button is highlighted.'}
-ottrpal::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.gdb96a00840_0_16")
-    ```
-
-You now have a unique **instructor Group**.
-
-### Add Instructors as "Admin" (Instructor Group)
-
-Now that your instructor Group has been created, you should add any additional instructors. You should also ensure that they have the correct permissions. 
-
-1. Go to https://anvil.terra.bio/#groups/ and click on the instructor Group name. This page should also be visible at `https://anvil.terra.bio/#groups/<group-name>`.
-
-    ```{r, echo=FALSE, fig.alt='Screenshot of the Terra Group, and the specific Group that was just created. The Group Name is highlighted.'}
-ottrpal::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g10118383b73_193_0")
-    ```
-
-1. Click on “+Add User”. You will be prompted to add the instructor’s AnVIL ID. 
-
-    ```{r, echo=FALSE, fig.alt='Screenshot of the Terra Group page for the specific Group that was just created. The "+Add User" button is highlighted.'}
-ottrpal::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g100474897dd_0_45")
-    ```
-
-1. Type in the instructor’s AnVIL ID
-
-    ```{r, echo=FALSE, fig.alt='Screenshot of the Terra Group for the specific Group that was just created, with "Add user to Terra Group" pop out box. The instructor`s AnVIL ID, instructor-1@gmail.com, has been entered and the AnVIL ID (email) is highlighted.'}
-ottrpal::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g100474897dd_0_58")
-    ```
-
-1. Make sure “Can manage users (admin)” is **selected**
-
-    ```{r, echo=FALSE, fig.alt='Screenshot of the Terra Group for the specific Group that was just created, with "Add user to Terra Group" pop out box. The instructor`s AnVIL ID, instructor-1@gmail.com, has been entered and the checkbox "Can manage users (admin)" has been selected and is highlighted.'}
-ottrpal::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g100474897dd_0_65")
-    ```
-
-1. Click ADD USER. This will take you back to the Group administration page.
-
-    ```{r, echo=FALSE, fig.alt='Screenshot of the Terra Group for the specific Group that was just created, with "Add user to Terra Group" pop out box. The instructor`s AnVIL ID, instructor-1@gmail.com, has been entered and the "ADD USER" button is highlighted.'}
-ottrpal::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g100474897dd_0_71")
-    ```
-
-Make sure the newly added instructor displays “Admin” under “Roles” beside their AnVIL ID. Repeat this process for any additional co-instructors and teaching assistants.
-
-```{r, echo=FALSE, fig.alt='Screenshot of the Terra Group for the instructor Group that was just created, where the newly added instructor is visible in the user list. The instructor`s AnVIL ID, instructor-1@gmail.com is visible next to the role "Admin", which is highlighted.'}
-ottrpal::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g100474897dd_0_78")
-```
-
-### Student Group {#student-group}
-
-Next, you will create a Group for your students. Create an informative, unique Group name. We suggest a combination of institution-class-role (e.g., “jhu-bmr2021-students”). Only letters, numbers, underscores, and dashes are allowed in Group names. To create a Group for students:
-
-1. Go to https://anvil.terra.bio/#groups
-
-1. Click “+ Create a New Group”
-
-    ```{r, echo=FALSE, fig.alt='Screenshot of the Terra Group page. The "Create a New Group" button is highlighted.'}
-ottrpal::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.gdb96a00840_0_6")
-    ```
-
-1. Type in your student Group name
-
-1. Click “CREATE GROUP”
-
-    ```{r, echo=FALSE, fig.alt='Screenshot of the Terra Group page with Create New Group pop out box. The Group name, jhu-bmr2021-students, has been entered and the "CREATE GROUP" button is highlighted.'}
-ottrpal::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g100474897dd_0_38")
-    ```
-
-You now have a unique **student Group**.
-
-### Add Instructors as "Admin" (Student Group)
-
-The next steps ensure any additional co-instructors and teaching assistants are able to administer the student Group in case you are unavailable. Follow the steps below to add each co-instructor in the student Group:
-
-1. Go to https://anvil.terra.bio/#groups/ and click on the student Group name. This page should be visible at `https://anvil.terra.bio/#groups/<group-name>`.
-
-    ```{r, echo=FALSE, fig.alt='Screenshot of the Terra Group, and the specific Group that was just created. The student Group name is highlighted.'}
-ottrpal::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g10118383b73_193_8")
-    ```
-
-1. Click on “+Add User”. You will be prompted to add the instructor’s AnVIL ID. 
-
-    ```{r, echo=FALSE, fig.alt='Screenshot of the Terra Group page for the specific Group that was just created. The "+Add User" button is highlighted.'}
-ottrpal::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g100474897dd_0_104")
-    ```
-
-1. Type in the instructor’s AnVIL ID
-
-    ```{r, echo=FALSE, fig.alt='Screenshot of the Terra Group for the specific Group that was just created, with "Add user to Terra Group" pop out box. The instructor`s AnVIL ID, instructor-1@gmail.com, has been entered and the AnVIL ID (email) is highlighted.'}
-ottrpal::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g100474897dd_0_58")
-    ```
-
-1. Make sure “Can manage users (admin)” is **selected**
-
-    ```{r, echo=FALSE, fig.alt='Screenshot of the Terra Group for the specific Group that was just created, with "Add user to Terra Group" pop out box. The instructor`s AnVIL ID, instructor-1@gmail.com, has been entered and the checkbox "Can manage users (admin)" has been selected and is highlighted.'}
-ottrpal::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g100474897dd_0_65")
-    ```
-
-1. Click ADD USER. This will take you back to the Group administration page.
-
-    ```{r, echo=FALSE, fig.alt='Screenshot of the Terra Group for the specific Group that was just created, with "Add user to Terra Group" pop out box. The instructor`s AnVIL ID, instructor-1@gmail.com, has been entered and the "ADD USER" button is highlighted.'}
-ottrpal::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g100474897dd_0_71")
-    ```
-
-Make sure the newly added instructor displays “Admin” under “Roles” beside their AnVIL ID. Repeat this process for any additional co-instructors and teaching assistants.
-
-```{r, echo=FALSE, fig.alt='Screenshot of the Terra Group for the student Group that was just created, where the newly added instructor is visible in the user list. The instructor`s AnVIL ID, instructor-1@gmail.com is visible next to the role "Admin", which is highlighted.'}
-ottrpal::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g100474897dd_0_87")
-```
-
-### Add Students as "Member"
-
-Follow the steps below to add individual students to the student Group:
-
-1. Go to https://anvil.terra.bio/#groups/ and click on the student Group name. This page should be visible at `https://anvil.terra.bio/#groups/<group-name>`.
-
-    ```{r, echo=FALSE, fig.alt='Screenshot of the Terra Group, and the specific Group that was just created. The student Group name is highlighted.'}
-ottrpal::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g10118383b73_193_8")
-    ```
-
-1. Click on “+Add User”. You will be prompted to add an AnVIL ID. 
-
-    ```{r, echo=FALSE, fig.alt='Screenshot of the Terra Group page for the specific Group that was just created. The "+Add User" button is highlighted.'}
-ottrpal::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g100474897dd_0_104")
-    ```
-
-1. Type in the student’s AnVIL ID
-
-    ```{r, echo=FALSE, fig.alt='Screenshot of the Terra Group for the specific Group that was just created, with "Add user to Terra Group" pop out box. The student`s AnVIL ID, student-1@gmail.com, has been entered and the AnVIL ID (email) is highlighted.'}
-ottrpal::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g100474897dd_0_111")
-    ```
-
-1. Click ADD USER
-
-    ```{r, echo=FALSE, fig.alt='Screenshot of the Terra Group for the specific Group that was just created, with "Add user to Terra Group" pop out box. The student`s AnVIL ID, student-1@gmail.com, has been entered and the "ADD USER" button is highlighted.'}
-ottrpal::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g100474897dd_0_117")
-    ```
-
-Make sure the newly added student displays “Member” under “Roles” beside their AnVIL ID. At present, each student’s AnVIL ID must be added separately.
-
-```{r, echo=FALSE, fig.alt='Screenshot of the Terra Group for the student Group that was just created, where the newly added student is visible in the user list. The student`s AnVIL ID, student-1@gmail.com is visible next to the role "Member", which is highlighted.'}
-ottrpal::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g100474897dd_0_125")
-```
-
-Your instructor and student Groups are now set up.
 
 ### Group Email Lists
 
@@ -202,33 +41,8 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7G
 
 ## Set Up Billing Projects
 
-Billing Projects in Terra help organize your compute costs. Like Groups, we suggest creating two different billing projects under the appropriate Billing Account that you created on `cloud.google.com`: one for students and one for co-instructors.
-
-Billing Project names must be globally unique and cannot exceed 30 characters.
 
 ### Instructor Billing Project {#instructor-billing-project}
-
-First, create the Billing Project for instructors. We suggest the name of the Billing Project should be a combination of institution-class-role (e.g., "jhu-bmr2021-instructors-bill-1"). To create a Billing Project for instructors:
-
-1. Go to https://anvil.terra.bio/#billing
-
-1. Click “+CREATE”
-
-    ```{r, echo=FALSE, fig.alt='Screenshot of the Terra Billing page. The "+CREATE" button is highlighted.'}
-ottrpal::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.gdb96a00840_0_88")
-    ```
-
-1. Type in your instructor Billing Project name
-
-    ```{r, echo=FALSE, fig.alt='Screenshot of the Terra Billing page with Create Billing Project pop out box. The new billing project name, jhu-bmr2021-instructors-bill-1, is highlighted.'}
-ottrpal::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.gdb96a00840_0_98")
-    ```
-    
-1. Select the appropriate Billing Account
-
-    ```{r, echo=FALSE, fig.alt='Screenshot of the Terra Billing page with Create Billing Project pop out box. The appropriate billing account name, My Billing Account, is highlighted.'}
-ottrpal::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g100474897dd_0_2")
-    ```
     
 1. Click “CREATE BILLING PROJECT”
 
@@ -240,67 +54,12 @@ You now have a unique **instructor Billing Project**.
 
 ### Add Instructors as “Owner” (Instructor Project)
 
-Next, you want to give instructors permission to use the Billing Project to compute. To set instructor permissions:
-
-1. Go to https://anvil.terra.bio/#billing
-
-1. Select the “Owned by You” Billing Project sub-list
-
-    ```{r, echo=FALSE, fig.alt='Screenshot of the AnVIL Billing page. The "Owned by You" billing list is highlighted.'}
-ottrpal::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g1007b9b3ffb_0_0")
-    ```
-
-1. Select the Billing Project you made for instructors in [Instructor Billing Project](#instructor-billing-project)
-
-    ```{r, echo=FALSE, fig.alt='Screenshot of the AnVIL Billing page. The "Owned by You" billing list has been expanded. The instructor Billing project, in this case jhu-bmr2021-instructors, is highlighted.'}
-ottrpal::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g1007b9b3ffb_0_10")
-    ```
-
-1. Select the “Users” tab
-
-    ```{r, echo=FALSE, fig.alt='Screenshot of the AnVIL Billing page. The instructor Billing project, in this case jhu-bmr2021-instructors, has been selected and the Users Tab is highlighted.'}
-ottrpal::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g1007b9b3ffb_0_24")
-    ```
-
-1. Click “+ Add User”. You will be prompted to add a “User email *”.
-
-    ```{r, echo=FALSE, fig.alt='Screenshot of the AnVIL Billing page. The instructor Billing project, in this case jhu-bmr2021-instructors, has been selected and the "+Add User" button is highlighted.'}
-ottrpal::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g1007b9b3ffb_0_39")
-    ```
-
-1. Begin typing the instructor Group name set up in [Instructor Group](#instructor-group). You should see an email in the form <group-name>@firecloud.org (e.g., jhu-bmr2021-instructors@firecloud.org).
-
-1. Ensure “Can manage users (Owner)” is **selected**
-
-    ```{r, echo=FALSE, fig.alt='Screenshot of the AnVIL Billing page with the "Add User" pop out box. The instructor Group email, in this case jhu-bmr2021-instructors@firecloud.org, has been filled in and the Owner role checkbox has been ticked.'}
-ottrpal::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g1007b9b3ffb_0_54")
-    ```
-
-1. Click “ADD USER”
-
-    ```{r, echo=FALSE, fig.alt='Screenshot of the AnVIL Billing page with the "Add User" pop out box. The instructor Group email, in this case jhu-bmr2021-instructors@firecloud.org, has been filled in and the Owner role checkbox has been ticked. The "ADD USER" button is highlighted.'}
-ottrpal::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g1007b9b3ffb_0_70")
-    ```
 
 Your **instructor Billing Project** is now set up.
 
 ### Student Billing Project {#student-billing-project}
 
 Next, create a student Billing Project. Again, we suggest a combination of institution-class-role (e.g., “jhu-bmr2021-students-bill-1”). To create a Billing Project for students:
-
-1. Go to https://anvil.terra.bio/#billing 
-
-1. Click “+CREATE”
-
-    ```{r, echo=FALSE, fig.alt='Screenshot of the Terra Billing page. The "+CREATE" button is highlighted.'}
-ottrpal::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.gdb96a00840_0_88")
-    ```
-    
-1. Type in your student Billing Project name
-
-    ```{r, echo=FALSE, fig.alt='Screenshot of the Terra Billing page with Create Billing Project pop out box. The new billing project name, jhu-bmr2021-students-bill-1, is highlighted.'}
-ottrpal::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g100474897dd_0_15")
-    ```
     
 1. Select the appropriate Billing Account (same as above)
 
@@ -319,96 +78,10 @@ You now have a unique **student Billing Project**.
 ### Add Instructors as “Owner” (Student Project)
 
 You want to ensure any additional co-instructors and teaching assistants are able to administer the student Billing Project in case you are unavailable. To set instructor permissions:
-
-1. Go to https://anvil.terra.bio/#billing
-
-1. Select the “Owned by You” Billing Project sub-list
-
-    ```{r, echo=FALSE, fig.alt='Screenshot of the AnVIL Billing page. The "Owned by You" billing list is highlighted.'}
-ottrpal::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g1007b9b3ffb_0_0")
-    ```
-
-1. Select the Billing Project you made for students in [Student Billing Project](#student-billing-project)
-
-    ```{r, echo=FALSE, fig.alt='Screenshot of the AnVIL Billing page. The "Owned by You" billing list has been expanded. The student Billing project, in this case jhu-bmr2021-students, is highlighted.'}
-ottrpal::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g1007b9b3ffb_0_90")
-    ```
-
-1. Select the “Users” tab
-
-    ```{r, echo=FALSE, fig.alt='Screenshot of the AnVIL Billing page. The student Billing project, in this case jhu-bmr2021-students, has been selected and the Users Tab is highlighted.'}
-ottrpal::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g1007b9b3ffb_0_301")
-    ```
-
-1. Click “+ Add User”. You will be prompted to add a “User email *”.
-
-    ```{r, echo=FALSE, fig.alt='Screenshot of the AnVIL Billing page. The student Billing project, in this case jhu-bmr2021-students, has been selected and the "+Add User" button is highlighted.'}
-ottrpal::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g1007b9b3ffb_0_315")
-    ```
-
-1. Begin typing the instructor Group name set up in [### Set Up Groups]. You should see an email in the form <group-name>@firecloud.org (e.g., jhu-bmr2021-instructors@firecloud.org).
-
-1. Ensure “Can manage users (Owner)” is **selected**
-
-    ```{r, echo=FALSE, fig.alt='Screenshot of the AnVIL Billing page with the "Add User" pop out box. The instructor Group email, in this case jhu-bmr2021-instructors@firecloud.org, has been filled in and the Owner role checkbox has been ticked.'}
-ottrpal::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g1007b9b3ffb_0_54")
-    ```
-
-1. Click “ADD USER”
-
-    ```{r, echo=FALSE, fig.alt='Screenshot of the AnVIL Billing page with the "Add User" pop out box. The instructor Group email, in this case jhu-bmr2021-instructors@firecloud.org, has been filled in and the Owner role checkbox has been ticked. The "ADD USER" button is highlighted.'}
-ottrpal::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g1007b9b3ffb_0_70")
-    ```
     
 ::: {.notice}
 This step makes it so that co-instructors can edit permissions and administer the student Billing Project as needed. While this means you and co-instructors can compute using the student Billing Project, this makes spending difficult to track. Instructors should always use the **instructor Billing Project** to compute. This makes it much easier to track costs associated with instructors versus students.
 :::
-
-### Add Students as “User”
-
-Next, you will add your student Group to the student Billing Project so that they can compute. To set student permissions:
-
-1. Go to https://anvil.terra.bio/#billing
-
-1. Select the “Owned by You” Billing Project sub-list
-
-    ```{r, echo=FALSE, fig.alt='Screenshot of the AnVIL Billing page. The "Owned by You" billing list is highlighted.'}
-ottrpal::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g1007b9b3ffb_0_0")
-    ```
-
-1. Select the Billing Project you made for students in [Student Billing Project](#student-billing-project)
-
-    ```{r, echo=FALSE, fig.alt='Screenshot of the AnVIL Billing page. The "Owned by You" billing list has been expanded. The student Billing project, in this case jhu-bmr2021-students, is highlighted.'}
-ottrpal::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g1007b9b3ffb_0_90")
-    ```
-
-1. Select the “Users” tab
-
-    ```{r, echo=FALSE, fig.alt='Screenshot of the AnVIL Billing page. The student Billing project, in this case jhu-bmr2021-students, has been selected and the Users Tab is highlighted.'}
-ottrpal::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g1007b9b3ffb_0_301")
-    ```
-
-1. Click “+ Add User”. You will be prompted to add a “User email *”.
-
-    ```{r, echo=FALSE, fig.alt='Screenshot of the AnVIL Billing page. The student Billing project, in this case jhu-bmr2021-students, has been selected and the "+Add User" button is highlighted.'}
-ottrpal::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g1007b9b3ffb_0_315")
-    ```
-
-1. Begin typing the student Group name set up in [Student Group](#student-group). You should see an email in the form <group-name>@firecloud.org (e.g., jhu-bmr2021-students@firecloud.org). 
-
-1. Keep “Can manage users (Owner)” **deselected**.
-
-    ```{r, echo=FALSE, fig.alt='Screenshot of the AnVIL Billing page with the "Add User" pop out box. The student Group email, in this case jhu-bmr2021-students@firecloud.org, has been filled in and the Owner role checkbox has NOT been ticked.'}
-ottrpal::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g1007b9b3ffb_0_132")
-    ```
-
-1. Click “ADD USER”
-
-    ```{r, echo=FALSE, fig.alt='Screenshot of the AnVIL Billing page with the "Add User" pop out box. The student Group email, in this case jhu-bmr2021-students@firecloud.org, has been filled in and the Owner role checkbox has NOT been ticked. The "ADD USER" button is highlighted.'}
-ottrpal::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g1007b9b3ffb_0_327")
-    ```
-
-Your **student Billing Project** is now set up.
 
 ## Set Permissions - Workspace
 
@@ -481,7 +154,3 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7G
     ```
 
 You have now correctly set up your class permissions!
-
-## Notify Terra
-
-Contacting Terra ahead of your class time helps the Terra team avoid any major disruptions to your class. Contact Terra by [submitting a request](https://support.terra.bio/hc/en-us/requests/new) for a hold on scheduled maintenance and downtime. It’s also a good idea to ask about major changes planned for the time prior to your class.
