@@ -54,13 +54,10 @@ You now have a unique **instructor Billing Project**.
 
 ### Add Instructors as “Owner” (Instructor Project)
 
-
 Your **instructor Billing Project** is now set up.
 
 ### Student Billing Project {#student-billing-project}
 
-Next, create a student Billing Project. Again, we suggest a combination of institution-class-role (e.g., “jhu-bmr2021-students-bill-1”). To create a Billing Project for students:
-    
 1. Select the appropriate Billing Account (same as above)
 
     ```{r, echo=FALSE, fig.alt='Screenshot of the Terra Billing page with Create Billing Project pop out box. The appropriate billing account name, My Billing Account, is highlighted.'}
@@ -125,32 +122,6 @@ This step makes it so that co-instructors can edit the original content of the W
 
 ### Add Students as “Reader”
 
-Next, add your students as “Readers” to the class Workspace. This means they will be able to view and clone the Workspace, but not make edits or perform computations. To share the Workspace:
-
-1. Click the teardrop button for your class Workspace
-
 1. Click “Share”. This will open a dialog box.
 
-    ```{r, echo=FALSE, fig.alt='Screenshot of the class Workspace listed in the Workspaces tab. The teardrop button and the option to "Share" the Workspace are highlighted.'}
-ottrpal::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g1007b9b3ffb_0_344")
-    ```
-
-1. Enter the name of the student Group. This will create a dropdown for the Group permissions in the box. Select this Group.
-
-    ```{r, echo=FALSE, fig.alt='Screenshot of the share Workspace pop out box. The text "jhu-bmr" has been entered in the User email box and the dropdown below has been automatically filtered to reveal the student and dev Groups. The student Group, in this case jhu-bmr2021-students@firecloud.org, has been highlighted.'}
-ottrpal::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g1007b9b3ffb_0_378")
-    ```
-
-1. Ensure permissions are set to “Reader” (default)
-
-    ```{r, echo=FALSE, fig.alt='Screenshot of the share Workspace pop out box. The student Group, in this case jhu-bmr2021-students@firecloud.org, has been added as a collaborator. The permissions are highlighted and show that role is "Reader".'}
-ottrpal::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g1007b9b3ffb_0_386")
-    ```
-
-1. Click “SAVE”
-
-    ```{r, echo=FALSE, fig.alt='Screenshot of the share Workspace pop out box. The student Group email has been added with permissions correctly set. The "SAVE" button is highlighted.'}
-ottrpal::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g1007b9b3ffb_0_394")
-    ```
-
-You have now correctly set up your class permissions!
+Add a picture showing the result and highlighting the permission level?

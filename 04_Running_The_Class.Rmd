@@ -141,7 +141,7 @@ Once your students have accounts, you will need to add them to your Student Grou
 In order to add students to your Group, you will need the usernames for the Google accounts your students are using to access AnVIL.
 :::
 
-Unfortunately there is currently no way to add members to a Group in bulk, so you will need to add students to the group one-by-one.
+Unfortunately there is currently no way to add members to a Group in bulk, so you will need to add students to the Group one-by-one.
 
 The following instructions explain how to add someone to a Terra Group.  You will want to add students to the Group as **Members**.
 
