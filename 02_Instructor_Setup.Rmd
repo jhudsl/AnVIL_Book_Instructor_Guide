@@ -260,7 +260,7 @@ cow::borrow_chapter(
 
 **Congratulations! You have successfully set up AnVIL for your teaching team!**
 
-Your team members should be free to develop and test content, funded by your Billing Project.  Checkout the *Content Preparation* section for more information about how to use or develop content on AnVIL.
+You and your team members should be free to develop and test content, funded by your Billing Project.  Checkout the *Content Preparation* section for more information about how to use or develop content on AnVIL.
 
 When you're ready to set things up for your students
 
