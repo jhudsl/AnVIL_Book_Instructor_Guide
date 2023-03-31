@@ -6,6 +6,10 @@ This section describes how to get your students set up to access AnVIL.  These s
 
 <br>
 
+## Checklist
+
+Coming soon!
+
 ::: {.notice}
 **Notify Terra**
 
