@@ -20,13 +20,16 @@ student-group
 add-instructors-as-admin-student-group
 add-students-as-member
 group-email-lists
+set-up-billing-for-your-class
 billing-project
 adding-instructors-as-owner
 adding-students-as-user
 understanding-the-various-billing-costs
 estimating-costs-before-the-class-begins
 how-much-does-a-class-cost
+viewing-costs-in-google-cloud-console
 funding-sources
+strides-funding
 using-premade-content
 before-you-start-1
 cloning-the-workspace
