@@ -207,7 +207,7 @@ We typically have students clone the Workspace in the first few minutes of class
 - Collect feedback
 - Give students any necessary instructions on how to save and export any important files, and how to pause or delete their cloud environments
 
-## Before: Add Students to Billing Project
+## Before: Add Student Group to Billing Project
 
 When you are ready for your students to start computing, you should add the Student Group to your Billing Project.  This will enable everyone in the Group to clone or create Workspaces funded by the Billing Project.  Everything they do in those Workspaces will be charged to your Billing Project.
 
@@ -220,7 +220,7 @@ To add members to a Billing Project, you must be an "Owner" of the Billing Proje
 
 To add the Student Group to the Workspace, you will need the Group email address, which can be found on the Group management page: https://anvil.terra.bio/#groups
 
-The following instructions explain how to add someone to a Terra Billing Project.  You will want to add students to the Billing Project as **Users**.
+The following instructions explain how to add someone to a Terra Billing Project.  You will want to add the Student Group to the Billing Project as a **User**.
 
 :::: {.borrowed_chunk}
 ```{r, echo = FALSE, results='asis'}
