@@ -171,7 +171,7 @@ If you have **Workspaces of your own** that your students will need to access, y
 - Adding students as a Reader gives them permission to view the Workspace, and (once they have funding) to **clone their own copy**.  This will enable them to work safely in their own space without interfering with each other or overwriting anything in the original Workspace.
 - Adding students to your Workspace(s) can safely be done ahead of time; as Readers they can't run computations and run up a bill.
 
-To add the Student Group to a Workspace, you will need the Group email address, which can be found on the Group management page: https://anvil.terra.bio/#groups
+Adding the Student Group to a Workspace will give all members of the Group access to the Workspace in one easy step. To add the Student Group to a Workspace, you will need the Group email address, which can be found on the Group management page: https://anvil.terra.bio/#groups
 
 The following instructions explain how to add users to a Terra Workspace.  You will want to add the Student Group to the Workspace as **Reader**.
 
