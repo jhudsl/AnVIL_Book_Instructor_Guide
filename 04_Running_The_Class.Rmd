@@ -84,7 +84,7 @@ Our recommendation is to **do most set up ahead of time**:
 - Add students to the Student Group
 - Give the Student Group access to any Workspaces **as Readers**.  This will let them view the contents but not spend money.
 
-**Wait until shortly before the students need to compute** to add the Student Group to the Billing Project.  This prevents them from starting something up early and then accruing costs by failing to shut it down.
+**Wait until shortly before the students need to compute** to add the Student Group to the Billing Project. This prevents them from accruing costs on your Billing Project without your guidance.
 
 This chapter walks through all of the student setup steps that can safely be done ahead of time.  The final step for activating student billing is covered in the next chapter.
 

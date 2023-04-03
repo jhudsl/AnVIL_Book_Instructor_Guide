@@ -172,7 +172,7 @@ Terra Billing Projects are how you grant people (including yourself!) permission
 
 Depending on how you are being funded, this may be taken care of for you. If your funding is being managed by a third party (e.g. through a funding mechanism such as [STRIDES](https://datascience.nih.gov/strides), or through your institution), contact them to determine whether you should create Terra Billing Projects yourself.
 
-The first set of instructions below walk you through creating a Terra Billing Project.  If you do not need to create your own, you can skip down to [adding instructors to Billing Project](#add-instructors-billing-project).
+The first set of instructions below walk you through creating a Terra Billing Project.  **If someone else has provided a billing project**, you can skip down to [adding instructors to Billing Project](#add-instructors-billing-project).
 
 
 ## Create Terra Billing Project(s)
@@ -260,7 +260,7 @@ cow::borrow_chapter(
 
 **Congratulations! You have successfully set up AnVIL for your teaching team!**
 
-You and your team members should be free to develop and test content, funded by your Billing Project.  Checkout the *Content Preparation* section for more information about how to use or develop content on AnVIL.
+You and your team members should be free to develop and test content, funded by your Billing Project.  Check out the *Content Preparation* section for more information about how to use or develop content on AnVIL.
 
 When you're ready to set things up for your students
 
