@@ -166,14 +166,14 @@ First, you will need to give your Student Group access to any Workspaces that th
 
 If you are **using a Public Workspace** (most pre-made content uses Public Workspaces), **you can skip this step** - Public Workspaces are automatically available to everyone on AnVIL.  
 
-If you have **Workspaces of your own** that your students will need to access, you should **add the Student Group to your Workspace as a *Reader***.
+If you have **Workspaces of your own** that your students will need to access, you should **add the Student Group to your Workspace(s) as a *Reader***.
 
 - Adding students as a Reader gives them permission to view the Workspace, and (once they have funding) to **clone their own copy**.  This will enable them to work safely in their own space without interfering with each other or overwriting anything in the original Workspace.
 - Adding students to your Workspace(s) can safely be done ahead of time; as Readers they can't run computations and run up a bill.
 
-To add the Student Group to the Workspace, you will need the Group email address, which can be found on the Group management page: https://anvil.terra.bio/#groups
+To add the Student Group to a Workspace, you will need the Group email address, which can be found on the Group management page: https://anvil.terra.bio/#groups
 
-The following instructions explain how to add someone to a Terra Workspace.  You will want to add students to the Workspace as **Readers**.
+The following instructions explain how to add users to a Terra Workspace.  You will want to add the Student Group to the Workspace as **Reader**.
 
 :::: {.borrowed_chunk}
 ```{r, echo = FALSE, results='asis'}
