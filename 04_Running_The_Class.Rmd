@@ -158,7 +158,7 @@ cow::borrow_chapter(
 ```
 ::::
 
-## Add Student Group to Workspace(s)
+## Add Student Group to Workspace
 
 Now that you have added students to the Group, you can easily share Terra resources with the entire Group.
 
@@ -190,6 +190,7 @@ Make sure the newly added Student Group displays "Reader" under "Roles".
 
 This chapter covers things that you will generally do on the day of the class:
 
+<br>
 <br>
 
 **Before class**
@@ -252,7 +253,7 @@ We would also greatly appreciate feedback from you as the instructor!  Comments 
 
 If your students will not be doing any more work in this Workspace, have students export any files they wish to keep.  Once you disable Billing, they (and you) will lose access to files in the Workspace.
 
-If your students will continue using the Workspace in a subsequent class or for homework, have them pause or delete the cloud environment so they do not accrue charges while they are not working.
+If your students will continue using the Workspace in a subsequent class or for homework, have them pause or delete the cloud environment to minimize charges accrued while they are not working.
 
 # Shutting Down
 
