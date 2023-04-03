@@ -50,7 +50,7 @@ You can always access Terra by going to [`anvil.terra.bio`](https://anvil.terra.
 ottrpal::include_slide("https://docs.google.com/presentation/d/1tyt8ifxD3y7QW3nN27jh02aPrBvNEo1GN_u2Ne_UngM/edit#slide=id.gde7783227e_0_31")
 ```
 
-# Set up Google Billing (some users) {#google-billing-account}
+# Set up Google Billing {#google-billing-account}
 
 Google Billing Accounts are how you pay Google for you and your students' cloud costs.  Depending on how you are being funded, this may be taken care of for you. If your funding is being managed by a third party (e.g. through a funding mechanism such as [STRIDES](https://datascience.nih.gov/strides), or through your institution), contact them to determine whether you need to do any billing administration through Google.  If not, you can proceed directly to [create Instructor Group](#instructor-group).
 
@@ -110,7 +110,7 @@ cow::borrow_chapter(
 )
 ```
 
-# Create Instructor/TA Group(s) {#instructor-group}
+# Create Instructor Group {#instructor-group}
 
 Groups enable you to share AnVIL resources and manage permissions for many people at once.  If you have co-instructors or TAs who will be teaching with you, we recommend setting up an "instructor" Group where you can share materials under development and any other resources that are not meant to be shared with students.  If you are teaching by yourself, you can proceed directly to [Terra Billing Projects](#terra-billing-projects).
 
@@ -175,7 +175,7 @@ Depending on how you are being funded, this may be taken care of for you. If you
 The first set of instructions below walk you through creating a Terra Billing Project.  **If someone else has provided a billing project**, you can skip down to [adding instructors to Billing Project](#add-instructors-billing-project).
 
 
-## Create Terra Billing Project(s)
+## Create Terra Billing Projects
 
 ::: {.warning}
 To create a Billing Project, you need access to a Google Billing Account.
