@@ -1,5 +1,10 @@
 # (PART\*) Student Instructions {-}
 
+```{r, include = FALSE}
+ottrpal::set_knitr_image_path()
+knitr::opts_chunk$set(out.width = "100%")
+```
+
 # Overview {#student-instructions}
 
 The chapters in this section are aimed at students and provide instructions on how to sign up and access materials on AnVIL.
