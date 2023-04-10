@@ -244,6 +244,12 @@ Student-facing instructions for [how to clone a Workspace](#student-clone-worksp
 
 You will need to provide your students with a link to the Workspace they will be cloning, and the name of the Billing Project they should use.
 
+## After: Instruct Students on Shutdown
+
+If your students will not be doing any more work in this Workspace, have students export any files they wish to keep.  Once you disable Billing, they (and you) will lose access to files in the Workspace.
+
+If your students will continue using the Workspace in a subsequent class or for homework, have them pause or delete the cloud environment to minimize charges accrued while they are not working.
+
 ## After: Collect Feedback
 
 If you are using one of the premade courses, we would appreciate feedback!  If you are willing to ask your students to provide feedback, please direct them to this form:
@@ -254,11 +260,6 @@ Responses are anonymous, unless the responder chooses to provide contact informa
 
 We would also greatly appreciate feedback from you as the instructor!  Comments can be submitted through the same form, or if you are comfortable on GitHub you can open an issue in the corresponding repository.
 
-## After: Instruct Students on Shutdown
-
-If your students will not be doing any more work in this Workspace, have students export any files they wish to keep.  Once you disable Billing, they (and you) will lose access to files in the Workspace.
-
-If your students will continue using the Workspace in a subsequent class or for homework, have them pause or delete the cloud environment to minimize charges accrued while they are not working.
 
 # Shutting Down
 
