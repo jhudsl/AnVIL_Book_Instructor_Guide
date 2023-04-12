@@ -201,12 +201,12 @@ This chapter covers things that you will generally do on the day of the class:
 **Before class**
 
 - Add students to Billing Project
-- Direct students to clone the Workspace
+- Direct students to clone the Workspace (this can be done in the first few minutes of class)
 
 **After class**
 
-- Collect feedback
 - Give students any necessary instructions on how to save and export any important files, and how to pause or delete their cloud environments
+- Collect feedback
 
 ## Before: Add Student Group to Billing Project
 
