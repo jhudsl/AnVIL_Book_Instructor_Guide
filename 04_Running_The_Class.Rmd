@@ -203,10 +203,6 @@ This chapter covers things that you will generally do on the day of the class:
 - Add students to Billing Project
 - Direct students to clone the Workspace
 
-We generally recommend waiting until shortly before the class to add students to the Billing Project, to prevent them from starting something up early and accruing costs.  *However, if you did not create the Terra Billing Project for your class, you should make sure that either you have been given "Owner" permission for the class Billing Project (so you can add students yourself), or that someone who does is prepared to add students in time for your class to start.*
-
-We typically have students clone the Workspace in the first few minutes of class.  This both helps ensure they won't start up their cloud environments early, and ensures they get the most up-to-date version of the Workspace.
-
 **After class**
 
 - Collect feedback
@@ -215,6 +211,8 @@ We typically have students clone the Workspace in the first few minutes of class
 ## Before: Add Student Group to Billing Project
 
 When you are ready for your students to start computing, you should add the Student Group to your Billing Project.  This will enable everyone in the Group to clone or create Workspaces funded by the Billing Project.  Everything they do in those Workspaces will be charged to your Billing Project.
+
+We generally recommend waiting until shortly before the class to add students to the Billing Project, to prevent them from starting something up early and accruing costs.  *However, if you did not create the Terra Billing Project for your class, you should make sure that either you have been given "Owner" permission for the class Billing Project (so you can add students yourself), or that someone who does is prepared to add students in time for your class to start.*
 
 ::: {.warning}
 To add members to a Billing Project, you must be an "Owner" of the Billing Project.
@@ -239,6 +237,10 @@ cow::borrow_chapter(
 Make sure the newly added Student Group displays "User" under "Roles".
 
 ## Before: Direct Students to Clone Workspace
+
+Your students will each need to clone their own copy of the class Workspace.
+
+We typically have students clone the Workspace in the first few minutes of class.  This both helps ensure they won't start up their cloud environments early, and ensures they get the most up-to-date version of the Workspace.
 
 Student-facing instructions for [how to clone a Workspace](#student-clone-workspace) are provided in the **Student Instructions** section.
 
