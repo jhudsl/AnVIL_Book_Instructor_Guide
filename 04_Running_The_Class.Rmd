@@ -11,9 +11,23 @@ This section describes how to get your students set up to access AnVIL.  These s
 
 <br>
 
-## Checklist
+## Checklist and Timeline
 
-Coming soon!
+```{r, echo = FALSE, results='asis'}
+cow::borrow_chapter(
+  doc_path = "child/_child_instructor_timeline_link.Rmd",
+  repo_name = "jhudsl/AnVIL_Template"
+)
+```
+
+Here is a suggested timeframe for working through the checklist:
+
+```{r, echo = FALSE, results='asis'}
+cow::borrow_chapter(
+  doc_path = "child/_child_instructor_timeline_premade.Rmd",
+  repo_name = "jhudsl/AnVIL_Template"
+)
+```
 
 ::: {.notice}
 **Notify Terra**
