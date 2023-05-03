@@ -11,6 +11,12 @@ This section describes how to get your students set up to access AnVIL.  These s
 
 <br>
 
+::: {.notice}
+**Notify Terra**
+
+In addition to setting up your class, you may want to contact Terra to [submit a request](https://support.terra.bio/hc/en-us/requests/new) for a hold on scheduled maintenance and downtime.  Contacting Terra ahead of your class time helps the Terra team avoid any major disruptions to your class.  It’s also a good idea to ask about major changes planned for the time prior to your class.
+:::
+
 ## Checklist and Timeline
 
 ```{r, echo = FALSE, results='asis'}
@@ -28,12 +34,6 @@ cow::borrow_chapter(
   repo_name = "jhudsl/AnVIL_Template"
 )
 ```
-
-::: {.notice}
-**Notify Terra**
-
-In addition to setting up your class, you may want to contact Terra to [submit a request](https://support.terra.bio/hc/en-us/requests/new) for a hold on scheduled maintenance and downtime.  Contacting Terra ahead of your class time helps the Terra team avoid any major disruptions to your class.  It’s also a good idea to ask about major changes planned for the time prior to your class.
-:::
 
 # Set Up Funding
 
