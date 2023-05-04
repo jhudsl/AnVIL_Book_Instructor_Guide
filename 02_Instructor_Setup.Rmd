@@ -55,14 +55,14 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1-PVlDAzmDncjcCHI
 
 Google Billing Accounts are how you pay Google for you and your students' cloud costs.  Depending on how you are being funded, this may be taken care of for you. If your funding is being managed by a third party (e.g. through a funding mechanism such as [STRIDES](https://datascience.nih.gov/strides), or through your institution), contact them to determine whether you need to do any billing administration through Google.  If not, you can proceed directly to [create Instructor Group](#instructor-group).
 
+If you are using a third party funding mechanism but you would like to get started exploring AnVIL right away, you can optionally follow the instructions below to activate Google's free credits.  These should be sufficient for you to experiment with a few exercises yourself and learn how AnVIL works, while you work on getting funding set up for your class.
+
 ::: {.warning}
 If you are new to AnVIL, **we strongly recommend seeking funding through NHGRI / STRIDES for teaching your course**.  In order to prevent abuse, Google sets certain limits on cloud resources available to new users that can complicate teaching (e.g. [project quotas](https://support.terra.bio/hc/en-us/articles/6101030164507-When-workspace-creation-fails-Google-project-quotas)).  As you or your institution builds a payment history with Google, the limits on your accounts will be relaxed.  In the meantime, STRIDES funding can help ensure your initial classes run smoothly.
 
 NHGRI's [strategic vision](https://pubmed.ncbi.nlm.nih.gov/33116284/) highlights the importance of training the next generation of genomic scientists.  In collaboration with the NIH Office of Data Science Strategy, NHGRI makes funding available to AnVIL users through the [STRIDES](https://datascience.nih.gov/strides) program, which aims to promote biological research in cloud environments. 
 
 **To inquire about funding your class on AnVIL, please contact help@lists.anvilproject.org.**
-
-You get started exploring AnVIL right away by following the instructions below to activate Google's free credits.  These should be sufficient for you to experiment with a few exercises yourself and learn how AnVIL works, while you work on getting funding set up for your class.
 :::
 
 
@@ -70,7 +70,6 @@ You get started exploring AnVIL right away by following the instructions below t
 
 - If you are managing your own billing, you will need a **credit card or bank account** to get started.  Google provides a free trial for first-time users, but payment information is still needed for verification purposes. Don't worry!  If using the free trial, **you won't be billed until you explicitly turn on automatic billing**.
 - Before setting up billing yourself, you may want to check with your institutional procurement office and see if they have a preferred account set-up method with Google (such as a third party reseller or an existing account).
-- You can also work with your AnVIL collaborators or grant program officer to determine an appropriate Google Billing Account for your class.
 
 ## Google Billing Account
 
