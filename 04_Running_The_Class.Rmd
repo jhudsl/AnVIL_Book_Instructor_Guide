@@ -45,8 +45,6 @@ cow::borrow_chapter(
 
 # Set Up Funding
 
-As a reminder, Terra Billing Projects are how you grant people, including your students, permission to compute on AnVIL.  By adding someone to your Billing Project, you enable them to use your funding to carry out activities on AnVIL.
-
 Depending on how you are being funded, this may be taken care of for you. If your funding is being managed by a third party (e.g. through a funding mechanism such as [STRIDES](https://datascience.nih.gov/strides), or through your institution), contact them to determine whether you should create a Terra Billing Project for your students.
 
 :::{.warning}
@@ -56,6 +54,8 @@ To prevent abuse, new users are only permitted to create a few Workspaces.  See 
 :::
 
 ## Create Student Billing Project
+
+As a reminder, Terra Billing Projects are how you grant people, including your students, permission to compute on AnVIL.  By adding someone to your Billing Project, you enable them to use your funding to carry out activities on AnVIL.
 
 You *can* just add students to the same Billing Project that you are using yourself, but we generally recommend creating a separate Billing Project to fund student activity.  This makes it easy to deactivate when the course is over, without freezing your own projects.
 
@@ -76,7 +76,7 @@ cow::borrow_chapter(
 **Reminder**: It's often a good idea to add at least one other Owner of a Billing Project in order to avoid getting locked out, in case the original owner loses access to their account.  See the section on [adding instructors to a billing project](#add-instructors-billing-project) if you need a reminder on how to do this.
 :::
 
-## Request Quota Increase {#quota-increase}
+## Request Project Quota Increase {#quota-increase}
 
 To prevent abuse, new users are only permitted to create a few Workspaces.  If each of your students needs their own Workspace (e.g. they each clone their own copy of a Workspace), you will quickly run into this limit and students will not be able to clone or create new Workspaces.
 
