@@ -11,6 +11,14 @@ This section describes how to get your students set up to access AnVIL.  These s
 
 <br>
 
+::: {.warning}
+If you are new to AnVIL, **we strongly recommend seeking funding through NHGRI / STRIDES for teaching your course**.  In order to prevent abuse, Google sets certain limits on cloud resources available to new users that can complicate teaching (e.g. [project quotas](https://support.terra.bio/hc/en-us/articles/6101030164507-When-workspace-creation-fails-Google-project-quotas)).  As you or your institution builds a payment history with Google, the limits on your accounts will be relaxed.  In the meantime, STRIDES funding can help ensure your initial classes run smoothly.
+
+**What is STRIDES?**  NHGRI's [strategic vision](https://pubmed.ncbi.nlm.nih.gov/33116284/) highlights the importance of training the next generation of genomic scientists.  In collaboration with the NIH Office of Data Science Strategy, NHGRI makes funding available to AnVIL users through the [STRIDES](https://datascience.nih.gov/strides) program, which aims to promote biological research in cloud environments. 
+
+**To inquire about funding your class on AnVIL, please contact help@lists.anvilproject.org.**
+:::
+
 ::: {.notice}
 **Notify Terra**
 
@@ -39,8 +47,6 @@ cow::borrow_chapter(
 
 As a reminder, Terra Billing Projects are how you grant people, including your students, permission to compute on AnVIL.  By adding someone to your Billing Project, you enable them to use your funding to carry out activities on AnVIL.
 
-You *can* just add students to the same Billing Project that you are using yourself, but we generally recommend creating a separate Billing Project to fund student activity.  This makes it easy to deactivate when the course is over, without freezing your own projects.
-
 Depending on how you are being funded, this may be taken care of for you. If your funding is being managed by a third party (e.g. through a funding mechanism such as [STRIDES](https://datascience.nih.gov/strides), or through your institution), contact them to determine whether you should create a Terra Billing Project for your students.
 
 :::{.warning}
@@ -50,6 +56,8 @@ To prevent abuse, new users are only permitted to create a few Workspaces.  See 
 :::
 
 ## Create Student Billing Project
+
+You *can* just add students to the same Billing Project that you are using yourself, but we generally recommend creating a separate Billing Project to fund student activity.  This makes it easy to deactivate when the course is over, without freezing your own projects.
 
 **Note:** Terra Billing Projects need unique names.  One option is to use a combination of institution-class-role-term (e.g. `jhu-bio101-students-2023FA`).
 
