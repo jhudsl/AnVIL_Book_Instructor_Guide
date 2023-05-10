@@ -2,16 +2,6 @@
 
 # Class Setup
 
-## Overview of Class Setup
-
-This section will show you how to organize your class to make it easier to administer access to your content. You will need to have a list of who will be taking your class, such as a course roster or sign-up list, as well as a list of additional instructors or teaching assistants. You can make changes later, so the list of students need not be final.
-
-## Identify Funding
-
-### NHGRI STRIDES {#strides-funding}
-
-Through the [STRIDES](https://datascience.nih.gov/strides) program, NHGRI makes funding available to new users of the AnVIL, in collaboration with the [NIH Office of Data Science Strategy](https://datascience.nih.gov/about/odss). NHGRI currently supports the [AnVIL Cloud Credits Program (AC2)](https://anvilproject.org/news/2021/04/12/announcing-anvil-cloud-cost-credits-program) and will have a second round of funding available in fall of 2021.
-
 ## Collect Google IDs
 
 AnVIL IDs are based on [Google accounts](account-setup.html#google-account).
@@ -31,16 +21,8 @@ For a more detailed explanation, please see the chapter on Account Setup.
 
 We suggest creating two different Terra Billing Projects under the appropriate Billing Account that you created on `cloud.google.com`: one for students and one for co-instructors. The instructions below will walk you through how to set this up.
 
-### Group Email Lists
-
-Note that your newly created Groups have Group emails associated with them. Take note of these Group emails. You will use them for granting access to your class Billing Projects and Workspaces in the next steps.
-
-```{r, echo=FALSE, fig.alt='Screenshot of the Terra Group page. Emails associated with newly formed Groups have been highlighted.'}
-ottrpal::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g100474897dd_0_96")
-```
 
 ## Set Up Billing Projects
-
 
 ### Instructor Billing Project {#instructor-billing-project}
     
