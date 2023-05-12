@@ -107,3 +107,4 @@ This step makes it so that co-instructors can edit the original content of the W
 1. Click “Share”. This will open a dialog box.
 
 Add a picture showing the result and highlighting the permission level?
+
