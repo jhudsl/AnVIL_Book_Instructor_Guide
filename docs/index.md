@@ -1,6 +1,6 @@
 ---
 title: "AnVIL Instructor Guide"
-date: "March 29, 2023"
+date: "May 12, 2023"
 site: bookdown::bookdown_site
 documentclass: book
 biblio-style: apalike
