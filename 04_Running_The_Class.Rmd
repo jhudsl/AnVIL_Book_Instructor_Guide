@@ -30,7 +30,7 @@ In addition to setting up your class, you may want to contact Terra to [submit a
 
 ```{r, echo = FALSE, results='asis'}
 cow::borrow_chapter(
-  doc_path = "child/_child_instructor_timeline_link.Rmd",
+  doc_path = "child/_child_instructor_checklist_link.Rmd",
   repo_name = "jhudsl/AnVIL_Template"
 )
 ```
