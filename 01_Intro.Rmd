@@ -1,6 +1,7 @@
 
 ```{r, include = FALSE}
 ottrpal::set_knitr_image_path()
+knitr::opts_chunk$set(out.width = "100%")
 ```
 
 # Introduction
@@ -30,3 +31,46 @@ Note that some sections of this book cover steps in a lot of detail. When naviga
 ```{r, echo=FALSE, fig.alt="Double-clicking on the H2 headers (for example, 2.2) will expand the contents for view using the 'scroll_highlight' feature."}
 ottrpal::include_slide("https://docs.google.com/presentation/d/18yUr5XSEMgPk8JXFLKfG9JF7L9NpKbCF_mIcXagogKg/edit#slide=id.gde0d2ef5f6_0_1")
 ```
+
+## Why should I use AnVIL?
+
+```{r, echo = FALSE, results='asis'}
+cow::borrow_chapter(
+  doc_path = "child/_child_why_AnVIL_instructor.Rmd",
+  repo_name = "jhudsl/AnVIL_Template"
+)
+```
+
+## Overview
+
+This book is targeted towards people who are teaching a course or workshop on AnVIL. You will find here:
+
+- **Introduction** -- Design philosophy and goals for this guide - is this a good fit for your class?  What should you know before you start?
+- **Instructor Setup** -- Step-by-step instructions to create your first accounts on AnVIL 
+- **Content Preparation** -- Instructions on using premade content, along with additional tools to help you customize or create your own class Workspace
+- **Running the Class** -- Step-by-step instructions to help you add students into a class on AnVIL, along with best practices for shutting down your course cleanly and minimizing costs
+- **Cost Management** -- Explanations of the types of costs you and your students may incure, along with advice on how to minimize them.
+- **Student Instructions** -- Step-by-step instructions for students using AnVIL in your class, to guide them through common tasks.
+
+## Goals for This Guide
+
+```{r, echo=FALSE, fig.alt="List of goals for this guide: (1) get your accounts, (2) set up billing, (3) create your first Workspace, (4) develop content, and (5) set up classes with students."}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.ge21c626cf0_0_5")
+```
+
+## Design Philosophy
+
+This guide provides an opinionated walkthrough on how to set up AnVIL for your class.  These step-by-step instructions take instructors that are completely new to the AnVIL through account setup to the point where you can feel comfortable hosting a class from start-to-finish on AnVIL. Following the recommendations in this guide will help you minimize expenses, develop content programmatically, track individual student expenses, and stop billing expenses from accruing once the class is complete. In support of these goals we have made the following design decisions:
+
+1. ACCOUNT SETUP
+
+a. Sign up for a personal Google Cloud Account, where you can get started by claiming [$300 free Google credits](https://cloud.google.com/free/docs/gcp-free-tier/#free-trial).
+
+2. CONTENT DEVELOPING
+
+a. Include version control and visibility of course content by using GitHub. This will allow you to add content programmatically, keep track of changes, and share your content with others outside of AnVIL.
+
+3. CLASS SETUP
+
+a. Create a separate Terra Billing Project for each class. This will allow you to easily shut down expenses at the end of the class.
+b. Choose one funding source per class (for example, the [STRIDES](#strides-funding) Program).

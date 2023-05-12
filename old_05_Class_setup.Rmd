@@ -1,0 +1,110 @@
+# (PART\*) For Each Class {-}
+
+# Class Setup
+
+## Collect Google IDs
+
+AnVIL IDs are based on [Google accounts](account-setup.html#google-account).
+
+Students -- Contact students/participants to get their AnVIL IDs. These should be Gmail addresses or emails with GSuite capabilities. You can link students to [Student Account Setup](student-account-setup.html) for instructions on what they should do.
+
+Co-instructors -- If you will be working with other instructors, such as co-instructors or teaching assistants, you will need to collect their IDs as well.
+
+## Set Up Groups
+
+Reminder:
+
+- Google **Billing Accounts** are managed on Google Cloud Platform and are used for organizing *funding sources* (e.g. credit cards, cloud credits).
+- Terra **Billing Projects** are managed through Terra, and allow you to associate your Terra activity with the correct Google Billing Account.
+
+For a more detailed explanation, please see the chapter on Account Setup.
+
+We suggest creating two different Terra Billing Projects under the appropriate Billing Account that you created on `cloud.google.com`: one for students and one for co-instructors. The instructions below will walk you through how to set this up.
+
+
+## Set Up Billing Projects
+
+### Instructor Billing Project {#instructor-billing-project}
+    
+1. Click “CREATE BILLING PROJECT”
+
+    ```{r, echo=FALSE, fig.alt='Screenshot of the Terra Billing page with Create Billing Project pop out box. The "CREATE BILLING PROJECT" button is highlighted.'}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g100474897dd_0_9")
+    ```
+    
+You now have a unique **instructor Billing Project**.
+
+### Add Instructors as “Owner” (Instructor Project)
+
+Your **instructor Billing Project** is now set up.
+
+### Student Billing Project {#student-billing-project}
+
+1. Select the appropriate Billing Account (same as above)
+
+    ```{r, echo=FALSE, fig.alt='Screenshot of the Terra Billing page with Create Billing Project pop out box. The appropriate billing account name, My Billing Account, is highlighted.'}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g100474897dd_0_21")
+    ```
+
+1. Click “CREATE BILLING PROJECT”
+
+    ```{r, echo=FALSE, fig.alt='Screenshot of the Terra Billing page with Create Billing Project pop out box. The "CREATE BILLING PROJECT" button is highlighted.'}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g100474897dd_0_27")
+    ```
+
+You now have a unique **student Billing Project**.
+   
+### Add Instructors as “Owner” (Student Project)
+
+You want to ensure any additional co-instructors and teaching assistants are able to administer the student Billing Project in case you are unavailable. To set instructor permissions:
+    
+::: {.notice}
+This step makes it so that co-instructors can edit permissions and administer the student Billing Project as needed. While this means you and co-instructors can compute using the student Billing Project, this makes spending difficult to track. Instructors should always use the **instructor Billing Project** to compute. This makes it much easier to track costs associated with instructors versus students.
+:::
+
+## Set Permissions - Workspace
+
+Finally, you will want to set up permissions for co-instructors and students to see the class Workspace you created with the development Billing Project in [Developing Content](developing-content.html). AnVIL users can take on the "Owner", "Writer", or "Reader" role for a Workspace.
+
+### Add Instructors as “Owner”
+
+You should add your co-instructors and teaching assistants as “Owners” to the class Workspace. This is useful if they need to edit the course content or share the space with students on your behalf. To share and change permissions:
+
+1. Go to https://anvil.terra.bio/#workspaces and find your class Workspace you set up in [Developing Content](developing-content.html)
+
+1. Click the teardrop button for your class Workspace
+
+1. Click “Share”. This will open a dialog box.
+
+    ```{r, echo=FALSE, fig.alt='Screenshot of the class Workspace listed in the Workspaces tab. The teardrop button and the option to "Share" the Workspace are highlighted.'}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g1007b9b3ffb_0_344")
+    ```
+
+1. Enter the name of the instructor Group (e.g., jhu-bmr2021-instructors). This will create a dropdown for the Group permissions in the box. Select this Group.
+
+    ```{r, echo=FALSE, fig.alt='Screenshot of the share Workspace pop out box. The text "jhu-bmr" has been entered in the User email box and the dropdown below has been automatically filtered to reveal the instructor, student, and dev Groups. The instructor Group, in this case jhu-bmr2021-instructors@firecloud.org, has been highlighted.'}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.gdb96a00840_0_138")
+    ```
+
+1. Change permissions to “Owner” using the dropdown menu under the instructor Group
+
+    ```{r, echo=FALSE, fig.alt='Screenshot of the share Workspace pop out box. The instructor Group, in this case jhu-bmr2021-instructors@firecloud.org, has been added as a collaborator. The permissions are highlighted and show that role has been set to "Owner".'}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g1007b9b3ffb_0_356")
+    ```
+
+1. Click “SAVE”
+
+    ```{r, echo=FALSE, fig.alt='Screenshot of the share Workspace pop out box. The instructor Group email has been added with permissions correctly set. The "SAVE" button is highlighted.'}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag/edit#slide=id.g1007b9b3ffb_0_365")
+    ```
+
+::: {.notice}
+This step makes it so that co-instructors can edit the original content of the Workspace as needed. While this means you and co-instructors can compute using the development Billing Project, this makes spending difficult to track. Instructors should instead clone the Workspace using the **instructor Billing Project**. This makes it much easier to track costs associated with this iteration of your class versus further iterations (e.g., the following semester or year).
+:::
+
+### Add Students as “Reader”
+
+1. Click “Share”. This will open a dialog box.
+
+Add a picture showing the result and highlighting the permission level?
+

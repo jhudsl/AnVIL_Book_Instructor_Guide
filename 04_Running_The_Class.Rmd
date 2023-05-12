@@ -1,0 +1,317 @@
+# (PART\*) Running The Class {-}
+
+```{r, include = FALSE}
+ottrpal::set_knitr_image_path()
+knitr::opts_chunk$set(out.width = "100%")
+```
+
+# Overview {#run-class}
+
+This section describes how to get your students set up to access AnVIL.  These steps will need to be *repeated for each new offering of the course*.
+
+<br>
+
+::: {.warning}
+```{r, echo = FALSE, results='asis'}
+cow::borrow_chapter(
+  doc_path = "child/_child_instructor_STRIDES.Rmd",
+  repo_name = "jhudsl/AnVIL_Template"
+)
+```
+:::
+
+::: {.notice}
+**Notify Terra**
+
+In addition to setting up your class, you may want to contact Terra to [submit a request](https://support.terra.bio/hc/en-us/requests/new) for a hold on scheduled maintenance and downtime.  Contacting Terra ahead of your class time helps the Terra team avoid any major disruptions to your class.  It’s also a good idea to ask about major changes planned for the time prior to your class.
+:::
+
+## Checklist and Timeline
+
+```{r, echo = FALSE, results='asis'}
+cow::borrow_chapter(
+  doc_path = "child/_child_instructor_checklist_link.Rmd",
+  repo_name = "jhudsl/AnVIL_Template"
+)
+```
+
+Here is a suggested timeframe for working through the checklist:
+
+```{r, echo = FALSE, results='asis'}
+cow::borrow_chapter(
+  doc_path = "child/_child_instructor_timeline_premade.Rmd",
+  repo_name = "jhudsl/AnVIL_Template"
+)
+```
+
+# Set Up Funding
+
+Depending on how you are being funded, this may be taken care of for you. If your funding is being managed by a third party (e.g. through a funding mechanism such as [STRIDES](https://datascience.nih.gov/strides), or through your institution), contact them to determine whether you should create a Terra Billing Project for your students.
+
+:::{.warning}
+Regardless of who is managing funding, it is essential to make sure that you have permission to create enough Workspaces for all of your students!
+
+To prevent abuse, new users are only permitted to create a few Workspaces.  See [Request Quota Increase](#quota-increase) for more information about how to make sure your students will be able to create Workspaces.
+:::
+
+## Create Student Billing Project
+
+As a reminder, Terra Billing Projects are how you grant people, including your students, permission to compute on AnVIL.  By adding someone to your Billing Project, you enable them to use your funding to carry out activities on AnVIL.
+
+You *can* just add students to the same Billing Project that you are using yourself, but we generally recommend creating a separate Billing Project to fund student activity.  This makes it easy to deactivate when the course is over, without freezing your own projects.
+
+**Note:** Terra Billing Projects need unique names.  One option is to use a combination of institution-class-role-term (e.g. `jhu-bio101-students-2023FA`).
+
+To create a Terra Billing Project:
+
+:::: {.borrowed_chunk}
+```{r, echo = FALSE, results='asis'}
+cow::borrow_chapter(
+  doc_path = "child/_child_terra_billing_project_create.Rmd",
+  repo_name = "jhudsl/AnVIL_Template"
+)
+```
+::::
+
+::: {.notice}
+**Reminder**: It's often a good idea to add at least one other Owner of a Billing Project in order to avoid getting locked out, in case the original owner loses access to their account.  See the section on [adding instructors to a billing project](#add-instructors-billing-project) if you need a reminder on how to do this.
+:::
+
+## Request Project Quota Increase {#quota-increase}
+
+To prevent abuse, new users are only permitted to create a few Workspaces.  If each of your students needs their own Workspace (e.g. they each clone their own copy of a Workspace), you will quickly run into this limit and students will not be able to clone or create new Workspaces.
+
+This limit is imposed by Google, rather than Terra (Google only permits you to create a few Google Cloud "Projects", and each Terra Workspace is a Google Cloud Project), so you will need to contact Google directly to request a "billing quota increase", using [this form](https://support.google.com/code/contact/billing_quota_increase).  This should be done by the owner of the Google Billing Account.  If you set up billing yourself, this is you; otherwise talk to your funding provider and make sure that you have enough Google Cloud Projects available for all your students (typically one per student, unless students need multiple Workspaces).
+
+At the time of writing (Feb 2023) Terra is working to expedite this process for Terra users; we recommend checking the [relevant Terra documentation](https://support.terra.bio/hc/en-us/articles/6101030164507-When-workspace-creation-fails-Google-project-quotas) for the latest information as well as recommendations about how to fill out the form.
+
+In our experience, the process has been reasonably straightforward and quick (approved in a couple of days).
+
+
+# Set Up Student Accounts
+
+In order for your students to compute on AnVIL, they will need to set up an account and provide you with their username so that you can grant them access to resources (Billing Projects and Workspaces).
+
+If possible, it can be helpful to do this ahead of time, so that you do not need to dedicate class time for it.
+
+<br>
+
+::: {.warning}
+Make sure you understand when and where your students can spend money!
+
+The following actions will give your students the ability to spend money on AnVIL:
+
+- Adding them to a **Billing Project** - this will let them create their own Workspaces
+- Adding them as **Writers or Owners to a Workspace** - this will let them compute in the Workspace
+:::
+
+Our recommendation is to **do most set up ahead of time**:
+
+- Create Student Group (and add Instructors)
+- Have students create accounts (and collect usernames)
+- Add students to the Student Group
+- Give the Student Group access to any Workspaces **as Readers**.  This will let them view the contents but not spend money.
+
+**Wait until shortly before the students need to compute** to add the Student Group to the Billing Project. This prevents them from accruing costs on your Billing Project without your guidance.
+
+This chapter walks through all of the student setup steps that can safely be done ahead of time.  The final step for activating student billing is covered in the next chapter.
+
+
+## Create Student Group {#student-group}
+
+Creating a Group for your students will let you easily manage the class as a whole by granting the Group access to Billing Projects and Workspaces.
+
+You will need a unique name for your Group. We suggest a combination of institution-class-role-term (e.g., `jhu-bio101-students-2023FA`). Only letters, numbers, underscores, and dashes are allowed in Group names.
+
+To create a Group:
+
+::::{.borrowed_chunk}
+```{r, echo = FALSE, results='asis'}
+cow::borrow_chapter(
+  doc_path = "child/_child_terra_group_create.Rmd",
+  repo_name = "jhudsl/AnVIL_Template"
+)
+```
+::::
+
+You now have a unique **Student Group**.
+
+### Add Instructors to Group
+
+Now that your student Group has been created, you should add any additional instructors / course coordinators as **Admins**.  This will give them permission to add and remove students, in case you are unavailable.
+
+::: {.notice}
+If you created an instructor Group, you can instead add the *Instructor Group* as an Admin of the *Student Group*.  This will enable everyone in the Instructor Group to act as an Admin for the Student Group.  To do this, you will need the email address associated with the Instructor Group, which can be found on the Group management page: https://anvil.terra.bio/#groups.
+:::
+
+The following instructions explain how to add someone to a Terra Group.  You will want to add instructors to the Student Group as **Admins**.
+
+:::: {.borrowed_chunk}
+```{r, echo = FALSE, results='asis'}
+cow::borrow_chapter(
+  doc_path = "child/_child_terra_group_add_member.Rmd",
+  repo_name = "jhudsl/AnVIL_Template"
+)
+```
+::::
+
+## Have Students Create Accounts
+
+Each of your students will need to:
+
+1. Create a Google account, if they do not already have one
+2. Sign in to Terra
+3. Provide you with their username, so that you can add them to your Student Group
+
+Student-facing instructions for account creation (and several other activities) are provided in the [**Student Instructions**](#student-instructions) section.
+
+## Add Students to Group
+
+Once your students have accounts, you will need to add them to your Student Group as **Members**.
+
+::: {.notice}
+In order to add students to your Group, you will need the usernames for the Google accounts your students are using to access AnVIL.
+:::
+
+Unfortunately there is currently no way to add members to a Group in bulk, so you will need to add students to the Group one-by-one.
+
+The following instructions explain how to add someone to a Terra Group.  You will want to add students to the Group as **Members**.
+
+:::: {.borrowed_chunk}
+```{r, echo = FALSE, results='asis'}
+cow::borrow_chapter(
+  doc_path = "child/_child_terra_group_add_member.Rmd",
+  repo_name = "jhudsl/AnVIL_Template"
+)
+```
+::::
+
+## Add Student Group to Workspace
+
+Now that you have added students to the Group, you can easily share Terra resources with the entire Group.
+
+First, you will need to give your Student Group access to any Workspaces that they will need.
+
+If you are **using a Public Workspace** (most pre-made content uses Public Workspaces), **you can skip this step** - Public Workspaces are automatically available to everyone on AnVIL.  
+
+If you have **Workspaces of your own** that your students will need to access, you should **add the Student Group to your Workspace(s) as a *Reader***.
+
+- Adding students as a Reader gives them permission to view the Workspace, and (once they have funding) to **clone their own copy**.  This will enable them to work safely in their own space without interfering with each other or overwriting anything in the original Workspace.
+- Adding students to your Workspace(s) can safely be done ahead of time; as Readers they can't run computations and run up a bill.
+
+Adding the Student Group to a Workspace will give all members of the Group access to the Workspace in one easy step. To add the Student Group to a Workspace, you will need the Group email address, which can be found on the Group management page: https://anvil.terra.bio/#groups
+
+The following instructions explain how to add users to a Terra Workspace.  You will want to add the Student Group to the Workspace as **Reader**.
+
+:::: {.borrowed_chunk}
+```{r, echo = FALSE, results='asis'}
+cow::borrow_chapter(
+  doc_path = "child/_child_workspace_share.Rmd",
+  repo_name = "jhudsl/AnVIL_Template"
+)
+```
+::::
+
+Make sure the newly added Student Group displays "Reader" under "Roles".
+
+# Teach the Class
+
+This chapter covers things that you will generally do on the day of the class:
+
+<br>
+<br>
+
+**Before class**
+
+- Add students to Billing Project
+- Direct students to clone the Workspace (this can be done in the first few minutes of class)
+
+**After class**
+
+- Give students any necessary instructions on how to save and export any important files, and how to pause or delete their cloud environments
+- Collect feedback
+
+## Before: Add Student Group to Billing Project
+
+When you are ready for your students to start computing, you should add the Student Group to your Billing Project.  This will enable everyone in the Group to clone or create Workspaces funded by the Billing Project.  Everything they do in those Workspaces will be charged to your Billing Project.
+
+We generally recommend waiting until shortly before the class to add students to the Billing Project, to prevent them from starting something up early and accruing costs.  *However, if you did not create the Terra Billing Project for your class, you should make sure that either you have been given "Owner" permission for the class Billing Project (so you can add students yourself), or that someone who does is prepared to add students in time for your class to start.*
+
+::: {.warning}
+To add members to a Billing Project, you must be an "Owner" of the Billing Project.
+
+- If you created the Billing Project yourself, you're good to go!
+- If a third party created the Billing Project, check to see whether you are an Owner or a User.  If you are not an Owner, you will need to contact your funding manager.  They can either make you an Owner, or can add the Student Group to the Billing Project themselves.
+:::
+
+To add the Student Group to the Workspace, you will need the Group email address, which can be found on the Group management page: https://anvil.terra.bio/#groups
+
+The following instructions explain how to add someone to a Terra Billing Project.  You will want to add the Student Group to the Billing Project as a **User**.
+
+:::: {.borrowed_chunk}
+```{r, echo = FALSE, results='asis'}
+cow::borrow_chapter(
+  doc_path = "child/_child_terra_billing_project_add_member.Rmd",
+  repo_name = "jhudsl/AnVIL_Template"
+)
+```
+::::
+
+Make sure the newly added Student Group displays "User" under "Roles".
+
+## Before: Direct Students to Clone Workspace
+
+Your students will each need to clone their own copy of the class Workspace.
+
+We typically have students clone the Workspace in the first few minutes of class.  This both helps ensure they won't start up their cloud environments early, and ensures they get the most up-to-date version of the Workspace.
+
+Student-facing instructions for [how to clone a Workspace](#student-clone-workspace) are provided in the **Student Instructions** section.
+
+You will need to provide your students with a link to the Workspace they will be cloning, and the name of the Billing Project they should use.
+
+## After: Instruct Students on Shutdown
+
+If your students will not be doing any more work in this Workspace, have students export any files they wish to keep.  Once you disable Billing, they (and you) will lose access to files in the Workspace.
+
+If your students will continue using the Workspace in a subsequent class or for homework, have them pause or delete the cloud environment to minimize charges accrued while they are not working.
+
+## After: Collect Feedback
+
+If you are using one of the premade courses, we would appreciate feedback!  If you are willing to ask your students to provide feedback, please direct them to this form:
+
+https://forms.gle/AK12iVXTjsB7yCUUA
+
+Responses are anonymous, unless the responder chooses to provide contact information for follow up.
+
+We would also greatly appreciate feedback from you as the instructor!  Comments can be submitted through the same form, or if you are comfortable on GitHub you can open an issue in the corresponding repository.
+
+
+# Shutting Down
+
+Once your students are done working, you will want to deactivate the Billing Project.
+
+<br>
+
+:::{.warning}
+**It is essential to disable the Billing Project, not just remove students from it!**
+
+Removing students from the Billing Project will prevent them from making new Workspaces, but will not stop them from computing in Workspaces that already exist.  You will continue to accrue costs for any storage and cloud environments until you disable the Billing Project.
+:::
+
+:::{.warning}
+**Disabling the Billing Project makes the Workspace contents inaccessible!**
+
+You will be unable to access any data stored in the Workspace or cloud environment.  It is sometimes possible to restore access by reactivating billing, but Google makes no promises about whether the data will be recoverable.
+
+**Make sure you and your students have saved anything you want to keep in another location** before disabling billing for your class.
+:::
+
+:::: {.borrowed_chunk}
+```{r, echo = FALSE, results='asis'}
+AnVIL_module_settings <- list(warning = FALSE)
+cow::borrow_chapter(
+  doc_path = "child/_child_terra_billing_project_disable.Rmd",
+  repo_name = "jhudsl/AnVIL_Template"
+)
+```
+::::

@@ -1,0 +1,70 @@
+# (PART\*) Student Instructions {-}
+
+```{r, include = FALSE}
+ottrpal::set_knitr_image_path()
+knitr::opts_chunk$set(out.width = "100%")
+```
+
+# Overview {#student-instructions}
+
+The chapters in this section are aimed at students and provide instructions on how to sign up and access materials on AnVIL.
+
+<br>
+
+- If you are doing an activity from the GDSCN or AnVIL collections, there may be more specific student instructions available in those books.
+- Otherwise, the instructions below should be sufficient for most courses.
+
+# Setup AnVIL Account {#student-account-setup}
+
+The following instructions will walk you through setting up an AnVIL account so that you can carry out data analysis in the cloud.
+
+<br>
+
+:::: {.borrowed_chunk}
+```{r, echo = FALSE, results='asis'}
+cow::borrow_chapter(
+  doc_path = "child/_child_student_create_account.Rmd",
+  repo_name = "jhudsl/AnVIL_Template"
+)
+```
+::::
+
+# Access Materials {#student-clone-workspace}
+
+The following instructions will show you how to access materials (tools and data) on AnVIL.
+
+<br>
+
+:::: {.borrowed_chunk}
+```{r, echo = FALSE, results='asis'}
+billing_project <- "provided by your instructor"
+cow::borrow_chapter(
+  doc_path = "child/_child_student_workspace_clone.Rmd",
+  repo_name = "jhudsl/AnVIL_Template"
+)
+```
+::::
+
+# Start Galaxy
+
+Coming soon!
+
+# Start RStudio {#student-start-RStudio}
+
+:::{.warning}
+**Pause here** if you are not going to start working right away.  Once you start up RStudio, it will cost money to keep it running.  It costs a few cents an hour, so it's quite cheap as long as you use it responsibly.  But it can add up if you leave it running for days or weeks when you don't need it.
+:::
+
+## Start RStudio 
+
+```{r, echo = FALSE, results='asis'}
+AnVIL_module_settings <- list(
+  audience = "student"
+#   docker_image = "example docker image link",
+#  startup_script = "ask your instructor"
+)
+cow::borrow_chapter(
+  doc_path = "child/_child_rstudio_launch.Rmd",
+  repo_name = "jhudsl/AnVIL_Template"
+)
+```
