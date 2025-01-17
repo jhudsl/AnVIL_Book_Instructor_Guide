@@ -49,7 +49,7 @@ This book is targeted towards people who are teaching a course or workshop on An
 - **Instructor Setup** -- Step-by-step instructions to create your first accounts on AnVIL 
 - **Content Preparation** -- Instructions on using premade content, along with additional tools to help you customize or create your own class Workspace
 - **Running the Class** -- Step-by-step instructions to help you add students into a class on AnVIL, along with best practices for shutting down your course cleanly and minimizing costs
-- **Cost Management** -- Explanations of the types of costs you and your students may incure, along with advice on how to minimize them.
+- **Cost Management** -- Explanations of the types of costs you and your students may incur, along with advice on how to minimize them.
 - **Student Instructions** -- Step-by-step instructions for students using AnVIL in your class, to guide them through common tasks.
 
 ## Goals for This Guide
