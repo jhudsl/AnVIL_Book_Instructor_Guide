@@ -6,11 +6,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>Chapter 11 Set Up Funding | AnVIL Instructor Guide</title>
   <meta name="description" content="Guide to help teachers and instructors set up accounts and use the AnVIL platform for instruction" />
-  <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.41 and GitBook 2.6.7" />
 
   <meta property="og:title" content="Chapter 11 Set Up Funding | AnVIL Instructor Guide" />
   <meta property="og:type" content="book" />
-  
   
   <meta property="og:description" content="Guide to help teachers and instructors set up accounts and use the AnVIL platform for instruction" />
   
@@ -23,7 +22,7 @@
 
 
 
-<meta name="date" content="2023-05-23" />
+<meta name="date" content="2025-01-17" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -32,7 +31,6 @@
   <link rel="shortcut icon" href="assets/AnVIL_style/anvil_favicon.ico" type="image/x-icon" />
 <link rel="prev" href="run-class.html"/>
 <link rel="next" href="set-up-student-accounts.html"/>
-<script src="libs/header-attrs-2.10/header-attrs.js"></script>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -50,18 +48,9 @@
 
 
 
-<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
-<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
-  
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-B9LQ1N7DRP"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-B9LQ1N7DRP');
-</script>
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
 
 
 <style type="text/css">
@@ -100,11 +89,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 }
 code span.al { color: #ef2929; } /* Alert */
 code span.an { color: #8f5902; font-weight: bold; font-style: italic; } /* Annotation */
-code span.at { color: #c4a000; } /* Attribute */
+code span.at { color: #204a87; } /* Attribute */
 code span.bn { color: #0000cf; } /* BaseN */
 code span.cf { color: #204a87; font-weight: bold; } /* ControlFlow */
 code span.ch { color: #4e9a06; } /* Char */
-code span.cn { color: #000000; } /* Constant */
+code span.cn { color: #8f5902; } /* Constant */
 code span.co { color: #8f5902; font-style: italic; } /* Comment */
 code span.cv { color: #8f5902; font-weight: bold; font-style: italic; } /* CommentVar */
 code span.do { color: #8f5902; font-weight: bold; font-style: italic; } /* Documentation */
@@ -113,14 +102,14 @@ code span.dv { color: #0000cf; } /* DecVal */
 code span.er { color: #a40000; font-weight: bold; } /* Error */
 code span.ex { } /* Extension */
 code span.fl { color: #0000cf; } /* Float */
-code span.fu { color: #000000; } /* Function */
+code span.fu { color: #204a87; font-weight: bold; } /* Function */
 code span.im { } /* Import */
 code span.in { color: #8f5902; font-weight: bold; font-style: italic; } /* Information */
 code span.kw { color: #204a87; font-weight: bold; } /* Keyword */
 code span.op { color: #ce5c00; font-weight: bold; } /* Operator */
 code span.ot { color: #8f5902; } /* Other */
 code span.pp { color: #8f5902; font-style: italic; } /* Preprocessor */
-code span.sc { color: #000000; } /* SpecialChar */
+code span.sc { color: #ce5c00; font-weight: bold; } /* SpecialChar */
 code span.ss { color: #4e9a06; } /* SpecialString */
 code span.st { color: #4e9a06; } /* String */
 code span.va { color: #000000; } /* Variable */
@@ -128,6 +117,10 @@ code span.vs { color: #4e9a06; } /* VerbatimString */
 code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warning */
 </style>
 
+<style type="text/css">
+  
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+</style>
 
 <link rel="stylesheet" href="assets/style.css" type="text/css" />
 <link rel="stylesheet" href="assets/AnVIL_style/anvil.css" type="text/css" />
@@ -281,7 +274,7 @@ code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warni
 <p style="text-align:center;"> <a href="http://jhudatascience.org/"> The Johns Hopkins Data Science Lab </a></p>
 <a href="http://jhudatascience.org/"><img src="https://jhudatascience.org/images/dasl.png" style=" width: 80%; padding-left: 40px; padding-top: 8px; vertical-align: top "</a>
 <p style="text-align:center; font-size: 12px;"> <a href="https://github.com/rstudio4edu/rstudio4edu-book/"> Style adapted from: rstudio4edu-book </a> <a href ="https://creativecommons.org/licenses/by/2.0/"> (CC-BY 2.0) </a></p>
-<p style="padding-left: 40px;"><div class="trapezoid" style = "padding-left: 40px;"><span>  <a href="https://forms.gle/AK12iVXTjsB7yCUUA"> Click here to provide feedback</a> <img src="assets/itcr_arrow.png" style=" width: 10%" ></span></div></p>
+<p style="padding-left: 40px;"><div class="trapezoid" style = "padding-left: 40px;"><span><a href="https://docs.google.com/forms/d/e/1FAIpQLScrDVb_utm55pmb_SHx-RgELTEbCCWdLea0T3IzS0Oj00GE4w/viewform?usp=pp_url&entry.1565230805=AnVIL+Instructor+Guide"> Click here to provide feedback</a> <img src="assets/itcr_arrow.png" style=" width: 10%" ></span></div></p>
 
 </ul>
 
@@ -311,15 +304,15 @@ code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warni
 <div class="hero-image-container"> 
   <img class= "hero-image" src="assets/AnVIL_style/dasl_thin_main_image.png">
 </div>
-<div id="set-up-funding" class="section level1" number="11">
-<h1><span class="header-section-number">Chapter 11</span> Set Up Funding</h1>
+<div id="set-up-funding" class="section level1 hasAnchor" number="11">
+<h1><span class="header-section-number">Chapter 11</span> Set Up Funding<a href="set-up-funding.html#set-up-funding" class="anchor-section" aria-label="Anchor link to header"></a></h1>
 <p>Depending on how you are being funded, this may be taken care of for you. If your funding is being managed by a third party (e.g. through a funding mechanism such as <a href="https://datascience.nih.gov/strides">STRIDES</a>, or through your institution), contact them to determine whether you should create a Terra Billing Project for your students.</p>
 <div class="warning">
 <p>Regardless of who is managing funding, it is essential to make sure that you have permission to create enough Workspaces for all of your students!</p>
 <p>To prevent abuse, new users are only permitted to create a few Workspaces. See <a href="set-up-funding.html#quota-increase">Request Quota Increase</a> for more information about how to make sure your students will be able to create Workspaces.</p>
 </div>
-<div id="create-student-billing-project" class="section level2" number="11.1">
-<h2><span class="header-section-number">11.1</span> Create Student Billing Project</h2>
+<div id="create-student-billing-project" class="section level2 hasAnchor" number="11.1">
+<h2><span class="header-section-number">11.1</span> Create Student Billing Project<a href="set-up-funding.html#create-student-billing-project" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>As a reminder, Terra Billing Projects are how you grant people, including your students, permission to compute on AnVIL. By adding someone to your Billing Project, you enable them to use your funding to carry out activities on AnVIL.</p>
 <p>You <em>can</em> just add students to the same Billing Project that you are using yourself, but we generally recommend creating a separate Billing Project to fund student activity. This makes it easy to deactivate when the course is over, without freezing your own projects.</p>
 <p><strong>Note:</strong> Terra Billing Projects need unique names. One option is to use a combination of institution-class-role-term (e.g. <code>jhu-bio101-students-2023FA</code>).</p>
@@ -328,9 +321,9 @@ code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warni
 <ol style="list-style-type: decimal">
 <li><p><a href="https://anvil.terra.bio/#workspaces">Launch Terra</a> and sign in with your Google account. If this is your first time logging in to Terra, you will need to accept the Terms of Service.</p></li>
 <li><p>In the drop-down menu on the left, navigate to “Billing”. Click the triple bar in the top left corner to access the menu. Click the arrow next to your name to expand the menu, then click “Billing”. You can also navigate there directly with this link: <a href="https://anvil.terra.bio/#billing" class="uri">https://anvil.terra.bio/#billing</a></p>
-<p><img src="resources/images/04_Running_The_Class_files/figure-html/1POwxqv4p6AfPHJlN9VNq0TaT44fA2RAFSpIERIMHdWU_g116f8d759be_0_2.png" title="Screenshot of the Terra drop-down menu.  Three items are highlighted: 1) the &quot;hamburger&quot; button for extending the drop-down menu, 2) the arrow next to your username, for extending the drop-down submenu, and 3) the submenu item &quot;Billing&quot;." alt="Screenshot of the Terra drop-down menu.  Three items are highlighted: 1) the &quot;hamburger&quot; button for extending the drop-down menu, 2) the arrow next to your username, for extending the drop-down submenu, and 3) the submenu item &quot;Billing&quot;." width="100%" /></p></li>
-<li><p>On the Billing page, click the “+ CREATE” button to create a new Billing Project. If prompted, select the Google account to use. If prompted, give Terra permission to manage Google Cloud Platform billing accounts.</p>
-<p><img src="resources/images/04_Running_The_Class_files/figure-html/1POwxqv4p6AfPHJlN9VNq0TaT44fA2RAFSpIERIMHdWU_g116f8d759be_0_149.png" title="Screenshot of the Terra Billing Page.  The &quot;plus&quot; button next to &quot;Billing Projects&quot; is highlighted." alt="Screenshot of the Terra Billing Page.  The &quot;plus&quot; button next to &quot;Billing Projects&quot; is highlighted." width="100%" /></p></li>
+<p><img src="resources/images/04_Running_The_Class_files/figure-html/1POwxqv4p6AfPHJlN9VNq0TaT44fA2RAFSpIERIMHdWU_g116f8d759be_0_2.png" alt="Screenshot of the Terra drop-down menu.  Three items are highlighted: 1) the &quot;hamburger&quot; button for extending the drop-down menu, 2) the arrow next to your username, for extending the drop-down submenu, and 3) the submenu item &quot;Billing&quot;." width="100%" /></p></li>
+<li><p>On the Billing page, click the “+ CREATE” button to create a new Billing Project. Select GCP Billing Project (Google’s Platform). If prompted, select the Google account to use and give Terra permission to manage Google Cloud Platform billing accounts.</p>
+<p><img src="resources/images/04_Running_The_Class_files/figure-html/1POwxqv4p6AfPHJlN9VNq0TaT44fA2RAFSpIERIMHdWU_g116f8d759be_0_149.png" alt="Screenshot of the Terra Billing Page.  The &quot;plus&quot; button next to &quot;Billing Projects&quot; is highlighted." width="100%" /></p></li>
 <li><p>Enter a <strong>unique</strong> name for your Terra Billing Project and select the appropriate Google Billing Account. The name of the Terra Billing Project must:</p>
 <ul>
 <li>Only contain lowercase letters, numbers and hyphens</li>
@@ -338,13 +331,13 @@ code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warni
 <li>Not end with a hyphen</li>
 <li>Be between 6 and 30 characters</li>
 </ul>
-<p><img src="resources/images/04_Running_The_Class_files/figure-html/1POwxqv4p6AfPHJlN9VNq0TaT44fA2RAFSpIERIMHdWU_g116f8d759be_0_293.png" title="Screenshot of the Terra Add Billing Project dialog box." alt="Screenshot of the Terra Add Billing Project dialog box." width="100%" /></p></li>
+<p><img src="resources/images/04_Running_The_Class_files/figure-html/1POwxqv4p6AfPHJlN9VNq0TaT44fA2RAFSpIERIMHdWU_g116f8d759be_0_293.png" alt="Screenshot of the Terra Add Billing Project dialog box." width="100%" /></p></li>
 <li><p>Select the Google Billing Account to use. All activities conducted under your new Terra Billing Project will charge to this Google Billing Account. If prompted, give Terra permission to manage Google Cloud Platform billing accounts.</p>
-<p><img src="resources/images/04_Running_The_Class_files/figure-html/1POwxqv4p6AfPHJlN9VNq0TaT44fA2RAFSpIERIMHdWU_g2105956e909_0_0.png" title="Screenshot of the Terra Add Billing Project dialog box.  The dropdown menu labeled &quot;Select billing account&quot; is highlighted." alt="Screenshot of the Terra Add Billing Project dialog box.  The dropdown menu labeled &quot;Select billing account&quot; is highlighted." width="100%" /></p></li>
-<li><p>Click “CREATE BILLING PROJECT”.</p>
-<p><img src="resources/images/04_Running_The_Class_files/figure-html/1POwxqv4p6AfPHJlN9VNq0TaT44fA2RAFSpIERIMHdWU_g116f8d759be_0_438.png" title="Screenshot of the Terra Add Billing Project dialog box.  The button labeled &quot;CREATE BILLING PROJECT&quot; is highlighted." alt="Screenshot of the Terra Add Billing Project dialog box.  The button labeled &quot;CREATE BILLING PROJECT&quot; is highlighted." width="100%" /></p></li>
+<p><img src="resources/images/04_Running_The_Class_files/figure-html/1POwxqv4p6AfPHJlN9VNq0TaT44fA2RAFSpIERIMHdWU_g2105956e909_0_0.png" alt="Screenshot of the Terra Add Billing Project dialog box.  The dropdown menu labeled &quot;Select billing account&quot; is highlighted." width="100%" /></p></li>
+<li><p>Click “Create”.</p>
+<p><img src="resources/images/04_Running_The_Class_files/figure-html/1POwxqv4p6AfPHJlN9VNq0TaT44fA2RAFSpIERIMHdWU_g116f8d759be_0_438.png" alt="Screenshot of the Terra Add Billing Project dialog box.  The button labeled &quot;CREATE BILLING PROJECT&quot; is highlighted." width="100%" /></p></li>
 <li><p>Your new Billing Project should now show up in the list of Billing Projects Owned by You. You can add additional members or can modify or deactivate the Billing Project at any time by clicking on its name in this list.</p>
-<p><img src="resources/images/04_Running_The_Class_files/figure-html/1POwxqv4p6AfPHJlN9VNq0TaT44fA2RAFSpIERIMHdWU_g2105956e909_0_16.png" title="Screenshot of the Terra Billing Projects menu.  The submenu &quot;Owned by you&quot; is highlighted and has been expanded, showing a list of Billing Projects below.  One of the Billing Project names is highlighted." alt="Screenshot of the Terra Billing Projects menu.  The submenu &quot;Owned by you&quot; is highlighted and has been expanded, showing a list of Billing Projects below.  One of the Billing Project names is highlighted." width="100%" /></p></li>
+<p><img src="resources/images/04_Running_The_Class_files/figure-html/1POwxqv4p6AfPHJlN9VNq0TaT44fA2RAFSpIERIMHdWU_g2105956e909_0_16.png" alt="Screenshot of the Terra Billing Projects menu.  The submenu &quot;Owned by you&quot; is highlighted and has been expanded, showing a list of Billing Projects below.  One of the Billing Project names is highlighted." width="100%" /></p></li>
 </ol>
 <p>The page doesn’t always update as soon as the Billing Project is created. If it’s been a couple of minutes and you don’t see a change, try refreshing the page.</p>
 </div>
@@ -352,8 +345,8 @@ code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warni
 <p><strong>Reminder</strong>: It’s often a good idea to add at least one other Owner of a Billing Project in order to avoid getting locked out, in case the original owner loses access to their account. See the section on <a href="terra-billing-projects.html#add-instructors-billing-project">adding instructors to a billing project</a> if you need a reminder on how to do this.</p>
 </div>
 </div>
-<div id="quota-increase" class="section level2" number="11.2">
-<h2><span class="header-section-number">11.2</span> Request Project Quota Increase</h2>
+<div id="quota-increase" class="section level2 hasAnchor" number="11.2">
+<h2><span class="header-section-number">11.2</span> Request Project Quota Increase<a href="set-up-funding.html#quota-increase" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>To prevent abuse, new users are only permitted to create a few Workspaces. If each of your students needs their own Workspace (e.g. they each clone their own copy of a Workspace), you will quickly run into this limit and students will not be able to clone or create new Workspaces.</p>
 <p>This limit is imposed by Google, rather than Terra (Google only permits you to create a few Google Cloud “Projects”, and each Terra Workspace is a Google Cloud Project), so you will need to contact Google directly to request a “billing quota increase”, using <a href="https://support.google.com/code/contact/billing_quota_increase">this form</a>. This should be done by the owner of the Google Billing Account. If you set up billing yourself, this is you; otherwise talk to your funding provider and make sure that you have enough Google Cloud Projects available for all your students (typically one per student, unless students need multiple Workspaces).</p>
 <p>At the time of writing (Feb 2023) Terra is working to expedite this process for Terra users; we recommend checking the <a href="https://support.terra.bio/hc/en-us/articles/6101030164507-When-workspace-creation-fails-Google-project-quotas">relevant Terra documentation</a> for the latest information as well as recommendations about how to fill out the form.</p>

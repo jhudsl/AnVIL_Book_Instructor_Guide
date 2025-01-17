@@ -25,7 +25,7 @@ You can also visit the [Getting Started Guide](https://jhudatascience.org/AnVIL_
 
 Note that some sections of this book cover steps in a lot of detail. When navigating the table of contents, you can click subsection (e.g., 2.2, 4.2) headers a second time to expand the table of contents and enable the `scroll_highlight` feature. This can help you follow the separate steps within more clearly.
 
-<img src="resources/images/01_Intro_files/figure-html//18yUr5XSEMgPk8JXFLKfG9JF7L9NpKbCF_mIcXagogKg_gde0d2ef5f6_0_1.png" title="Double-clicking on the H2 headers (for example, 2.2) will expand the contents for view using the 'scroll_highlight' feature." alt="Double-clicking on the H2 headers (for example, 2.2) will expand the contents for view using the 'scroll_highlight' feature." width="100%" />
+<img src="resources/images/01_Intro_files/figure-html//18yUr5XSEMgPk8JXFLKfG9JF7L9NpKbCF_mIcXagogKg_gde0d2ef5f6_0_1.png" alt="Double-clicking on the H2 headers (for example, 2.2) will expand the contents for view using the 'scroll_highlight' feature." width="100%" />
 
 ## Why should I use AnVIL?
 
@@ -52,12 +52,12 @@ This book is targeted towards people who are teaching a course or workshop on An
 - **Instructor Setup** -- Step-by-step instructions to create your first accounts on AnVIL 
 - **Content Preparation** -- Instructions on using premade content, along with additional tools to help you customize or create your own class Workspace
 - **Running the Class** -- Step-by-step instructions to help you add students into a class on AnVIL, along with best practices for shutting down your course cleanly and minimizing costs
-- **Cost Management** -- Explanations of the types of costs you and your students may incure, along with advice on how to minimize them.
+- **Cost Management** -- Explanations of the types of costs you and your students may incur, along with advice on how to minimize them.
 - **Student Instructions** -- Step-by-step instructions for students using AnVIL in your class, to guide them through common tasks.
 
 ## Goals for This Guide
 
-<img src="resources/images/01_Intro_files/figure-html//1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag_ge21c626cf0_0_5.png" title="List of goals for this guide: (1) get your accounts, (2) set up billing, (3) create your first Workspace, (4) develop content, and (5) set up classes with students." alt="List of goals for this guide: (1) get your accounts, (2) set up billing, (3) create your first Workspace, (4) develop content, and (5) set up classes with students." width="100%" />
+<img src="resources/images/01_Intro_files/figure-html//1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag_ge21c626cf0_0_5.png" alt="List of goals for this guide: (1) get your accounts, (2) set up billing, (3) create your first Workspace, (4) develop content, and (5) set up classes with students." width="100%" />
 
 ## Design Philosophy
 

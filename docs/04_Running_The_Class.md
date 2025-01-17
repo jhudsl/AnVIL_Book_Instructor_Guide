@@ -81,11 +81,11 @@ To create a Terra Billing Project:
 
 1. In the drop-down menu on the left, navigate to "Billing". Click the triple bar in the top left corner to access the menu. Click the arrow next to your name to expand the menu, then click "Billing".  You can also navigate there directly with this link: https://anvil.terra.bio/#billing
 
-    <img src="resources/images/04_Running_The_Class_files/figure-html//1POwxqv4p6AfPHJlN9VNq0TaT44fA2RAFSpIERIMHdWU_g116f8d759be_0_2.png" title="Screenshot of the Terra drop-down menu.  Three items are highlighted: 1) the &quot;hamburger&quot; button for extending the drop-down menu, 2) the arrow next to your username, for extending the drop-down submenu, and 3) the submenu item &quot;Billing&quot;." alt="Screenshot of the Terra drop-down menu.  Three items are highlighted: 1) the &quot;hamburger&quot; button for extending the drop-down menu, 2) the arrow next to your username, for extending the drop-down submenu, and 3) the submenu item &quot;Billing&quot;." width="100%" />
+    <img src="resources/images/04_Running_The_Class_files/figure-html//1POwxqv4p6AfPHJlN9VNq0TaT44fA2RAFSpIERIMHdWU_g116f8d759be_0_2.png" alt="Screenshot of the Terra drop-down menu.  Three items are highlighted: 1) the &quot;hamburger&quot; button for extending the drop-down menu, 2) the arrow next to your username, for extending the drop-down submenu, and 3) the submenu item &quot;Billing&quot;." width="100%" />
 
-1. On the Billing page, click the "+ CREATE" button to create a new Billing Project. If prompted, select the Google account to use.  If prompted, give Terra permission to manage Google Cloud Platform billing accounts.
+1. On the Billing page, click the "+ CREATE" button to create a new Billing Project. Select GCP Billing Project (Google's Platform). If prompted, select the Google account to use and give Terra permission to manage Google Cloud Platform billing accounts.
 
-    <img src="resources/images/04_Running_The_Class_files/figure-html//1POwxqv4p6AfPHJlN9VNq0TaT44fA2RAFSpIERIMHdWU_g116f8d759be_0_149.png" title="Screenshot of the Terra Billing Page.  The &quot;plus&quot; button next to &quot;Billing Projects&quot; is highlighted." alt="Screenshot of the Terra Billing Page.  The &quot;plus&quot; button next to &quot;Billing Projects&quot; is highlighted." width="100%" />
+    <img src="resources/images/04_Running_The_Class_files/figure-html//1POwxqv4p6AfPHJlN9VNq0TaT44fA2RAFSpIERIMHdWU_g116f8d759be_0_149.png" alt="Screenshot of the Terra Billing Page.  The &quot;plus&quot; button next to &quot;Billing Projects&quot; is highlighted." width="100%" />
 
 1. Enter a **unique** name for your Terra Billing Project and select the appropriate Google Billing Account. The name of the Terra Billing Project must:
     + Only contain lowercase letters, numbers and hyphens
@@ -93,20 +93,20 @@ To create a Terra Billing Project:
     + Not end with a hyphen
     + Be between 6 and 30 characters
 
-    <img src="resources/images/04_Running_The_Class_files/figure-html//1POwxqv4p6AfPHJlN9VNq0TaT44fA2RAFSpIERIMHdWU_g116f8d759be_0_293.png" title="Screenshot of the Terra Add Billing Project dialog box." alt="Screenshot of the Terra Add Billing Project dialog box." width="100%" />
+    <img src="resources/images/04_Running_The_Class_files/figure-html//1POwxqv4p6AfPHJlN9VNq0TaT44fA2RAFSpIERIMHdWU_g116f8d759be_0_293.png" alt="Screenshot of the Terra Add Billing Project dialog box." width="100%" />
     
 1. Select the Google Billing Account to use.  All activities conducted under your new Terra Billing Project will charge to this Google Billing Account.  If prompted, give Terra permission to manage Google Cloud Platform billing accounts.
 
-    <img src="resources/images/04_Running_The_Class_files/figure-html//1POwxqv4p6AfPHJlN9VNq0TaT44fA2RAFSpIERIMHdWU_g2105956e909_0_0.png" title="Screenshot of the Terra Add Billing Project dialog box.  The dropdown menu labeled &quot;Select billing account&quot; is highlighted." alt="Screenshot of the Terra Add Billing Project dialog box.  The dropdown menu labeled &quot;Select billing account&quot; is highlighted." width="100%" />
+    <img src="resources/images/04_Running_The_Class_files/figure-html//1POwxqv4p6AfPHJlN9VNq0TaT44fA2RAFSpIERIMHdWU_g2105956e909_0_0.png" alt="Screenshot of the Terra Add Billing Project dialog box.  The dropdown menu labeled &quot;Select billing account&quot; is highlighted." width="100%" />
 
-1. Click "CREATE BILLING PROJECT".
+1. Click "Create".
 
-    <img src="resources/images/04_Running_The_Class_files/figure-html//1POwxqv4p6AfPHJlN9VNq0TaT44fA2RAFSpIERIMHdWU_g116f8d759be_0_438.png" title="Screenshot of the Terra Add Billing Project dialog box.  The button labeled &quot;CREATE BILLING PROJECT&quot; is highlighted." alt="Screenshot of the Terra Add Billing Project dialog box.  The button labeled &quot;CREATE BILLING PROJECT&quot; is highlighted." width="100%" />
+    <img src="resources/images/04_Running_The_Class_files/figure-html//1POwxqv4p6AfPHJlN9VNq0TaT44fA2RAFSpIERIMHdWU_g116f8d759be_0_438.png" alt="Screenshot of the Terra Add Billing Project dialog box.  The button labeled &quot;CREATE BILLING PROJECT&quot; is highlighted." width="100%" />
 
 
 1. Your new Billing Project should now show up in the list of Billing Projects Owned by You.  You can add additional members or can modify or deactivate the Billing Project at any time by clicking on its name in this list.
 
-    <img src="resources/images/04_Running_The_Class_files/figure-html//1POwxqv4p6AfPHJlN9VNq0TaT44fA2RAFSpIERIMHdWU_g2105956e909_0_16.png" title="Screenshot of the Terra Billing Projects menu.  The submenu &quot;Owned by you&quot; is highlighted and has been expanded, showing a list of Billing Projects below.  One of the Billing Project names is highlighted." alt="Screenshot of the Terra Billing Projects menu.  The submenu &quot;Owned by you&quot; is highlighted and has been expanded, showing a list of Billing Projects below.  One of the Billing Project names is highlighted." width="100%" />
+    <img src="resources/images/04_Running_The_Class_files/figure-html//1POwxqv4p6AfPHJlN9VNq0TaT44fA2RAFSpIERIMHdWU_g2105956e909_0_16.png" alt="Screenshot of the Terra Billing Projects menu.  The submenu &quot;Owned by you&quot; is highlighted and has been expanded, showing a list of Billing Projects below.  One of the Billing Project names is highlighted." width="100%" />
 
 The page doesn't always update as soon as the Billing Project is created.  If it's been a couple of minutes and you don't see a change, try refreshing the page.
 ::::
@@ -169,23 +169,23 @@ To create a Group:
 
 1. In the drop-down menu on the left, navigate to "Groups". Click the triple bar in the top left corner to access the menu. Click the arrow next to your name to expand the menu, then click "Groups".  You can also navigate there directly with this link: https://anvil.terra.bio/#groups
 
-    <img src="resources/images/04_Running_The_Class_files/figure-html//1SnRZYoHXTLZjiR2jqvmsU2VEIRG5qA23UZWIztNMXH0_g116f8d759be_0_2.png" title="Screenshot of the Terra drop-down menu.  Three items are highlighted: 1) the &quot;hamburger&quot; button for extending the drop-down menu, 2) the arrow next to your username, for extending the drop-down submenu, and 3) the submenu item &quot;Groups&quot;." alt="Screenshot of the Terra drop-down menu.  Three items are highlighted: 1) the &quot;hamburger&quot; button for extending the drop-down menu, 2) the arrow next to your username, for extending the drop-down submenu, and 3) the submenu item &quot;Groups&quot;." width="100%" />
+    <img src="resources/images/04_Running_The_Class_files/figure-html//1SnRZYoHXTLZjiR2jqvmsU2VEIRG5qA23UZWIztNMXH0_g116f8d759be_0_2.png" alt="Screenshot of the Terra drop-down menu.  Three items are highlighted: 1) the &quot;hamburger&quot; button for extending the drop-down menu, 2) the arrow next to your username, for extending the drop-down submenu, and 3) the submenu item &quot;Groups&quot;." width="100%" />
 
 1. Click "+ Create a New Group"
 
-    <img src="resources/images/04_Running_The_Class_files/figure-html//1SnRZYoHXTLZjiR2jqvmsU2VEIRG5qA23UZWIztNMXH0_g1baba6c5e0d_1_287.png" title="Screenshot of the Terra Group page. The &quot;Create a New Group&quot; button is highlighted." alt="Screenshot of the Terra Group page. The &quot;Create a New Group&quot; button is highlighted." width="100%" />
+    <img src="resources/images/04_Running_The_Class_files/figure-html//1SnRZYoHXTLZjiR2jqvmsU2VEIRG5qA23UZWIztNMXH0_g1baba6c5e0d_1_287.png" alt="Screenshot of the Terra Group page. The &quot;Create a New Group&quot; button is highlighted." width="100%" />
 
 1. Enter a name for your group.  Names must be unique, so it’s often helpful to include your team’s name, the purpose of the group, and optionally the timeframe, if you will have similar groups in the future.
 
-    <img src="resources/images/04_Running_The_Class_files/figure-html//1SnRZYoHXTLZjiR2jqvmsU2VEIRG5qA23UZWIztNMXH0_g1baba6c5e0d_1_431.png" title="Screenshot of the Terra Group page with Create New Group pop out box. The textbox is highlighted and has been filled in with the Group name." alt="Screenshot of the Terra Group page with Create New Group pop out box. The textbox is highlighted and has been filled in with the Group name." width="100%" />
+    <img src="resources/images/04_Running_The_Class_files/figure-html//1SnRZYoHXTLZjiR2jqvmsU2VEIRG5qA23UZWIztNMXH0_g1baba6c5e0d_1_431.png" alt="Screenshot of the Terra Group page with Create New Group pop out box. The textbox is highlighted and has been filled in with the Group name." width="100%" />
 
 1. Click "CREATE GROUP"
 
-    <img src="resources/images/04_Running_The_Class_files/figure-html//1SnRZYoHXTLZjiR2jqvmsU2VEIRG5qA23UZWIztNMXH0_g1baba6c5e0d_1_728.png" title="Screenshot of the Terra Group page with Create New Group pop out box. The &quot;CREATE GROUP&quot; button is highlighted." alt="Screenshot of the Terra Group page with Create New Group pop out box. The &quot;CREATE GROUP&quot; button is highlighted." width="100%" />
+    <img src="resources/images/04_Running_The_Class_files/figure-html//1SnRZYoHXTLZjiR2jqvmsU2VEIRG5qA23UZWIztNMXH0_g1baba6c5e0d_1_728.png" alt="Screenshot of the Terra Group page with Create New Group pop out box. The &quot;CREATE GROUP&quot; button is highlighted." width="100%" />
 
 1. Your new Group should now show up on the Group Management screen.  Take note of the email address associated with your group.  You will use this email to grant the group access to Billing Projects and Workspaces.
 
-    <img src="resources/images/04_Running_The_Class_files/figure-html//1SnRZYoHXTLZjiR2jqvmsU2VEIRG5qA23UZWIztNMXH0_g1baba6c5e0d_1_737.png" title="Screenshot of the Terra Groups page.  The Group email address is highlighted." alt="Screenshot of the Terra Groups page.  The Group email address is highlighted." width="100%" />
+    <img src="resources/images/04_Running_The_Class_files/figure-html//1SnRZYoHXTLZjiR2jqvmsU2VEIRG5qA23UZWIztNMXH0_g1baba6c5e0d_1_737.png" alt="Screenshot of the Terra Groups page.  The Group email address is highlighted." width="100%" />
 ::::
 
 You now have a unique **Student Group**.
@@ -206,37 +206,37 @@ The following instructions explain how to add someone to a Terra Group.  You wil
 
 1. In the drop-down menu on the left, navigate to "Groups". Click the triple bar in the top left corner to access the menu. Click the arrow next to your name to expand the menu, then click "Groups".  You can also navigate there directly with this link: https://anvil.terra.bio/#groups
 
-    <img src="resources/images/04_Running_The_Class_files/figure-html//1Odb2ZZrdxyzFtw-9kBck7j8XbNVriI84xm-fPN1fpIM_g116f8d759be_0_2.png" title="Screenshot of the Terra drop-down menu.  Three items are highlighted: 1) the &quot;hamburger&quot; button for extending the drop-down menu, 2) the arrow next to your username, for extending the drop-down submenu, and 3) the submenu item &quot;Groups&quot;." alt="Screenshot of the Terra drop-down menu.  Three items are highlighted: 1) the &quot;hamburger&quot; button for extending the drop-down menu, 2) the arrow next to your username, for extending the drop-down submenu, and 3) the submenu item &quot;Groups&quot;." width="100%" />
+    <img src="resources/images/04_Running_The_Class_files/figure-html//1Odb2ZZrdxyzFtw-9kBck7j8XbNVriI84xm-fPN1fpIM_g116f8d759be_0_2.png" alt="Screenshot of the Terra drop-down menu.  Three items are highlighted: 1) the &quot;hamburger&quot; button for extending the drop-down menu, 2) the arrow next to your username, for extending the drop-down submenu, and 3) the submenu item &quot;Groups&quot;." width="100%" />
 
 1. Find the name of the Group you want to add someone to, and confirm that you have Admin privileges for the Group (you can only add and remove members to a Group if you are an Admin).  Click on the name of the Group to view and manage members.
 
-    <img src="resources/images/04_Running_The_Class_files/figure-html//1Odb2ZZrdxyzFtw-9kBck7j8XbNVriI84xm-fPN1fpIM_g1bbb904ed85_0_0.png" title="Screenshot of the Terra Groups page.  The Group Name and Role are highlighted." alt="Screenshot of the Terra Groups page.  The Group Name and Role are highlighted." width="100%" />
+    <img src="resources/images/04_Running_The_Class_files/figure-html//1Odb2ZZrdxyzFtw-9kBck7j8XbNVriI84xm-fPN1fpIM_g1bbb904ed85_0_0.png" alt="Screenshot of the Terra Groups page.  The Group Name and Role are highlighted." width="100%" />
 
 1. Click on "+ Add User". You will be prompted to enter the user’s AnVIL ID.
 
-    <img src="resources/images/04_Running_The_Class_files/figure-html//1Odb2ZZrdxyzFtw-9kBck7j8XbNVriI84xm-fPN1fpIM_g1d86dfc306c_0_0.png" title="Screenshot of a Terra Group management page. The &quot;+ Add User&quot; button is highlighted." alt="Screenshot of a Terra Group management page. The &quot;+ Add User&quot; button is highlighted." width="100%" />
+    <img src="resources/images/04_Running_The_Class_files/figure-html//1Odb2ZZrdxyzFtw-9kBck7j8XbNVriI84xm-fPN1fpIM_g1d86dfc306c_0_0.png" alt="Screenshot of a Terra Group management page. The &quot;+ Add User&quot; button is highlighted." width="100%" />
 
 1. Type in the user’s email address.  Make sure this is the account that they will be using to access AnVIL.
 
-    <img src="resources/images/04_Running_The_Class_files/figure-html//1Odb2ZZrdxyzFtw-9kBck7j8XbNVriI84xm-fPN1fpIM_g1d86dfc306c_0_12.png" title="Screenshot of the dialog box for adding Terra Group members. The textbox labeled &quot;User email&quot; is highlighted and an email address has been entered." alt="Screenshot of the dialog box for adding Terra Group members. The textbox labeled &quot;User email&quot; is highlighted and an email address has been entered." width="100%" />
+    <img src="resources/images/04_Running_The_Class_files/figure-html//1Odb2ZZrdxyzFtw-9kBck7j8XbNVriI84xm-fPN1fpIM_g1d86dfc306c_0_12.png" alt="Screenshot of the dialog box for adding Terra Group members. The textbox labeled &quot;User email&quot; is highlighted and an email address has been entered." width="100%" />
 
 1. If this member will need to add and remove other members of the Group, check the box for "Can manage members (admin)".  This will add them as an "Admin" for the Group.  Otherwise leave it unchecked, and they will be added as a "Member".
      - Admins and Members have equal access to any resources shared with the Group.
      - Admins can manage Group membership - they can add, remove, or change the role of other Group members.
 
-    <img src="resources/images/04_Running_The_Class_files/figure-html//1Odb2ZZrdxyzFtw-9kBck7j8XbNVriI84xm-fPN1fpIM_g1d86dfc306c_0_19.png" title="Screenshot of the dialog box for adding Terra Group members. The checkbox labeled &quot;Can manage members (admin)&quot; is highlighted." alt="Screenshot of the dialog box for adding Terra Group members. The checkbox labeled &quot;Can manage members (admin)&quot; is highlighted." width="100%" />
+    <img src="resources/images/04_Running_The_Class_files/figure-html//1Odb2ZZrdxyzFtw-9kBck7j8XbNVriI84xm-fPN1fpIM_g1d86dfc306c_0_19.png" alt="Screenshot of the dialog box for adding Terra Group members. The checkbox labeled &quot;Can manage members (admin)&quot; is highlighted." width="100%" />
 
 1. Click ADD USER. This will take you back to the Group administration page.
 
-    <img src="resources/images/04_Running_The_Class_files/figure-html//1Odb2ZZrdxyzFtw-9kBck7j8XbNVriI84xm-fPN1fpIM_g1d86dfc306c_0_25.png" title="Screenshot of the dialog box for adding Terra Group members. The button labeled &quot;ADD USER&quot; is highlighted." alt="Screenshot of the dialog box for adding Terra Group members. The button labeled &quot;ADD USER&quot; is highlighted." width="100%" />
+    <img src="resources/images/04_Running_The_Class_files/figure-html//1Odb2ZZrdxyzFtw-9kBck7j8XbNVriI84xm-fPN1fpIM_g1d86dfc306c_0_25.png" alt="Screenshot of the dialog box for adding Terra Group members. The button labeled &quot;ADD USER&quot; is highlighted." width="100%" />
     
 1. The new Group member will now be shown in the list of group members, along with their role.  They should now have access to anything that the Group has been given access to.
 
-    <img src="resources/images/04_Running_The_Class_files/figure-html//1Odb2ZZrdxyzFtw-9kBck7j8XbNVriI84xm-fPN1fpIM_g1d86dfc306c_0_38.png" title="Screenshot of a Terra Group management page. The name and role of the new member is highlighted." alt="Screenshot of a Terra Group management page. The name and role of the new member is highlighted." width="100%" />
+    <img src="resources/images/04_Running_The_Class_files/figure-html//1Odb2ZZrdxyzFtw-9kBck7j8XbNVriI84xm-fPN1fpIM_g1d86dfc306c_0_38.png" alt="Screenshot of a Terra Group management page. The name and role of the new member is highlighted." width="100%" />
 
 If you need to remove members or modify their roles, you can do so at any time by clicking the teardrop button next to their name.
 
-<img src="resources/images/04_Running_The_Class_files/figure-html//1Odb2ZZrdxyzFtw-9kBck7j8XbNVriI84xm-fPN1fpIM_g1d86dfc306c_0_32.png" title="Screenshot of a Terra Group management page. The teardrop button next to one of the members is highlighted." alt="Screenshot of a Terra Group management page. The teardrop button next to one of the members is highlighted." width="100%" />
+<img src="resources/images/04_Running_The_Class_files/figure-html//1Odb2ZZrdxyzFtw-9kBck7j8XbNVriI84xm-fPN1fpIM_g1d86dfc306c_0_32.png" alt="Screenshot of a Terra Group management page. The teardrop button next to one of the members is highlighted." width="100%" />
 ::::
 
 ## Have Students Create Accounts
@@ -267,37 +267,37 @@ The following instructions explain how to add someone to a Terra Group.  You wil
 
 1. In the drop-down menu on the left, navigate to "Groups". Click the triple bar in the top left corner to access the menu. Click the arrow next to your name to expand the menu, then click "Groups".  You can also navigate there directly with this link: https://anvil.terra.bio/#groups
 
-    <img src="resources/images/04_Running_The_Class_files/figure-html//1Odb2ZZrdxyzFtw-9kBck7j8XbNVriI84xm-fPN1fpIM_g116f8d759be_0_2.png" title="Screenshot of the Terra drop-down menu.  Three items are highlighted: 1) the &quot;hamburger&quot; button for extending the drop-down menu, 2) the arrow next to your username, for extending the drop-down submenu, and 3) the submenu item &quot;Groups&quot;." alt="Screenshot of the Terra drop-down menu.  Three items are highlighted: 1) the &quot;hamburger&quot; button for extending the drop-down menu, 2) the arrow next to your username, for extending the drop-down submenu, and 3) the submenu item &quot;Groups&quot;." width="100%" />
+    <img src="resources/images/04_Running_The_Class_files/figure-html//1Odb2ZZrdxyzFtw-9kBck7j8XbNVriI84xm-fPN1fpIM_g116f8d759be_0_2.png" alt="Screenshot of the Terra drop-down menu.  Three items are highlighted: 1) the &quot;hamburger&quot; button for extending the drop-down menu, 2) the arrow next to your username, for extending the drop-down submenu, and 3) the submenu item &quot;Groups&quot;." width="100%" />
 
 1. Find the name of the Group you want to add someone to, and confirm that you have Admin privileges for the Group (you can only add and remove members to a Group if you are an Admin).  Click on the name of the Group to view and manage members.
 
-    <img src="resources/images/04_Running_The_Class_files/figure-html//1Odb2ZZrdxyzFtw-9kBck7j8XbNVriI84xm-fPN1fpIM_g1bbb904ed85_0_0.png" title="Screenshot of the Terra Groups page.  The Group Name and Role are highlighted." alt="Screenshot of the Terra Groups page.  The Group Name and Role are highlighted." width="100%" />
+    <img src="resources/images/04_Running_The_Class_files/figure-html//1Odb2ZZrdxyzFtw-9kBck7j8XbNVriI84xm-fPN1fpIM_g1bbb904ed85_0_0.png" alt="Screenshot of the Terra Groups page.  The Group Name and Role are highlighted." width="100%" />
 
 1. Click on "+ Add User". You will be prompted to enter the user’s AnVIL ID.
 
-    <img src="resources/images/04_Running_The_Class_files/figure-html//1Odb2ZZrdxyzFtw-9kBck7j8XbNVriI84xm-fPN1fpIM_g1d86dfc306c_0_0.png" title="Screenshot of a Terra Group management page. The &quot;+ Add User&quot; button is highlighted." alt="Screenshot of a Terra Group management page. The &quot;+ Add User&quot; button is highlighted." width="100%" />
+    <img src="resources/images/04_Running_The_Class_files/figure-html//1Odb2ZZrdxyzFtw-9kBck7j8XbNVriI84xm-fPN1fpIM_g1d86dfc306c_0_0.png" alt="Screenshot of a Terra Group management page. The &quot;+ Add User&quot; button is highlighted." width="100%" />
 
 1. Type in the user’s email address.  Make sure this is the account that they will be using to access AnVIL.
 
-    <img src="resources/images/04_Running_The_Class_files/figure-html//1Odb2ZZrdxyzFtw-9kBck7j8XbNVriI84xm-fPN1fpIM_g1d86dfc306c_0_12.png" title="Screenshot of the dialog box for adding Terra Group members. The textbox labeled &quot;User email&quot; is highlighted and an email address has been entered." alt="Screenshot of the dialog box for adding Terra Group members. The textbox labeled &quot;User email&quot; is highlighted and an email address has been entered." width="100%" />
+    <img src="resources/images/04_Running_The_Class_files/figure-html//1Odb2ZZrdxyzFtw-9kBck7j8XbNVriI84xm-fPN1fpIM_g1d86dfc306c_0_12.png" alt="Screenshot of the dialog box for adding Terra Group members. The textbox labeled &quot;User email&quot; is highlighted and an email address has been entered." width="100%" />
 
 1. If this member will need to add and remove other members of the Group, check the box for "Can manage members (admin)".  This will add them as an "Admin" for the Group.  Otherwise leave it unchecked, and they will be added as a "Member".
      - Admins and Members have equal access to any resources shared with the Group.
      - Admins can manage Group membership - they can add, remove, or change the role of other Group members.
 
-    <img src="resources/images/04_Running_The_Class_files/figure-html//1Odb2ZZrdxyzFtw-9kBck7j8XbNVriI84xm-fPN1fpIM_g1d86dfc306c_0_19.png" title="Screenshot of the dialog box for adding Terra Group members. The checkbox labeled &quot;Can manage members (admin)&quot; is highlighted." alt="Screenshot of the dialog box for adding Terra Group members. The checkbox labeled &quot;Can manage members (admin)&quot; is highlighted." width="100%" />
+    <img src="resources/images/04_Running_The_Class_files/figure-html//1Odb2ZZrdxyzFtw-9kBck7j8XbNVriI84xm-fPN1fpIM_g1d86dfc306c_0_19.png" alt="Screenshot of the dialog box for adding Terra Group members. The checkbox labeled &quot;Can manage members (admin)&quot; is highlighted." width="100%" />
 
 1. Click ADD USER. This will take you back to the Group administration page.
 
-    <img src="resources/images/04_Running_The_Class_files/figure-html//1Odb2ZZrdxyzFtw-9kBck7j8XbNVriI84xm-fPN1fpIM_g1d86dfc306c_0_25.png" title="Screenshot of the dialog box for adding Terra Group members. The button labeled &quot;ADD USER&quot; is highlighted." alt="Screenshot of the dialog box for adding Terra Group members. The button labeled &quot;ADD USER&quot; is highlighted." width="100%" />
+    <img src="resources/images/04_Running_The_Class_files/figure-html//1Odb2ZZrdxyzFtw-9kBck7j8XbNVriI84xm-fPN1fpIM_g1d86dfc306c_0_25.png" alt="Screenshot of the dialog box for adding Terra Group members. The button labeled &quot;ADD USER&quot; is highlighted." width="100%" />
     
 1. The new Group member will now be shown in the list of group members, along with their role.  They should now have access to anything that the Group has been given access to.
 
-    <img src="resources/images/04_Running_The_Class_files/figure-html//1Odb2ZZrdxyzFtw-9kBck7j8XbNVriI84xm-fPN1fpIM_g1d86dfc306c_0_38.png" title="Screenshot of a Terra Group management page. The name and role of the new member is highlighted." alt="Screenshot of a Terra Group management page. The name and role of the new member is highlighted." width="100%" />
+    <img src="resources/images/04_Running_The_Class_files/figure-html//1Odb2ZZrdxyzFtw-9kBck7j8XbNVriI84xm-fPN1fpIM_g1d86dfc306c_0_38.png" alt="Screenshot of a Terra Group management page. The name and role of the new member is highlighted." width="100%" />
 
 If you need to remove members or modify their roles, you can do so at any time by clicking the teardrop button next to their name.
 
-<img src="resources/images/04_Running_The_Class_files/figure-html//1Odb2ZZrdxyzFtw-9kBck7j8XbNVriI84xm-fPN1fpIM_g1d86dfc306c_0_32.png" title="Screenshot of a Terra Group management page. The teardrop button next to one of the members is highlighted." alt="Screenshot of a Terra Group management page. The teardrop button next to one of the members is highlighted." width="100%" />
+<img src="resources/images/04_Running_The_Class_files/figure-html//1Odb2ZZrdxyzFtw-9kBck7j8XbNVriI84xm-fPN1fpIM_g1d86dfc306c_0_32.png" alt="Screenshot of a Terra Group management page. The teardrop button next to one of the members is highlighted." width="100%" />
 ::::
 
 ## Add Student Group to Workspace
@@ -306,7 +306,7 @@ Now that you have added students to the Group, you can easily share Terra resour
 
 First, you will need to give your Student Group access to any Workspaces that they will need.
 
-If you are **using a Public Workspace** (most pre-made content uses Public Workspaces), **you can skip this step** - Public Workspaces are automatically available to everyone on AnVIL.  
+If you are **using a Public Workspace** (some content uses Public Workspaces), **you can skip this step** - Public Workspaces are automatically available to everyone on AnVIL.  
 
 If you have **Workspaces of your own** that your students will need to access, you should **add the Student Group to your Workspace(s) as a *Reader***.
 
@@ -323,32 +323,32 @@ The following instructions explain how to add users to a Terra Workspace.  You w
 
 1. In the drop-down menu on the left, navigate to "Workspaces". Click the triple bar in the top left corner to access the menu. Click "Workspaces".
 
-    <img src="resources/images/04_Running_The_Class_files/figure-html//1hhdPNfuAhbwkl5LlNVlJiCIx_rbzVp3jSJJeksqiR5I_g117989bd49c_0_150.png" title="Screenshot of Terra drop-down menu.  The &quot;hamburger&quot; button to extend the drop-down menu is highlighted, and the menu item &quot;Workspaces&quot; is highlighted." alt="Screenshot of Terra drop-down menu.  The &quot;hamburger&quot; button to extend the drop-down menu is highlighted, and the menu item &quot;Workspaces&quot; is highlighted." width="100%" />
+    <img src="resources/images/04_Running_The_Class_files/figure-html//1hhdPNfuAhbwkl5LlNVlJiCIx_rbzVp3jSJJeksqiR5I_g117989bd49c_0_150.png" alt="Screenshot of Terra drop-down menu.  The &quot;hamburger&quot; button to extend the drop-down menu is highlighted, and the menu item &quot;Workspaces&quot; is highlighted." width="100%" />
 
 1. Click on the name of the Workspace to open the Workspace. Opening a Workspace does not cost anything.  Certain activities in the Workspace (such as running an analysis) will charge to the Workspace’s Billing Project.  Workspace management (e.g. adding and removing members, editing the description) does not cost money.
 
-    <img src="resources/images/04_Running_The_Class_files/figure-html//1hhdPNfuAhbwkl5LlNVlJiCIx_rbzVp3jSJJeksqiR5I_g117dd5f15db_0_289.png" title="Screenshot of Terra Workspace page.  The name of a Workspace is highlighted." alt="Screenshot of Terra Workspace page.  The name of a Workspace is highlighted." width="100%" />
+    <img src="resources/images/04_Running_The_Class_files/figure-html//1hhdPNfuAhbwkl5LlNVlJiCIx_rbzVp3jSJJeksqiR5I_g117dd5f15db_0_289.png" alt="Screenshot of Terra Workspace page.  The name of a Workspace is highlighted." width="100%" />
 
 1. Click the teardrop button (![teardrop button](https://raw.githubusercontent.com/jhudsl/AnVIL_Template/main/child/child_assets/teardrop_button.png){width=25px}) on the right hand side to open the Workspace management menu.  Click "Share"
 
-    <img src="resources/images/04_Running_The_Class_files/figure-html//1hhdPNfuAhbwkl5LlNVlJiCIx_rbzVp3jSJJeksqiR5I_g117dd5f15db_0_295.png" title="Screenshot of an individual Terra Workspace dashboard page.  The button for extending the Workspaces's drop-down menu is highlighted, and the menu item &quot;Share&quot; is highlighted." alt="Screenshot of an individual Terra Workspace dashboard page.  The button for extending the Workspaces's drop-down menu is highlighted, and the menu item &quot;Share&quot; is highlighted." width="100%" />
+    <img src="resources/images/04_Running_The_Class_files/figure-html//1hhdPNfuAhbwkl5LlNVlJiCIx_rbzVp3jSJJeksqiR5I_g117dd5f15db_0_295.png" alt="Screenshot of an individual Terra Workspace dashboard page.  The button for extending the Workspaces's drop-down menu is highlighted, and the menu item &quot;Share&quot; is highlighted." width="100%" />
 
 1. Enter the email address of the user or Group you’d like to share the Workspace with.
     - If adding an individual, make sure to enter the account that they use to access AnVIL.
     - If adding a Terra Group, use the Group email address, which can be found on the Terra Group management page.
 
-    <img src="resources/images/04_Running_The_Class_files/figure-html//1hhdPNfuAhbwkl5LlNVlJiCIx_rbzVp3jSJJeksqiR5I_g117dd5f15db_0_440.png" title="Screenshot of the dialog box for sharing a Terra Workspace.  The text box labeled &quot;User email&quot; is highlighted." alt="Screenshot of the dialog box for sharing a Terra Workspace.  The text box labeled &quot;User email&quot; is highlighted." width="100%" />
+    <img src="resources/images/04_Running_The_Class_files/figure-html//1hhdPNfuAhbwkl5LlNVlJiCIx_rbzVp3jSJJeksqiR5I_g117dd5f15db_0_440.png" alt="Screenshot of the dialog box for sharing a Terra Workspace.  The text box labeled &quot;User email&quot; is highlighted." width="100%" />
 
 1. Choose their permission level.
 
     - Remember that all activity in the Workspace will be charged to the Workspace's Billing Project, regardless of who conducts it, so only add members as "Writers" or "Owners" if they should be charging to the Workspace's Billing Project.
     - "Readers" can view all parts of the Workspace but cannot make edits or run analyses (i.e. they cannot spend money).  They can also clone their own copy of the Workspace where they can conduct activity on their own Billing Project.
 
-    <img src="resources/images/04_Running_The_Class_files/figure-html//1hhdPNfuAhbwkl5LlNVlJiCIx_rbzVp3jSJJeksqiR5I_g117dd5f15db_0_756.png" title="Screenshot of the dialog box for sharing a Terra Workspace.  The drop-down menu labeled with the email of the user you are sharing with is highlighted and the menu item &quot;Writer&quot; is selected." alt="Screenshot of the dialog box for sharing a Terra Workspace.  The drop-down menu labeled with the email of the user you are sharing with is highlighted and the menu item &quot;Writer&quot; is selected." width="100%" />
+    <img src="resources/images/04_Running_The_Class_files/figure-html//1hhdPNfuAhbwkl5LlNVlJiCIx_rbzVp3jSJJeksqiR5I_g117dd5f15db_0_756.png" alt="Screenshot of the dialog box for sharing a Terra Workspace.  The drop-down menu labeled with the email of the user you are sharing with is highlighted and the menu item &quot;Writer&quot; is selected." width="100%" />
 
 1. Click "Save".  The user should now be able to see the Workspace when logged in to Terra.
 
-    <img src="resources/images/04_Running_The_Class_files/figure-html//1hhdPNfuAhbwkl5LlNVlJiCIx_rbzVp3jSJJeksqiR5I_g117dd5f15db_0_902.png" title="Screenshot of the dialog box for sharing a Terra Workspace.  The &quot;Save&quot; button is highlighted." alt="Screenshot of the dialog box for sharing a Terra Workspace.  The &quot;Save&quot; button is highlighted." width="100%" />
+    <img src="resources/images/04_Running_The_Class_files/figure-html//1hhdPNfuAhbwkl5LlNVlJiCIx_rbzVp3jSJJeksqiR5I_g117dd5f15db_0_902.png" alt="Screenshot of the dialog box for sharing a Terra Workspace.  The &quot;Save&quot; button is highlighted." width="100%" />
 ::::
 
 Make sure the newly added Student Group displays "Reader" under "Roles".
@@ -393,42 +393,42 @@ The following instructions explain how to add someone to a Terra Billing Project
 
 1. In the drop-down menu on the left, navigate to "Billing". Click the triple bar in the top left corner to access the menu. Click the arrow next to your name to expand the menu, then click "Billing".  You can also navigate there directly with this link: https://anvil.terra.bio/#billing
 
-    <img src="resources/images/04_Running_The_Class_files/figure-html//10-YvYQqI2y32ErihJJMbyLAL4nPIkPA2MLk_6Ee7fXw_g116f8d759be_0_2.png" title="Screenshot of the Terra drop-down menu.  Three items are highlighted: 1) the &quot;hamburger&quot; button for extending the drop-down menu, 2) the arrow next to your username, for extending the drop-down submenu, and 3) the submenu item &quot;Billing&quot;." alt="Screenshot of the Terra drop-down menu.  Three items are highlighted: 1) the &quot;hamburger&quot; button for extending the drop-down menu, 2) the arrow next to your username, for extending the drop-down submenu, and 3) the submenu item &quot;Billing&quot;." width="100%" />
+    <img src="resources/images/04_Running_The_Class_files/figure-html//10-YvYQqI2y32ErihJJMbyLAL4nPIkPA2MLk_6Ee7fXw_g116f8d759be_0_2.png" alt="Screenshot of the Terra drop-down menu.  Three items are highlighted: 1) the &quot;hamburger&quot; button for extending the drop-down menu, 2) the arrow next to your username, for extending the drop-down submenu, and 3) the submenu item &quot;Billing&quot;." width="100%" />
 
 1. Click “Owned by You” and find the Billing Project.  If you do not see the Billing Project in this list, then you are not an Owner and do not have permission to add members.
 
-    <img src="resources/images/04_Running_The_Class_files/figure-html//10-YvYQqI2y32ErihJJMbyLAL4nPIkPA2MLk_6Ee7fXw_g116f8d759be_0_149.png" title="Screenshot of the Terra Billing Projects menu.  The submenu &quot;Owned by you&quot; is highlighted and has been expanded, showing a list of Billing Projects below." alt="Screenshot of the Terra Billing Projects menu.  The submenu &quot;Owned by you&quot; is highlighted and has been expanded, showing a list of Billing Projects below." width="100%" />
+    <img src="resources/images/04_Running_The_Class_files/figure-html//10-YvYQqI2y32ErihJJMbyLAL4nPIkPA2MLk_6Ee7fXw_g116f8d759be_0_149.png" alt="Screenshot of the Terra Billing Projects menu.  The submenu &quot;Owned by you&quot; is highlighted and has been expanded, showing a list of Billing Projects below." width="100%" />
 
 1. Click on the name of the Billing Project.
 
-    <img src="resources/images/04_Running_The_Class_files/figure-html//10-YvYQqI2y32ErihJJMbyLAL4nPIkPA2MLk_6Ee7fXw_g1edc2edcaf8_1_29.png" title="Screenshot of the Terra Billing Projects menu.  The submenu has been expanded, and the name of one of the Billing Projects is highlighted." alt="Screenshot of the Terra Billing Projects menu.  The submenu has been expanded, and the name of one of the Billing Projects is highlighted." width="100%" />
+    <img src="resources/images/04_Running_The_Class_files/figure-html//10-YvYQqI2y32ErihJJMbyLAL4nPIkPA2MLk_6Ee7fXw_g1edc2edcaf8_1_29.png" alt="Screenshot of the Terra Billing Projects menu.  The submenu has been expanded, and the name of one of the Billing Projects is highlighted." width="100%" />
 
 1. Click on the “Members” tab to view and manage members.  Then click the “Add User” button.
 
-    <img src="resources/images/04_Running_The_Class_files/figure-html//10-YvYQqI2y32ErihJJMbyLAL4nPIkPA2MLk_6Ee7fXw_g1edc2edcaf8_1_14.png" title="Screenshot of a Terra Billing Project management page.  The tab labeled &quot;Members&quot; is highlighed and has been selected, and the button labeled &quot;Add User&quot; is highlighted." alt="Screenshot of a Terra Billing Project management page.  The tab labeled &quot;Members&quot; is highlighed and has been selected, and the button labeled &quot;Add User&quot; is highlighted." width="100%" />
+    <img src="resources/images/04_Running_The_Class_files/figure-html//10-YvYQqI2y32ErihJJMbyLAL4nPIkPA2MLk_6Ee7fXw_g1edc2edcaf8_1_14.png" alt="Screenshot of a Terra Billing Project management page.  The tab labeled &quot;Members&quot; is highlighed and has been selected, and the button labeled &quot;Add User&quot; is highlighted." width="100%" />
     
 1. Enter the email address of the user or group you’d like to add the the Billing Project.
     - If adding an individual, make sure to enter the account that they use to access AnVIL.
     - If adding a Terra Group, use the Group email address, which can be found on the Terra Group management page.
 
-    <img src="resources/images/04_Running_The_Class_files/figure-html//10-YvYQqI2y32ErihJJMbyLAL4nPIkPA2MLk_6Ee7fXw_g1edc2edcaf8_1_36.png" title="Screenshot of the dialog box for adding users to a Terra Billing Project.  The textbox labeled &quot;User email&quot; is highlighed and has been filled in." alt="Screenshot of the dialog box for adding users to a Terra Billing Project.  The textbox labeled &quot;User email&quot; is highlighed and has been filled in." width="100%" />
+    <img src="resources/images/04_Running_The_Class_files/figure-html//10-YvYQqI2y32ErihJJMbyLAL4nPIkPA2MLk_6Ee7fXw_g1edc2edcaf8_1_36.png" alt="Screenshot of the dialog box for adding users to a Terra Billing Project.  The textbox labeled &quot;User email&quot; is highlighed and has been filled in." width="100%" />
 
 1. If this user or group will need to add and remove other users of the Billing Project, check the Owner box.  Otherwise leave it unchecked.
     - It’s often a good idea to have at least one other Owner of a Billing Project in order to avoid getting locked out, in case the original owner leaves or loses access to their account.
 
-    <img src="resources/images/04_Running_The_Class_files/figure-html//10-YvYQqI2y32ErihJJMbyLAL4nPIkPA2MLk_6Ee7fXw_g1edc2edcaf8_1_42.png" title="Screenshot of the dialog box for adding users to a Terra Billing Project.  The checkbox labeled &quot;Can manage users (Owner)&quot; is highlighed." alt="Screenshot of the dialog box for adding users to a Terra Billing Project.  The checkbox labeled &quot;Can manage users (Owner)&quot; is highlighed." width="100%" />
+    <img src="resources/images/04_Running_The_Class_files/figure-html//10-YvYQqI2y32ErihJJMbyLAL4nPIkPA2MLk_6Ee7fXw_g1edc2edcaf8_1_42.png" alt="Screenshot of the dialog box for adding users to a Terra Billing Project.  The checkbox labeled &quot;Can manage users (Owner)&quot; is highlighed." width="100%" />
 
 1. Click “ADD USER”.
 
-    <img src="resources/images/04_Running_The_Class_files/figure-html//10-YvYQqI2y32ErihJJMbyLAL4nPIkPA2MLk_6Ee7fXw_g1edc2edcaf8_1_48.png" title="Screenshot of the dialog box for adding users to a Terra Billing Project.  The button labeled &quot;ADD USER&quot; is highlighed." alt="Screenshot of the dialog box for adding users to a Terra Billing Project.  The button labeled &quot;ADD USER&quot; is highlighed." width="100%" />
+    <img src="resources/images/04_Running_The_Class_files/figure-html//10-YvYQqI2y32ErihJJMbyLAL4nPIkPA2MLk_6Ee7fXw_g1edc2edcaf8_1_48.png" alt="Screenshot of the dialog box for adding users to a Terra Billing Project.  The button labeled &quot;ADD USER&quot; is highlighed." width="100%" />
 
 1.  You should now see the user or group listed in the Billing Project members, along with the appropriate role.  They should now be able to use the Billing Project to fund work on AnVIL.
 
-    <img src="resources/images/04_Running_The_Class_files/figure-html//10-YvYQqI2y32ErihJJMbyLAL4nPIkPA2MLk_6Ee7fXw_g1edc2edcaf8_1_55.png" title="Screenshot of a Terra Billing Project member management page.  A user email and role are highlighted." alt="Screenshot of a Terra Billing Project member management page.  A user email and role are highlighted." width="100%" />
+    <img src="resources/images/04_Running_The_Class_files/figure-html//10-YvYQqI2y32ErihJJMbyLAL4nPIkPA2MLk_6Ee7fXw_g1edc2edcaf8_1_55.png" alt="Screenshot of a Terra Billing Project member management page.  A user email and role are highlighted." width="100%" />
     
 If you need to remove members or modify their roles, you can do so at any time by clicking the teardrop button next to their name.
 
-<img src="resources/images/04_Running_The_Class_files/figure-html//10-YvYQqI2y32ErihJJMbyLAL4nPIkPA2MLk_6Ee7fXw_g1edc2edcaf8_1_62.png" title="Screenshot of a Terra Billing Project member management page.  The teardrop button for one user is highlighted." alt="Screenshot of a Terra Billing Project member management page.  The teardrop button for one user is highlighted." width="100%" />
+<img src="resources/images/04_Running_The_Class_files/figure-html//10-YvYQqI2y32ErihJJMbyLAL4nPIkPA2MLk_6Ee7fXw_g1edc2edcaf8_1_62.png" alt="Screenshot of a Terra Billing Project member management page.  The teardrop button for one user is highlighted." width="100%" />
 ::::
 
 Make sure the newly added Student Group displays "User" under "Roles".
@@ -453,9 +453,9 @@ If your students will continue using the Workspace in a subsequent class or for 
 
 If you are using one of the premade courses, we would appreciate feedback!  If you are willing to ask your students to provide feedback, please direct them to this form:
 
-https://forms.gle/AK12iVXTjsB7yCUUA
+https://forms.gle/6X77RKnbKPVG5qMn6
 
-Responses are anonymous, unless the responder chooses to provide contact information for follow up.
+Responses are anonymous.
 
 We would also greatly appreciate feedback from you as the instructor!  Comments can be submitted through the same form, or if you are comfortable on GitHub you can open an issue in the corresponding repository.
 
@@ -486,37 +486,37 @@ You will be unable to access any data stored in the Workspace or cloud environme
 
 1. In the drop-down menu on the left, navigate to "Billing". Click the triple bar in the top left corner to access the menu. Click the arrow next to your name to expand the menu, then click "Billing".  You can also navigate there directly with this link: https://anvil.terra.bio/#billing
 
-    <img src="resources/images/04_Running_The_Class_files/figure-html//1ib--pXZdu-n-c3b28n73SILA0SrIF5WhdMMaae3DTEI_g116f8d759be_0_2.png" title="Screenshot of the Terra drop-down menu.  Three items are highlighted: 1) the &quot;hamburger&quot; button for extending the drop-down menu, 2) the arrow next to your username, for extending the drop-down submenu, and 3) the submenu item &quot;Billing&quot;." alt="Screenshot of the Terra drop-down menu.  Three items are highlighted: 1) the &quot;hamburger&quot; button for extending the drop-down menu, 2) the arrow next to your username, for extending the drop-down submenu, and 3) the submenu item &quot;Billing&quot;." width="100%" />
+    <img src="resources/images/04_Running_The_Class_files/figure-html//1ib--pXZdu-n-c3b28n73SILA0SrIF5WhdMMaae3DTEI_g116f8d759be_0_2.png" alt="Screenshot of the Terra drop-down menu.  Three items are highlighted: 1) the &quot;hamburger&quot; button for extending the drop-down menu, 2) the arrow next to your username, for extending the drop-down submenu, and 3) the submenu item &quot;Billing&quot;." width="100%" />
 
 1. Click "Owned by You" and find the Billing Project.  If you do not see the Billing Project in this list, then you are not an Owner and do not have permission to add members.
 
-    <img src="resources/images/04_Running_The_Class_files/figure-html//1ib--pXZdu-n-c3b28n73SILA0SrIF5WhdMMaae3DTEI_g116f8d759be_0_149.png" title="Screenshot of the Terra Billing Projects menu.  The submenu &quot;Owned by you&quot; is highlighted and has been expanded, showing a list of Billing Projects below." alt="Screenshot of the Terra Billing Projects menu.  The submenu &quot;Owned by you&quot; is highlighted and has been expanded, showing a list of Billing Projects below." width="100%" />
+    <img src="resources/images/04_Running_The_Class_files/figure-html//1ib--pXZdu-n-c3b28n73SILA0SrIF5WhdMMaae3DTEI_g116f8d759be_0_149.png" alt="Screenshot of the Terra Billing Projects menu.  The submenu &quot;Owned by you&quot; is highlighted and has been expanded, showing a list of Billing Projects below." width="100%" />
 
 1. Click on the name of the Billing Project.
 
-    <img src="resources/images/04_Running_The_Class_files/figure-html//1ib--pXZdu-n-c3b28n73SILA0SrIF5WhdMMaae3DTEI_g1edc2edcaf8_1_29.png" title="Screenshot of the Terra Billing Projects menu.  The submenu has been expanded, and the name of one of the Billing Projects is highlighted." alt="Screenshot of the Terra Billing Projects menu.  The submenu has been expanded, and the name of one of the Billing Projects is highlighted." width="100%" />
+    <img src="resources/images/04_Running_The_Class_files/figure-html//1ib--pXZdu-n-c3b28n73SILA0SrIF5WhdMMaae3DTEI_g1edc2edcaf8_1_29.png" alt="Screenshot of the Terra Billing Projects menu.  The submenu has been expanded, and the name of one of the Billing Projects is highlighted." width="100%" />
     
 1. If you don't see information about the Billing Account, click on “View billing account” to expand the Billing Account information.  You may be prompted to enter your login information again.
 
-    <img src="resources/images/04_Running_The_Class_files/figure-html//1ib--pXZdu-n-c3b28n73SILA0SrIF5WhdMMaae3DTEI_g21148e49334_0_0.png" title="Screenshot of a Terra Billing Project management page.  The button labeled &quot;view billing account&quot; is highlighted." alt="Screenshot of a Terra Billing Project management page.  The button labeled &quot;view billing account&quot; is highlighted." width="100%" />
+    <img src="resources/images/04_Running_The_Class_files/figure-html//1ib--pXZdu-n-c3b28n73SILA0SrIF5WhdMMaae3DTEI_g21148e49334_0_0.png" alt="Screenshot of a Terra Billing Project management page.  The button labeled &quot;view billing account&quot; is highlighted." width="100%" />
 
 1. You should see the name of the Google Billing Account that is funding this Terra Billing Project.  Click on the teardrop icon next to the name of the Billing Account.
 
-    <img src="resources/images/04_Running_The_Class_files/figure-html//1ib--pXZdu-n-c3b28n73SILA0SrIF5WhdMMaae3DTEI_g21148e49334_0_5.png" title="Screenshot of a Terra Billing Project management page.  The teardrop button next to the name of the Billing Account is highlighted." alt="Screenshot of a Terra Billing Project management page.  The teardrop button next to the name of the Billing Account is highlighted." width="100%" />
+    <img src="resources/images/04_Running_The_Class_files/figure-html//1ib--pXZdu-n-c3b28n73SILA0SrIF5WhdMMaae3DTEI_g21148e49334_0_5.png" alt="Screenshot of a Terra Billing Project management page.  The teardrop button next to the name of the Billing Account is highlighted." width="100%" />
 
 1. Click "Remove Billing Account".
 
-    <img src="resources/images/04_Running_The_Class_files/figure-html//1ib--pXZdu-n-c3b28n73SILA0SrIF5WhdMMaae3DTEI_g21148e49334_0_12.png" title="Screenshot of a Terra Billing Project management page.  The teardrop button next to the name of the Billing Account is highlighted." alt="Screenshot of a Terra Billing Project management page.  The teardrop button next to the name of the Billing Account is highlighted." width="100%" />
+    <img src="resources/images/04_Running_The_Class_files/figure-html//1ib--pXZdu-n-c3b28n73SILA0SrIF5WhdMMaae3DTEI_g21148e49334_0_12.png" alt="Screenshot of a Terra Billing Project management page.  The teardrop button next to the name of the Billing Account is highlighted." width="100%" />
 
 1. Click OK to confirm that you want to disable funding for this Billing Project.
 
-    <img src="resources/images/04_Running_The_Class_files/figure-html//1ib--pXZdu-n-c3b28n73SILA0SrIF5WhdMMaae3DTEI_g21148e49334_0_18.png" title="Screenshot of the dialoge box confirming removal of the Billing Account from a Terra Billing Project.  The button labeled &quot;OK&quot; is highlighted." alt="Screenshot of the dialoge box confirming removal of the Billing Account from a Terra Billing Project.  The button labeled &quot;OK&quot; is highlighted." width="100%" />
+    <img src="resources/images/04_Running_The_Class_files/figure-html//1ib--pXZdu-n-c3b28n73SILA0SrIF5WhdMMaae3DTEI_g21148e49334_0_18.png" alt="Screenshot of the dialoge box confirming removal of the Billing Account from a Terra Billing Project.  The button labeled &quot;OK&quot; is highlighted." width="100%" />
 
 1. The page should now indicate that there is no linked billing account.
 
-    <img src="resources/images/04_Running_The_Class_files/figure-html//1ib--pXZdu-n-c3b28n73SILA0SrIF5WhdMMaae3DTEI_g21148e49334_0_24.png" title="Screenshot of a Terra Billing Project management page.  The Billing Account information which says &quot;No linked billing account&quot; is highlighted." alt="Screenshot of a Terra Billing Project management page.  The Billing Account information which says &quot;No linked billing account&quot; is highlighted." width="100%" />
+    <img src="resources/images/04_Running_The_Class_files/figure-html//1ib--pXZdu-n-c3b28n73SILA0SrIF5WhdMMaae3DTEI_g21148e49334_0_24.png" alt="Screenshot of a Terra Billing Project management page.  The Billing Account information which says &quot;No linked billing account&quot; is highlighted." width="100%" />
 
 If necessary, you can restore funding to the Billing Project and associated Workspaces by clicking the teardrop icon and selecting "Change Billing Account".  However, Google makes no promises about how long the Workspace contents will remain available after you disable funding, so it is best not to rely on them.
 
-<img src="resources/images/04_Running_The_Class_files/figure-html//1ib--pXZdu-n-c3b28n73SILA0SrIF5WhdMMaae3DTEI_g21148e49334_0_38.png" title="Screenshot of a Terra Billing Project management page.  The teardrop button next to the Billing Account information is highlighted." alt="Screenshot of a Terra Billing Project management page.  The teardrop button next to the Billing Account information is highlighted." width="100%" />
+<img src="resources/images/04_Running_The_Class_files/figure-html//1ib--pXZdu-n-c3b28n73SILA0SrIF5WhdMMaae3DTEI_g21148e49334_0_38.png" alt="Screenshot of a Terra Billing Project management page.  The teardrop button next to the Billing Account information is highlighted." width="100%" />
 ::::

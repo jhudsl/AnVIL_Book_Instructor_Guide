@@ -1,6 +1,6 @@
 ---
 title: "AnVIL Instructor Guide"
-date: "May 23, 2023"
+date: "January 17, 2025"
 site: bookdown::bookdown_site
 documentclass: book
 biblio-style: apalike
@@ -19,7 +19,7 @@ This book is part of a series of books for the Genomic Data Science Analysis, Vi
 
 ### Skills Level {-} 
 
-Please choose the closest matching persona from the lefthand menu.
+Please choose the closest matching persona from the left-hand menu.
 
 ::: {.notice}
 _Genetics_  

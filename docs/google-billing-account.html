@@ -6,11 +6,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>Chapter 4 Set up Google Billing | AnVIL Instructor Guide</title>
   <meta name="description" content="Guide to help teachers and instructors set up accounts and use the AnVIL platform for instruction" />
-  <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.41 and GitBook 2.6.7" />
 
   <meta property="og:title" content="Chapter 4 Set up Google Billing | AnVIL Instructor Guide" />
   <meta property="og:type" content="book" />
-  
   
   <meta property="og:description" content="Guide to help teachers and instructors set up accounts and use the AnVIL platform for instruction" />
   
@@ -23,7 +22,7 @@
 
 
 
-<meta name="date" content="2023-05-23" />
+<meta name="date" content="2025-01-17" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -32,7 +31,6 @@
   <link rel="shortcut icon" href="assets/AnVIL_style/anvil_favicon.ico" type="image/x-icon" />
 <link rel="prev" href="instructor-google-account.html"/>
 <link rel="next" href="instructor-group.html"/>
-<script src="libs/header-attrs-2.10/header-attrs.js"></script>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -50,18 +48,9 @@
 
 
 
-<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
-<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
-  
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-B9LQ1N7DRP"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-B9LQ1N7DRP');
-</script>
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
 
 
 <style type="text/css">
@@ -100,11 +89,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 }
 code span.al { color: #ef2929; } /* Alert */
 code span.an { color: #8f5902; font-weight: bold; font-style: italic; } /* Annotation */
-code span.at { color: #c4a000; } /* Attribute */
+code span.at { color: #204a87; } /* Attribute */
 code span.bn { color: #0000cf; } /* BaseN */
 code span.cf { color: #204a87; font-weight: bold; } /* ControlFlow */
 code span.ch { color: #4e9a06; } /* Char */
-code span.cn { color: #000000; } /* Constant */
+code span.cn { color: #8f5902; } /* Constant */
 code span.co { color: #8f5902; font-style: italic; } /* Comment */
 code span.cv { color: #8f5902; font-weight: bold; font-style: italic; } /* CommentVar */
 code span.do { color: #8f5902; font-weight: bold; font-style: italic; } /* Documentation */
@@ -113,14 +102,14 @@ code span.dv { color: #0000cf; } /* DecVal */
 code span.er { color: #a40000; font-weight: bold; } /* Error */
 code span.ex { } /* Extension */
 code span.fl { color: #0000cf; } /* Float */
-code span.fu { color: #000000; } /* Function */
+code span.fu { color: #204a87; font-weight: bold; } /* Function */
 code span.im { } /* Import */
 code span.in { color: #8f5902; font-weight: bold; font-style: italic; } /* Information */
 code span.kw { color: #204a87; font-weight: bold; } /* Keyword */
 code span.op { color: #ce5c00; font-weight: bold; } /* Operator */
 code span.ot { color: #8f5902; } /* Other */
 code span.pp { color: #8f5902; font-style: italic; } /* Preprocessor */
-code span.sc { color: #000000; } /* SpecialChar */
+code span.sc { color: #ce5c00; font-weight: bold; } /* SpecialChar */
 code span.ss { color: #4e9a06; } /* SpecialString */
 code span.st { color: #4e9a06; } /* String */
 code span.va { color: #000000; } /* Variable */
@@ -128,6 +117,10 @@ code span.vs { color: #4e9a06; } /* VerbatimString */
 code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warning */
 </style>
 
+<style type="text/css">
+  
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+</style>
 
 <link rel="stylesheet" href="assets/style.css" type="text/css" />
 <link rel="stylesheet" href="assets/AnVIL_style/anvil.css" type="text/css" />
@@ -281,7 +274,7 @@ code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warni
 <p style="text-align:center;"> <a href="http://jhudatascience.org/"> The Johns Hopkins Data Science Lab </a></p>
 <a href="http://jhudatascience.org/"><img src="https://jhudatascience.org/images/dasl.png" style=" width: 80%; padding-left: 40px; padding-top: 8px; vertical-align: top "</a>
 <p style="text-align:center; font-size: 12px;"> <a href="https://github.com/rstudio4edu/rstudio4edu-book/"> Style adapted from: rstudio4edu-book </a> <a href ="https://creativecommons.org/licenses/by/2.0/"> (CC-BY 2.0) </a></p>
-<p style="padding-left: 40px;"><div class="trapezoid" style = "padding-left: 40px;"><span>  <a href="https://forms.gle/AK12iVXTjsB7yCUUA"> Click here to provide feedback</a> <img src="assets/itcr_arrow.png" style=" width: 10%" ></span></div></p>
+<p style="padding-left: 40px;"><div class="trapezoid" style = "padding-left: 40px;"><span><a href="https://docs.google.com/forms/d/e/1FAIpQLScrDVb_utm55pmb_SHx-RgELTEbCCWdLea0T3IzS0Oj00GE4w/viewform?usp=pp_url&entry.1565230805=AnVIL+Instructor+Guide"> Click here to provide feedback</a> <img src="assets/itcr_arrow.png" style=" width: 10%" ></span></div></p>
 
 </ul>
 
@@ -311,8 +304,8 @@ code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warni
 <div class="hero-image-container"> 
   <img class= "hero-image" src="assets/AnVIL_style/dasl_thin_main_image.png">
 </div>
-<div id="google-billing-account" class="section level1" number="4">
-<h1><span class="header-section-number">Chapter 4</span> Set up Google Billing</h1>
+<div id="google-billing-account" class="section level1 hasAnchor" number="4">
+<h1><span class="header-section-number">Chapter 4</span> Set up Google Billing<a href="google-billing-account.html#google-billing-account" class="anchor-section" aria-label="Anchor link to header"></a></h1>
 <p>Google Billing Accounts are how you pay Google for you and your students’ cloud costs. Depending on how you are being funded, this may be taken care of for you. If your funding is being managed by a third party (e.g. through a funding mechanism such as <a href="https://datascience.nih.gov/strides">STRIDES</a>, or through your institution), contact them to determine whether you need to do any billing administration through Google. If not, you can proceed directly to <a href="instructor-group.html#instructor-group">create Instructor Group</a>.</p>
 <div class="warning">
 <p>If you are new to AnVIL, <strong>we strongly recommend seeking funding through NHGRI / STRIDES for teaching your course</strong>. In order to prevent abuse, Google sets certain limits on cloud resources available to new users that can complicate teaching (e.g. <a href="https://support.terra.bio/hc/en-us/articles/6101030164507-When-workspace-creation-fails-Google-project-quotas">project quotas</a>). As you or your institution builds a payment history with Google, the limits on your accounts will be relaxed. In the meantime, STRIDES funding can help ensure your initial classes run smoothly.</p>
@@ -320,15 +313,15 @@ code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warni
 <p><strong>To inquire about funding your class on AnVIL, please contact <a href="mailto:help@lists.anvilproject.org" class="email">help@lists.anvilproject.org</a>.</strong></p>
 </div>
 <p>If you are using a third party funding mechanism but you would like to get started exploring AnVIL right away, you can optionally follow the instructions below to activate Google’s free credits. These should be sufficient for you to experiment with a few exercises yourself and learn how AnVIL works, while you work on getting funding set up for your class.</p>
-<div id="before-you-start" class="section level2" number="4.1">
-<h2><span class="header-section-number">4.1</span> Before You Start</h2>
+<div id="before-you-start" class="section level2 hasAnchor" number="4.1">
+<h2><span class="header-section-number">4.1</span> Before You Start<a href="google-billing-account.html#before-you-start" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <ul>
 <li>If you are managing your own billing, you will need a <strong>credit card or bank account</strong> to get started. Google provides a free trial for first-time users, but payment information is still needed for verification purposes. Don’t worry! If using the free trial, <strong>you won’t be billed until you explicitly turn on automatic billing</strong>.</li>
 <li>Before setting up billing yourself, you may want to check with your institutional procurement office and see if they have a preferred account set-up method with Google (such as a third party reseller or an existing account).</li>
 </ul>
 </div>
-<div id="google-billing-account-1" class="section level2" number="4.2">
-<h2><span class="header-section-number">4.2</span> Google Billing Account</h2>
+<div id="google-billing-account-1" class="section level2 hasAnchor" number="4.2">
+<h2><span class="header-section-number">4.2</span> Google Billing Account<a href="google-billing-account.html#google-billing-account-1" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>AnVIL operates on Google Cloud Platform, and does not charge any markup. Rather than paying Terra or AnVIL, users set up billing directly with Google Cloud Platform.</p>
 <p><strong>Make sure to use the same Google account ID you use to log into Terra for Google Cloud Billing.</strong></p>
 <p>To set up billing, you must first create a <strong>Google “Billing Account”</strong>.</p>
@@ -339,24 +332,24 @@ code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warni
 <li>But, if courses are funded separately, we recommend creating separate Billing Accounts</li>
 </ul>
 </div>
-<div id="create-a-google-billing-account" class="section level3" number="4.2.1">
-<h3><span class="header-section-number">4.2.1</span> Create a Google Billing Account</h3>
+<div id="create-a-google-billing-account" class="section level3 hasAnchor" number="4.2.1">
+<h3><span class="header-section-number">4.2.1</span> Create a Google Billing Account<a href="google-billing-account.html#create-a-google-billing-account" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <ol style="list-style-type: decimal">
 <li><p>Log in to the <a href="https://console.cloud.google.com/">Google Cloud Platform</a> console using your Google ID. <strong>Make sure to use the same Google account ID you use to log into Terra.</strong></p></li>
 <li><p>If you are a first time user, don’t forget to claim your free credits! If you haven’t been to the console before, once you accept the Terms of Service you will be greeted with an invitation to “Try for Free.”</p>
-<p><img src="resources/images/02_Instructor_Setup_files/figure-html/1tGpzZaQxoTAcxs_nyyNL2FOqypjEofEnMVpBtZiAw4A_g116ca06e27d_0_0.png" title="Screenshot of the Google Cloud Console with the &quot;Try for Free&quot; button highlighted." alt="Screenshot of the Google Cloud Console with the &quot;Try for Free&quot; button highlighted." width="100%" /></p></li>
+<p><img src="resources/images/02_Instructor_Setup_files/figure-html/1tGpzZaQxoTAcxs_nyyNL2FOqypjEofEnMVpBtZiAw4A_g116ca06e27d_0_0.png" alt="Screenshot of the Google Cloud Console with the &quot;Try for Free&quot; button highlighted." width="100%" /></p></li>
 <li><p>Follow the instructions to sign up for a Billing Account and get your credits.</p></li>
 <li><p>Choose “Individual Account”. This “billing account” is just for managing billing, so you don’t need to be able to add your team members. You will need to give either a credit card or bank account for security. Don’t worry! <strong>You won’t be billed until you explicitly turn on automatic billing</strong>.</p>
-<p><img src="resources/images/02_Instructor_Setup_files/figure-html/1tGpzZaQxoTAcxs_nyyNL2FOqypjEofEnMVpBtZiAw4A_g116ca06e27d_0_146.png" title="Screenshot of the Google Cloud Billing Account Setup, with &quot;Individual Account&quot; highlighted.  Also highlighted is text stating &quot;You won't be charged unless you manually upgrade to a paid account.&quot;" alt="Screenshot of the Google Cloud Billing Account Setup, with &quot;Individual Account&quot; highlighted.  Also highlighted is text stating &quot;You won't be charged unless you manually upgrade to a paid account.&quot;" width="100%" /></p></li>
+<p><img src="resources/images/02_Instructor_Setup_files/figure-html/1tGpzZaQxoTAcxs_nyyNL2FOqypjEofEnMVpBtZiAw4A_g116ca06e27d_0_146.png" alt="Screenshot of the Google Cloud Billing Account Setup, with &quot;Individual Account&quot; highlighted.  Also highlighted is text stating &quot;You won't be charged unless you manually upgrade to a paid account.&quot;" width="100%" /></p></li>
 <li><p>You can view and edit your new Billing Account, by selecting “Billing” from the left-hand menu, or going directly to the billing console <a href="https://console.cloud.google.com/billing">console.cloud.google.com/billing</a></p>
-<p><img src="resources/images/02_Instructor_Setup_files/figure-html/1tGpzZaQxoTAcxs_nyyNL2FOqypjEofEnMVpBtZiAw4A_g116ca06e27d_0_293.png" title="Screenshot of the Google Cloud Console dropdown menu, with &quot;Billing&quot; highlighted." alt="Screenshot of the Google Cloud Console dropdown menu, with &quot;Billing&quot; highlighted." width="100%" /></p></li>
+<p><img src="resources/images/02_Instructor_Setup_files/figure-html/1tGpzZaQxoTAcxs_nyyNL2FOqypjEofEnMVpBtZiAw4A_g116ca06e27d_0_293.png" alt="Screenshot of the Google Cloud Console dropdown menu, with &quot;Billing&quot; highlighted." width="100%" /></p></li>
 <li><p>Clicking on the Billing Account name will allow you to manage the account, including accessing reports, setting alerts, and managing payments and billing.</p>
-<p><img src="resources/images/02_Instructor_Setup_files/figure-html/1tGpzZaQxoTAcxs_nyyNL2FOqypjEofEnMVpBtZiAw4A_g116ca06e27d_0_437.png" title="Screenshot of the Google Cloud Console Billing Page, with the name of the new billing account highlighted." alt="Screenshot of the Google Cloud Console Billing Page, with the name of the new billing account highlighted." width="100%" /></p></li>
+<p><img src="resources/images/02_Instructor_Setup_files/figure-html/1tGpzZaQxoTAcxs_nyyNL2FOqypjEofEnMVpBtZiAw4A_g116ca06e27d_0_437.png" alt="Screenshot of the Google Cloud Console Billing Page, with the name of the new billing account highlighted." width="100%" /></p></li>
 </ol>
 <p>At any point, you can create additional Billing Accounts using the <strong>Create Account</strong> button. We generally recommend creating a new Billing Account for each funding source.</p>
 </div>
-<div id="add-users-or-viewers-optional" class="section level3" number="4.2.2">
-<h3><span class="header-section-number">4.2.2</span> Add Users or Viewers (optional)</h3>
+<div id="add-users-or-viewers-optional" class="section level3 hasAnchor" number="4.2.2">
+<h3><span class="header-section-number">4.2.2</span> Add Users or Viewers (optional)<a href="google-billing-account.html#add-users-or-viewers-optional" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>If you have a finance administrator who needs access to a Billing Account, you can add them with a few different levels of permissions. Generally the most useful are:</p>
 <ul>
 <li><strong>Users</strong> have a great deal of power over spending - they can create new “Billing Projects” and control who can spend money on those projects. If you have an accounts manager responsible for expenses, it may make sense to add them as a Billing Account User. If you wish to retain full control over who can spend money, you should not add any Users.</li>
@@ -367,34 +360,34 @@ code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warni
 <ol style="list-style-type: decimal">
 <li><p>Log in to the <a href="https://console.cloud.google.com/">Google Cloud Platform</a> console using your Google ID.</p></li>
 <li><p>Navigate to <a href="https://console.cloud.google.com/billing">Billing</a></p>
-<p><img src="resources/images/02_Instructor_Setup_files/figure-html/1j1wRbaDyHJJhZQcWcP4xeYgIoaIBRIF3LIZpiDPBumw_g115e284bdc2_0_144.png" title="Screenshot of the Google Cloud Console drop-down menu, with &quot;Billing&quot; highlighted." alt="Screenshot of the Google Cloud Console drop-down menu, with &quot;Billing&quot; highlighted." width="100%" /></p></li>
+<p><img src="resources/images/02_Instructor_Setup_files/figure-html/1j1wRbaDyHJJhZQcWcP4xeYgIoaIBRIF3LIZpiDPBumw_g115e284bdc2_0_144.png" alt="Screenshot of the Google Cloud Console drop-down menu, with &quot;Billing&quot; highlighted." width="100%" /></p></li>
 <li><p>You may be automatically directed to view a specific Billing Account. If you see information about a single account rather than a list of your Billing Accounts, you can get back to the list by clicking “Manage Billing Accounts” from the drop-down menu.</p>
-<p><img src="resources/images/02_Instructor_Setup_files/figure-html/1j1wRbaDyHJJhZQcWcP4xeYgIoaIBRIF3LIZpiDPBumw_g115e284bdc2_0_295.png" title="Screenshot of an individual Google Cloud Billing Account with the drop-down menu item &quot;Manage Billing Accounts&quot; highlighted." alt="Screenshot of an individual Google Cloud Billing Account with the drop-down menu item &quot;Manage Billing Accounts&quot; highlighted." width="100%" /></p></li>
+<p><img src="resources/images/02_Instructor_Setup_files/figure-html/1j1wRbaDyHJJhZQcWcP4xeYgIoaIBRIF3LIZpiDPBumw_g115e284bdc2_0_295.png" alt="Screenshot of an individual Google Cloud Billing Account with the drop-down menu item &quot;Manage Billing Accounts&quot; highlighted." width="100%" /></p></li>
 <li><p>Check the box next to the Billing Account you wish to add a member to, click “ADD MEMBER”.</p>
-<p><img src="resources/images/02_Instructor_Setup_files/figure-html/1j1wRbaDyHJJhZQcWcP4xeYgIoaIBRIF3LIZpiDPBumw_g116e2c647a7_0_151.png" title="Screenshot of Google Cloud Billing Accounts Overview. The checkbox next to the name of a Billing Account is checked and highlighted, and the &quot;Add Member&quot; button is highlighted." alt="Screenshot of Google Cloud Billing Accounts Overview. The checkbox next to the name of a Billing Account is checked and highlighted, and the &quot;Add Member&quot; button is highlighted." width="100%" /></p></li>
+<p><img src="resources/images/02_Instructor_Setup_files/figure-html/1j1wRbaDyHJJhZQcWcP4xeYgIoaIBRIF3LIZpiDPBumw_g116e2c647a7_0_151.png" alt="Screenshot of Google Cloud Billing Accounts Overview. The checkbox next to the name of a Billing Account is checked and highlighted, and the &quot;Add Member&quot; button is highlighted." width="100%" /></p></li>
 <li><p>Enter their Google ID in the text box. In the drop-down menu, mouse over Billing, then choose the appropriate role.</p>
-<p><img src="resources/images/02_Instructor_Setup_files/figure-html/1j1wRbaDyHJJhZQcWcP4xeYgIoaIBRIF3LIZpiDPBumw_g116e2c647a7_0_296.png" title="Screenshot of the dialogue box for adding a member to a Google Cloud Billing Accounts. In the drop-down menu labeled &quot;Select a Role&quot;, the item &quot;Billing&quot; and the submenu item &quot;Billing Account Viewer&quot; are highlighted." alt="Screenshot of the dialogue box for adding a member to a Google Cloud Billing Accounts. In the drop-down menu labeled &quot;Select a Role&quot;, the item &quot;Billing&quot; and the submenu item &quot;Billing Account Viewer&quot; are highlighted." width="100%" /></p></li>
+<p><img src="resources/images/02_Instructor_Setup_files/figure-html/1j1wRbaDyHJJhZQcWcP4xeYgIoaIBRIF3LIZpiDPBumw_g116e2c647a7_0_296.png" alt="Screenshot of the dialogue box for adding a member to a Google Cloud Billing Accounts. In the drop-down menu labeled &quot;Select a Role&quot;, the item &quot;Billing&quot; and the submenu item &quot;Billing Account Viewer&quot; are highlighted." width="100%" /></p></li>
 <li><p>Click “SAVE”.</p>
-<p><img src="resources/images/02_Instructor_Setup_files/figure-html/1j1wRbaDyHJJhZQcWcP4xeYgIoaIBRIF3LIZpiDPBumw_g116e2c647a7_0_441.png" title="Screenshot of the dialogue box for adding a member to a Google Cloud Billing Accounts. The Save button is highlighted." alt="Screenshot of the dialogue box for adding a member to a Google Cloud Billing Accounts. The Save button is highlighted." width="100%" /></p></li>
+<p><img src="resources/images/02_Instructor_Setup_files/figure-html/1j1wRbaDyHJJhZQcWcP4xeYgIoaIBRIF3LIZpiDPBumw_g116e2c647a7_0_441.png" alt="Screenshot of the dialogue box for adding a member to a Google Cloud Billing Accounts. The Save button is highlighted." width="100%" /></p></li>
 </ol>
 </div>
 </div>
-<div id="add-terra-to-google-billing-account" class="section level2" number="4.3">
-<h2><span class="header-section-number">4.3</span> Add Terra to Google Billing Account</h2>
+<div id="add-terra-to-google-billing-account" class="section level2 hasAnchor" number="4.3">
+<h2><span class="header-section-number">4.3</span> Add Terra to Google Billing Account<a href="google-billing-account.html#add-terra-to-google-billing-account" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>This gives Terra permission to create projects and send charges to the Google Billing Account, and must be done by an administrator of the Google Billing Account.</p>
 <p>Terra needs to be added as a “Billing Account User”:</p>
 <ol style="list-style-type: decimal">
 <li><p>Log in to the <a href="https://console.cloud.google.com/">Google Cloud Platform</a> console using your Google ID.</p></li>
 <li><p>Navigate to <a href="https://console.cloud.google.com/billing">Billing</a></p>
-<p><img src="resources/images/02_Instructor_Setup_files/figure-html/1OqSVH5Y4v97-OKMnEDGGuhKBJwc9fyXc-Q1-ivbeZmA_g115e284bdc2_0_144.png" title="Screenshot of the Google Cloud Console drop-down menu, with &quot;Billing&quot; highlighted." alt="Screenshot of the Google Cloud Console drop-down menu, with &quot;Billing&quot; highlighted." width="100%" /></p></li>
+<p><img src="resources/images/02_Instructor_Setup_files/figure-html/1OqSVH5Y4v97-OKMnEDGGuhKBJwc9fyXc-Q1-ivbeZmA_g115e284bdc2_0_144.png" alt="Screenshot of the Google Cloud Console drop-down menu, with &quot;Billing&quot; highlighted." width="100%" /></p></li>
 <li><p>You may be automatically directed to view a specific Billing Account. If you see information about a single account rather than a list of your Billing Accounts, you can get back to the list by clicking “Manage Billing Accounts” from the drop-down menu.</p>
-<p><img src="resources/images/02_Instructor_Setup_files/figure-html/1OqSVH5Y4v97-OKMnEDGGuhKBJwc9fyXc-Q1-ivbeZmA_g115e284bdc2_0_295.png" title="Screenshot of an individual Google Cloud Billing Account with the drop-down menu item &quot;Manage Billing Accounts&quot; highlighted." alt="Screenshot of an individual Google Cloud Billing Account with the drop-down menu item &quot;Manage Billing Accounts&quot; highlighted." width="100%" /></p></li>
+<p><img src="resources/images/02_Instructor_Setup_files/figure-html/1OqSVH5Y4v97-OKMnEDGGuhKBJwc9fyXc-Q1-ivbeZmA_g115e284bdc2_0_295.png" alt="Screenshot of an individual Google Cloud Billing Account with the drop-down menu item &quot;Manage Billing Accounts&quot; highlighted." width="100%" /></p></li>
 <li><p>Check the box next to the Billing Account you wish to add Terra to, click “ADD MEMBER”.</p>
-<p><img src="resources/images/02_Instructor_Setup_files/figure-html/1OqSVH5Y4v97-OKMnEDGGuhKBJwc9fyXc-Q1-ivbeZmA_g116e2c647a7_0_151.png" title="Screenshot of Google Cloud Billing Accounts Overview. The checkbox next to the name of a Billing Account is checked and highlighted, and the &quot;Add Member&quot; button is highlighted." alt="Screenshot of Google Cloud Billing Accounts Overview. The checkbox next to the name of a Billing Account is checked and highlighted, and the &quot;Add Member&quot; button is highlighted." width="100%" /></p></li>
+<p><img src="resources/images/02_Instructor_Setup_files/figure-html/1OqSVH5Y4v97-OKMnEDGGuhKBJwc9fyXc-Q1-ivbeZmA_g116e2c647a7_0_151.png" alt="Screenshot of Google Cloud Billing Accounts Overview. The checkbox next to the name of a Billing Account is checked and highlighted, and the &quot;Add Member&quot; button is highlighted." width="100%" /></p></li>
 <li><p>Enter <code>terra-billing@terra.bio</code> in the text box. In the drop-down menu, mouse over Billing, then choose “<strong>Billing Account User</strong>”.</p>
-<p><img src="resources/images/02_Instructor_Setup_files/figure-html/1OqSVH5Y4v97-OKMnEDGGuhKBJwc9fyXc-Q1-ivbeZmA_g116e2d0fe67_0_0.png" title="Screenshot of the dialogue box for adding a member to a Google Cloud Billing Accounts. The text box is highlighted and has been filled in with &quot;terra-billing@terra.bio&quot;.  In the drop-down menu labeled &quot;Select a Role&quot;, the item &quot;Billing&quot; and the submenu item &quot;Billing Account User&quot; are highlighted." alt="Screenshot of the dialogue box for adding a member to a Google Cloud Billing Accounts. The text box is highlighted and has been filled in with &quot;terra-billing@terra.bio&quot;.  In the drop-down menu labeled &quot;Select a Role&quot;, the item &quot;Billing&quot; and the submenu item &quot;Billing Account User&quot; are highlighted." width="100%" /></p></li>
+<p><img src="resources/images/02_Instructor_Setup_files/figure-html/1OqSVH5Y4v97-OKMnEDGGuhKBJwc9fyXc-Q1-ivbeZmA_g116e2d0fe67_0_0.png" alt="Screenshot of the dialogue box for adding a member to a Google Cloud Billing Accounts. The text box is highlighted and has been filled in with &quot;terra-billing@terra.bio&quot;.  In the drop-down menu labeled &quot;Select a Role&quot;, the item &quot;Billing&quot; and the submenu item &quot;Billing Account User&quot; are highlighted." width="100%" /></p></li>
 <li><p>Click “SAVE”.</p>
-<p><img src="resources/images/02_Instructor_Setup_files/figure-html/1OqSVH5Y4v97-OKMnEDGGuhKBJwc9fyXc-Q1-ivbeZmA_g116e2d0fe67_0_146.png" title="Screenshot of the dialogue box for adding a member to a Google Cloud Billing Accounts. The Save button is highlighted." alt="Screenshot of the dialogue box for adding a member to a Google Cloud Billing Accounts. The Save button is highlighted." width="100%" /></p></li>
+<p><img src="resources/images/02_Instructor_Setup_files/figure-html/1OqSVH5Y4v97-OKMnEDGGuhKBJwc9fyXc-Q1-ivbeZmA_g116e2d0fe67_0_146.png" alt="Screenshot of the dialogue box for adding a member to a Google Cloud Billing Accounts. The Save button is highlighted." width="100%" /></p></li>
 </ol>
 </div>
 </div>
