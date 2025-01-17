@@ -192,7 +192,7 @@ Now that you have added students to the Group, you can easily share Terra resour
 
 First, you will need to give your Student Group access to any Workspaces that they will need.
 
-If you are **using a Public Workspace** (most pre-made content uses Public Workspaces), **you can skip this step** - Public Workspaces are automatically available to everyone on AnVIL.  
+If you are **using a Public Workspace** (some content uses Public Workspaces), **you can skip this step** - Public Workspaces are automatically available to everyone on AnVIL.  
 
 If you have **Workspaces of your own** that your students will need to access, you should **add the Student Group to your Workspace(s) as a *Reader***.
 
@@ -279,9 +279,9 @@ If your students will continue using the Workspace in a subsequent class or for 
 
 If you are using one of the premade courses, we would appreciate feedback!  If you are willing to ask your students to provide feedback, please direct them to this form:
 
-https://forms.gle/AK12iVXTjsB7yCUUA
+https://forms.gle/6X77RKnbKPVG5qMn6
 
-Responses are anonymous, unless the responder chooses to provide contact information for follow up.
+Responses are anonymous.
 
 We would also greatly appreciate feedback from you as the instructor!  Comments can be submitted through the same form, or if you are comfortable on GitHub you can open an issue in the corresponding repository.
 
