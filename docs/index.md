@@ -1,6 +1,6 @@
 ---
 title: "AnVIL Instructor Guide"
-date: "January 17, 2025"
+date: "January 29, 2025"
 site: bookdown::bookdown_site
 documentclass: book
 biblio-style: apalike
@@ -36,4 +36,3 @@ _Programming skills_
 Additional guides are provided to help you with Workspaces, launch interactive tools, and start working with data. Learn more about AnVIL by visiting https://anvilproject.org or reading the [article in Cell Genomics](https://www.sciencedirect.com/science/article/pii/S2666979X21001063).
 
 Please check out our full collection of AnVIL and related resources: https://hutchdatascience.org/AnVIL_Collection/
-
