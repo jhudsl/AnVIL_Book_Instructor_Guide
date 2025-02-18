@@ -35,17 +35,18 @@ Terra operates on Google Cloud Platform, so you will need a (free) Google accoun
 Your Google account will also (1) allow you to manage billing yourself or (2) allow a Program Manager to do so on your behalf.
 
 
-If you do not already have a Google account that you would like to use for accessing Terra, [create one now](https://accounts.google.com/SignUp). Otherwise, please use a Gmail account you have already set up.
+If you do not already have a Google account that you would like to use for accessing Terra, [create one now](https://accounts.google.com/SignUp).
 
 If you would like to create a Google account that is associated with your non-Gmail, institutional email address, follow [these instructions](https://support.terra.bio/hc/en-us/articles/360029186611).
 
 ## Sign in to Terra
 
-You need to sign into Terra to allow Billing Project managers to add you to projects and/or Workspaces. [Launch Terra](https://anvil.terra.bio/#workspaces), and you should be prompted to sign in with your Google account.
+
+You need to sign into Terra to establish your account so that it can be given access to resources and compute on AnVIL. [Launch Terra](https://anvil.terra.bio/#workspaces), and you should be prompted to sign in with your Google account.
 
 You can always access Terra by going to [`anvil.terra.bio`](https://anvil.terra.bio/), or by clicking the link on the AnVIL home page.
 
-<img src="resources/images/02_Instructor_Setup_files/figure-html//1-PVlDAzmDncjcCHIy9ZyR3ROyPpfjrg46LhEQopDc1Q_g22c9add987a_0_5.png" alt="Screenshot of the AnVIL home page. The button to &quot;launch Terra&quot; is highlighted." width="100%" />
+<img src="resources/images/02_Instructor_Setup_files/figure-html//1auARM-vOciSXgRsEVL7zVlmXMLePpl5KIzMJ19f9BAI_g3373c03b3e1_0_0.png" alt="Screenshot of the AnVIL home page. The button to &quot;launch Terra&quot; is highlighted." width="100%" />
 
 # Set up Google Billing {#google-billing-account}
 
