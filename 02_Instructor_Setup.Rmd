@@ -39,7 +39,7 @@ Your Google account will also (1) allow you to manage billing yourself or (2) al
 
 ```{r, echo = FALSE, results='asis'}
 cow::borrow_chapter(
-  doc_path = "child/_child_create_google_account.Rmd",
+  doc_path = "child/_child_google_create_account.Rmd",
   repo_name = "jhudsl/AnVIL_Template"
 )
 ```
