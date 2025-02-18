@@ -49,8 +49,7 @@ cow::borrow_chapter(
 ```{r, echo = FALSE, results='asis'}
 cow::borrow_chapter(
   doc_path = "child/_child_terra_sign_in.Rmd",
-  repo_name = "jhudsl/AnVIL_Template",
-  branch_name = "main"
+  repo_name = "jhudsl/AnVIL_Template"
 )
 ```
 
