@@ -309,7 +309,7 @@ Briefly, you should:
 
 1. Return to RStudio on AnVIL and Initialize your `.Rproj`.
 
-1. [`add`](https://git-scm.com/docs/git-add/en) and [`commit`](https://git-scm.com/docs/git-commit) your changes on AnVIL.  
+1. [`add`](https://git-scm.com/docs/git-add) and [`commit`](https://git-scm.com/docs/git-commit) your changes on AnVIL.  
 
 1. [`rename`](https://git-scm.com/docs/git-remote) and [`add`](https://git-scm.com/docs/git-remote) a new origin that points to the new repository you just created.
 
